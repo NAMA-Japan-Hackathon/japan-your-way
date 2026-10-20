@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+.env*
+*.tsbuildinfo
+.DS_Store
+.openai/local/
+
+.taste-skill/

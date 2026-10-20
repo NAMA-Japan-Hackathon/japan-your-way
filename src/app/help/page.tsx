@@ -1,0 +1,4 @@
+import { Information } from "@/components/information";
+export default function Page() {
+  return <Information help />;
+}
