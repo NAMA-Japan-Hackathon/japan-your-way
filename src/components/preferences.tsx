@@ -42,6 +42,11 @@ export function PreferencesForm({
               q.get("diet") === "No restriction"
                 ? "No restriction"
                 : "Vegetarian",
+            ingredients:
+              q.get("diet") === "No restriction"
+                ? ""
+                : defaultPreferences.ingredients,
+            strictDiet: q.get("diet") !== "No restriction",
           },
     );
   }, [initial]);

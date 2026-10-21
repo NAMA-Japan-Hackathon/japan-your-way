@@ -27,7 +27,13 @@ export {
   CheckCircle2,
   ArrowRight,
 };
-export function Header({ compact = false }: { compact?: boolean }) {
+export function Header({
+  compact = false,
+  editorial = false,
+}: {
+  compact?: boolean;
+  editorial?: boolean;
+}) {
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -37,9 +43,15 @@ export function Header({ compact = false }: { compact?: boolean }) {
       <header className={`site-header ${compact ? "compact" : ""}`}>
         <Link href="/" className="wordmark" aria-label="Japan, Your Way home">
           <span className="brand-mark" aria-hidden="true">
-            <span />
-            <span />
-            <span />
+            {editorial ? (
+              "道"
+            ) : (
+              <>
+                <span />
+                <span />
+                <span />
+              </>
+            )}
           </span>
           <span>
             Japan, Your Way<span className="brand-dot">.</span>

@@ -43,9 +43,29 @@ export default function Page() {
             </article>
           ))}
         </div>
+        <section className="notice">
+          <h2>4K hero photograph</h2>
+          <p>
+            “Arakurayama Sengen park morning & evening” (cropped), by tzuyaya.
+            Native size 3,840 × 2,371 pixels. Served as responsive WebP with a
+            subdued CSS color treatment and layout crop.{" "}
+            <a href="https://commons.wikimedia.org/wiki/File:Arakurayama_Sengen_park_morning_%26_evening_from_Flickr_8656223105_(cropped).jpg">
+              Original source
+            </a>{" "}
+            ·{" "}
+            <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>{" "}
+            ·{" "}
+            <a href="/images/fuji-night-master.jpg" download>
+              Download original
+            </a>
+            .
+          </p>
+        </section>
         <p className="notice">
           Hanken Grotesk is distributed under the SIL Open Font License.{" "}
-          <a href="/fonts/OFL.txt">Read the font license</a>.
+          <a href="/fonts/OFL.txt">Read the font license</a>. Cormorant Garamond
+          is also distributed under the SIL Open Font License.{" "}
+          <a href="/fonts/Cormorant-OFL.txt">Read its license</a>.
         </p>
       </main>
       <Footer />

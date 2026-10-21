@@ -52,3 +52,8 @@ A Commons footage search returned a service-busy response. The page uses a movin
 Replace the seed catalogue and verify prices, date windows, meals, access, transport, and source freshness. Connect an actual reviewed supplier workflow and a consented, reliable handoff. Add server-side validation, operational monitoring, privacy/retention policies, and analytics only after those choices are made. Cross-device sharing and collaborative editing remain later work.
 
 See the parent folder's `PRD.md` and `design.md` for product intent. See `QA.md` for checks and visual review of this implementation.
+
+
+## Latest UI revision
+
+The homepage now follows the supplied cinematic Stitch reference: Cormorant display type, native 3,840-pixel night photography, a working four-day sample, all-section motion, and subtle scroll-drawn Kintsugi seams. See [UI_REVIEW.md](UI_REVIEW.md) for verification, image sources, motion behavior, and remaining demo limits.
