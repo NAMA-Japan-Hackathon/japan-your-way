@@ -24,80 +24,86 @@ export function ScrollScenes() {
         if (disposed) return;
         document.documentElement.classList.add("js");
         const stage = (window as unknown as { Stage: StageAPI }).Stage;
-        const instances: { revert: () => void }[] = [];
-        const hero = document.querySelector('[data-scene="fuji-at-dusk"]');
-        if (hero)
-          instances.push(
-            stage.scene(hero, {
-              hold: 1,
-              phone: { hold: 0.45 },
-              scrub: true,
-              beats: 2,
-              build: (
-                tl: gsap.core.Timeline,
-                { q }: { q: (s: string) => Element[] },
-              ) => {
-                tl.fromTo(
-                  q(".hero-landscape"),
-                  { scale: 1, yPercent: 0 },
-                  { scale: 1.12, yPercent: -5, duration: 1 },
-                  0,
-                )
-                  .to(
-                    q(".cinema-hero-copy"),
-                    { y: -55, opacity: 0.48, duration: 1 },
+        const sceneMedia = gsap.matchMedia();
+        sceneMedia.add("(min-height: 601px)", () => {
+          const instances: { revert: () => void }[] = [];
+          const hero = document.querySelector('[data-scene="fuji-at-dusk"]');
+          if (hero)
+            instances.push(
+              stage.scene(hero, {
+                hold: 1,
+                phone: { hold: 0.45 },
+                scrub: true,
+                beats: 2,
+                build: (
+                  tl: gsap.core.Timeline,
+                  { q }: { q: (s: string) => Element[] },
+                ) => {
+                  tl.fromTo(
+                    q(".hero-landscape"),
+                    { scale: 1, yPercent: 0 },
+                    { scale: 1.12, yPercent: -5, duration: 1 },
                     0,
                   )
-                  .to(
-                    q(".hero-route"),
-                    { y: -20, opacity: 0, duration: 0.55 },
-                    0.25,
-                  );
-              },
-            }),
+                    .to(
+                      q(".cinema-hero-copy"),
+                      { y: -55, opacity: 0.72, duration: 1 },
+                      0,
+                    )
+                    .to(
+                      q(".hero-route"),
+                      { y: -20, opacity: 0, duration: 0.55 },
+                      0.25,
+                    );
+                },
+              }),
+            );
+          const garden = document.querySelector(
+            '[data-scene="garden-opening"]',
           );
-        const garden = document.querySelector('[data-scene="garden-opening"]');
-        if (garden)
-          instances.push(
-            stage.scene(garden, {
-              hold: 1,
-              phone: { hold: 0.6 },
-              scrub: true,
-              beats: 2,
-              build: (
-                tl: gsap.core.Timeline,
-                { q, phone }: { q: (s: string) => Element[]; phone: boolean },
-              ) => {
-                tl.fromTo(
-                  q(".garden-picture"),
-                  {
-                    clipPath: phone
-                      ? "inset(37% 5% 8% 5%)"
-                      : "inset(12% 5% 12% 48%)",
-                  },
-                  { clipPath: "inset(0% 0% 0% 0%)", duration: 0.75 },
-                  0,
-                )
-                  .fromTo(
-                    q(".garden-picture img"),
-                    { scale: 1.12 },
-                    { scale: 1, duration: 1 },
+          if (garden)
+            instances.push(
+              stage.scene(garden, {
+                hold: 1,
+                phone: { hold: 0.6 },
+                scrub: true,
+                beats: 2,
+                build: (
+                  tl: gsap.core.Timeline,
+                  { q, phone }: { q: (s: string) => Element[]; phone: boolean },
+                ) => {
+                  tl.fromTo(
+                    q(".garden-picture"),
+                    {
+                      clipPath: phone
+                        ? "inset(37% 5% 8% 5%)"
+                        : "inset(12% 5% 12% 48%)",
+                    },
+                    { clipPath: "inset(0% 0% 0% 0%)", duration: 0.75 },
                     0,
                   )
-                  .to(
-                    q(".garden-intro"),
-                    { autoAlpha: 0, y: -30, duration: 0.25 },
-                    0.05,
-                  )
-                  .fromTo(
-                    q(".garden-end"),
-                    { autoAlpha: 0, y: 35 },
-                    { autoAlpha: 1, y: 0, duration: 0.3 },
-                    0.65,
-                  );
-              },
-            }),
-          );
+                    .fromTo(
+                      q(".garden-picture img"),
+                      { scale: 1.12 },
+                      { scale: 1, duration: 1 },
+                      0,
+                    )
+                    .to(
+                      q(".garden-intro"),
+                      { autoAlpha: 0, y: -30, duration: 0.25 },
+                      0.05,
+                    )
+                    .fromTo(
+                      q(".garden-end"),
+                      { autoAlpha: 0, y: 35 },
+                      { autoAlpha: 1, y: 0, duration: 0.3 },
+                      0.65,
+                    );
+                },
+              }),
+            );
+          return () => instances.forEach((instance) => instance?.revert());
+        });
         const mm = gsap.matchMedia();
         mm.add("(prefers-reduced-motion: no-preference)", () => {
           document.querySelectorAll(".kintsugi-seam").forEach((seam) => {
@@ -163,7 +169,7 @@ export function ScrollScenes() {
         });
         cleanup = () => {
           mm.revert();
-          instances.forEach((i) => i?.revert());
+          sceneMedia.revert();
         };
       };
       script = document.createElement("script");

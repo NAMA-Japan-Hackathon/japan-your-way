@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Kintsugi } from "./kintsugi";
+import { PlanAction } from "./plan-action";
 import Link from "next/link";
 import { PhotoHero, WindowScene, ScrollScenes } from "./scroll-scenes";
 import { ArrowUpRight, ArrowRight, Check, Status } from "./shared";
@@ -86,9 +87,10 @@ export function SampleDay() {
   const [day, setDay] = useState(0);
   const [relaxed, setRelaxed] = useState(true);
   const [food, setFood] = useState(true);
+  const [instant, setInstant] = useState(true);
   const selected = days[day];
   return (
-    <div className="itinerary-composition" data-ui>
+    <div className="itinerary-composition" data-ui data-instant={instant}>
       <aside className="itinerary-controls" data-enter="left">
         <div className="itinerary-place">
           <MapPin size={18} />
@@ -104,7 +106,10 @@ export function SampleDay() {
             <button
               key={d.name}
               aria-pressed={day === i}
-              onClick={() => setDay(i)}
+              onClick={(event) => {
+                setInstant(event.detail === 0);
+                setDay(i);
+              }}
             >
               <span>
                 <small>Day {i + 1}</small>
@@ -118,7 +123,10 @@ export function SampleDay() {
           <button
             className="preference-switch"
             aria-pressed={relaxed}
-            onClick={() => setRelaxed(!relaxed)}
+            onClick={(event) => {
+              setInstant(event.detail === 0);
+              setRelaxed(!relaxed);
+            }}
           >
             <Footprints size={17} />
             <span>
@@ -436,9 +444,7 @@ export function Home() {
                 </select>
               </label>
             </div>
-            <button className="button" type="submit">
-              Start my Japan plan <ArrowUpRight size={18} />
-            </button>
+            <PlanAction />
             <p>Explore freely · Saved on this device · No payment</p>
           </form>
         </div>

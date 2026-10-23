@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import {
   ArrowUpRight,
   Check,
@@ -35,12 +35,45 @@ export function Header({
   editorial?: boolean;
 }) {
   const [open, setOpen] = useState(false);
+  const [instant, setInstant] = useState(true);
+  const navigationId = useId();
+  const headerRef = useRef<HTMLElement>(null);
+  const menuRef = useRef<HTMLButtonElement>(null);
+  const navRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    if (!open) return;
+    navRef.current?.querySelector<HTMLAnchorElement>("a")?.focus();
+    const dismiss = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setOpen(false);
+        menuRef.current?.focus();
+      }
+    };
+    const outside = (event: PointerEvent) => {
+      if (!headerRef.current?.contains(event.target as Node)) setOpen(false);
+    };
+    const desktop = window.matchMedia("(min-width: 701px)");
+    const resize = () => {
+      if (desktop.matches) setOpen(false);
+    };
+    document.addEventListener("keydown", dismiss);
+    document.addEventListener("pointerdown", outside);
+    desktop.addEventListener("change", resize);
+    return () => {
+      document.removeEventListener("keydown", dismiss);
+      document.removeEventListener("pointerdown", outside);
+      desktop.removeEventListener("change", resize);
+    };
+  }, [open]);
   return (
     <>
       <a className="skip" href="#main">
         Skip to content
       </a>
-      <header className={`site-header ${compact ? "compact" : ""}`}>
+      <header
+        ref={headerRef}
+        className={`site-header ${compact ? "compact" : ""}`}
+      >
         <Link href="/" className="wordmark" aria-label="Japan, Your Way home">
           <span className="brand-mark" aria-hidden="true">
             {editorial ? (
@@ -57,7 +90,13 @@ export function Header({
             Japan, Your Way<span className="brand-dot">.</span>
           </span>
         </Link>
-        <nav aria-label="Main navigation" className={open ? "open" : ""}>
+        <nav
+          ref={navRef}
+          id={navigationId}
+          data-instant={instant}
+          aria-label="Main navigation"
+          className={open ? "open" : ""}
+        >
           <Link href="/trips/" onClick={() => setOpen(false)}>
             Trips
           </Link>
@@ -79,9 +118,14 @@ export function Header({
           Plan my Japan <ArrowUpRight size={17} />
         </Link>
         <button
+          ref={menuRef}
           className="menu-button icon-button"
-          onClick={() => setOpen(!open)}
+          onClick={(event) => {
+            setInstant(event.detail === 0);
+            setOpen(!open);
+          }}
           aria-expanded={open}
+          aria-controls={navigationId}
           aria-label={open ? "Close navigation" : "Open navigation"}
         >
           {open ? <X /> : <Menu />}

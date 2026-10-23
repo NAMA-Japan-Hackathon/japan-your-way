@@ -37,9 +37,11 @@
     background 0.2s,
     transform 0.3s var(--ease);
 }
+@media (hover: hover) and (pointer: fine) {
 .editorial .button:hover {
   background: #fff8ec;
   transform: translateY(-2px);
+}
 }
 .editorial .button:active {
   transform: scale(0.98);
@@ -54,8 +56,10 @@
 .editorial .text-link svg {
   transition: transform 0.3s var(--ease);
 }
+@media (hover: hover) and (pointer: fine) {
 .editorial .text-link:hover svg {
   transform: translate(3px, -3px);
+}
 }
 .home-shell.editorial > .site-header {
   position: absolute;
@@ -203,9 +207,11 @@
     background 0.2s,
     transform 0.3s;
 }
+@media (hover: hover) and (pointer: fine) {
 .cinema-secondary:hover {
   background: #30383c;
   transform: translateX(3px);
+}
 }
 .hero-note {
   display: block;
@@ -321,8 +327,10 @@
   background: #293035;
   color: #fff7ea;
 }
+@media (hover: hover) and (pointer: fine) {
 .itinerary-days button:hover {
   background: #20282e;
+}
 }
 .itinerary-days button svg {
   flex-shrink: 0;
@@ -512,8 +520,10 @@
   color: #11181a;
   transition: transform 0.3s;
 }
+@media (hover: hover) and (pointer: fine) {
 .collection-story:hover .collection-picture > span {
   transform: rotate(45deg);
+}
 }
 .collection-meta {
   font-size: 12px;
@@ -827,12 +837,12 @@
 }
 @media (prefers-reduced-motion: no-preference) {
   .timeline-stops {
-    animation: itinerary-change 0.45s var(--ease) both;
+    animation: itinerary-change 0.22s var(--ease) both;
   }
   @keyframes itinerary-change {
     from {
       opacity: 0.5;
-      transform: translateY(9px);
+      transform: translateY(6px);
     }
     to {
       opacity: 1;
@@ -1464,3 +1474,44 @@
 }
 
 .cinematic-home .closing-landscape,.cinematic-home .closing-shade{max-width:none;margin:0;width:100%}
+
+/* Input feedback stays quiet beside the scroll narrative. */
+.editorial .plan-action {
+  width: 100%;
+}
+.editorial .plan-action .button {
+  width: 100%;
+  transform: none;
+}
+.plan-action:has(:focus-visible) {
+  outline: 2px solid #b79a5d;
+  outline-offset: 5px;
+}
+[data-instant="true"] .timeline-stops {
+  animation: none;
+}
+@media (max-width: 700px) and (prefers-reduced-motion: no-preference) {
+  .site-header nav.open[data-instant="false"] {
+    animation: navigation-enter 180ms ease-out both;
+  }
+  @keyframes navigation-enter {
+    from { opacity: 0; transform: translateY(-6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+@media (max-width: 700px) {
+  .home-shell.editorial > .site-header {
+    height: calc(78px + env(safe-area-inset-top));
+    padding-top: env(safe-area-inset-top);
+    padding-left: max(22px, env(safe-area-inset-left));
+    padding-right: max(22px, env(safe-area-inset-right));
+  }
+  .home-shell.editorial .site-header nav {
+    top: calc(78px + env(safe-area-inset-top));
+  }
+  .cinema-hero > .scene-stage {
+    padding-top: calc(145px + env(safe-area-inset-top));
+    padding-left: max(24px, env(safe-area-inset-left));
+    padding-right: max(24px, env(safe-area-inset-right));
+  }
+}

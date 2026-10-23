@@ -209,22 +209,28 @@ button:active,
   font-size: 16px;
   line-height: 1.4;
 }
+@media (hover: hover) and (pointer: fine) {
 .button:hover {
   background: #46523f;
+}
 }
 .button svg {
   transition: transform 180ms var(--ease);
 }
+@media (hover: hover) and (pointer: fine) {
 .button:hover svg {
   transform: translate(2px, -2px);
+}
 }
 .button.dark {
   background: var(--ink);
   color: white;
   border-radius: 6px;
 }
+@media (hover: hover) and (pointer: fine) {
 .button.dark:hover {
   background: #181817;
+}
 }
 .secondary-button {
   background: var(--panel);
@@ -232,9 +238,11 @@ button:active,
   color: var(--ink);
   border-radius: 6px;
 }
+@media (hover: hover) and (pointer: fine) {
 .secondary-button:hover {
   background: var(--surface);
   color: var(--ink);
+}
 }
 .full-width {
   width: 100%;
@@ -250,10 +258,12 @@ button:active,
   line-height: 1.4;
   font-weight: 500;
 }
+@media (hover: hover) and (pointer: fine) {
 .text-link:hover,
 .text-button:hover {
   text-decoration: underline;
   text-underline-offset: 5px;
+}
 }
 .text-button:disabled {
   text-decoration: none;
@@ -269,8 +279,10 @@ button:active,
   border-radius: 6px;
   background: none;
 }
+@media (hover: hover) and (pointer: fine) {
 .icon-button:hover {
   background: var(--surface);
+}
 }
 .negative {
   color: var(--conflict-ink);
@@ -351,9 +363,11 @@ button:active,
   font-size: 15px;
   margin-left: auto;
 }
+@media (hover: hover) and (pointer: fine) {
 .site-header nav a:hover {
   text-decoration: underline;
   text-underline-offset: 5px;
+}
 }
 .saved-nav {
   display: flex;
@@ -394,9 +408,11 @@ button:active,
   font-size: 13px;
   margin-bottom: 4px;
 }
+@media (hover: hover) and (pointer: fine) {
 .footer a:hover {
   text-decoration: underline;
   text-underline-offset: 5px;
+}
 }
 .hero {
   display: grid;
@@ -633,8 +649,10 @@ button:active,
   font-size: 13px;
   color: #46523f;
 }
+@media (hover: hover) and (pointer: fine) {
 .preview-link:hover {
   background: #e6eadd;
+}
 }
 .status {
   display: inline-flex;
@@ -742,8 +760,10 @@ button:active,
   height: 100%;
   transition: transform 700ms var(--ease);
 }
+@media (hover: hover) and (pointer: fine) {
 .trip-story:hover img {
   transform: scale(1.035);
+}
 }
 .image-action {
   position: absolute;
@@ -990,8 +1010,10 @@ button:active,
   height: 100%;
   transition: transform 0.6s var(--ease);
 }
+@media (hover: hover) and (pointer: fine) {
 .result-image:hover img {
   transform: scale(1.025);
+}
 }
 .result-content {
   padding: 6px 0;
@@ -1739,8 +1761,10 @@ button:active,
   font-size: 13px;
   margin-top: 16px;
 }
+@media (hover: hover) and (pointer: fine) {
 .add-item:hover {
   background: var(--bg);
+}
 }
 .day-end {
   display: flex;
@@ -3411,9 +3435,11 @@ body {
   background: var(--accent);
   color: var(--accent-ink);
 }
+@media (hover: hover) and (pointer: fine) {
 .button:hover {
   background: #dde4d0;
   color: var(--accent-ink);
+}
 }
 .brand-mark span {
   background: var(--accent);
@@ -3423,18 +3449,22 @@ body {
   background: var(--ink);
   color: #141614;
 }
+@media (hover: hover) and (pointer: fine) {
 .button.dark:hover,
 .form-actions .button:hover {
   background: white;
   color: #141614;
 }
+}
 .secondary-button {
   background: var(--panel);
   color: var(--ink);
 }
+@media (hover: hover) and (pointer: fine) {
 .secondary-button:hover {
   background: var(--raised);
   color: var(--ink);
+}
 }
 .footer {
   background: var(--bg);
@@ -3645,8 +3675,10 @@ body {
 .trip-image img {
   filter: brightness(0.8) saturate(0.75);
 }
+@media (hover: hover) and (pointer: fine) {
 .trip-story:hover img {
   filter: brightness(0.95) saturate(0.9);
+}
 }
 .fit-image img {
   filter: brightness(0.7) saturate(0.65);
@@ -3712,8 +3744,10 @@ body {
   background: #242b20;
   color: #d4dfc7;
 }
+@media (hover: hover) and (pointer: fine) {
 .preview-link:hover {
   background: #343f2d;
+}
 }
 .status.fit {
   color: var(--fit-ink);
@@ -4641,5 +4675,47 @@ body {
   }
   .opening-bottom {
     display: none;
+  }
+}
+
+/* Browser and touch ergonomics across the planner and editorial surfaces. */
+:root {
+  --motion-press: 120ms;
+  --motion-hover: 180ms;
+}
+html { -webkit-text-size-adjust: 100%; }
+::selection { background: #b79a5d; color: #070a0c; }
+input, textarea { caret-color: #b79a5d; }
+input[type="number"], input[type="date"], .stop-title > span {
+  font-variant-numeric: tabular-nums;
+}
+a { text-underline-offset: 0.2em; }
+button, .button, .secondary-button, .icon-button {
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+}
+.button, .secondary-button, .icon-button, .editorial .button {
+  transition-duration: var(--motion-hover);
+}
+.button:active, .secondary-button:active, .icon-button:active,
+.editorial .button:active {
+  transition-duration: var(--motion-press);
+}
+.footer, .editorial > .footer {
+  padding-bottom: calc(40px + env(safe-area-inset-bottom));
+}
+.modal {
+  max-height: calc(100dvh - 40px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+}
+@media (pointer: coarse) {
+  input, select, textarea,
+  .editorial .start-fields select {
+    font-size: max(16px, 1em);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .button, .secondary-button, .icon-button, .editorial .button {
+    transition: none;
   }
 }
