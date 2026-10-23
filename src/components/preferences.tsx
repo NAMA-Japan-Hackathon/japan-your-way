@@ -76,7 +76,7 @@ export function PreferencesForm({
       return;
     }
     setStep(Math.min(4, step + 1));
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: "instant" });
   }
   return (
     <main id="main" className="form-page">
@@ -85,7 +85,14 @@ export function PreferencesForm({
           <p className="form-progress">
             Your requirements <span>{step + 1} of 5</span>
           </p>
-          <div className="progress-track" aria-hidden="true">
+          <div
+            className="progress-track"
+            role="progressbar"
+            aria-label="Planning progress"
+            aria-valuemin={1}
+            aria-valuemax={5}
+            aria-valuenow={step + 1}
+          >
             <span style={{ width: `${(step + 1) * 20}%` }} />
           </div>
           <h1 id="form-step-title" tabIndex={-1}>

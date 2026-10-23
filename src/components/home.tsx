@@ -90,8 +90,8 @@ export function SampleDay() {
   const [instant, setInstant] = useState(true);
   const selected = days[day];
   return (
-    <div className="itinerary-composition" data-ui data-instant={instant}>
-      <aside className="itinerary-controls" data-enter="left">
+    <div className="itinerary-composition" data-instant={instant}>
+      <aside className="itinerary-controls" data-ui data-enter="left">
         <div className="itinerary-place">
           <MapPin size={18} />
           <span>Kyoto, at your pace</span>
@@ -120,31 +120,31 @@ export function SampleDay() {
           ))}
         </div>
         <div className="itinerary-settings">
-          <button
-            className="preference-switch"
-            aria-pressed={relaxed}
-            onClick={(event) => {
-              setInstant(event.detail === 0);
-              setRelaxed(!relaxed);
-            }}
-          >
-            <Footprints size={17} />
-            <span>
-              {relaxed ? "Unhurried days" : "A little more exploring"}
-            </span>
+          <label className="preference-switch">
+            <input
+              type="checkbox"
+              role="switch"
+              checked={relaxed}
+              onClick={(event) => setInstant(event.detail === 0)}
+              onChange={(event) => setRelaxed(event.target.checked)}
+            />
+            <Footprints size={17} aria-hidden="true" />
+            <span>Unhurried days</span>
             <span
               className={`toggle-track ${relaxed ? "on" : ""}`}
               aria-hidden="true"
             >
               <i />
             </span>
-          </button>
-          <button
-            className="preference-switch"
-            aria-pressed={food}
-            onClick={() => setFood(!food)}
-          >
-            <Leaf size={17} />
+          </label>
+          <label className="preference-switch">
+            <input
+              type="checkbox"
+              role="switch"
+              checked={food}
+              onChange={(event) => setFood(event.target.checked)}
+            />
+            <Leaf size={17} aria-hidden="true" />
             <span>No fish stock</span>
             <span
               className={`toggle-track ${food ? "on" : ""}`}
@@ -152,13 +152,13 @@ export function SampleDay() {
             >
               <i />
             </span>
-          </button>
+          </label>
         </div>
         <p className="itinerary-footnote">
           Your requirements stay visible. Arrangements still need confirmation.
         </p>
       </aside>
-      <div className="itinerary-timeline" data-enter="right">
+      <div className="itinerary-timeline" data-ui data-enter="right">
         <div className="timeline-heading">
           <div>
             <span>{selected.place} · Sample day</span>

@@ -1,0 +1,454 @@
+/* Apple HIG refinement: content remains Japan-led; chrome defers to it. */
+:root,
+.editorial {
+  --bg: #070a0c;
+  --ground: #070a0c;
+  --surface: #11171d;
+  --panel: #151b21;
+  --raised: #242d35;
+  --ink: #f4f0e8;
+  --muted: #b8bec5;
+  --accent: #eee7da;
+  --accent-ink: #101315;
+  --border: #3e4953;
+  --control: #87939f;
+  --field: #242d35;
+  --gold: #b79a5d;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ui-body: 1.0625rem;
+  --ui-control: 0.9375rem;
+  --ui-caption: 0.8125rem;
+  --ui-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ui-nav-fill: #151b21;
+  --ui-nav-solid: #151b21;
+}
+body {
+  font-family: var(--font);
+  font-size: var(--ui-body);
+  font-optical-sizing: auto;
+}
+html {
+  scroll-padding-top: 120px;
+}
+button,
+input,
+select,
+textarea {
+  font-family: var(--font);
+}
+:focus-visible {
+  outline-color: var(--gold);
+}
+.skip {
+  color: var(--bg);
+}
+.site-header nav a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.site-header .wordmark {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 25px;
+  letter-spacing: -0.02em;
+}
+.site-header .brand-mark {
+  display: grid;
+  place-items: center;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background: var(--raised);
+  color: var(--accent);
+  font-family: Georgia, serif;
+  font-size: 17px;
+  flex-shrink: 0;
+}
+.site-header nav a[aria-current="page"] {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+.button,
+.secondary-button,
+.icon-button {
+  min-height: 44px;
+}
+.icon-button {
+  min-width: 44px;
+}
+/* A single functional overlay, not a glass treatment for content. */
+.home-shell.editorial > .site-header {
+  position: absolute;
+  inset: max(20px, env(safe-area-inset-top)) 0 auto;
+  width: calc(100% - 96px);
+  max-width: 1240px;
+  height: 72px;
+  margin-inline: auto;
+  padding: 0 16px 0 24px;
+  gap: 24px;
+  border-radius: 999px;
+  background: var(--ui-nav-fill);
+  border: 1px solid rgba(244, 240, 232, 0.14); /* taste-skill-ignore: functional navigation overlay boundary. */
+  box-shadow: 0 8px 32px #0003; /* taste-skill-ignore: floating navigation overlay, not resting content. */
+  color: var(--ink);
+  z-index: 40;
+}
+@supports (
+  (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))
+) {
+  .home-shell.editorial > .site-header {
+    --ui-nav-fill: rgba(14, 20, 26, 0.84);
+    -webkit-backdrop-filter: blur(20px) saturate(1.25);
+    backdrop-filter: blur(20px) saturate(1.25);
+  }
+}
+.home-shell.editorial .wordmark {
+  font-size: 25px;
+}
+.home-shell.editorial .site-header nav {
+  font-family: var(--font);
+  font-size: var(--ui-caption);
+  gap: 24px;
+}
+.home-shell.editorial .header-action {
+  min-height: 44px;
+  font-size: var(--ui-caption);
+  padding: 12px 20px;
+}
+.cinematic-home p {
+  line-height: 1.65;
+}
+.cinema-hero-copy > p {
+  font-size: 1.25rem;
+}
+.cinema-hero-copy h1 {
+  font-size: clamp(5.875rem, 9.7vw, 8.75rem);
+}
+.cinematic-home h2 {
+  font-size: clamp(2.625rem, 4.5vw, 4rem);
+}
+.cinematic-home .button,
+.cinematic-home .text-link,
+.cinema-secondary {
+  font-size: var(--ui-control);
+}
+.itinerary-controls,
+.itinerary-timeline,
+.start-card {
+  border-radius: 24px;
+  background: var(--panel);
+}
+.itinerary-place,
+.itinerary-days button,
+.preference-switch {
+  font-size: var(--ui-control);
+}
+.itinerary-days button {
+  min-height: 64px;
+  border-radius: 12px;
+}
+.itinerary-days button[aria-pressed="true"] {
+  background: var(--raised);
+  color: var(--ink);
+}
+.preference-switch {
+  position: relative;
+  flex-direction: row;
+  min-height: 52px;
+  gap: 10px;
+  font-weight: 400;
+  cursor: pointer;
+  color: var(--ink);
+}
+.preference-switch input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.preference-switch:has(input:focus-visible) {
+  outline: 2px solid var(--gold);
+  outline-offset: 5px;
+  border-radius: 6px;
+}
+.toggle-track {
+  width: 44px;
+  height: 28px;
+  padding: 3px;
+  background: #46515b;
+  transition: background 180ms var(--ui-ease);
+}
+.toggle-track i {
+  width: 22px;
+  height: 22px;
+  background: var(--ink);
+  transition: transform 180ms var(--ui-ease);
+}
+.toggle-track.on {
+  background: #6c7e65;
+}
+.toggle-track.on i {
+  transform: translateX(16px);
+}
+.itinerary-composition[data-instant="true"] .toggle-track,
+.itinerary-composition[data-instant="true"] .toggle-track i {
+  transition: none;
+}
+.cinematic-home .timeline-heading h3 {
+  font-size: 2rem;
+}
+.cinematic-home .timeline-stops h4 {
+  font-size: var(--ui-control);
+}
+.cinematic-home .timeline-stops p {
+  font-size: var(--ui-control);
+}
+.cinematic-home .timeline-heading > div > span,
+.cinematic-home .itinerary-footnote,
+.cinematic-home .stop-detail,
+.cinematic-home .collection-meta,
+.cinematic-home .collection-price,
+.cinematic-home .collection-footnote,
+.cinematic-home .hero-note,
+.cinematic-home .hero-route,
+.cinematic-home .start-card > p {
+  font-size: var(--ui-caption);
+}
+.form-main h1 {
+  font-size: 2.625rem;
+}
+.form-main input,
+.form-main select,
+.form-main textarea,
+.start-fields select {
+  min-height: 50px;
+  font-size: var(--ui-body);
+}
+.form-progress,
+.field-help,
+.form-main .privacy-note {
+  font-size: 0.875rem;
+}
+.form-description {
+  font-size: var(--ui-body);
+}
+.progress-track {
+  border-radius: 99px;
+  overflow: hidden;
+  height: 4px;
+}
+.progress-track > span {
+  transition: none;
+}
+.modal {
+  border-radius: 24px;
+  background: var(--panel);
+}
+.modal-head {
+  background: var(--panel);
+}
+.modal-head h2 {
+  font-size: 1.5rem;
+}
+.modal .icon-button {
+  flex-shrink: 0;
+}
+@media (hover: hover) and (pointer: fine) {
+  .site-header nav a:hover {
+    color: var(--ink);
+  }
+  .preference-switch:hover .toggle-track {
+    outline: 2px solid var(--control);
+    outline-offset: 2px;
+  }
+  .editorial .button:hover {
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .modal[open] {
+    animation: apple-dialog-enter 180ms var(--ui-ease);
+  }
+  @keyframes apple-dialog-enter {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+@media (max-width: 1050px) and (min-width: 701px) {
+  .home-shell.editorial > .site-header {
+    width: calc(100% - 48px);
+    gap: 16px;
+    padding-left: 20px;
+  }
+  .home-shell.editorial .site-header nav {
+    gap: 20px;
+  }
+  .home-shell.editorial .wordmark {
+    font-size: 22px;
+    gap: 8px;
+  }
+  .home-shell.editorial .header-action {
+    padding-inline: 16px;
+  }
+}
+@media (max-width: 800px) {
+  .cinema-hero-copy h1 {
+    font-size: 6.875rem;
+  }
+}
+@media (max-width: 700px) {
+  .modal {
+    border-radius: 24px 24px 0 0;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .home-shell.editorial > .site-header {
+    inset: max(12px, env(safe-area-inset-top)) 0 auto;
+    width: calc(100% - 32px);
+    height: 64px;
+    padding: 0 10px 0 16px;
+    gap: 8px;
+  }
+  .home-shell.editorial .wordmark {
+    font-size: 24px;
+    gap: 8px;
+  }
+  .home-shell.editorial .brand-mark {
+    width: 28px;
+    height: 28px;
+  }
+  .home-shell.editorial .menu-button {
+    border-radius: 50%;
+  }
+  .home-shell.editorial .site-header nav {
+    top: calc(100% + 10px);
+    padding: 12px;
+    border: 0;
+    border-radius: 24px;
+    background: var(--ui-nav-solid);
+    max-height: calc(100dvh - 120px - env(safe-area-inset-top));
+    overflow-y: auto;
+    gap: 2px;
+  }
+  .home-shell.editorial .site-header nav a {
+    width: 100%;
+    border-radius: 12px;
+    min-height: 48px;
+    padding: 12px 16px;
+    font-size: var(--ui-body);
+  }
+  .cinema-hero-copy h1 {
+    font-size: 5.875rem;
+  }
+  .cinema-hero-copy > p {
+    font-size: var(--ui-body);
+  }
+  .cinematic-home h2 {
+    font-size: 2.625rem;
+  }
+  .itinerary-controls,
+  .itinerary-timeline {
+    padding: 24px;
+  }
+  .site-header:not(.home-shell > .site-header) {
+    height: auto;
+    min-height: 80px;
+    padding-top: env(safe-area-inset-top);
+  }
+  .form-main h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 360px) {
+  .site-header .wordmark {
+    font-size: 21px;
+  }
+  .home-shell.editorial .wordmark {
+    font-size: 21px;
+  }
+  .home-shell.editorial .brand-mark {
+    width: 24px;
+    height: 24px;
+  }
+  .cinema-hero-copy h1 {
+    font-size: 5rem;
+  }
+}
+@media (max-height: 600px) {
+  .cinema-hero-copy h1 {
+    font-size: 5rem;
+  }
+}
+@media (prefers-reduced-transparency: reduce),
+  (prefers-contrast: more),
+  (prefers-reduced-motion: reduce) {
+  .home-shell.editorial > .site-header {
+    --ui-nav-fill: var(--ui-nav-solid);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    box-shadow: none;
+  }
+}
+@media (prefers-contrast: more) {
+  :root,
+  .editorial {
+    --muted: #e0e5ea;
+    --border: #a2abb4;
+    --control: #c9d2db;
+    --gold: #e8ca89;
+  }
+  .toggle-track {
+    outline: 2px solid var(--control);
+    outline-offset: 2px;
+  }
+  .cinematic-home .cinema-hero-copy {
+    opacity: 1 !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .toggle-track,
+  .toggle-track i {
+    transition: none;
+  }
+  .editorial .button:active,
+  .button:active,
+  .icon-button:active {
+    transform: none;
+  }
+}
+@media (forced-colors: active) {
+  .home-shell.editorial > .site-header,
+  .home-shell.editorial .site-header nav {
+    background: Canvas;
+    color: CanvasText;
+    border: 1px solid CanvasText;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+  .toggle-track {
+    background: Canvas;
+    outline: 1px solid CanvasText;
+  }
+  .toggle-track i {
+    background: CanvasText;
+  }
+  .toggle-track.on {
+    background: Highlight;
+  }
+  .toggle-track.on i {
+    background: HighlightText;
+  }
+  .itinerary-days button[aria-pressed="true"] {
+    outline: 2px solid Highlight;
+  }
+}

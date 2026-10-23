@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useId, useRef, useState } from "react";
 import {
   ArrowUpRight,
@@ -27,14 +28,11 @@ export {
   CheckCircle2,
   ArrowRight,
 };
-export function Header({
-  compact = false,
-  editorial = false,
-}: {
-  compact?: boolean;
-  editorial?: boolean;
-}) {
+export function Header({ compact = false }: { compact?: boolean }) {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const current = (href: string) =>
+    pathname.startsWith(href) ? ("page" as const) : undefined;
   const [instant, setInstant] = useState(true);
   const navigationId = useId();
   const headerRef = useRef<HTMLElement>(null);
@@ -72,19 +70,12 @@ export function Header({
       </a>
       <header
         ref={headerRef}
+        data-ui
         className={`site-header ${compact ? "compact" : ""}`}
       >
         <Link href="/" className="wordmark" aria-label="Japan, Your Way home">
           <span className="brand-mark" aria-hidden="true">
-            {editorial ? (
-              "道"
-            ) : (
-              <>
-                <span />
-                <span />
-                <span />
-              </>
-            )}
+            道
           </span>
           <span>
             Japan, Your Way<span className="brand-dot">.</span>
@@ -97,24 +88,41 @@ export function Header({
           aria-label="Main navigation"
           className={open ? "open" : ""}
         >
-          <Link href="/trips/" onClick={() => setOpen(false)}>
+          <Link
+            href="/trips/"
+            aria-current={current("/trips/")}
+            onClick={() => setOpen(false)}
+          >
             Trips
           </Link>
-          <Link href="/how-it-works/" onClick={() => setOpen(false)}>
+          <Link
+            href="/how-it-works/"
+            aria-current={current("/how-it-works/")}
+            onClick={() => setOpen(false)}
+          >
             How it works
           </Link>
-          <Link href="/help/" onClick={() => setOpen(false)}>
+          <Link
+            href="/help/"
+            aria-current={current("/help/")}
+            onClick={() => setOpen(false)}
+          >
             Help
           </Link>
           <Link
             href="/saved/"
+            aria-current={current("/saved/")}
             className="saved-nav"
             onClick={() => setOpen(false)}
           >
             <Bookmark size={16} /> Saved plans
           </Link>
         </nav>
-        <Link href="/plan/" className="button header-action">
+        <Link
+          href="/plan/"
+          aria-current={current("/plan/")}
+          className="button header-action"
+        >
           Plan my Japan <ArrowUpRight size={17} />
         </Link>
         <button
@@ -195,6 +203,7 @@ export function Modal({
   onClose: () => void;
 }) {
   const ref = useRef<HTMLDialogElement>(null);
+  const titleId = useId();
   useEffect(() => {
     const d = ref.current;
     const active = document.activeElement as HTMLElement;
@@ -202,8 +211,9 @@ export function Modal({
     const old = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     return () => {
+      d?.close();
       document.body.style.overflow = old;
-      active?.focus();
+      active?.focus({ preventScroll: true });
     };
   }, []);
   return (
@@ -217,10 +227,10 @@ export function Modal({
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
       }}
-      aria-labelledby="dialog-title"
+      aria-labelledby={titleId}
     >
       <div className="modal-head">
-        <h2 id="dialog-title">{title}</h2>
+        <h2 id={titleId}>{title}</h2>
         <button
           onClick={onClose}
           className="icon-button"

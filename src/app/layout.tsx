@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import "./stage.css";
 import "./editorial.css";
+import "./apple.css";
 export const metadata: Metadata = {
   title: "Japan, Your Way — A trip that fits you",
   description:
@@ -21,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-theme="dark">
+    <html lang="en" data-theme="dark" data-scroll-behavior="smooth">
       <body>{children}</body>
     </html>
   );
