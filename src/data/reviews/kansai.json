@@ -237,7 +237,13 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-osaka-alarde-1280.webp",
+      "alt": "Alarde Osaka exterior with its signed awning and stained-glass entry doors",
+      "credit": "personal:kansai-front-food-osaka-alarde",
+      "responsive": true
+    }
   },
   {
     "id": "food-kyoto-anpeiji",
@@ -517,7 +523,8 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {"src":"/images/personal-use/kansai-front-food-kyoto-cenci-1280.webp","alt":"Cenci Kyoto exterior with illuminated name window and arched entrance","credit":"personal:kansai-front-food-kyoto-cenci","responsive":true}
   },
   {
     "id": "food-osaka-chi-fu",
@@ -1117,7 +1124,8 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {"src":"/images/personal-use/kansai-front-food-kyoto-gion-nishikawa-1280.webp","alt":"Gion Nishikawa Kyoto exterior with its lantern and signed wooden facade","credit":"personal:kansai-front-food-kyoto-gion-nishikawa","responsive":true}
   },
   {
     "id": "food-kyoto-gion-okada",
@@ -1727,7 +1735,8 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {"src":"/images/personal-use/kansai-front-food-kyoto-hiramatsu-kodaiji-1280.webp","alt":"Restaurant Hiramatsu Kodaiji exterior with courtyard garden and entry","credit":"personal:kansai-front-food-kyoto-hiramatsu-kodaiji","responsive":true}
   },
   {
     "id": "food-kyoto-hyotei",
@@ -1772,7 +1781,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "officialUrl": "https://hyotei.co.jp/en/"
+    "officialUrl": "https://hyotei.co.jp/en/",
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-hyotei-1280.webp",
+      "alt": "Hyotei main branch Kyoto exterior with bamboo fence and signed entrance",
+      "credit": "personal:kansai-front-food-kyoto-hyotei",
+      "responsive": true
+    }
   },
   {
     "id": "food-osaka-ideal-bistro",
@@ -2532,7 +2547,13 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-kikunoi-honten-1280.webp",
+      "alt": "Kikunoi Honten Kyoto entrance with bamboo, stone path and restaurant sign",
+      "credit": "personal:kansai-front-food-kyoto-kikunoi-honten",
+      "responsive": true
+    }
   },
   {
     "id": "food-kyoto-kikunoi-roan",
@@ -3706,7 +3727,8 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "officialUrl": "https://www.tenryuji.com/en/shigetsu/"
+    "officialUrl": "https://www.tenryuji.com/en/shigetsu/",
+    "image": {"src": "/images/personal-use/kansai-front-food-kyoto-shigetsu-tenryu-ji-1280.webp", "alt": "Shigetsu at Tenryu-ji exterior entrance with its blue noren curtain", "credit": "personal:kansai-front-food-kyoto-shigetsu-tenryu-ji", "responsive": true}
   },
   {
     "id": "food-kyoto-vegan-ramen-uzu-kyoto",
@@ -3761,7 +3783,8 @@
     ],
     "checkedOn": "2026-10-24",
     "officialUrl": "https://vegan-uzu.com/pages/new-kyoto-page",
-    "nearestStationId": "kyoto-kyoto-shiyakusho-mae-kyoto-city-hall"
+    "nearestStationId": "kyoto-kyoto-shiyakusho-mae-kyoto-city-hall",
+    "image": {"src": "/images/personal-use/kansai-front-food-kyoto-vegan-ramen-uzu-kyoto-1280.webp", "alt": "Vegan Ramen UZU Kyoto exterior with its signed black facade and entry corridor", "credit": "personal:kansai-front-food-kyoto-vegan-ramen-uzu-kyoto", "responsive": true}
   },
   {
     "id": "food-osaka-green-earth",
@@ -3806,7 +3829,8 @@
     ],
     "checkedOn": "2026-10-24",
     "officialUrl": "https://www.osaka-vegetarian-ge.com/",
-    "nearestStationId": "osaka-hommachi"
+    "nearestStationId": "osaka-hommachi",
+    "image": {"src": "/images/personal-use/kansai-front-food-osaka-green-earth-1280.webp", "alt": "Green Earth Osaka exterior with its signed entrance and terrace", "credit": "personal:kansai-front-food-osaka-green-earth", "responsive": true}
   },
   {
     "id": "food-osaka-paprika-shokudo-vegan",
@@ -3844,6 +3868,7 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "nearestStationId": "osaka-yotsubashi"
+    "nearestStationId": "osaka-yotsubashi",
+    "image": {"src": "/images/personal-use/kansai-front-food-osaka-paprika-shokudo-vegan-1280.webp", "alt": "Paprika Shokudo Vegan Osaka exterior with signed awning and patio", "credit": "personal:kansai-front-food-osaka-paprika-shokudo-vegan", "responsive": true}
   }
 ]

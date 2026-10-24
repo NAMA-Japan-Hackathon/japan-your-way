@@ -1,35 +1,51 @@
 # Photograph coverage
 
-Checked 24 October 2026. Restaurant photographs show verified storefronts only. Non-open images stay in the ignored local personal-use folder; they become placeholders on a public clone.
+Checked 24 October 2026. Restaurant photographs show the verified named storefront or exterior. Local photos marked `unverified - personal use` remain in the ignored personal-use folder and become typographic placeholders in a public clone.
+
+## Coverage
+
+- Restaurants: 23/153 pictured — Tokyo 12/58, Kyoto 8/48, Osaka 3/47.
+- Shopping: 32/32 pictured, including all 25 newly sourced district, street, market and complex images.
+- Credits: 58 entries in `public/images/credits.json` (51 local personal-use; 7 verified CC).
 
 ## Restaurant storefronts
 
-- AIN SOPH. Ginza · personal:ain-ginza-front
-- AIN SOPH. Journey Shinjuku · personal:ain-shinjuku-front
-- AIN SOPH. Journey Kyoto · personal:ain-kyoto-front
+- Akasaka Kikunoi · Tokyo · personal:tokyo-front-food-tokyo-akasaka-kikunoi
+- Crony · Tokyo · personal:tokyo-front-food-tokyo-crony
+- Daigo · Tokyo · personal:tokyo-front-food-tokyo-daigo
+- Den · Tokyo · personal:tokyo-front-food-tokyo-den
+- Dominique Bouchet · Tokyo · personal:tokyo-front-food-tokyo-dominique-bouchet
+- Esquisse · Tokyo · personal:tokyo-front-food-tokyo-esquisse
+- Florilège · Tokyo · personal:tokyo-front-food-tokyo-florilege
+- Ginza Koju · Tokyo · personal:tokyo-front-food-tokyo-ginza-koju
+- Hakuun · Tokyo · personal:tokyo-front-food-tokyo-hakuun
+- Joël Robuchon Tokyo · Tokyo · personal:tokyo-front-food-tokyo-joel-robuchon-tokyo
+- AIN SOPH. Ginza · Tokyo · personal:ain-shinjuku-front
+- AIN SOPH. Journey Shinjuku · Tokyo · personal:ain-ginza-front
+- Alarde · Osaka · personal:kansai-front-food-osaka-alarde
+- Cenci · Kyoto · personal:kansai-front-food-kyoto-cenci
+- Gion Nishikawa · Kyoto · personal:kansai-front-food-kyoto-gion-nishikawa
+- Hiramatsu Kodaiji · Kyoto · personal:kansai-front-food-kyoto-hiramatsu-kodaiji
+- Hyotei · Kyoto · personal:kansai-front-food-kyoto-hyotei
+- Kikunoi Honten · Kyoto · personal:kansai-front-food-kyoto-kikunoi-honten
+- AIN SOPH. Journey Kyoto · Kyoto · personal:ain-kyoto-front
+- Shigetsu · Tenryu-ji · Kyoto · personal:kansai-front-food-kyoto-shigetsu-tenryu-ji
+- Vegan Ramen UZU Kyoto · Kyoto · personal:kansai-front-food-kyoto-vegan-ramen-uzu-kyoto
+- Green Earth · Osaka · personal:kansai-front-food-osaka-green-earth
+- Paprika Shokudo Vegan · Osaka · personal:kansai-front-food-osaka-paprika-shokudo-vegan
 
 ## Restaurants awaiting storefront photographs
 
-- Akasaka Kikunoi · Tokyo
 - Asahina Gastronome · Tokyo
 - Au Deco · Tokyo
 - Beige · Tokyo
-- Crony · Tokyo
-- Daigo · Tokyo
-- Den · Tokyo
-- Dominique Bouchet · Tokyo
 - Édition Koji Shimomura · Tokyo
 - Ensui · Tokyo
-- Esquisse · Tokyo
-- Florilège · Tokyo
 - Ginza Fukuju · Tokyo
-- Ginza Koju · Tokyo
 - Ginza Shinohara · Tokyo
-- Hakuun · Tokyo
 - Harutaka · Tokyo
 - Hommage · Tokyo
 - Jingumae Higuchi · Tokyo
-- Joël Robuchon Tokyo · Tokyo
 - Jushu · Tokyo
 - Kadowaki · Tokyo
 - Kagurazaka Ishikawa · Tokyo
@@ -71,14 +87,12 @@ Checked 24 October 2026. Restaurant photographs show verified storefronts only. 
 - Agnel D'or · Osaka
 - Ajikitcho Bumbuan · Osaka
 - Ajikitcho Horieten · Osaka
-- Alarde · Osaka
 - Anpeiji · Kyoto
 - Atelier Hanada · Osaka
 - Ayanokoji Karatsu · Kyoto
 - Bini · Kyoto
 - Byeoleeya · Kyoto
 - Capi · Osaka
-- Cenci · Kyoto
 - Chi-Fu · Osaka
 - Différence · Osaka
 - Dodici · Kyoto
@@ -93,7 +107,6 @@ Checked 24 October 2026. Restaurant photographs show verified storefronts only. 
 - Gion Kida · Kyoto
 - Gion Maruyama · Kyoto
 - Gion Matayoshi · Kyoto
-- Gion Nishikawa · Kyoto
 - Gion Okada · Kyoto
 - Gion Owatari · Kyoto
 - Gion Sasaki · Kyoto
@@ -108,8 +121,6 @@ Checked 24 October 2026. Restaurant photographs show verified storefronts only. 
 - Higashiyama Tsukasa · Kyoto
 - Higashiyama Yoshihisa · Kyoto
 - Hiraishi · Osaka
-- Hiramatsu Kodaiji · Kyoto
-- Hyotei · Kyoto
 - IDÉAL Bistro · Osaka
 - Ima · Kyoto
 - Iroha · Osaka
@@ -128,7 +139,6 @@ Checked 24 October 2026. Restaurant photographs show verified storefronts only. 
 - Kenninji Gion Maruyama · Kyoto
 - Kentan Horibe · Kyoto
 - Kenya · Kyoto
-- Kikunoi Honten · Kyoto
 - Kikunoi Roan · Kyoto
 - Kikunoi Sushi Ao · Kyoto
 - Kinobu · Kyoto
@@ -156,51 +166,11 @@ Checked 24 October 2026. Restaurant photographs show verified storefronts only. 
 - Numata · Osaka
 - Numata Sou · Osaka
 - Oimatsu Hisano · Osaka
-- Shigetsu · Tenryu-ji · Kyoto
-- Vegan Ramen UZU Kyoto · Kyoto
-- Green Earth · Osaka
-- Paprika Shokudo Vegan · Osaka
 
-## Shopping places awaiting photographs
+## Shopping places
 
-- Shibuya · Tokyo
-- Harajuku & Omotesando · Tokyo
-- Shinjuku · Tokyo
-- Ameyoko · Tokyo
-- Nakano Broadway · Tokyo
-- Kappabashi · Tokyo
-- Tsukiji Outer Market · Tokyo
-- Tokyo Solamachi · Tokyo
-- Shinsaibashi-suji · Osaka
-- Amerikamura · Osaka
-- Den Den Town · Osaka
-- Kuromon Market · Osaka
-- Grand Front Osaka · Osaka
-- Namba Parks · Osaka
-- Abeno Harukas · Osaka
-- Nishiki Market · Kyoto
-- Teramachi & Shinkyogoku · Kyoto
-- Kawaramachi · Kyoto
-- Kyoto Station complex · Kyoto
-- Canal City Hakata · Fukuoka
-- Osu shopping streets · Nagoya
-- Omicho Market · Kanazawa
-- Kokusai-dori · Naha
-- Minato Mirai · Yokohama
-- Tanukikoji · Sapporo
+All 32 shopping entries have a matching location image. The first seven retain their existing images; the other 25 use individually searched, visually checked Commons photographs prepared as responsive local WebP files.
 
 ## Image credits
 
-- Yasaka-dori early morning with street lanterns and the Tower of Yasaka (Hokan-ji Temple), Kyoto, Japan · Basile Morin · CC BY-SA 4.0 · [Source](https://commons.wikimedia.org/wiki/File:Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_(Hokan-ji_Temple),_Kyoto,_Japan.jpg)
-- Wooden and bamboo facades of dwellings with sudare in a cobbled street of Gion, perspective effect with vanishing point, Kyoto, Japan · Basile Morin · CC BY-SA 4.0 · [Source](https://commons.wikimedia.org/wiki/File:Wooden_and_bamboo_facades_of_dwellings_with_sudare_in_a_cobbled_street_of_Gion,_perspective_effect_with_vanishing_point,_Kyoto,_Japan.jpg)
-- Dry-sand Zen garden made of beige stripes a sunny day at Higashiyama Jisho-ji Buddhist temple Ginkaku-ji Kyoto Japan · Basile Morin · CC BY-SA 4.0 · [Source](https://commons.wikimedia.org/wiki/File:Dry-sand_Zen_garden_made_of_beige_stripes_a_sunny_day_at_Higashiyama_Jisho-ji_Buddhist_temple_Ginkaku-ji_Kyoto_Japan.jpg)
-- Nakamise, Asakusa, Tokyo as seen from the Asakusa Culture Tourist Information Center 20190420 2 · DXR · CC BY-SA 4.0 · [Source](https://commons.wikimedia.org/wiki/File:Nakamise,_Asakusa,_Tokyo_as_seen_from_the_Asakusa_Culture_Tourist_Information_Center_20190420_2.jpg)
-- Dotonbori, Osaka, at night, November 2016 · Martin Falbisoner · CC BY-SA 4.0 · [Source](https://commons.wikimedia.org/wiki/File:Dotonbori,_Osaka,_at_night,_November_2016.jpg)
-- Ginza · Photographer not identified · unverified - personal use · [Source](https://en.wikipedia.org/wiki/Ginza)
-- Akihabara · Photographer not identified · unverified - personal use · [Source](https://en.wikipedia.org/wiki/Akihabara)
-- GINZA SIX · Photographer not identified · unverified - personal use · [Source](https://en.wikipedia.org/wiki/Ginza_Six)
-- Shibuya Scramble Square · Photographer not identified · unverified - personal use · [Source](https://en.wikipedia.org/wiki/Shibuya_Scramble_Square)
-- Arakurayama Sengen park morning & evening (cropped) · tzuyaya · CC BY 2.0 · [Source](https://commons.wikimedia.org/wiki/File:Arakurayama_Sengen_park_morning_%26_evening_from_Flickr_8656223105_(cropped).jpg)
-- AIN SOPH. Ginza storefront and entrance · AIN SOPH. (photographer not identified) · unverified - personal use · [Source](https://en.ain-soph.jp/ginza)
-- AIN SOPH. Journey Shinjuku storefront and entrance · AIN SOPH. (photographer not identified) · unverified - personal use · [Source](https://en.ain-soph.jp/journey-shinjuku)
-- AIN SOPH. Journey Kyoto storefront and entrance · AIN SOPH. (photographer not identified) · unverified - personal use · [Source](https://en.ain-soph.jp/journey-kyoto)
+Every image record, source page, original-image URL, license status, dimensions and matching local reference is in [`public/images/credits.json`](../public/images/credits.json).

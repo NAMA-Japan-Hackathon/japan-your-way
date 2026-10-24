@@ -40,6 +40,14 @@ const records = [
 const sources = Array.from(
   new Map(records.flatMap((r) => r.sources).map((s) => [s.url, s])).values(),
 );
+const restaurants = [...kanto, ...kansai];
+const photographedRestaurants = restaurants.filter((record) => record.image).length;
+const personalUseImages = credits.filter(
+  (credit) => credit.license === "unverified - personal use",
+).length;
+const openLicensedImages = credits.filter((credit) =>
+  credit.license.startsWith("CC"),
+).length;
 export default function Page() {
   return (
     <>
@@ -55,9 +63,9 @@ export default function Page() {
         <section className="notice">
           <h2>Image permissions</h2>
           <p>
-            Six existing photographs have verified open licenses. Seven
-            additional images are recorded as “unverified - personal use” and
-            stored locally in the ignored personal-use folder. They are not
+            {openLicensedImages} photographs have verified open licenses. {personalUseImages}
+            {" "}additional images are recorded as “unverified - personal use”
+            and stored locally in the ignored personal-use folder. They are not
             included in the public repository. A clone shows typographic
             placeholders wherever those files are absent.
           </p>
@@ -108,8 +116,10 @@ export default function Page() {
         <section className="source-list">
           <h2>Food, shopping & transit data</h2>
           <p>
-            References checked 24 October 2026. This catalogue contains 153 real
-            restaurant records and 32 shopping records. It does not contain
+            References checked 24 October 2026. This catalogue contains {restaurants.length}
+            {" "}real restaurant records ({photographedRestaurants} with a verified
+            storefront image) and {shopping.length} shopping records (all pictured
+            locally). It does not contain
             customer reviews or invented numeric ratings. Restaurant recognition
             uses the cited 2026 factual lists; first-party menu policies are
             recorded separately. JNTO’s vegetarian guide is historical (March

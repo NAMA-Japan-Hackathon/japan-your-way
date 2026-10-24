@@ -38,7 +38,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-akasaka-kikunoi-1280.webp",
+      "alt": "Akasaka Kikunoi entrance with the restaurant's wooden sign and slatted door",
+      "credit": "personal:tokyo-front-food-tokyo-akasaka-kikunoi",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-asahina-gastronome",
@@ -202,7 +208,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-crony-1280.webp",
+      "alt": "Crony restaurant's glass-fronted entrance in Higashi-Azabu",
+      "credit": "personal:tokyo-front-food-tokyo-crony",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-daigo",
@@ -243,7 +255,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-daigo-1280.webp",
+      "alt": "Daigo's temple-side garden gate and entrance in Atago",
+      "credit": "personal:tokyo-front-food-tokyo-daigo",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-den",
@@ -284,7 +302,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Shibuya"
+    "ward": "Shibuya",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-den-1280.webp",
+      "alt": "Den restaurant's timber gate and entrance in Jingumae",
+      "credit": "personal:tokyo-front-food-tokyo-den",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-dominique-bouchet",
@@ -325,7 +349,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-dominique-bouchet-1280.webp",
+      "alt": "Dominique Bouchet Tokyo's signed street entrance in Ginza",
+      "credit": "personal:tokyo-front-food-tokyo-dominique-bouchet",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-edition-koji-shimomura",
@@ -448,7 +478,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-esquisse-1280.webp",
+      "alt": "Royal Crystal Ginza entrance and directory identifying ESqUISSE",
+      "credit": "personal:tokyo-front-food-tokyo-esquisse",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-florilege",
@@ -489,7 +525,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-florilege-1280.webp",
+      "alt": "Florilège's contemporary entrance in Azabudai",
+      "credit": "personal:tokyo-front-food-tokyo-florilege",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-ginza-fukuju",
@@ -571,7 +613,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-ginza-koju-1280.webp",
+      "alt": "Ginza Koju street entrance with a white noren curtain",
+      "credit": "personal:tokyo-front-food-tokyo-ginza-koju",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-ginza-shinohara",
@@ -653,7 +701,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-hakuun-1280.webp",
+      "alt": "Hakuun's illuminated street-front entrance",
+      "credit": "personal:tokyo-front-food-tokyo-hakuun",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-harutaka",
@@ -817,7 +871,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Meguro"
+    "ward": "Meguro",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-joel-robuchon-tokyo-1280.webp",
+      "alt": "Château Restaurant Joël Robuchon's exterior at Ebisu Garden Place",
+      "credit": "personal:tokyo-front-food-tokyo-joel-robuchon-tokyo",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-jushu",
@@ -2262,9 +2322,9 @@
     "officialUrl": "https://en.ain-soph.jp/english",
     "nearestStationId": "tokyo-higashi-ginza",
     "image": {
-      "src": "/images/personal-use/ain-ginza-front-1280.webp",
+      "src": "/images/personal-use/ain-shinjuku-front-1280.webp",
       "alt": "AIN SOPH. Ginza storefront and entrance",
-      "credit": "personal:ain-ginza-front",
+      "credit": "personal:ain-shinjuku-front",
       "responsive": true
     }
   },
@@ -2317,9 +2377,9 @@
     "officialUrl": "https://en.ain-soph.jp/english",
     "nearestStationId": "tokyo-shinjuku-sanchome",
     "image": {
-      "src": "/images/personal-use/ain-shinjuku-front-1280.webp",
+      "src": "/images/personal-use/ain-ginza-front-1280.webp",
       "alt": "AIN SOPH. Journey Shinjuku storefront and entrance",
-      "credit": "personal:ain-shinjuku-front",
+      "credit": "personal:ain-ginza-front",
       "responsive": true
     }
   },

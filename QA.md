@@ -129,7 +129,7 @@ Caps applied: placeholders limit content; dense full-network views need zoom or 
 Top three problems (most visible first), each with the screenshot it shows in and the fix:
 1. Food results still contain many typographic media placeholders: the next improvement is individually verified restaurant storefront photography, not invented substitutes. Complete missing-photo inventory is in docs/image-fallbacks.md.
 2. Full Tokyo network fit is intentionally dense: tracing, zoom, global search and complete line lists provide readable routes; a manually composed operator-grade map remains a future craft improvement.
-3. Shopping cards without photos reserve a large media slot: retained to preserve consistent crop geometry with real photographs, with an explicit missing-photo state.
+3. Restaurant results still contain 130 typographic media placeholders. All 32 shopping cards now have location-specific images, checked at desktop and phone widths; the next image pass should continue restaurant storefront coverage.
 
 Retained inspector warnings: ivory is the established owner palette; large photographic page titles follow the cinematic brief; below-fold results retain that introduction while reducing its height; placeholder media keeps a consistent crop. Metro’s unused-canvas warning reflects intentionally short collapsed station-list summaries, whose full-width text expands on demand. Region borders are the existing ledger style. These are documented choices, not zero-warning claims.
 

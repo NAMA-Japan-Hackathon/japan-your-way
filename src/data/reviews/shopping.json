@@ -65,7 +65,13 @@
         "url": "https://en.wikipedia.org/wiki/Shibuya"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-shibuya-1280.webp",
+      "alt": "Busy shopping street in Shibuya, Tokyo",
+      "credit": "personal:shopping-front-shibuya",
+      "responsive": true
+    }
   },
   {
     "id": "harajuku-omotesando",
@@ -96,7 +102,13 @@
         "url": "https://en.wikipedia.org/wiki/Harajuku"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-harajuku-omotesando-1280.webp",
+      "alt": "Mirrored entrance at Tokyu Plaza Omotesando Harajuku",
+      "credit": "personal:shopping-front-harajuku-omotesando",
+      "responsive": true
+    }
   },
   {
     "id": "shinjuku",
@@ -127,7 +139,13 @@
         "url": "https://en.wikipedia.org/wiki/Shinjuku"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-shinjuku-1280.webp",
+      "alt": "Neon-lit shopping street in Shinjuku, Tokyo",
+      "credit": "personal:shopping-front-shinjuku",
+      "responsive": true
+    }
   },
   {
     "id": "akihabara",
@@ -231,7 +249,13 @@
         "url": "https://en.wikipedia.org/wiki/Ameya-Yokochō"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-ameyoko-1280.webp",
+      "alt": "Shops beneath the rail tracks at Ameyoko, Tokyo",
+      "credit": "personal:shopping-front-ameyoko",
+      "responsive": true
+    }
   },
   {
     "id": "nakano-broadway",
@@ -262,7 +286,13 @@
         "url": "https://en.wikipedia.org/wiki/Nakano_Broadway"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-nakano-broadway-1280.webp",
+      "alt": "Nakano Broadway entrance in Tokyo",
+      "credit": "personal:shopping-front-nakano-broadway",
+      "responsive": true
+    }
   },
   {
     "id": "kappabashi",
@@ -293,7 +323,13 @@
         "url": "https://www.kappabashi.or.jp/en/overview/"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-kappabashi-1280.webp",
+      "alt": "Kappabashi kitchenware district with Tokyo Skytree behind it",
+      "credit": "personal:shopping-front-kappabashi",
+      "responsive": true
+    }
   },
   {
     "id": "tsukiji-outer-market",
@@ -324,7 +360,13 @@
         "url": "https://en.wikipedia.org/wiki/Tsukiji_fish_market"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-tsukiji-outer-market-1280.webp",
+      "alt": "Seafood stall at Tsukiji Outer Market in Tokyo",
+      "credit": "personal:shopping-front-tsukiji-outer-market",
+      "responsive": true
+    }
   },
   {
     "id": "ginza-six",
@@ -429,7 +471,13 @@
         "url": "https://pro.tokyo-solamachi.jp/information/"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-tokyo-solamachi-1280.webp",
+      "alt": "Tokyo Solamachi shopping complex at the foot of Skytree",
+      "credit": "personal:shopping-front-tokyo-solamachi",
+      "responsive": true
+    }
   },
   {
     "id": "shinsaibashi-suji",
@@ -460,7 +508,13 @@
         "url": "https://en.wikipedia.org/wiki/Shinsaibashi"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-shinsaibashi-suji-1280.webp",
+      "alt": "Entrance to Shinsaibashi-suji shopping street in Osaka",
+      "credit": "personal:shopping-front-shinsaibashi-suji",
+      "responsive": true
+    }
   },
   {
     "id": "dotonbori",
@@ -527,7 +581,13 @@
         "url": "https://en.wikipedia.org/wiki/Amerikamura"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-amerikamura-1280.webp",
+      "alt": "Pedestrian street in Amerikamura, Osaka",
+      "credit": "personal:shopping-front-amerikamura",
+      "responsive": true
+    }
   },
   {
     "id": "den-den-town",
@@ -558,7 +618,13 @@
         "url": "https://en.wikipedia.org/wiki/Nipponbashi"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-den-den-town-1280.webp",
+      "alt": "Electronics-store street in Den Den Town, Osaka",
+      "credit": "personal:shopping-front-den-den-town",
+      "responsive": true
+    }
   },
   {
     "id": "kuromon-market",
@@ -589,7 +655,13 @@
         "url": "https://kuromon.com/en/"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-kuromon-market-1280.webp",
+      "alt": "Covered arcade at Kuromon Market in Osaka",
+      "credit": "personal:shopping-front-kuromon-market",
+      "responsive": true
+    }
   },
   {
     "id": "grand-front-osaka",
@@ -620,7 +692,13 @@
         "url": "https://www.gfo-sc.jp/index.php"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-grand-front-osaka-1280.webp",
+      "alt": "Grand Front Osaka building beside Osaka Station",
+      "credit": "personal:shopping-front-grand-front-osaka",
+      "responsive": true
+    }
   },
   {
     "id": "namba-parks",
@@ -651,7 +729,13 @@
         "url": "https://en.wikipedia.org/wiki/Namba_Parks"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-namba-parks-1280.webp",
+      "alt": "Bridge approach to Namba Parks in Osaka",
+      "credit": "personal:shopping-front-namba-parks",
+      "responsive": true
+    }
   },
   {
     "id": "abeno-harukas",
@@ -682,7 +766,13 @@
         "url": "https://en.wikipedia.org/wiki/Abeno_Harukas"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-abeno-harukas-1280.webp",
+      "alt": "Abeno Harukas tower in Osaka",
+      "credit": "personal:shopping-front-abeno-harukas",
+      "responsive": true
+    }
   },
   {
     "id": "nishiki-market",
@@ -713,7 +803,13 @@
         "url": "https://en.wikipedia.org/wiki/Nishiki_Market"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-nishiki-market-1280.webp",
+      "alt": "Covered food stalls at Nishiki Market in Kyoto",
+      "credit": "personal:shopping-front-nishiki-market",
+      "responsive": true
+    }
   },
   {
     "id": "teramachi-shinkyogoku",
@@ -744,7 +840,13 @@
         "url": "https://en.wikipedia.org/wiki/Shinkyōgoku_Street"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-teramachi-shinkyogoku-1280.webp",
+      "alt": "Covered Teramachi and Shinkyogoku shopping arcade in Kyoto",
+      "credit": "personal:shopping-front-teramachi-shinkyogoku",
+      "responsive": true
+    }
   },
   {
     "id": "kawaramachi",
@@ -775,7 +877,13 @@
         "url": "https://en.wikipedia.org/wiki/Kawaramachi_Street"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-kawaramachi-1280.webp",
+      "alt": "Kyoto Kawaramachi shopping building near Shijo",
+      "credit": "personal:shopping-front-kawaramachi",
+      "responsive": true
+    }
   },
   {
     "id": "gion",
@@ -842,7 +950,13 @@
         "url": "https://en.wikipedia.org/wiki/Kyoto_Station"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-kyoto-station-complex-1280.webp",
+      "alt": "Interior architecture of Kyoto Station complex",
+      "credit": "personal:shopping-front-kyoto-station-complex",
+      "responsive": true
+    }
   },
   {
     "id": "canal-city-hakata",
@@ -871,7 +985,13 @@
         "url": "https://en.wikipedia.org/wiki/Canal_City_Hakata"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-canal-city-hakata-1280.webp",
+      "alt": "Canal City Hakata complex beside the canal in Fukuoka",
+      "credit": "personal:shopping-front-canal-city-hakata",
+      "responsive": true
+    }
   },
   {
     "id": "osu-shopping-streets",
@@ -900,7 +1020,13 @@
         "url": "https://en.wikipedia.org/wiki/Ōsu"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-osu-shopping-streets-1280.webp",
+      "alt": "Covered Osu shopping street in Nagoya",
+      "credit": "personal:shopping-front-osu-shopping-streets",
+      "responsive": true
+    }
   },
   {
     "id": "omicho-market",
@@ -929,7 +1055,13 @@
         "url": "https://www.japan.travel/en/spot/1398/"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-omicho-market-1280.webp",
+      "alt": "Fresh seafood stalls at Omicho Market in Kanazawa",
+      "credit": "personal:shopping-front-omicho-market",
+      "responsive": true
+    }
   },
   {
     "id": "kokusai-dori",
@@ -958,7 +1090,13 @@
         "url": "https://www.japan-guide.com/e/e7114.html"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-kokusai-dori-1280.webp",
+      "alt": "Bright storefronts along Kokusai-dori in Naha",
+      "credit": "personal:shopping-front-kokusai-dori",
+      "responsive": true
+    }
   },
   {
     "id": "minato-mirai",
@@ -987,7 +1125,13 @@
         "url": "https://en.wikipedia.org/wiki/Minato_Mirai_21"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-minato-mirai-1280.webp",
+      "alt": "Minato Mirai waterfront shopping district in Yokohama",
+      "credit": "personal:shopping-front-minato-mirai",
+      "responsive": true
+    }
   },
   {
     "id": "tanukikoji",
@@ -1016,6 +1160,12 @@
         "url": "https://tanukikoji.or.jp/access/"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shopping-front-tanukikoji-1280.webp",
+      "alt": "Covered Tanukikoji shopping arcade in Sapporo",
+      "credit": "personal:shopping-front-tanukikoji",
+      "responsive": true
+    }
   }
 ]
