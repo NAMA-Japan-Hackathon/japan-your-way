@@ -1,6 +1,6 @@
 # Adaptive Japan planner
 
-`/plan/` uses Groq to conduct an adaptive interview. There is no five-step form for new trips. The first broad prompt leads into a conversation; each model turn receives the previous answers and the current profile. The user can skip questions, correct answers, create a draft before everything is known, or keep refining. For bounded context and cost, each request accepts up to 80 messages / 65,000 characters; itineraries support up to 60 days per draft.
+`/plan/` uses Groq to conduct an adaptive multiple-choice interview. There is no five-step form or required prose input for new trips. The first broad prompt leads into questions shaped by previous selections and the current profile. Each unfinished AI question must supply 3–6 distinct answer choices. Travelers select an answer and continue, request different choices, skip uncertainty, or use native calendar controls for exact dates. Once the AI has enough context, it summarizes the brief and enables itinerary generation. Preferences can be refined afterward. For bounded context and cost, each request accepts up to 80 messages / 65,000 characters; itineraries support up to 60 days per draft.
 
 The itinerary includes daily activities, transit guidance, meals, overnight bases, estimated group allowances in INR and unresolved checks. Estimates are not live quotes. Updates to the interview mark an existing draft as needing revision and clear its old price checks. The persistent assistant uses active AI trip context across routes and stays focused on Japan travel. It suggests edits; it does not silently mutate a saved itinerary.
 
@@ -48,7 +48,7 @@ Manual MakeMyTrip, Agoda, JAL and ANA links are comparison links only. No offici
 
 Conversation and trip context are stored in this browser and sent to Groq to respond. Price checks send route/dates/occupancy to SerpApi and, when enabled, relevant hotel search details to LiteAPI; they do not send the full chat. No conversation database, account, analytics integration or third-party tracking script has been added.
 
-Saved AI trips use their own versioned storage keys, leaving earlier saved fixture plans intact. Users can save, reopen, delete a saved copy, clear chat, start a fresh trip or download a text itinerary. Downloads may include dietary/access notes in the itinerary; the help page tells travelers to review before sharing. Local deletion cannot erase content already processed by an external provider. Storage failures are visible and do not pretend a save succeeded.
+Saved AI trips use their own versioned storage keys, leaving earlier saved fixture plans intact. Users can save, reopen, delete a saved copy, clear chat, start a fresh trip or download a detailed multipage PDF. The PDF is generated on the device, with the profile, each travel day, stays, estimated group budget, separately labeled source snapshots, unresolved checks and planning selections. The PDF action waits for an ongoing price check to finish. Standard portable fonts use English place-name transliterations where available. Downloads may include dietary/access notes in the itinerary; the help page tells travelers to review before sharing. Local deletion cannot erase content already processed by an external provider. Storage failures are visible and do not pretend a save succeeded.
 
 ## Provider references
 

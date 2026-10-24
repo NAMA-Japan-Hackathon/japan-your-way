@@ -1,0 +1,122 @@
+/* Overscan keeps source edge marks out of the composition at every aspect ratio.
+   The source file is unchanged; the filmmaker is credited beside the controls. */
+.cinema-hero .hero-film {
+  inset: -6%;
+  width: 112%;
+  height: 112%;
+  pointer-events: none;
+}
+.hero-film img,
+.hero-film video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 60% center;
+}
+.hero-film video {
+  opacity: 0;
+  transition: opacity 700ms var(--ui-ease);
+}
+.hero-film video.is-ready {
+  opacity: 1;
+}
+.hero-film-controls {
+  position: absolute;
+  z-index: 2;
+  bottom: 110px;
+  right: max(5vw, 24px);
+  width: 290px;
+  color: var(--ink);
+}
+.hero-film-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 15px;
+}
+.hero-film-caption > span:last-child,
+.hero-film-hint {
+  font-size: 12px;
+  color: #ced2d6;
+}
+.hero-film-transport {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0 4px;
+}
+.hero-film-toggle {
+  display: grid;
+  place-items: center;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  color: var(--ink);
+  background: var(--raised);
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 140ms var(--ui-ease);
+}
+.hero-film-toggle:active {
+  transform: scale(0.95);
+}
+.hero-film-transport input {
+  min-width: 0;
+  width: 100%;
+  height: 44px;
+  margin: 0;
+  accent-color: var(--ink);
+  cursor: ew-resize;
+}
+.hero-film-toggle:focus-visible,
+.hero-film-transport input:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 4px;
+}
+.hero-film-transport > svg {
+  flex-shrink: 0;
+}
+.hero-film-controls :disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+@media (hover: hover) and (pointer: fine) {
+  .hero-film-toggle:hover {
+    transform: scale(1.06);
+  }
+}
+@media (max-width: 900px) {
+  .cinema-hero > .scene-stage {
+    padding-bottom: 245px;
+  }
+  .hero-film-controls {
+    left: max(5vw, 24px);
+    right: auto;
+    bottom: 92px;
+    width: min(290px, calc(100% - 48px));
+  }
+}
+@media (max-width: 767px) {
+  .cinema-hero .hero-film img,
+  .cinema-hero .hero-film video {
+    object-position: 61% center;
+  }
+}
+@media (max-height: 600px) and (min-width: 901px) {
+  .hero-film-controls {
+    bottom: 100px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-film video {
+    transition-duration: 160ms;
+  }
+  .hero-film-toggle:hover,
+  .hero-film-toggle:active {
+    transform: none;
+  }
+}

@@ -37,7 +37,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-ad-hoc",
@@ -77,7 +88,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-ad-hoc-1280.webp","alt":"ad hoc restaurant exterior","credit":"personal:osaka-front-food-osaka-ad-hoc","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-ad-hoc-1280.webp",
+      "alt": "ad hoc restaurant exterior",
+      "credit": "personal:osaka-front-food-osaka-ad-hoc",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-agnel-d-or",
@@ -117,7 +139,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-agnel-d-or-1280.webp","alt":"Agnel d’or restaurant exterior","credit":"personal:osaka-front-food-osaka-agnel-d-or","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-agnel-d-or-1280.webp",
+      "alt": "Agnel d’or restaurant exterior",
+      "credit": "personal:osaka-front-food-osaka-agnel-d-or",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-ajikitcho-bumbuan",
@@ -157,7 +190,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-ajikitcho-bumbuan-1280.webp","alt":"Ajikitcho Bunbuan entrance","credit":"personal:osaka-front-food-osaka-ajikitcho-bumbuan","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-ajikitcho-bumbuan-1280.webp",
+      "alt": "Ajikitcho Bunbuan entrance",
+      "credit": "personal:osaka-front-food-osaka-ajikitcho-bumbuan",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-ajikitcho-horieten",
@@ -197,7 +241,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-ajikitcho-horieten-1280.webp","alt":"Ajikitcho Horieten exterior","credit":"personal:osaka-front-food-osaka-ajikitcho-horieten","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-ajikitcho-horieten-1280.webp",
+      "alt": "Ajikitcho Horieten exterior",
+      "credit": "personal:osaka-front-food-osaka-ajikitcho-horieten",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-alarde",
@@ -242,7 +297,12 @@
       "src": "/images/personal-use/kansai-front-food-osaka-alarde-1280.webp",
       "alt": "Alarde Osaka exterior with its signed awning and stained-glass entry doors",
       "credit": "personal:kansai-front-food-osaka-alarde",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
     }
   },
   {
@@ -283,7 +343,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-atelier-hanada",
@@ -323,7 +394,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-atelier-hanada-1280.webp","alt":"atelier HANADA by Morimoto storefront","credit":"personal:osaka-front-food-osaka-atelier-hanada","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-atelier-hanada-1280.webp",
+      "alt": "atelier HANADA by Morimoto storefront",
+      "credit": "personal:osaka-front-food-osaka-atelier-hanada",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-ayanokoji-karatsu",
@@ -363,7 +445,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-bini",
@@ -403,7 +496,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-byeoleeya",
@@ -443,7 +547,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-capi",
@@ -483,7 +598,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-capi-1280.webp","alt":"capi restaurant entrance","credit":"personal:osaka-front-food-osaka-capi","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-capi-1280.webp",
+      "alt": "capi restaurant entrance",
+      "credit": "personal:osaka-front-food-osaka-capi",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-cenci",
@@ -524,7 +650,17 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "image": {"src":"/images/personal-use/kansai-front-food-kyoto-cenci-1280.webp","alt":"Cenci Kyoto exterior with illuminated name window and arched entrance","credit":"personal:kansai-front-food-kyoto-cenci","responsive":true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-cenci-1280.webp",
+      "alt": "Cenci Kyoto exterior with illuminated name window and arched entrance",
+      "credit": "personal:kansai-front-food-kyoto-cenci",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-chi-fu",
@@ -564,7 +700,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-chi-fu-1280.webp","alt":"Chi-Fu restaurant entrance","credit":"personal:osaka-front-food-osaka-chi-fu","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-chi-fu-1280.webp",
+      "alt": "Chi-Fu restaurant entrance",
+      "credit": "personal:osaka-front-food-osaka-chi-fu",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-difference",
@@ -604,7 +751,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-dodici",
@@ -644,7 +802,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-doppo",
@@ -684,7 +853,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-droit",
@@ -724,7 +904,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-empathie",
@@ -764,7 +955,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-empathie-1280.webp","alt":"Empathie restaurant entrance","credit":"personal:osaka-front-food-osaka-empathie","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-empathie-1280.webp",
+      "alt": "Empathie restaurant entrance",
+      "credit": "personal:osaka-front-food-osaka-empathie",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-enyuan-kobayashi",
@@ -804,7 +1006,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-fujiya-1935",
@@ -844,7 +1057,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-fujiya-1935-1280.webp","alt":"Fujiya 1935 entrance","credit":"personal:osaka-front-food-osaka-fujiya-1935","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-fujiya-1935-1280.webp",
+      "alt": "Fujiya 1935 entrance",
+      "credit": "personal:osaka-front-food-osaka-fujiya-1935",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-fushimimachi-kakoiyama",
@@ -884,7 +1108,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-fushimimachi-kakoiyama-1280.webp","alt":"Fushimimachi Kakoiyama entrance","credit":"personal:osaka-front-food-osaka-fushimimachi-kakoiyama","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-fushimimachi-kakoiyama-1280.webp",
+      "alt": "Fushimimachi Kakoiyama entrance",
+      "credit": "personal:osaka-front-food-osaka-fushimimachi-kakoiyama",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-germoglio",
@@ -924,7 +1159,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-gion-fukushi",
@@ -964,7 +1210,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-gion-kida",
@@ -1004,7 +1261,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-gion-maruyama",
@@ -1045,7 +1313,17 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "image": {"src":"/images/personal-use/kansai-front-food-kyoto-gion-maruyama-1280.webp","alt":"Gion Maruyama Kyoto exterior with purple noren and red lantern","credit":"personal:kansai-front-food-kyoto-gion-maruyama","responsive":true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-gion-maruyama-1280.webp",
+      "alt": "Gion Maruyama Kyoto exterior with purple noren and red lantern",
+      "credit": "personal:kansai-front-food-kyoto-gion-maruyama",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-gion-matayoshi",
@@ -1085,7 +1363,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-gion-nishikawa",
@@ -1126,7 +1415,17 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "image": {"src":"/images/personal-use/kansai-front-food-kyoto-gion-nishikawa-1280.webp","alt":"Gion Nishikawa Kyoto exterior with its lantern and signed wooden facade","credit":"personal:kansai-front-food-kyoto-gion-nishikawa","responsive":true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-gion-nishikawa-1280.webp",
+      "alt": "Gion Nishikawa Kyoto exterior with its lantern and signed wooden facade",
+      "credit": "personal:kansai-front-food-kyoto-gion-nishikawa",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-gion-okada",
@@ -1166,7 +1465,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-gion-owatari",
@@ -1206,7 +1516,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-gion-sasaki",
@@ -1251,7 +1572,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "officialUrl": "https://gionsasaki.com/"
+    "officialUrl": "https://gionsasaki.com/",
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-gion-sasaki-1280.webp",
+      "alt": "Gion Sasaki entrance",
+      "credit": "personal:kansai-front-food-kyoto-gion-sasaki",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-godan-miyazawa",
@@ -1292,7 +1624,17 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "image":{"src":"/images/personal-use/kansai-front-food-kyoto-gion-sasaki-1280.webp","alt":"Gion Sasaki Kyoto exterior steps with signed purple noren","credit":"personal:kansai-front-food-kyoto-gion-sasaki","responsive":true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-gion-sasaki-1280.webp",
+      "alt": "Gion Sasaki Kyoto exterior steps with signed purple noren",
+      "credit": "personal:kansai-front-food-kyoto-gion-sasaki",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-gokomachi-tagawa",
@@ -1333,7 +1675,17 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "image":{"src":"/images/personal-use/kansai-front-food-kyoto-gokomachi-tagawa-1280.webp","alt":"Gokomachi Tagawa Kyoto exterior with yellow noren and sign","credit":"personal:kansai-front-food-kyoto-gokomachi-tagawa","responsive":true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-gokomachi-tagawa-1280.webp",
+      "alt": "Gokomachi Tagawa Kyoto exterior with yellow noren and sign",
+      "credit": "personal:kansai-front-food-kyoto-gokomachi-tagawa",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-gosho-iwasaki",
@@ -1374,7 +1726,17 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "image":{"src":"/images/personal-use/kansai-front-food-kyoto-gosho-iwasaki-1280.webp","alt":"Gosho Iwasaki Kyoto exterior with red noren and lantern","credit":"personal:kansai-front-food-kyoto-gosho-iwasaki","responsive":true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-gosho-iwasaki-1280.webp",
+      "alt": "Gosho Iwasaki Kyoto exterior with red noren and lantern",
+      "credit": "personal:kansai-front-food-kyoto-gosho-iwasaki",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-hachi",
@@ -1414,7 +1776,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-hajime",
@@ -1459,7 +1832,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "officialUrl": "https://www.hajime-artistes.com/", "image":{"src":"/images/personal-use/osaka-front-food-osaka-hajime-1280.webp","alt":"HAJIME restaurant entrance","credit":"personal:osaka-front-food-osaka-hajime","responsive":true}
+    "officialUrl": "https://www.hajime-artistes.com/",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-hajime-1280.webp",
+      "alt": "HAJIME restaurant entrance",
+      "credit": "personal:osaka-front-food-osaka-hajime",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-hana-kitcho",
@@ -1499,7 +1883,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-higashichaya-nakamura",
@@ -1539,7 +1934,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-higashiyama-ogata",
@@ -1579,7 +1985,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-higashiyama-tsukasa",
@@ -1619,7 +2036,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-higashiyama-yoshihisa",
@@ -1659,7 +2087,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-hiraishi",
@@ -1699,7 +2138,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-hiramatsu-kodaiji",
@@ -1740,7 +2190,17 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "image": {"src":"/images/personal-use/kansai-front-food-kyoto-hiramatsu-kodaiji-1280.webp","alt":"Restaurant Hiramatsu Kodaiji exterior with courtyard garden and entry","credit":"personal:kansai-front-food-kyoto-hiramatsu-kodaiji","responsive":true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-hiramatsu-kodaiji-1280.webp",
+      "alt": "Restaurant Hiramatsu Kodaiji exterior with courtyard garden and entry",
+      "credit": "personal:kansai-front-food-kyoto-hiramatsu-kodaiji",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-hyotei",
@@ -1790,7 +2250,12 @@
       "src": "/images/personal-use/kansai-front-food-kyoto-hyotei-1280.webp",
       "alt": "Hyotei main branch Kyoto exterior with bamboo fence and signed entrance",
       "credit": "personal:kansai-front-food-kyoto-hyotei",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
     }
   },
   {
@@ -1831,7 +2296,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-ideal-bistro-1280.webp","alt":"IDEAL Bistro entrance","credit":"personal:osaka-front-food-osaka-ideal-bistro","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-ideal-bistro-1280.webp",
+      "alt": "IDEAL Bistro entrance",
+      "credit": "personal:osaka-front-food-osaka-ideal-bistro",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-ima",
@@ -1871,7 +2347,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-iroha",
@@ -1911,7 +2398,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-iroha-1280.webp","alt":"Iroha restaurant entrance","credit":"personal:osaka-front-food-osaka-iroha","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-iroha-1280.webp",
+      "alt": "Iroha restaurant entrance",
+      "credit": "personal:osaka-front-food-osaka-iroha",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-isshisoden-nakamura",
@@ -1951,7 +2449,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-iwaki",
@@ -1991,7 +2500,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-jean-georges-at-the-shinmonzen",
@@ -2031,7 +2551,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-kahala",
@@ -2071,7 +2602,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-kaishoku-shimizu",
@@ -2111,7 +2653,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-kako-okamoto",
@@ -2151,7 +2704,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-kamigatachuka-shintani",
@@ -2191,7 +2755,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-kanamean-nishitomiya",
@@ -2231,7 +2806,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-kappo-hassun",
@@ -2271,7 +2857,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-kashiwaya-osaka-kitashinchi",
@@ -2311,7 +2908,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-kashiwaya-osaka-senriyama",
@@ -2351,7 +2959,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-katamachi-kawaguchi",
@@ -2391,7 +3010,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-katamachi-kawaguchi-1280.webp","alt":"Katamachi Kawaguchi entrance","credit":"personal:osaka-front-food-osaka-katamachi-kawaguchi","responsive":true}
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/osaka-front-food-osaka-katamachi-kawaguchi-1280.webp",
+      "alt": "Katamachi Kawaguchi entrance",
+      "credit": "personal:osaka-front-food-osaka-katamachi-kawaguchi",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-kenninji-gion-maruyama",
@@ -2431,7 +3061,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-kentan-horibe",
@@ -2471,7 +3112,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-kenya",
@@ -2511,7 +3163,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-kikunoi-honten",
@@ -2556,7 +3219,12 @@
       "src": "/images/personal-use/kansai-front-food-kyoto-kikunoi-honten-1280.webp",
       "alt": "Kikunoi Honten Kyoto entrance with bamboo, stone path and restaurant sign",
       "credit": "personal:kansai-front-food-kyoto-kikunoi-honten",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
     }
   },
   {
@@ -2598,7 +3266,17 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "image":{"src":"/images/personal-use/kansai-front-food-kyoto-kikunoi-roan-1280.webp","alt":"Kikunoi Roan Kyoto exterior with signed lantern and noren","credit":"personal:kansai-front-food-kyoto-kikunoi-roan","responsive":true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-kikunoi-roan-1280.webp",
+      "alt": "Kikunoi Roan Kyoto exterior with signed lantern and noren",
+      "credit": "personal:kansai-front-food-kyoto-kikunoi-roan",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-kikunoi-sushi-ao",
@@ -2639,7 +3317,17 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "image":{"src":"/images/personal-use/kansai-front-food-kyoto-kikunoi-sushi-ao-1280.webp","alt":"Kikunoi Sushi Ao Kyoto exterior with signed lantern and lattice door","credit":"personal:kansai-front-food-kyoto-kikunoi-sushi-ao","responsive":true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-kikunoi-sushi-ao-1280.webp",
+      "alt": "Kikunoi Sushi Ao Kyoto exterior with signed lantern and lattice door",
+      "credit": "personal:kansai-front-food-kyoto-kikunoi-sushi-ao",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-kinobu",
@@ -2679,7 +3367,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-kiyama",
@@ -2719,7 +3418,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-kodaiji-jugyuan",
@@ -2759,7 +3469,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-kodaiji-wakuden",
@@ -2799,7 +3520,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-koga",
@@ -2839,7 +3571,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-koke",
@@ -2879,7 +3622,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Traditional street facades in Gion, Kyoto",
+      "credit": "commons:92787336",
+      "contextLabel": "Kyoto area · illustrative photograph",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-konoha",
@@ -2919,7 +3673,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-koryu",
@@ -2959,7 +3724,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-kushingarando-d",
@@ -2999,7 +3775,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-la-baie",
@@ -3039,7 +3826,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-la-becasse",
@@ -3079,7 +3877,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-la-cime",
@@ -3119,7 +3928,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-le-pont-de-ciel",
@@ -3159,7 +3979,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-masuda",
@@ -3199,7 +4030,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-matsuzushi-tanigawa",
@@ -3239,7 +4081,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-milpa",
@@ -3279,7 +4132,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-miyamoto",
@@ -3319,7 +4183,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-n",
@@ -3359,7 +4234,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-naniwaryori-yu",
@@ -3399,7 +4285,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-nishino",
@@ -3439,7 +4336,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-nishishinsaibashi-yuno",
@@ -3479,7 +4387,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-nishitemma-ichigaya",
@@ -3519,7 +4438,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-numata",
@@ -3559,7 +4489,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-numata-sou",
@@ -3599,7 +4540,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-oimatsu-hisano",
@@ -3639,7 +4591,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori waterfront and storefronts in Osaka",
+      "credit": "commons:53626288",
+      "contextLabel": "Osaka area · illustrative photograph",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-ain-soph-journey-kyoto",
@@ -3692,7 +4655,12 @@
       "src": "/images/personal-use/ain-kyoto-front-1280.webp",
       "alt": "AIN SOPH. Journey Kyoto storefront and entrance",
       "credit": "personal:ain-kyoto-front",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
     }
   },
   {
@@ -3734,7 +4702,17 @@
     ],
     "checkedOn": "2026-10-24",
     "officialUrl": "https://www.tenryuji.com/en/shigetsu/",
-    "image": {"src": "/images/personal-use/kansai-front-food-kyoto-shigetsu-tenryu-ji-1280.webp", "alt": "Shigetsu at Tenryu-ji exterior entrance with its blue noren curtain", "credit": "personal:kansai-front-food-kyoto-shigetsu-tenryu-ji", "responsive": true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-shigetsu-tenryu-ji-1280.webp",
+      "alt": "Shigetsu at Tenryu-ji exterior entrance with its blue noren curtain",
+      "credit": "personal:kansai-front-food-kyoto-shigetsu-tenryu-ji",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-kyoto-vegan-ramen-uzu-kyoto",
@@ -3790,7 +4768,17 @@
     "checkedOn": "2026-10-24",
     "officialUrl": "https://vegan-uzu.com/pages/new-kyoto-page",
     "nearestStationId": "kyoto-kyoto-shiyakusho-mae-kyoto-city-hall",
-    "image": {"src": "/images/personal-use/kansai-front-food-kyoto-vegan-ramen-uzu-kyoto-1280.webp", "alt": "Vegan Ramen UZU Kyoto exterior with its signed black facade and entry corridor", "credit": "personal:kansai-front-food-kyoto-vegan-ramen-uzu-kyoto", "responsive": true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-kyoto-vegan-ramen-uzu-kyoto-1280.webp",
+      "alt": "Vegan Ramen UZU Kyoto exterior with its signed black facade and entry corridor",
+      "credit": "personal:kansai-front-food-kyoto-vegan-ramen-uzu-kyoto",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-green-earth",
@@ -3836,7 +4824,17 @@
     "checkedOn": "2026-10-24",
     "officialUrl": "https://www.osaka-vegetarian-ge.com/",
     "nearestStationId": "osaka-hommachi",
-    "image": {"src": "/images/personal-use/kansai-front-food-osaka-green-earth-1280.webp", "alt": "Green Earth Osaka exterior with its signed entrance and terrace", "credit": "personal:kansai-front-food-osaka-green-earth", "responsive": true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-osaka-green-earth-1280.webp",
+      "alt": "Green Earth Osaka exterior with its signed entrance and terrace",
+      "credit": "personal:kansai-front-food-osaka-green-earth",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-osaka-paprika-shokudo-vegan",
@@ -3875,6 +4873,16 @@
     ],
     "checkedOn": "2026-10-24",
     "nearestStationId": "osaka-yotsubashi",
-    "image": {"src": "/images/personal-use/kansai-front-food-osaka-paprika-shokudo-vegan-1280.webp", "alt": "Paprika Shokudo Vegan Osaka exterior with signed awning and patio", "credit": "personal:kansai-front-food-osaka-paprika-shokudo-vegan", "responsive": true}
+    "image": {
+      "src": "/images/personal-use/kansai-front-food-osaka-paprika-shokudo-vegan-1280.webp",
+      "alt": "Paprika Shokudo Vegan Osaka exterior with signed awning and patio",
+      "credit": "personal:kansai-front-food-osaka-paprika-shokudo-vegan",
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
+    }
   }
 ]

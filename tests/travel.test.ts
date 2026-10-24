@@ -2,6 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
   validMessages,
+  validInterview,
   validItinerary,
   fitsConfirmedDates,
   keepTransportUnverified,
@@ -74,7 +75,11 @@ const itinerary: Itinerary = {
 };
 const answer = {
   message: "Which crafts would you like to try?",
-  suggestions: ["Pottery"],
+  suggestions: [
+    "Try a pottery workshop",
+    "Visit ceramic galleries",
+    "Browse a local craft market",
+  ],
   profile,
   ready: false,
 };
@@ -122,6 +127,92 @@ test("structured replies reject missing facts, extra instructions and bad field 
     matchesSchema({ ...answer, profile: {} }, interviewSchema),
     false,
   );
+});
+test("every unfinished interview supplies distinct multiple-choice answers; ready summaries have none", () => {
+  assert.equal(validInterview(answer), true);
+  assert.equal(validInterview({ ...answer, suggestions: [] }), false);
+  assert.equal(
+    validInterview({ ...answer, suggestions: ["Pottery", "Markets"] }),
+    false,
+  );
+  assert.equal(
+    validInterview({
+      ...answer,
+      suggestions: ["Pottery", " pottery ", "Markets"],
+    }),
+    false,
+  );
+  assert.equal(
+    validInterview({ ...answer, suggestions: [" ", "Galleries", "Markets"] }),
+    false,
+  );
+  assert.equal(
+    validInterview({ ...answer, message: "Tell me about your trip." }),
+    false,
+  );
+  assert.equal(validInterview({ ...answer, ready: true }), false);
+  assert.equal(
+    validInterview({
+      ...answer,
+      ready: true,
+      message:
+        "A slow pottery-focused trip for two adults. Ready to create your itinerary.",
+      suggestions: [],
+    }),
+    true,
+  );
+});
+test("a text-only provider question is rejected instead of leaving the planner without choices", async () => {
+  process.env.GROQ_API_KEY = "unit-test-placeholder";
+  await assert.rejects(
+    completeTravel("interview", messages, { profile }, (async () =>
+      Response.json({
+        choices: [
+          {
+            finish_reason: "stop",
+            message: {
+              content: JSON.stringify({ ...answer, suggestions: [] }),
+            },
+          },
+        ],
+      })) as typeof fetch),
+    (e: unknown) => e instanceof TravelError && e.status === 502,
+  );
+});
+test("the AI is instructed to adapt choices, support skip and alternatives, and never require typing", async () => {
+  process.env.GROQ_API_KEY = "unit-test-placeholder";
+  const choiceMessages = [
+    ...messages,
+    { role: "assistant" as const, content: answer.message },
+    {
+      role: "user" as const,
+      content: "Show different choices for this question.",
+    },
+  ];
+  const result = await completeTravel(
+    "interview",
+    choiceMessages,
+    { profile },
+    (async (_url, init) => {
+      const body = JSON.parse(String(init?.body));
+      const instructions = body.messages[0].content;
+      assert.match(instructions, /3–6 distinct/);
+      assert.match(instructions, /MUST adapt to earlier answers/);
+      assert.match(instructions, /keep the current question\/topic/);
+      assert.match(instructions, /If they skip, leave the detail unknown/);
+      assert.match(instructions, /Never ask someone to type/);
+      assert.deepEqual(body.messages.at(-1), choiceMessages.at(-1));
+      return Response.json({
+        choices: [
+          {
+            finish_reason: "stop",
+            message: { content: JSON.stringify(answer) },
+          },
+        ],
+      });
+    }) as typeof fetch,
+  );
+  assert.deepEqual(result, answer);
 });
 test("itinerary rejects incomplete sequences, impossible dates and inverted estimate ranges", () => {
   assert.equal(validItinerary(itinerary), true);

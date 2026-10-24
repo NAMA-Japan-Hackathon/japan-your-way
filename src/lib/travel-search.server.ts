@@ -1,5 +1,6 @@
 import {
   validDate,
+  safeHotelImage,
   type Profile,
   type Itinerary,
   type SearchResult,
@@ -70,6 +71,12 @@ export function liteOffers(
             ? "Additional excluded taxes or fees are reported. Confirm the full payable total with the provider."
             : "Review supplier tax details and local charges before booking; no reservation was made.",
           url: fallback,
+          imageUrl:
+            safeHotelImage(hotel.main_photo) ??
+            safeHotelImage(hotel.thumbnail) ??
+            safeHotelImage(hotel.image) ??
+            safeHotelImage(hotel.images?.[0]?.url) ??
+            safeHotelImage(hotel.images?.[0]),
         },
       ];
     });
@@ -187,6 +194,10 @@ export function hotelOffers(
           ? "Includes the taxes and fees returned by the search; local charges may remain."
           : "Tax inclusion not confirmed by the search.",
         url: safeLink(p.link, fallback),
+        imageUrl:
+          safeHotelImage(p.images?.[0]?.original_image) ??
+          safeHotelImage(p.images?.[0]?.thumbnail) ??
+          safeHotelImage(p.thumbnail),
       },
     ];
   });

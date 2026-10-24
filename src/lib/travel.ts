@@ -68,6 +68,7 @@ export type SearchResult = {
     basis: string;
     taxes: string;
     url: string;
+    imageUrl?: string;
   }[];
 };
 export type TravelSession = {
@@ -80,6 +81,36 @@ export type TravelSession = {
   searches: SearchResult[];
   needsRevision: boolean;
 };
+/** Provider photographs are optional; reject credentials and local-network URLs. */
+export function safeHotelImage(value: unknown): string | undefined {
+  if (typeof value !== "string" || value.length > 2000) return undefined;
+  try {
+    const url = new URL(value);
+    const host = url.hostname.toLowerCase();
+    if (
+      url.protocol !== "https:" ||
+      url.username ||
+      url.password ||
+      (url.port && url.port !== "443") ||
+      !host.includes(".") ||
+      host.includes(":") ||
+      /^[\d.]+$/.test(host) ||
+      /(^|\.)(localhost|local|internal|test)$/.test(host)
+    )
+      return undefined;
+    for (const key of url.searchParams.keys()) {
+      if (
+        /(?:api.?key|^key$|^auth$|token|secret|password|authorization|signature|credential)/i.test(
+          key,
+        )
+      )
+        return undefined;
+    }
+    return url.toString();
+  } catch {
+    return undefined;
+  }
+}
 export function validSearches(value: unknown): value is SearchResult[] {
   const bounded = (v: unknown, max: number): v is string =>
     typeof v === "string" && v.length <= max;
@@ -116,13 +147,14 @@ export function validSearches(value: unknown): value is SearchResult[] {
             bounded(o.basis, 1000) &&
             bounded(o.taxes, 2000) &&
             bounded(o.url, 5000) &&
-            /^https:\/\//.test(o.url),
+            /^https:\/\//.test(o.url) &&
+            (o.imageUrl === undefined ||
+              safeHotelImage(o.imageUrl) !== undefined),
         ),
     )
   );
 }
-export const OPENING =
-  "When you picture a wonderful trip to Japan, what are you doing — and who’s there with you?";
+export const OPENING = "What would make your Japan trip feel special?";
 export const SESSION_KEY = "jyw-ai-session-v1";
 export const SAVED_AI_KEY = "jyw-ai-saved-v1";
 export const emptySession = (): TravelSession => ({
@@ -221,7 +253,7 @@ export const profileSchema = obj({
 });
 export const interviewSchema = obj({
   message: { ...str(3000), minLength: 1 },
-  suggestions: arr(str(160), 4),
+  suggestions: arr({ ...str(160), minLength: 2 }, 6),
   profile: profileSchema,
   ready: { type: "boolean" },
 });
@@ -295,6 +327,23 @@ export function matchesSchema(value: unknown, schema: Schema): boolean {
       value <= (schema.maximum ?? Infinity)
     );
   return schema.type === "boolean" && typeof value === "boolean";
+}
+// The planner must always provide a usable choice, rather than strand a guest
+// behind an empty text-only question. Chat intentionally keeps its own contract.
+export function validInterview(value: unknown): value is Interview {
+  if (!matchesSchema(value, interviewSchema)) return false;
+  const interview = value as Interview;
+  if (!interview.message.trim()) return false;
+  if (interview.ready) return interview.suggestions.length === 0;
+  const choices = interview.suggestions.map((choice) =>
+    choice.trim().toLocaleLowerCase("en-IN"),
+  );
+  return (
+    /[?？]/.test(interview.message) &&
+    choices.length >= 3 &&
+    choices.every((choice) => choice.length >= 2) &&
+    new Set(choices).size === choices.length
+  );
 }
 export function validMessages(value: unknown): value is Message[] {
   return (

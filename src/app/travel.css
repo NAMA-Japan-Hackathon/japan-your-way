@@ -25,6 +25,25 @@
 .ai-titlebar .text-button {
   white-space: nowrap;
 }
+.ai-starting-point {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0 0 28px;
+  padding: 19px 22px;
+  border: 1px solid #746749;
+  border-radius: 12px;
+  background: #22231f;
+}
+.ai-starting-point strong { color: var(--ink); font-size: 15px; font-weight: 600; }
+.ai-starting-point p { margin: 6px 0 0; color: #d5c39e; font-size: 14px; }
+.ai-starting-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 15px; }
+.ai-starting-point .button { flex: 0 0 auto; min-height: 44px; }
+.ai-starting-point .text-button { min-height: 44px; }
+@media (max-width: 700px) {
+  .ai-starting-point { align-items: flex-start; flex-direction: column; }
+}
 .ai-workspace {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 304px;
@@ -135,6 +154,155 @@
 }
 .ai-suggestions button:hover {
   border-color: var(--ink);
+}
+.ai-choice-flow {
+  padding: 28px;
+}
+.ai-active-question h2 {
+  margin: 0;
+  font: 500 23px/1.45 var(--font);
+  letter-spacing: -0.025em;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.ai-active-question > p {
+  margin: 14px 0 24px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+.ai-choice-form fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+}
+.ai-choice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+  min-height: 58px;
+  padding: 15px 18px;
+  background: #1c1e21;
+  border: 1px solid #51565c;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.5;
+}
+.ai-choice-form legend {
+  font-size: 14px;
+  color: var(--muted);
+}
+.ai-choice span {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+.ai-choice input {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  margin: 0;
+  accent-color: var(--gold);
+}
+.ai-choice.is-selected {
+  background: #292822;
+  border-color: var(--gold);
+}
+.ai-choice:focus-within {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+.ai-choice-form fieldset:disabled .ai-choice {
+  cursor: wait;
+  opacity: 0.65;
+}
+.ai-choice-continue {
+  margin-top: 20px;
+  min-width: 180px;
+}
+.ai-choice-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  margin-top: 20px;
+}
+.ai-choice-tools .text-button {
+  font-size: 13px;
+  min-height: 44px;
+}
+.ai-answer-history {
+  margin-bottom: 24px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.ai-answer-history summary {
+  cursor: pointer;
+  min-height: 32px;
+}
+.ai-answer-history .ai-transcript {
+  height: 260px;
+  padding: 20px 0;
+}
+.ai-date-choice {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+  padding: 20px;
+  background: #1c1e21;
+}
+.ai-date-choice > p {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.ai-date-choice label {
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+}
+.ai-date-choice input {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  background: #111315;
+  border: 1px solid #666;
+  padding: 8px;
+  color: var(--ink);
+  font-size: 16px;
+  color-scheme: dark;
+}
+.ai-date-choice .button {
+  grid-column: 1 / -1;
+}
+.ai-choice-status {
+  line-height: 1.6;
+  color: var(--muted);
+}
+@media (max-width: 480px) {
+  .ai-choice-flow {
+    padding: 22px 18px;
+  }
+  .ai-active-question h2 {
+    font-size: 20px;
+  }
+  .ai-choice {
+    padding: 14px;
+    font-size: 15px;
+  }
+  .ai-choice-continue {
+    width: 100%;
+  }
+  .ai-date-choice {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
 }
 .ai-composer {
   padding: 0 28px;
@@ -488,6 +656,39 @@
   text-decoration: underline;
   text-underline-offset: 3px;
   line-height: 1.5;
+}
+.ai-hotel-offer {
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr) auto;
+  align-items: start;
+}
+.ai-hotel-photo {
+  margin: 0;
+  min-width: 0;
+}
+.ai-hotel-photo img {
+  display: block;
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.ai-hotel-photo figcaption {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+}
+@media (max-width: 600px) {
+  .ai-hotel-offer {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .ai-hotel-photo img {
+    height: 170px;
+  }
+  .ai-hotel-offer > div:last-child {
+    text-align: left;
+  }
 }
 .ai-price-checks .ai-booking-links {
   display: flex;

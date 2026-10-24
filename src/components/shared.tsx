@@ -7,7 +7,6 @@ import {
   Check,
   ChevronRight,
   Menu,
-  Utensils,
   X,
   Bookmark,
   Plus,
@@ -83,13 +82,6 @@ export function Header({ compact = false }: { compact?: boolean }) {
               Japan, Your Way<span className="brand-dot">.</span>
             </span>
           </Link>
-          <Link
-            href="/reviews/"
-            className="button reviews-nav"
-            aria-current={current("/reviews/")}
-          >
-            <Utensils size={16} /> Reviews
-          </Link>
         </div>
         <nav
           ref={navRef}
@@ -99,6 +91,14 @@ export function Header({ compact = false }: { compact?: boolean }) {
           className={open ? "open" : ""}
         >
           <Link
+            href="/plan/"
+            aria-current={current("/plan/")}
+            className="plan-menu-link"
+            onClick={() => setOpen(false)}
+          >
+            Plan a trip
+          </Link>
+          <Link
             href="/explore/"
             aria-current={current("/explore/")}
             onClick={() => setOpen(false)}
@@ -106,11 +106,25 @@ export function Header({ compact = false }: { compact?: boolean }) {
             Explore Japan
           </Link>
           <Link
+            href="/trips/"
+            aria-current={current("/trips/")}
+            onClick={() => setOpen(false)}
+          >
+            Sample trips
+          </Link>
+          <Link
+            href="/reviews/"
+            aria-current={current("/reviews/")}
+            onClick={() => setOpen(false)}
+          >
+            Food & shopping
+          </Link>
+          <Link
             href="/metro/"
             aria-current={current("/metro/")}
             onClick={() => setOpen(false)}
           >
-            Metro map
+            Rail atlas
           </Link>
           <Link
             href="/how-it-works/"
@@ -167,8 +181,11 @@ export function Footer() {
       </Link>
       <p>A little wonder. A clearer plan.</p>
       <div>
+        <Link href="/plan/">Plan a trip</Link>
+        <Link href="/trips/">Sample trips</Link>
+        <Link href="/saved/">Saved plans</Link>
+        <Link href="/reviews/">Food & shopping</Link>
         <Link href="/help/">Help & privacy</Link>
-        <Link href="/reviews/">Reviews</Link>
         <Link href="/explore/">Explore Japan</Link>
         <Link href="/metro/">Rail atlas</Link>
         <Link href="/credits/">Image & data credits</Link>

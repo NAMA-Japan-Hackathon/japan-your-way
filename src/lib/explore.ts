@@ -6,6 +6,10 @@ export type ImageRef = {
   alt: string;
   credit: string;
   responsive?: boolean;
+  /** Shown when the photograph illustrates an area rather than this exact venue. */
+  contextLabel?: string;
+  /** Bundled, credited area photograph if an optional venue image is unavailable. */
+  fallback?: { src: string; alt: string; label: string };
 };
 export interface Restaurant {
   id: string;

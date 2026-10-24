@@ -1,11 +1,29 @@
 "use client";
 import { Kintsugi } from "./kintsugi";
 import Link from "next/link";
+import { useState } from "react";
 import { PhotoHero, WindowScene, ScrollScenes } from "./scroll-scenes";
 import { ArrowUpRight } from "./shared";
+import { PrefectureExplorer } from "./prefecture-explorer";
+import { PrefectureFinder } from "./prefecture-finder";
+import { EarthJourney } from "./earth-journey";
 import { Leaf, MapPin, TrainFront } from "lucide-react";
 
 import regions from "@/data/regions.json";
+import { regionPortraits } from "@/data/region-portraits";
+import {
+  activityFilters,
+  regionActivityIdeas,
+  type ActivityFilter,
+} from "@/data/japan-activities";
+
+const activityNames = Object.fromEntries(
+  activityFilters.map(({ id, label }) => [id, label]),
+);
+const prefectureCount = regions.reduce(
+  (total, region) => total + region.prefectures.length,
+  0,
+);
 
 const FAQs = [
   [
@@ -31,19 +49,142 @@ const FAQs = [
 ];
 
 export function Home() {
+  const [activeActivity, setActiveActivity] = useState<ActivityFilter>("all");
+  const visibleRegions = regions.map((region) => ({
+    region,
+    portrait: regionPortraits[region.id],
+    ideas: regionActivityIdeas[region.id].filter(
+      (idea) => activeActivity === "all" || idea.category === activeActivity,
+    ),
+  }));
+  const visibleIdeaCount = visibleRegions.reduce(
+    (total, { ideas }) => total + ideas.length,
+    0,
+  );
+
   return (
     <main id="main" className="marketing cinematic-home">
       <ScrollScenes />
       <PhotoHero />
+      <EarthJourney />
       <section className="cinema-section country-discovery" id="explore-japan">
         <Kintsugi right variant={2} position="low" />
         <div className="cinema-heading">
-          <h2 data-enter="line">A whole country awaits.</h2>
+          <h2 data-enter="line">Explore all of Japan, your way.</h2>
           <p data-enter="line">
-            Northern wilderness. Inland seas. Southern islands. Make room for
-            Japan beyond the familiar route.
+            {prefectureCount} prefectures, ten regions, and plenty to do beyond
+            the best-known cities. Choose an interest to find your starting
+            points.
           </p>
         </div>
+        <div className="activity-controls">
+          <div
+            role="group"
+            aria-label="Filter Japan activities"
+            className="activity-filters"
+          >
+            {activityFilters.map((filter) => (
+              <button
+                type="button"
+                key={filter.id}
+                aria-pressed={activeActivity === filter.id}
+                onClick={() => setActiveActivity(filter.id)}
+              >
+                {filter.label}
+              </button>
+            ))}
+          </div>
+          <p className="activity-count" aria-live="polite">
+            {visibleIdeaCount} {visibleIdeaCount === 1 ? "idea" : "ideas"}{" "}
+            across{" "}
+            {visibleRegions.filter(({ ideas }) => ideas.length > 0).length}{" "}
+            regions · all 47 prefectures available below
+          </p>
+        </div>
+        <PrefectureFinder interest={activeActivity} />
+        <div className="regional-journey">
+          <div className="journey-progress" aria-hidden="true">
+            <span className="journey-progress-fill" />
+          </div>
+          <div className="activity-grid">
+            {visibleRegions.map(({ region, portrait, ideas }) => (
+              <article
+                key={region.id}
+                id={`home-${region.id}`}
+                className="activity-card"
+                data-journey-card
+              >
+                <div className="activity-image">
+                  <img src={portrait.image} alt={portrait.alt} loading="lazy" />
+                  <span>{portrait.photoPlace}</span>
+                </div>
+                <div className="activity-copy">
+                  <div className="activity-card-meta">
+                    <span>
+                      {region.prefectures.length}{" "}
+                      {region.prefectures.length === 1
+                        ? "prefecture"
+                        : "prefectures"}
+                    </span>
+                    <span>
+                      {ideas.length}{" "}
+                      {ideas.length === 1 ? "activity" : "activities"}
+                    </span>
+                  </div>
+                  <h3>{region.name}</h3>
+                  <p className="activity-card-intro">{portrait.lead}</p>
+                  <PrefectureExplorer
+                    regionId={region.id}
+                    regionName={region.name}
+                    prefectures={region.prefectures}
+                    interest={activeActivity}
+                  />
+                  {ideas.length ? (
+                    <ul className="activity-ideas">
+                      {ideas.map((idea) => (
+                        <li key={idea.title}>
+                          <span className="activity-idea-main">
+                            <strong>{idea.title}</strong>
+                            <span>{idea.place}</span>
+                          </span>
+                          <span className="activity-idea-category">
+                            {activityNames[idea.category]}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="activity-empty">
+                      No curated {activityNames[activeActivity]?.toLowerCase()}{" "}
+                      idea here yet. Choose a prefecture above or try another
+                      interest.
+                    </p>
+                  )}
+                  <Link
+                    href={`/explore/#${region.id}`}
+                    className="activity-link-label"
+                  >
+                    Explore {region.name} <ArrowUpRight size={17} />
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+        <p className="activity-season-note">
+          Festivals, flowers, snow sports and mountain routes depend on the
+          season. Check current conditions before you go. For more ideas, browse
+          the{" "}
+          <a
+            href="https://www.japan.travel/en/things-to-do/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            full JNTO activity guide ↗
+          </a>
+          .
+        </p>
+        <div className="region-index-label">Open a regional guide</div>
         <div className="country-links" data-enter="row">
           {regions.map((r) => (
             <Link key={r.id} href={"/explore/#" + r.id}>
@@ -55,6 +196,9 @@ export function Home() {
         <div className="country-actions" data-enter="line">
           <Link href="/explore/" className="button">
             Explore all Japan <ArrowUpRight size={18} />
+          </Link>
+          <Link href="/trips/" className="text-link">
+            Browse sample trips <ArrowUpRight size={18} />
           </Link>
           <Link href="/metro/" className="text-link">
             Follow the rail atlas <ArrowUpRight size={18} />

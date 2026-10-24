@@ -26,7 +26,7 @@ const result = validateExplore(
 result.errors.forEach((s) => console.error("ERROR", s));
 if (result.warnings.length)
   console.warn(
-    `${result.warnings.length} optional personal-use variants absent; the UI uses typographic placeholders.`,
+    `${result.warnings.length} optional personal-use variants absent; the UI uses credited, labeled area photographs.`,
   );
 console.log(
   `${kanto.length + kansai.length} restaurants · ${shopping.length} shopping places · ${[tokyo, osaka, kyoto, sapporo, sendai, yokohama, nagoya, kobe, fukuoka, naha].reduce((s, n) => s + n.stations.length, 0)} stations · ${result.errors.length} errors`,

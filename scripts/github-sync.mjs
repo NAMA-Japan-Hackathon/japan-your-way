@@ -36,7 +36,7 @@ const patterns = [
   /https?:\/\/[^\s/]+:[^\s/@]+@/,
 ];
 function inspect(name, data) {
-  if (/(^|\/)(\.env(?:\..*)?|credentials|id_rsa|id_ed25519)$|\.(pem|key|p12|pfx)$/i.test(name)) {
+  if (!name.endsWith('.env.example') && /(^|\/)(\.env(?:\..*)?|credentials|id_rsa|id_ed25519)$|\.(pem|key|p12|pfx)$/i.test(name)) {
     throw new Error(`Private configuration needs review before publishing: ${name}`);
   }
   if (!data.subarray(0, 8192).includes(0) && patterns.some((p) => p.test(data.toString('utf8')))) {

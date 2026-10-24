@@ -33,7 +33,12 @@
       "src": "/images/personal-use/ginza-1280.webp",
       "alt": "Ginza",
       "credit": "personal:ginza",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -70,7 +75,12 @@
       "src": "/images/personal-use/shopping-front-shibuya-1280.webp",
       "alt": "Busy shopping street in Shibuya, Tokyo",
       "credit": "personal:shopping-front-shibuya",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -107,7 +117,12 @@
       "src": "/images/personal-use/shopping-front-harajuku-omotesando-1280.webp",
       "alt": "Mirrored entrance at Tokyu Plaza Omotesando Harajuku",
       "credit": "personal:shopping-front-harajuku-omotesando",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -144,7 +159,12 @@
       "src": "/images/personal-use/shopping-front-shinjuku-1280.webp",
       "alt": "Neon-lit shopping street in Shinjuku, Tokyo",
       "credit": "personal:shopping-front-shinjuku",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -181,7 +201,12 @@
       "src": "/images/personal-use/akihabara-1280.webp",
       "alt": "Akihabara",
       "credit": "personal:akihabara",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -217,7 +242,12 @@
     "image": {
       "src": "/images/tokyo.webp",
       "alt": "Nakamise-dori shopping streets",
-      "credit": "commons:81981236"
+      "credit": "commons:81981236",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -254,7 +284,12 @@
       "src": "/images/personal-use/shopping-front-ameyoko-1280.webp",
       "alt": "Shops beneath the rail tracks at Ameyoko, Tokyo",
       "credit": "personal:shopping-front-ameyoko",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -291,7 +326,12 @@
       "src": "/images/personal-use/shopping-front-nakano-broadway-1280.webp",
       "alt": "Nakano Broadway entrance in Tokyo",
       "credit": "personal:shopping-front-nakano-broadway",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -328,7 +368,12 @@
       "src": "/images/personal-use/shopping-front-kappabashi-1280.webp",
       "alt": "Kappabashi kitchenware district with Tokyo Skytree behind it",
       "credit": "personal:shopping-front-kappabashi",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -365,7 +410,12 @@
       "src": "/images/personal-use/shopping-front-tsukiji-outer-market-1280.webp",
       "alt": "Seafood stall at Tsukiji Outer Market in Tokyo",
       "credit": "personal:shopping-front-tsukiji-outer-market",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -402,7 +452,12 @@
       "src": "/images/personal-use/ginza-six-1280.webp",
       "alt": "GINZA SIX",
       "credit": "personal:ginza-six",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -439,7 +494,12 @@
       "src": "/images/personal-use/shibuya-scramble-square-1280.webp",
       "alt": "Shibuya Scramble Square",
       "credit": "personal:shibuya-scramble-square",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -476,7 +536,12 @@
       "src": "/images/personal-use/shopping-front-tokyo-solamachi-1280.webp",
       "alt": "Tokyo Solamachi shopping complex at the foot of Skytree",
       "credit": "personal:shopping-front-tokyo-solamachi",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -513,7 +578,12 @@
       "src": "/images/personal-use/shopping-front-shinsaibashi-suji-1280.webp",
       "alt": "Entrance to Shinsaibashi-suji shopping street in Osaka",
       "credit": "personal:shopping-front-shinsaibashi-suji",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
     }
   },
   {
@@ -549,7 +619,12 @@
     "image": {
       "src": "/images/osaka.webp",
       "alt": "Dotonbori shopping streets",
-      "credit": "commons:53626288"
+      "credit": "commons:53626288",
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
     }
   },
   {
@@ -586,7 +661,12 @@
       "src": "/images/personal-use/shopping-front-amerikamura-1280.webp",
       "alt": "Pedestrian street in Amerikamura, Osaka",
       "credit": "personal:shopping-front-amerikamura",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
     }
   },
   {
@@ -623,7 +703,12 @@
       "src": "/images/personal-use/shopping-front-den-den-town-1280.webp",
       "alt": "Electronics-store street in Den Den Town, Osaka",
       "credit": "personal:shopping-front-den-den-town",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
     }
   },
   {
@@ -660,7 +745,12 @@
       "src": "/images/personal-use/shopping-front-kuromon-market-1280.webp",
       "alt": "Covered arcade at Kuromon Market in Osaka",
       "credit": "personal:shopping-front-kuromon-market",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
     }
   },
   {
@@ -697,7 +787,12 @@
       "src": "/images/personal-use/shopping-front-grand-front-osaka-1280.webp",
       "alt": "Grand Front Osaka building beside Osaka Station",
       "credit": "personal:shopping-front-grand-front-osaka",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
     }
   },
   {
@@ -734,7 +829,12 @@
       "src": "/images/personal-use/shopping-front-namba-parks-1280.webp",
       "alt": "Bridge approach to Namba Parks in Osaka",
       "credit": "personal:shopping-front-namba-parks",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
     }
   },
   {
@@ -771,7 +871,12 @@
       "src": "/images/personal-use/shopping-front-abeno-harukas-1280.webp",
       "alt": "Abeno Harukas tower in Osaka",
       "credit": "personal:shopping-front-abeno-harukas",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/osaka.webp",
+        "alt": "Dotonbori waterfront and storefronts in Osaka",
+        "label": "Osaka area · illustrative photograph"
+      }
     }
   },
   {
@@ -808,7 +913,12 @@
       "src": "/images/personal-use/shopping-front-nishiki-market-1280.webp",
       "alt": "Covered food stalls at Nishiki Market in Kyoto",
       "credit": "personal:shopping-front-nishiki-market",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
     }
   },
   {
@@ -845,7 +955,12 @@
       "src": "/images/personal-use/shopping-front-teramachi-shinkyogoku-1280.webp",
       "alt": "Covered Teramachi and Shinkyogoku shopping arcade in Kyoto",
       "credit": "personal:shopping-front-teramachi-shinkyogoku",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
     }
   },
   {
@@ -882,7 +997,12 @@
       "src": "/images/personal-use/shopping-front-kawaramachi-1280.webp",
       "alt": "Kyoto Kawaramachi shopping building near Shijo",
       "credit": "personal:shopping-front-kawaramachi",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
     }
   },
   {
@@ -918,7 +1038,12 @@
     "image": {
       "src": "/images/gion.webp",
       "alt": "Gion shopping streets",
-      "credit": "commons:92787336"
+      "credit": "commons:92787336",
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
     }
   },
   {
@@ -955,7 +1080,12 @@
       "src": "/images/personal-use/shopping-front-kyoto-station-complex-1280.webp",
       "alt": "Interior architecture of Kyoto Station complex",
       "credit": "personal:shopping-front-kyoto-station-complex",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/gion.webp",
+        "alt": "Traditional street facades in Gion, Kyoto",
+        "label": "Kyoto area · illustrative photograph"
+      }
     }
   },
   {
@@ -990,7 +1120,12 @@
       "src": "/images/personal-use/shopping-front-canal-city-hakata-1280.webp",
       "alt": "Canal City Hakata complex beside the canal in Fukuoka",
       "credit": "personal:shopping-front-canal-city-hakata",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Japan area · illustrative photograph"
+      }
     }
   },
   {
@@ -1025,7 +1160,12 @@
       "src": "/images/personal-use/shopping-front-osu-shopping-streets-1280.webp",
       "alt": "Covered Osu shopping street in Nagoya",
       "credit": "personal:shopping-front-osu-shopping-streets",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Japan area · illustrative photograph"
+      }
     }
   },
   {
@@ -1060,7 +1200,12 @@
       "src": "/images/personal-use/shopping-front-omicho-market-1280.webp",
       "alt": "Fresh seafood stalls at Omicho Market in Kanazawa",
       "credit": "personal:shopping-front-omicho-market",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Japan area · illustrative photograph"
+      }
     }
   },
   {
@@ -1095,7 +1240,12 @@
       "src": "/images/personal-use/shopping-front-kokusai-dori-1280.webp",
       "alt": "Bright storefronts along Kokusai-dori in Naha",
       "credit": "personal:shopping-front-kokusai-dori",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Japan area · illustrative photograph"
+      }
     }
   },
   {
@@ -1130,7 +1280,12 @@
       "src": "/images/personal-use/shopping-front-minato-mirai-1280.webp",
       "alt": "Minato Mirai waterfront shopping district in Yokohama",
       "credit": "personal:shopping-front-minato-mirai",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Japan area · illustrative photograph"
+      }
     }
   },
   {
@@ -1165,7 +1320,12 @@
       "src": "/images/personal-use/shopping-front-tanukikoji-1280.webp",
       "alt": "Covered Tanukikoji shopping arcade in Sapporo",
       "credit": "personal:shopping-front-tanukikoji",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Japan area · illustrative photograph"
+      }
     }
   }
 ]

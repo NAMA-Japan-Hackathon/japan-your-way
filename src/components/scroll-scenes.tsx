@@ -4,6 +4,7 @@ import { Kintsugi } from "./kintsugi";
 import Link from "next/link";
 import { ArrowUpRight, ArrowRight } from "./shared";
 import { ArrowDown } from "lucide-react";
+import { HeroFilm } from "./hero-film";
 
 type StageAPI = {
   scene: (root: Element, options: unknown) => { revert: () => void };
@@ -32,7 +33,7 @@ export function ScrollScenes() {
             instances.push(
               stage.scene(hero, {
                 hold: 1,
-                phone: { hold: 0.45 },
+                phone: "rest",
                 scrub: true,
                 beats: 2,
                 build: (
@@ -104,6 +105,32 @@ export function ScrollScenes() {
             );
           return () => instances.forEach((instance) => instance?.revert());
         });
+        const railMedia = gsap.matchMedia();
+        railMedia.add(
+          "(min-width: 600px) and (prefers-reduced-motion: no-preference)",
+          () => {
+            const journey =
+              document.querySelector<HTMLElement>(".regional-journey");
+            const progress = journey?.querySelector<HTMLElement>(
+              ".journey-progress-fill",
+            );
+            if (!journey || !progress) return;
+            gsap.fromTo(
+              progress,
+              { scaleY: 0 },
+              {
+                scaleY: 1,
+                ease: "none",
+                scrollTrigger: {
+                  trigger: journey,
+                  start: "top 85%",
+                  end: "bottom 70%",
+                  scrub: 0.3,
+                },
+              },
+            );
+          },
+        );
         const mm = gsap.matchMedia();
         mm.add("(prefers-reduced-motion: no-preference)", () => {
           document.querySelectorAll(".kintsugi-seam").forEach((seam) => {
@@ -144,6 +171,48 @@ export function ScrollScenes() {
                 scrollTrigger: { trigger: el, start: "top 93%", once: true },
               });
             });
+          const journey =
+            document.querySelector<HTMLElement>(".regional-journey");
+          if (journey) {
+            journey
+              .querySelectorAll<HTMLElement>("[data-journey-card]")
+              .forEach((card, index) => {
+                if (
+                  card.getBoundingClientRect().top <
+                  window.innerHeight * 0.95
+                )
+                  return;
+                const image = card.querySelector<HTMLElement>(
+                  ".activity-image img",
+                );
+                const reveal = gsap.timeline({
+                  scrollTrigger: {
+                    trigger: card,
+                    start: "top 88%",
+                    once: true,
+                  },
+                  delay: window.innerWidth > 520 ? (index % 2) * 0.08 : 0,
+                });
+                reveal.from(card, {
+                  y: 32,
+                  opacity: 0.55,
+                  duration: 0.7,
+                  ease: "power3.out",
+                });
+                if (image)
+                  reveal.from(
+                    image,
+                    {
+                      scale: 1.07,
+                      duration: 1.1,
+                      ease: "power3.out",
+                      onComplete: () =>
+                        gsap.set(image, { clearProps: "transform" }),
+                    },
+                    0.04,
+                  );
+              });
+          }
           document
             .querySelectorAll<HTMLElement>(".cinematic-home [data-drift]")
             .forEach((el) => {
@@ -167,7 +236,18 @@ export function ScrollScenes() {
         stage.ready().then(() => {
           if (!disposed) ScrollTrigger.refresh();
         });
+        const journey =
+          document.querySelector<HTMLElement>(".regional-journey");
+        let refreshFrame = 0;
+        const observer = new ResizeObserver(() => {
+          cancelAnimationFrame(refreshFrame);
+          refreshFrame = requestAnimationFrame(() => ScrollTrigger.refresh());
+        });
+        if (journey) observer.observe(journey);
         cleanup = () => {
+          observer.disconnect();
+          cancelAnimationFrame(refreshFrame);
+          railMedia.revert();
           mm.revert();
           sceneMedia.revert();
         };
@@ -201,16 +281,7 @@ export function PhotoHero() {
       aria-label="Japan, your way"
     >
       <div className="scene-stage">
-        <img
-          className="hero-landscape"
-          src="/images/fuji-night-3840.webp"
-          srcSet="/images/fuji-night-960.webp 960w, /images/fuji-night-1920.webp 1920w, /images/fuji-night-3840.webp 3840w"
-          sizes="(max-aspect-ratio: 8/5) 165vh, 100vw"
-          width="3840"
-          height="2371"
-          alt="Mount Fuji and the illuminated Chureito Pagoda at night in Fujiyoshida"
-          fetchPriority="high"
-        />
+        <HeroFilm />
         <div className="hero-shade" />
         <Kintsugi right variant={2} position="low" />
         <div className="cinema-hero-copy">

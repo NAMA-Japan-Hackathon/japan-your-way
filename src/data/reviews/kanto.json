@@ -43,7 +43,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-akasaka-kikunoi-1280.webp",
       "alt": "Akasaka Kikunoi entrance with the restaurant's wooden sign and slatted door",
       "credit": "personal:tokyo-front-food-tokyo-akasaka-kikunoi",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -90,7 +95,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-asahina-gastronome-1280.webp",
       "alt": "Asahina Gastronome's signed street entrance in Nihonbashi",
       "credit": "personal:tokyo-front-food-tokyo-asahina-gastronome",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -137,7 +147,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-au-deco-1280.webp",
       "alt": "au deco's signed exterior in Ebisu",
       "credit": "personal:tokyo-front-food-tokyo-au-deco",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -184,7 +199,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-beige-1280.webp",
       "alt": "BEIGE Alain Ducasse Tokyo's signed entrance at the Chanel Ginza Building",
       "credit": "personal:tokyo-front-food-tokyo-beige",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -231,7 +251,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-crony-1280.webp",
       "alt": "Crony restaurant's glass-fronted entrance in Higashi-Azabu",
       "credit": "personal:tokyo-front-food-tokyo-crony",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -278,7 +303,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-daigo-1280.webp",
       "alt": "Daigo's temple-side garden gate and entrance in Atago",
       "credit": "personal:tokyo-front-food-tokyo-daigo",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -325,7 +355,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-den-1280.webp",
       "alt": "Den restaurant's timber gate and entrance in Jingumae",
       "credit": "personal:tokyo-front-food-tokyo-den",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -372,7 +407,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-dominique-bouchet-1280.webp",
       "alt": "Dominique Bouchet Tokyo's signed street entrance in Ginza",
       "credit": "personal:tokyo-front-food-tokyo-dominique-bouchet",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -414,7 +454,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-ensui",
@@ -455,7 +506,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Meguro"
+    "ward": "Meguro",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-esquisse",
@@ -501,7 +563,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-esquisse-1280.webp",
       "alt": "Royal Crystal Ginza entrance and directory identifying ESqUISSE",
       "credit": "personal:tokyo-front-food-tokyo-esquisse",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -548,7 +615,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-florilege-1280.webp",
       "alt": "Florilège's contemporary entrance in Azabudai",
       "credit": "personal:tokyo-front-food-tokyo-florilege",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -590,7 +662,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-ginza-koju",
@@ -636,7 +719,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-ginza-koju-1280.webp",
       "alt": "Ginza Koju street entrance with a white noren curtain",
       "credit": "personal:tokyo-front-food-tokyo-ginza-koju",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -678,7 +766,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-hakuun",
@@ -724,7 +823,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-hakuun-1280.webp",
       "alt": "Hakuun's illuminated street-front entrance",
       "credit": "personal:tokyo-front-food-tokyo-hakuun",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -766,7 +870,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-hommage",
@@ -812,7 +927,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-hommage-1280.webp",
       "alt": "Hommage's concrete facade and wooden entrance in Asakusa",
       "credit": "personal:tokyo-front-food-tokyo-hommage",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -854,7 +974,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Shibuya"
+    "ward": "Shibuya",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-joel-robuchon-tokyo",
@@ -900,7 +1031,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-joel-robuchon-tokyo-1280.webp",
       "alt": "Château Restaurant Joël Robuchon's exterior at Ebisu Garden Place",
       "credit": "personal:tokyo-front-food-tokyo-joel-robuchon-tokyo",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -942,7 +1078,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-kadowaki",
@@ -983,7 +1130,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-kagurazaka-ishikawa",
@@ -1029,7 +1187,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-kagurazaka-ishikawa-1280.webp",
       "alt": "Kagurazaka Ishikawa's stone path and exterior entrance",
       "credit": "personal:tokyo-front-food-tokyo-kagurazaka-ishikawa",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -1071,7 +1234,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-kioicho-fukudaya",
@@ -1117,7 +1291,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-kioicho-fukudaya-1280.webp",
       "alt": "Kioicho Fukudaya's signed traditional gate and entrance",
       "credit": "personal:tokyo-front-food-tokyo-kioicho-fukudaya",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -1164,7 +1343,12 @@
       "src": "/images/personal-use/tokyo-front-food-tokyo-kohaku-1280.webp",
       "alt": "Kohaku's bamboo-lined entrance in Kagurazaka",
       "credit": "personal:tokyo-front-food-tokyo-kohaku",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -1206,7 +1390,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-l-atelier-de-joel-robuchon",
@@ -1247,7 +1442,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-l-effervescence",
@@ -1288,7 +1494,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-l-osier",
@@ -1329,7 +1546,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-la-table-de-joel-robuchon",
@@ -1370,7 +1598,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Meguro"
+    "ward": "Meguro",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-makiyaki-ginza-onodera",
@@ -1411,7 +1650,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-maz",
@@ -1452,7 +1702,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chiyoda"
+    "ward": "Chiyoda",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-myojaku",
@@ -1493,7 +1754,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-nabeno-ism",
@@ -1534,7 +1806,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Taito"
+    "ward": "Taito",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-narisawa",
@@ -1575,7 +1858,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-nishiazabu-sushi-shin",
@@ -1616,7 +1910,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-nishiazabu-taku",
@@ -1657,7 +1962,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-prisma",
@@ -1698,7 +2014,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-quintessence",
@@ -1739,7 +2066,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Shinagawa"
+    "ward": "Shinagawa",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-ryugin",
@@ -1780,7 +2118,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-ryuzu",
@@ -1821,7 +2170,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-sazenka",
@@ -1862,7 +2222,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-seisoka",
@@ -1903,7 +2274,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-seizan",
@@ -1944,7 +2326,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-sezanne",
@@ -1985,7 +2378,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chiyoda"
+    "ward": "Chiyoda",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-shinbashi-sasada",
@@ -2026,7 +2430,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-sukiyabashi-jiro-roppongiten",
@@ -2067,7 +2482,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-sushi-kanesaka",
@@ -2108,7 +2534,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-tempura-ginya",
@@ -2149,7 +2586,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-tempura-kondo",
@@ -2190,7 +2638,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-tempura-motoyoshi",
@@ -2231,7 +2690,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Shibuya"
+    "ward": "Shibuya",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-waketokuyama",
@@ -2272,7 +2742,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Minato"
+    "ward": "Minato",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-zurriola",
@@ -2313,7 +2794,18 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-ain-soph-ginza",
@@ -2367,7 +2859,12 @@
       "src": "/images/personal-use/ain-shinjuku-front-1280.webp",
       "alt": "AIN SOPH. Ginza storefront and entrance",
       "credit": "personal:ain-shinjuku-front",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -2422,7 +2919,12 @@
       "src": "/images/personal-use/ain-ginza-front-1280.webp",
       "alt": "AIN SOPH. Journey Shinjuku storefront and entrance",
       "credit": "personal:ain-ginza-front",
-      "responsive": true
+      "responsive": true,
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
     }
   },
   {
@@ -2472,7 +2974,18 @@
     ],
     "checkedOn": "2026-10-24",
     "officialUrl": "https://en.ain-soph.jp/english",
-    "nearestStationId": "tokyo-ikebukuro"
+    "nearestStationId": "tokyo-ikebukuro",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   },
   {
     "id": "food-tokyo-ts-tantan-tokyo-station",
@@ -2517,6 +3030,17 @@
     ],
     "checkedOn": "2026-10-24",
     "officialUrl": "https://www.jr-cross.co.jp/en/cr/tantan.html",
-    "nearestStationId": "tokyo-tokyo"
+    "nearestStationId": "tokyo-tokyo",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Shops along Nakamise in Asakusa, Tokyo",
+      "credit": "commons:81981236",
+      "contextLabel": "Tokyo area · illustrative photograph",
+      "fallback": {
+        "src": "/images/tokyo.webp",
+        "alt": "Shops along Nakamise in Asakusa, Tokyo",
+        "label": "Tokyo area · illustrative photograph"
+      }
+    }
   }
 ]

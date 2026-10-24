@@ -41,6 +41,7 @@ import {
   type SearchResult,
 } from "@/lib/travel";
 import regions from "@/data/regions.json";
+import { activityFilters } from "@/data/japan-activities";
 
 function readSession(value: unknown): value is TravelSession {
   if (!value || typeof value !== "object") return false;
@@ -485,16 +486,261 @@ function Transcript({
     </div>
   );
 }
+const openingChoices = [
+  "Culture, temples and traditional neighborhoods",
+  "Mountains, nature and peaceful places",
+  "Food, shopping and lively cities",
+  "Anime, gaming and modern Japan",
+  "An easygoing trip with family-friendly experiences",
+  "A balanced first visit — help me discover what I like",
+];
+
+function AdaptiveQuestions() {
+  const t = useTravel();
+  const interview = t.session.interview;
+  const [selected, setSelected] = useState("");
+  const [showDates, setShowDates] = useState(false);
+  const [startDate, setStartDate] = useState("");
+  const [endDate, setEndDate] = useState("");
+  const question = interview?.message || OPENING;
+  const awaiting = t.session.messages.at(-1)?.role === "user";
+  const disabled = Boolean(t.busy) || !t.loaded || awaiting;
+  const choices = t.session.messages.length
+    ? interview?.suggestions || []
+    : openingChoices;
+  useEffect(() => {
+    setSelected("");
+    setShowDates(false);
+  }, [question, t.session.id]);
+  const maxEnd = startDate
+    ? new Date(Date.parse(startDate) + 59 * 86400000).toISOString().slice(0, 10)
+    : undefined;
+  const datesValid = Boolean(
+    startDate &&
+      endDate &&
+      endDate >= startDate &&
+      (!maxEnd || endDate <= maxEnd),
+  );
+  const answerCount = t.session.messages.filter(
+    (m) => m.role === "user",
+  ).length;
+  return (
+    <div className="ai-choice-flow">
+      {t.session.messages.length > 0 && (
+        <details className="ai-answer-history">
+          <summary>Review your answers · {answerCount}</summary>
+          <Transcript messages={t.session.messages} busy={false} />
+        </details>
+      )}
+      <div
+        className="ai-active-question"
+        aria-live="polite"
+        aria-busy={Boolean(t.busy)}
+      >
+        <h2>{awaiting ? "Shaping your next question…" : question}</h2>
+        {awaiting ? (
+          <p role="status">
+            Your choices are helping us understand your trip.{" "}
+            {t.error ? "Use Retry below to continue." : "One moment…"}
+          </p>
+        ) : interview?.ready ? (
+          <p>
+            Your travel brief is ready. Create your itinerary to get the full
+            day-by-day plan and a detailed PDF.
+          </p>
+        ) : (
+          <p>Choose one answer. The next question will follow your choice.</p>
+        )}
+      </div>
+      {awaiting && !t.busy && !t.error && (
+        <button
+          className="button"
+          onClick={() => void t.send("interview", "", true)}
+        >
+          Resume planning
+        </button>
+      )}
+      {!awaiting && !interview?.ready && (
+        <form
+          className="ai-choice-form"
+          onSubmit={(e) => {
+            e.preventDefault();
+            if (selected && !disabled) void t.send("interview", selected);
+          }}
+        >
+          <fieldset disabled={disabled}>
+            <legend className="sr-only">Answer choices</legend>
+            {choices.map((choice) => (
+              <label
+                className={`ai-choice ${selected === choice ? "is-selected" : ""}`}
+                key={choice}
+              >
+                <input
+                  type="radio"
+                  name="trip-answer"
+                  value={choice}
+                  checked={selected === choice}
+                  onChange={() => setSelected(choice)}
+                />
+                <span>{choice}</span>
+                {selected === choice && <Check size={18} aria-hidden="true" />}
+              </label>
+            ))}
+          </fieldset>
+          {choices.length ? (
+            <button
+              className="button ai-choice-continue"
+              type="submit"
+              disabled={disabled || !selected}
+            >
+              Continue <ArrowUpRight size={17} />
+            </button>
+          ) : (
+            <button
+              className="button"
+              type="button"
+              disabled={disabled}
+              onClick={() =>
+                void t.send(
+                  "interview",
+                  "Show different choices for this question.",
+                )
+              }
+            >
+              Show my answer choices
+            </button>
+          )}
+        </form>
+      )}
+      {!awaiting && t.session.messages.length > 0 && (
+        <div className="ai-choice-tools">
+          <button
+            className="text-button"
+            disabled={disabled}
+            onClick={() =>
+              void t.send(
+                "interview",
+                interview?.ready
+                  ? "I would like to refine my trip. Ask which part I want to change, with answer choices."
+                  : "Show different choices for this question.",
+              )
+            }
+          >
+            {interview?.ready
+              ? "Refine my preferences"
+              : "Show different choices"}
+          </button>
+          {!interview?.ready && (
+            <button
+              className="text-button"
+              disabled={disabled}
+              onClick={() =>
+                void t.send(
+                  "interview",
+                  "I’m not sure. Skip this question for now and keep this detail undecided.",
+                )
+              }
+            >
+              Not sure / skip
+            </button>
+          )}
+          <button
+            className="text-button"
+            disabled={disabled}
+            onClick={() => setShowDates(!showDates)}
+          >
+            {showDates ? "Close calendar" : "Choose exact travel dates"}
+          </button>
+        </div>
+      )}
+      {showDates && !awaiting && (
+        <form
+          className="ai-date-choice"
+          onSubmit={(e) => {
+            e.preventDefault();
+            if (datesValid && !disabled)
+              void t.send(
+                "interview",
+                `My departure from home is ${startDate} and my departure from Japan is ${endDate}. Keep these exact dates and continue with answer choices.`,
+              );
+          }}
+        >
+          <p>
+            Choose dates from the calendar, or close it to keep your timing
+            flexible.
+          </p>
+          <label>
+            Depart from home
+            <input
+              type="date"
+              value={startDate}
+              min={new Date().toLocaleDateString("en-CA")}
+              disabled={disabled}
+              onChange={(e) => {
+                setStartDate(e.target.value);
+                setEndDate("");
+              }}
+              required
+            />
+          </label>
+          <label>
+            Depart from Japan
+            <input
+              type="date"
+              value={endDate}
+              min={startDate || undefined}
+              max={maxEnd}
+              disabled={disabled || !startDate}
+              onChange={(e) => setEndDate(e.target.value)}
+              required
+            />
+          </label>
+          <button
+            className="button"
+            type="submit"
+            disabled={disabled || !datesValid}
+          >
+            Use these dates
+          </button>
+        </form>
+      )}
+      {t.busy === "generate" && (
+        <p className="ai-choice-status" role="status">
+          Creating every day of your trip, with stays, transport and budget
+          details…
+        </p>
+      )}
+      {t.busy === "prices" && (
+        <p className="ai-choice-status" role="status">
+          Your itinerary is ready. Checking connected flight and hotel sources…
+        </p>
+      )}
+    </div>
+  );
+}
+
 export function AIPlanner() {
   const t = useTravel();
   const [resetOpen, setResetOpen] = useState(false),
     [view, setView] = useState<"conversation" | "itinerary">("conversation");
+  const [startingPoint, setStartingPoint] = useState<{
+    prefecture: string;
+    region: string;
+    interest: string;
+  } | null>(null);
   const profile = t.session.interview?.profile;
   const draft = t.session.itinerary;
   const prevDraft = useRef(draft);
   useEffect(() => {
-    if (new URLSearchParams(location.search).get("view") === "itinerary")
+    const query = new URLSearchParams(location.search);
+    if (query.get("view") === "itinerary")
       setView("itinerary");
+    const region = regions.find((item) => item.id === query.get("region"));
+    const prefecture = query.get("prefecture");
+    const interest = activityFilters.find((item) => item.id === query.get("interest"));
+    if (region && prefecture && region.prefectures.includes(prefecture)) {
+      setStartingPoint({ prefecture, region: region.name, interest: interest?.id === "all" ? "" : interest?.label || "" });
+    }
   }, []);
   useEffect(() => {
     if (draft && draft !== prevDraft.current) setView("itinerary");
@@ -506,8 +752,10 @@ export function AIPlanner() {
       <main id="main" className="ai-page">
         <div className="ai-titlebar">
           <div>
-            <h1>Your Japan, in conversation.</h1>
-            <p>A thoughtful route starts with understanding you.</p>
+            <h1>Plan your Japan trip.</h1>
+            <p>
+              Choose what feels right. Every answer shapes what we ask next.
+            </p>
           </div>
           <button
             className="text-button"
@@ -517,6 +765,31 @@ export function AIPlanner() {
             <RotateCcw size={15} /> New trip
           </button>
         </div>
+        {startingPoint && <div className="ai-starting-point" role="region" aria-label="Your selected starting point">
+          <div>
+            <strong>Bring your discovery into this plan</strong>
+            <p>{startingPoint.prefecture} · {startingPoint.region}{startingPoint.interest ? ` · ${startingPoint.interest}` : ""}</p>
+          </div>
+          <div className="ai-starting-actions">
+            <button
+              type="button"
+              className="button"
+              disabled={!t.loaded || Boolean(t.busy)}
+              onClick={() => {
+                const message = `I would like to include ${startingPoint.prefecture} in ${startingPoint.region} in my Japan trip${startingPoint.interest ? `, with a focus on ${startingPoint.interest.toLowerCase()}` : ""}. Help me plan around this starting point and ask what else matters to me.`;
+                void t.send("interview", message);
+                setStartingPoint(null);
+                history.replaceState(null, "", "/plan/");
+              }}
+            >
+              Use this starting point <ArrowUpRight size={17} />
+            </button>
+            <button type="button" className="text-button" onClick={() => {
+              setStartingPoint(null);
+              history.replaceState(null, "", "/plan/");
+            }}>Skip this choice</button>
+          </div>
+        </div>}
         <noscript>
           <p className="notice">
             The AI planner needs JavaScript. Explore Japan and its rail atlas
@@ -539,7 +812,7 @@ export function AIPlanner() {
                 aria-pressed={view === "conversation"}
                 onClick={() => setView("conversation")}
               >
-                Conversation
+                Your preferences
               </button>
               <button
                 aria-pressed={view === "itinerary"}
@@ -551,40 +824,7 @@ export function AIPlanner() {
             </div>
             {view === "conversation" ? (
               <>
-                <Transcript
-                  messages={t.session.messages}
-                  busy={t.busy === "interview"}
-                />
-                {!t.session.messages.length && (
-                  <div className="ai-starting-note">
-                    <span>One question at a time.</span>
-                    <p>
-                      Your answers shape what we ask next. There’s no set number
-                      of questions, and no single route everyone has to follow.
-                    </p>
-                  </div>
-                )}
-                {t.session.interview?.suggestions.length ? (
-                  <div
-                    className="ai-suggestions"
-                    aria-label="Suggested replies"
-                  >
-                    {t.session.interview.suggestions.map((s) => (
-                      <button
-                        key={s}
-                        disabled={Boolean(t.busy)}
-                        onClick={() => void t.send("interview", s)}
-                      >
-                        {s}
-                      </button>
-                    ))}
-                  </div>
-                ) : null}
-                <Composer
-                  label="Your answer"
-                  disabled={Boolean(t.busy) || !t.loaded}
-                  onSend={(text) => t.send("interview", text)}
-                />
+                <AdaptiveQuestions />
                 <p className="ai-privacy">
                   Your conversation is saved in this browser and sent to Groq to
                   respond. Optional food and access details stay part of your
@@ -628,7 +868,7 @@ export function AIPlanner() {
               </>
             ) : (
               <>
-                <p>As we talk, your travel preferences will take shape here.</p>
+                <p>Your choices will build a personal travel brief here.</p>
                 <ul className="ai-context-prompts">
                   <li>The places that draw you in</li>
                   <li>The people you’re traveling with</li>
@@ -644,7 +884,7 @@ export function AIPlanner() {
             )}
             <button
               className="button"
-              disabled={Boolean(t.busy) || !t.session.interview}
+              disabled={Boolean(t.busy) || !t.session.interview?.ready}
               onClick={() => void t.send("generate")}
             >
               {t.busy === "generate"
@@ -658,8 +898,10 @@ export function AIPlanner() {
             </button>
             <p className="ai-small">
               {t.session.interview
-                ? "Draft whenever you’re ready. Undecided details will stay visible."
-                : "Start with an answer. The route comes after we understand what matters."}
+                ? t.session.interview.ready
+                  ? "Your detailed PDF will include every day, budget, stays and booking checks."
+                  : "Keep choosing so we can build a route around you. You can leave details undecided."
+                : "Choose your first answer. We’ll narrow down the details together."}
             </p>
             {t.connected === false && (
               <p className="ai-connection">
@@ -703,47 +945,21 @@ function ItineraryView() {
   const t = useTravel(),
     plan = t.session.itinerary!;
   const [notice, setNotice] = useState("");
-  function download() {
-    const text = [
-      plan.title,
-      plan.summary,
-      "AI-generated planning draft. All budget figures are estimates, not reservations.",
-      ...plan.days.flatMap((d) => [
-        `\nDay ${d.day}${d.date ? ` · ${d.date}` : ""} · ${d.place}`,
-        `Morning: ${d.morning}`,
-        `Afternoon: ${d.afternoon}`,
-        `Evening: ${d.evening}`,
-        `Travel: ${d.transport}`,
-        `Food: ${d.food}`,
-        `Overnight: ${d.stayCity}`,
-        d.notes,
-      ]),
-      "\nEstimated group budget (INR)",
-      ...plan.budget.map(
-        (b) => `${b.label}: ${inr(b.lowINR)}–${inr(b.highINR)}. ${b.basis}`,
-      ),
-      "\nStill to confirm",
-      ...plan.unresolved,
-      "\nPrice-search snapshots",
-      ...t.session.searches.flatMap((s) => [
-        s.title,
-        s.scope,
-        s.checkedAt,
-        s.note,
-        ...s.offers.map(
-          (o) =>
-            `${o.name}: ${inr(o.priceINR)}. ${o.basis}. ${o.taxes} ${o.url}`,
-        ),
-      ]),
-    ].join("\n");
-    const url = URL.createObjectURL(
-      new Blob([text], { type: "text/plain;charset=utf-8" }),
-    );
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "my-japan-itinerary.txt";
-    a.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  const [downloading, setDownloading] = useState(false);
+  async function download() {
+    if (downloading) return;
+    setDownloading(true);
+    try {
+      const { downloadTripPdf } = await import("@/lib/trip-pdf");
+      await downloadTripPdf(t.session);
+      setNotice("Your detailed trip PDF has been downloaded.");
+    } catch {
+      setNotice(
+        "The PDF couldn’t be downloaded. Please try again; your trip is still here.",
+      );
+    } finally {
+      setDownloading(false);
+    }
   }
   const estimatedLow = plan.budget.reduce((sum, b) => sum + b.lowINR, 0),
     estimatedHigh = plan.budget.reduce((sum, b) => sum + b.highINR, 0);
@@ -772,8 +988,17 @@ function ItineraryView() {
           >
             <Bookmark size={16} /> Save trip
           </button>
-          <button className="text-button" onClick={download}>
-            <Download size={16} /> Download itinerary
+          <button
+            className="button"
+            onClick={() => void download()}
+            disabled={downloading || t.busy === "prices"}
+          >
+            <Download size={16} />{" "}
+            {downloading
+              ? "Preparing PDF…"
+              : t.busy === "prices"
+                ? "Checking booking sources…"
+                : "Download detailed PDF"}
           </button>
           <Link href="/saved/">
             Saved trips <ArrowUpRight size={16} />
@@ -934,6 +1159,44 @@ function ItineraryView() {
     </div>
   );
 }
+function HotelOfferPhoto({
+  url,
+  name,
+  scope,
+}: {
+  url?: string;
+  name: string;
+  scope: string;
+}) {
+  const [failed, setFailed] = useState(false);
+  useEffect(() => setFailed(false), [url]);
+  const place = /kyoto|gion/i.test(scope)
+    ? "gion"
+    : /osaka/i.test(scope)
+      ? "osaka"
+      : "tokyo";
+  const contextual = !url || failed;
+  return (
+    <figure className="ai-hotel-photo">
+      <img
+        src={contextual ? `/images/${place}.webp` : url}
+        alt={
+          contextual
+            ? "Japan street scene, an illustrative destination photograph"
+            : `${name}, photograph from the hotel search source`
+        }
+        loading="lazy"
+        referrerPolicy="no-referrer"
+        onError={contextual ? undefined : () => setFailed(true)}
+      />
+      <figcaption>
+        {contextual
+          ? "Japan area · illustrative photo"
+          : "Hotel search source photo"}
+      </figcaption>
+    </figure>
+  );
+}
 function SearchCard({ search: s }: { search: SearchResult }) {
   const labels = {
     found: "Search results returned",
@@ -951,7 +1214,13 @@ function SearchCard({ search: s }: { search: SearchResult }) {
       <p>{s.note}</p>
       <small>Attempted {new Date(s.checkedAt).toLocaleString("en-IN")}</small>
       {s.offers.map((o, i) => (
-        <div className="ai-offer" key={i}>
+        <div
+          className={`ai-offer ${s.kind === "hotel" ? "ai-hotel-offer" : ""}`}
+          key={i}
+        >
+          {s.kind === "hotel" && (
+            <HotelOfferPhoto url={o.imageUrl} name={o.name} scope={s.scope} />
+          )}
           <div>
             <strong>{o.name}</strong>
             <p>{o.basis}</p>

@@ -5,6 +5,8 @@ import "./editorial.css";
 import "./apple.css";
 import "./explore.css";
 import "./travel.css";
+import "./hero-film.css";
+import "./earth-journey.css";
 import { TravelProvider } from "@/components/travel-assistant";
 export const metadata: Metadata = {
   title: "Japan, Your Way — A trip that fits you",

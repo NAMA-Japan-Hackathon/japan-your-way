@@ -41,7 +41,10 @@ const sources = Array.from(
   new Map(records.flatMap((r) => r.sources).map((s) => [s.url, s])).values(),
 );
 const restaurants = [...kanto, ...kansai];
-const photographedRestaurants = restaurants.filter((record) => record.image).length;
+const photographedRestaurants = restaurants.filter(
+  (record) => record.image && !("contextLabel" in record.image),
+).length;
+const areaPhotographs = restaurants.length - photographedRestaurants;
 const personalUseImages = credits.filter(
   (credit) => credit.license === "unverified - personal use",
 ).length;
@@ -63,11 +66,12 @@ export default function Page() {
         <section className="notice">
           <h2>Image permissions</h2>
           <p>
-            {openLicensedImages} photographs have verified open licenses. {personalUseImages}
-            {" "}additional images are recorded as “unverified - personal use”
-            and stored locally in the ignored personal-use folder. They are not
-            included in the public repository. A clone shows typographic
-            placeholders wherever those files are absent.
+            {openLicensedImages} photographs have verified open licenses.{" "}
+            {personalUseImages} additional images are recorded as “unverified -
+            personal use” and stored locally in the ignored personal-use folder.
+            They are not included in the public repository. When an optional
+            venue photograph is unavailable, a bundled, openly licensed area
+            photograph appears with an illustrative-area caption.
           </p>
           <p>
             Responsive images are converted to WebP at 640, 1280 and 1920 pixels
@@ -116,15 +120,16 @@ export default function Page() {
         <section className="source-list">
           <h2>Food, shopping & transit data</h2>
           <p>
-            References checked 24 October 2026. This catalogue contains {restaurants.length}
-            {" "}real restaurant records ({photographedRestaurants} with a verified
-            storefront image) and {shopping.length} shopping records (all pictured
-            locally). It does not contain
-            customer reviews or invented numeric ratings. Restaurant recognition
-            uses the cited 2026 factual lists; first-party menu policies are
-            recorded separately. JNTO’s vegetarian guide is historical (March
-            2017), used only as a visiting signal, never as current ingredient
-            or hours evidence.
+            References checked 24 October 2026. This catalogue contains{" "}
+            {restaurants.length} real restaurant records (
+            {photographedRestaurants} with a sourced venue image and{" "}
+            {areaPhotographs} with an explicitly labeled area photograph) and{" "}
+            {shopping.length} shopping records. Every record has an image and a
+            bundled area fallback. It does not contain customer reviews or
+            invented numeric ratings. Restaurant recognition uses the cited 2026
+            factual lists; first-party menu policies are recorded separately.
+            JNTO’s vegetarian guide is historical (March 2017), used only as a
+            visiting signal, never as current ingredient or hours evidence.
           </p>
           <p>
             The rail atlas includes 65 selected national hubs, 28 corridors and
