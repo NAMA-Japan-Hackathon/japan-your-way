@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Open http://127.0.0.1:3000. `npm run build` produces a Next.js server build. Run `npm start` to serve it. The AI endpoints require a Node/serverless runtime; a static `out/` deployment cannot run them. `npm test` runs the domain tests; `npm run typecheck` checks TypeScript.
+Open http://127.0.0.1:3000. `npm run build` produces a Cloudflare Worker using Vinext. Run `npm run preview:cloudflare` to preview that build. For a conventional Next.js server, use `npm run build:next` and `npm start`. The AI endpoints execute on the server; a static `out/` deployment cannot run them. `npm test` runs the domain tests; `npm run typecheck` checks TypeScript.
 
 ## Implemented
 
@@ -31,11 +31,11 @@ A direct sample is available at `/plan/?sample=1`. Saved plans use `/plan/?id=..
 
 ## Architecture and scope
 
-The app uses Next.js, React, TypeScript and GSAP. Server-only route handlers call Groq and optional price sources; no provider credentials are sent to the browser. Conversations and saved trips live in browser storage, with no conversation database or account system. The request contents and active trip context go to Groq. See [AI setup and limitations](docs/ai-planner.md).
+The app uses the Next.js App Router, React, TypeScript and GSAP, with Vinext packaging the hosted app for Cloudflare Workers. Production API keys are held in the private hosted runtime environment. Server-only route handlers call Groq and optional price sources; no provider credentials are sent to the browser. Conversations and saved trips live in browser storage, with no conversation database or account system. The request contents and active trip context go to Groq. See [AI setup and limitations](docs/ai-planner.md).
 
 The old pure fixture planner in `src/lib/planner.ts` remains for existing `/plan/?id=...` saved samples and `/plan/?sample=1` references. Its prices, operating windows and supplier arrangements remain illustrative. New `/plan/` sessions use the AI conversation. Sample itinerary sections have been removed from the homepage.
 
-AI budget allowances are estimates. SerpApi results are separate search snapshots, not independently verified MakeMyTrip/Agoda inventory or reservations. No payment, ticketing, hotel booking, automatic push or deployment is performed.
+AI budget allowances are estimates. SerpApi results are separate search snapshots, not independently verified MakeMyTrip/Agoda inventory or reservations. No payment, ticketing, hotel booking or automatic GitHub push is performed. Hosting deployments are explicit and separate from GitHub publication.
 
 ## Art direction
 

@@ -4,20 +4,23 @@
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1 --port 3000",
-    "build": "next build",
+    "build": "node scripts/run-framework.mjs build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test tests/*.test.ts",
     "format": "prettier --write src tests",
-    "validate:data": "node --import tsx scripts/validate-data.ts"
+    "validate:data": "node --import tsx scripts/validate-data.ts",
+    "build:next": "next build",
+    "dev:cloudflare": "node scripts/run-framework.mjs dev",
+    "preview:cloudflare": "node scripts/preview-cloudflare.mjs"
   },
   "dependencies": {
     "border-beam": "^1.4.1",
     "gsap": "^3.15.0",
     "lucide-react": "^0.468.0",
     "next": "^16.0.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
@@ -25,6 +28,18 @@
     "@types/react-dom": "^19.0.0",
     "prettier": "^3.6.2",
     "tsx": "^4.20.0",
-    "typescript": "^5.9.0"
+    "typescript": "^5.9.0",
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@cloudflare/workers-types": "4.20260515.1",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "react-server-dom-webpack": "19.3.1",
+    "vinext": "1.0.0-beta.5",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
   }
 }

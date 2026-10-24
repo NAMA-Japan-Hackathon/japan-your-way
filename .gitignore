@@ -22,3 +22,10 @@ out/
 
 # Owner-supplied permission does not make these openly licensed.
 public/images/personal-use/
+
+# Cloudflare build output and local runtime state
+dist/
+.vinext/
+.wrangler/
+.sites-runtime/
+.dev.vars*

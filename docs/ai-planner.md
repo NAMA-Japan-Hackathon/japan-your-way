@@ -20,7 +20,11 @@ Use Node 22+. Copy `.env.example` to `.env.local` and fill in:
 
 Restart the server after credentials change. Never prefix provider credentials with `NEXT_PUBLIC_`. `.env.local` is ignored by Git; `.env.example` contains placeholders only. Credentials go only to the corresponding official service. Responses and errors never echo credentials.
 
-Run `npm run dev` at `http://127.0.0.1:3000/`. Production uses `npm run build` then `npm start` on a compatible Node/serverless host. **The earlier static Sites deployment and `.openai/hosting.json` do not host these runtime API routes.** Do not deploy an old `out/` directory expecting AI to work. Runtime hosting and environment configuration must be set up separately before publishing this revision. No hosting access, deployment, or GitHub push is performed by these changes.
+Run `npm run dev` at `http://127.0.0.1:3000/`. The hosted build uses `npm run build` to package the existing app with Vinext for Cloudflare Workers. The tracked `.openai/hosting.json` preserves the existing Site identity and intentionally omits `static`; an old `out/` directory cannot serve the AI routes. `npm run build:next` followed by `npm start` remains available for a conventional Next.js server.
+
+Production provider credentials are configured through the Sites private runtime environment, injected into the Cloudflare Worker with Node compatibility. The browser calls only same-origin `/api/travel/` endpoints. The Worker reads `GROQ_API_KEY`, `SERPAPI_API_KEY` and `LITEAPI_KEY` at runtime and calls their official services. No endpoint returns key values. A separate random `TRAVEL_SESSION_SECRET` signs browser session cookies, and `APP_ORIGIN` restricts calls to the canonical HTTPS website. Runtime secrets are not stored in GitHub, deployment manifests or build artifacts. Changing a hosted value requires deploying a saved version for it to take effect.
+
+Use `npm run dev:cloudflare` for the Cloudflare development runtime or `npm run preview:cloudflare` after a Worker build. The original `npm run dev` stays available for Next.js development. Local `.env.local` credentials remain private and are not uploaded as source. GitHub pushes remain manual; hosting publication uses the separate Site source repository and preserves its existing audience.
 
 ## Server routes
 

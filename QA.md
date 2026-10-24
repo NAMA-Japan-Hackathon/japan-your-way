@@ -148,3 +148,14 @@ Known limits: restaurant coverage is three researched cities; most ingredients, 
 - Credential check: actual provider values were absent from 111 public build files and 111 publishable source files. `.env.local` remains ignored and private; only empty placeholders appear in `.env.example`.
 
 Scope: homepage sample itinerary presentations and the closing preference form are removed. New planning uses real Groq requests; the earlier fixture editor is retained only for old sample/saved links. AI estimates are not live quotes, Google Travel results are not independent MakeMyTrip/Agoda verification, and LiteAPI sandbox data is not live availability. Current adapter limits and privacy behavior are documented in docs/ai-planner.md. The existing static hosted website has not been redeployed; this revision needs runtime API hosting. No GitHub push or automation was performed.
+
+
+## Cloudflare runtime and private secrets — 24 October 2026
+
+- Production provider variables are configured in Sites; Groq, SerpApi, LiteAPI and the session signing key are marked secret. Secret values are absent from source and deployment manifests. The site retains its existing identity and audience.
+- The hosted build now uses Vinext and the Cloudflare Vite adapter with Node compatibility. Existing Next.js local development and a separate Node production build remain available. No UI redesign or provider contract changes are included.
+- 41 domain tests and TypeScript pass. The Cloudflare production build succeeds for all existing pages and both API routes.
+- Local Worker preview returns HTTP 200 for home, planner, reviews and metro. Connection status reports all three providers configured. A real Groq chat request through the Worker returns HTTP 200; a foreign-origin request returns HTTP 403.
+- Scanned 541 source/build files against actual local credential values: zero leaks. The local environment file, Cloudflare state and generated artifacts remain ignored. Provider keys are injected only at runtime.
+- LiteAPI remains a sandbox connection and is explicitly labeled as test data. Existing per-isolate rate limits are not distributed account-wide protection.
+- Site publication uses its private source repository; the public GitHub remote is not pushed automatically.
