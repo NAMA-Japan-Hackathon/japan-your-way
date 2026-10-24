@@ -460,3 +460,12 @@ The supplied Stitch UI replaces the geometric hero with a native 3,840-pixel pho
 ## Owner revision: nationwide discovery and storefront photography
 
 24 October 2026. Explore Japan now covers all 47 prefectures through official regional guides. The rail atlas opens on Japan, with ten detailed city systems and shared interchange nodes. Trace a line reduces visual competition in dense networks. Existing dark tokens and map patterns are preserved. Food photography shows the named restaurant’s front exterior; unavailable photos use typography. Reviews remains beside the wordmark at every width. [Coverage and implementation](docs/explore-and-rail.md).
+
+
+## Adaptive conversation workspace — 24 October 2026
+
+Retain the established dark Japan palette, system reading font, Cormorant headings and subtle Kintsugi marketing motion. Remove both sample itinerary presentations from the homepage and replace its preference form with a conversational planning link. Hero discovery links lead to the Japan-wide directory.
+
+The new planner has an aligned conversation surface and a quieter traveler-profile column. Messages remain readable and scroll naturally within the transcript. Each question accepts free text; relevant reply suggestions are optional. Readiness is expressed in words rather than a fabricated percentage. The generated itinerary has daily sections, group estimate ranges, separate source-returned price checks, and unresolved details. Editing preferences marks an old draft as needing revision. On phones the profile follows the conversation, keeping the answer field available early.
+
+The always-available travel launcher opens an opaque, bottom-right chat panel on desktop and an inset sheet on phones. Native dialog semantics provide focus containment and Escape dismissal. Source errors and missing credentials appear as readable local states; no canned text masquerades as a provider response. Keys stay server-side. Sandbox rate cards say test data beside the amounts. [Runtime and privacy notes](docs/ai-planner.md).

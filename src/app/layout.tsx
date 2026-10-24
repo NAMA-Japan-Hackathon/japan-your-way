@@ -4,10 +4,12 @@ import "./stage.css";
 import "./editorial.css";
 import "./apple.css";
 import "./explore.css";
+import "./travel.css";
+import { TravelProvider } from "@/components/travel-assistant";
 export const metadata: Metadata = {
   title: "Japan, Your Way — A trip that fits you",
   description:
-    "Plan a Japan trip around your dates, food needs, pace, and budget. Explore sample routes and see what needs checking.",
+    "Plan a Japan trip through a conversation around your interests, dates, food needs, pace and budget. Explore all Japan, your way.",
 };
 export const viewport: Viewport = {
   width: "device-width",
@@ -24,7 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-theme="dark" data-scroll-behavior="smooth">
-      <body>{children}</body>
+      <body>
+        <TravelProvider>{children}</TravelProvider>
+      </body>
     </html>
   );
 }

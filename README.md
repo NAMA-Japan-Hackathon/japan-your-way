@@ -1,6 +1,6 @@
 # Japan, Your Way
 
-A working concept website and browser-local trip planner for the Tokyo–Kyoto–Osaka pilot.
+A Japan-wide travel website with a Groq-powered adaptive planner, a context-aware travel assistant, and optional sourced flight/hotel searches.
 
 ## Run locally
 
@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Open http://127.0.0.1:3000. `npm run build` produces a static Next.js export in `out/`. `npm test` runs the domain tests; `npm run typecheck` checks TypeScript.
+Open http://127.0.0.1:3000. `npm run build` produces a Next.js server build. Run `npm start` to serve it. The AI endpoints require a Node/serverless runtime; a static `out/` deployment cannot run them. `npm test` runs the domain tests; `npm run typecheck` checks TypeScript.
 
 ## Implemented
 
@@ -19,7 +19,9 @@ Open http://127.0.0.1:3000. `npm run build` produces a static Next.js export in 
 - A second scroll scene expanding a Kyoto garden photograph.
 - Reduced-motion and no-script reading layouts; locally served GSAP and font assets.
 - Three sample trip routes, month/interest/pace filters, and route details.
-- A five-part requirements flow with group, diet, ingredient, access, pace, and budget inputs.
+- An adaptive Groq interview with a visible traveler profile, daily trip generation, local saved copies and text downloads.
+- A persistent Japan travel chat using active AI trip context.
+- Optional SerpApi Google Flights/Hotels search snapshots in INR for the Indian market; missing credentials/details are explicit.
 - Deterministic daily scheduling, operating-window/overlap/pace checks, group pricing, and explicit unpriced costs.
 - Replacing, moving, adding, removing, and locking items; time edits and undo.
 - Local save/reopen/rename/duplicate/delete, a shareable text snapshot, and a simulated provider inquiry.
@@ -29,13 +31,11 @@ A direct sample is available at `/plan/?sample=1`. Saved plans use `/plan/?id=..
 
 ## Architecture and scope
 
-The implementation uses Next.js static export, React, TypeScript, GSAP, and a pure domain module in `src/lib/planner.ts`. It follows the PRD's permitted seed-data adapter, with browser-local storage. There is no database connection, server API, account system, live inventory, payment processing, real confirmation submission, or behavioral analytics in this version.
+The app uses Next.js, React, TypeScript and GSAP. Server-only route handlers call Groq and optional price sources; no provider credentials are sent to the browser. Conversations and saved trips live in browser storage, with no conversation database or account system. The request contents and active trip context go to Groq. See [AI setup and limitations](docs/ai-planner.md).
 
-All rates, opening windows, meal arrangements, journey durations, and accessibility assumptions are invented demo fixtures. The photographs show real destinations. A “Fits” result means the sample constraints agree, not that a supplier or booking is confirmed. Incomplete estimates show a known subtotal; they cannot establish budget fit.
+The old pure fixture planner in `src/lib/planner.ts` remains for existing `/plan/?id=...` saved samples and `/plan/?sample=1` references. Its prices, operating windows and supplier arrangements remain illustrative. New `/plan/` sessions use the AI conversation. Sample itinerary sections have been removed from the homepage.
 
-Meal evidence is deliberately incomplete. A must-have dietary requirement leaves lunch slots open. Soft requirements can show a candidate with explicit pending checks. This is a demonstration of uncertainty handling, not a source of food safety advice.
-
-For strict budgets, known overruns are surfaced as conflicts; the demo does not optimize the route to solve a hard budget. Replacement and move edits preserve the schedule as a draft and expose resulting overlaps and operating-window conflicts. Transport is an illustrative allowance rather than a geographic routing service. The 4–11 age band is the only supported child-price fixture.
+AI budget allowances are estimates. SerpApi results are separate search snapshots, not independently verified MakeMyTrip/Agoda inventory or reservations. No payment, ticketing, hotel booking, automatic push or deployment is performed.
 
 ## Art direction
 
@@ -56,7 +56,7 @@ See [PRD.md](PRD.md) and [design.md](design.md) for product intent. See `QA.md` 
 
 ## Latest UI revision
 
-The homepage now follows the supplied cinematic Stitch reference: Cormorant display type, native 3,840-pixel night photography, a working four-day sample, all-section motion, and subtle scroll-drawn Kintsugi seams. See [UI_REVIEW.md](UI_REVIEW.md) for verification, image sources, motion behavior, and remaining demo limits.
+The homepage now follows the supplied cinematic Stitch reference: Cormorant display type, native 3,840-pixel night photography, an adaptive planning entry point, all-section motion, and subtle scroll-drawn Kintsugi seams. See [UI_REVIEW.md](UI_REVIEW.md) for verification, image sources, motion behavior, and remaining demo limits.
 
 ## GitHub synchronization
 
@@ -69,3 +69,7 @@ Automatic synchronization is disabled. Push only when explicitly requested; see 
 New routes: `/reviews/`, `/metro/` and `/explore/`. Discovery covers all 47 prefectures; rail coverage includes 65 national hubs, 28 selected corridors and 639 stations across ten city systems. Restaurant research currently covers Tokyo, Kyoto and Osaka. The original itineraries remain samples.
 
 See [feature architecture, coverage and limits](docs/explore-and-rail.md), [photo inventory and credits](docs/image-fallbacks.md), and [QA](QA.md). Run `npm run validate:data` to check records and optional image availability. Personal-use photographs stay ignored; the public clone builds with placeholders.
+
+## AI connection
+
+Copy `.env.example` to `.env.local`, add `GROQ_API_KEY`, and optionally `SERPAPI_API_KEY`. Restart the server after editing credentials. Never use `NEXT_PUBLIC_` for a secret. Keep `.env.local` ignored. See [setup, provider choices and hosting requirements](docs/ai-planner.md).

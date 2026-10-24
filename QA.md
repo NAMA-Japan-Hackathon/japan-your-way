@@ -129,8 +129,22 @@ Caps applied: placeholders limit content; dense full-network views need zoom or 
 Top three problems (most visible first), each with the screenshot it shows in and the fix:
 1. Food results still contain many typographic media placeholders: the next improvement is individually verified restaurant storefront photography, not invented substitutes. Complete missing-photo inventory is in docs/image-fallbacks.md.
 2. Full Tokyo network fit is intentionally dense: tracing, zoom, global search and complete line lists provide readable routes; a manually composed operator-grade map remains a future craft improvement.
-3. Restaurant results still contain 130 typographic media placeholders. All 32 shopping cards now have location-specific images, checked at desktop and phone widths; the next image pass should continue restaurant storefront coverage.
+3. Restaurant results still contain 103 typographic media placeholders. Fifty restaurant cards now have verified named storefront images and all 32 shopping cards have location-specific images; the shopping cards were checked at desktop and phone widths.
 
 Retained inspector warnings: ivory is the established owner palette; large photographic page titles follow the cinematic brief; below-fold results retain that introduction while reducing its height; placeholder media keeps a consistent crop. Metro’s unused-canvas warning reflects intentionally short collapsed station-list summaries, whose full-width text expands on demand. Region borders are the existing ledger style. These are documented choices, not zero-warning claims.
 
 Known limits: restaurant coverage is three researched cities; most ingredients, prices and hours remain Needs check; no numeric customer ratings were fabricated; national corridors omit intermediate stops and many local operators; no live service/timetable/fare data; the three original planner routes remain illustrative. Personal-use photos are local only. No booking, deployment or scheduled push was added.
+
+
+## Adaptive AI planner — 24 October 2026
+
+- `npm test`: 41 passing tests. Added meaningful coverage for request role/body bounds, strict replies, truncated provider output, confirmed-date coverage, unknown hotel dates, unverified transit directions, missing keys, source occupancy/currency, sandbox handling, unsafe quote links and same-origin signed sessions.
+- `npm run typecheck`, `npm run validate:data` and production `npm run build`: pass. Production includes dynamic `/api/travel/` and `/api/travel/availability/` handlers; remaining pages prerender.
+- Live synthetic interview: preferences about pottery, gardens, pace, dates, companions, diet and budget were retained; a relevant followup asked about Mashiko versus remaining near Tokyo. A later summary preserved the agreed Tokyo-only scope.
+- Live synthetic trip: generated four dated days, estimates and unresolved checks. An incomplete response was rejected while preserving the previous draft. After refining unknown-date handling and explicit calendar coverage, generation and source checks completed successfully.
+- Live source checks: SerpApi returned INR flight and hotel search snapshots for the synthetic India–Japan route; LiteAPI authenticated and returned explicitly marked sandbox rates. No booking/prebook/payment endpoint was called. Provider quotas were used only for a small number of validation searches.
+- Browser interactions: saved/reopened the generated AI itinerary, preserved an earlier saved fixture plan, and verified that chat recalled the traveler's diet/budget after navigation. Native dialog Escape returned focus to the launcher. Desktop generated-trip view has no horizontal overflow.
+- Taste Skill app inspection: 1440/768/390 widths, 0 FAIL / 1 retained brand-palette WARN. Final fold and page screenshots were opened and reviewed; see UI_REVIEW.md. This does not claim real-device mobile testing.
+- Credential check: actual provider values were absent from 111 public build files and 111 publishable source files. `.env.local` remains ignored and private; only empty placeholders appear in `.env.example`.
+
+Scope: homepage sample itinerary presentations and the closing preference form are removed. New planning uses real Groq requests; the earlier fixture editor is retained only for old sample/saved links. AI estimates are not live quotes, Google Travel results are not independent MakeMyTrip/Agoda verification, and LiteAPI sandbox data is not live availability. Current adapter limits and privacy behavior are documented in docs/ai-planner.md. The existing static hosted website has not been redeployed; this revision needs runtime API hosting. No GitHub push or automation was performed.

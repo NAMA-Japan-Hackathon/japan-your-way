@@ -1,161 +1,87 @@
 import Link from "next/link";
-import { Header, Footer, ArrowUpRight, Status } from "./shared";
+import { Header, Footer, ArrowUpRight } from "./shared";
 export function Information({ help = false }: { help?: boolean }) {
+  const sections = help
+    ? [
+        [
+          "Planning across Japan",
+          "Explore all 47 prefectures and selected national rail corridors. The AI planner chooses a coherent route around your interests, timing, pace and budget. Restaurant research currently covers Tokyo, Kyoto and Osaka; it does not represent every restaurant in Japan.",
+        ],
+        [
+          "Your information",
+          "Your active conversation, optional food and access preferences, itinerary and saved copies are stored in this browser. Messages and active trip context are also sent through our server to Groq so the assistant can respond. Only share information you are comfortable sending to that service. Do not include passports, payment details, API keys or private documents. No account is required; this website does not maintain a conversation database.",
+        ],
+        [
+          "Price searches",
+          "When connected, price searches send dates, route and occupancy to SerpApi, which returns Google Flights and Hotels search results for the Indian market in INR. If connected, direct hotel searches also send occupancy, dates, destination and a voluntarily supplied guest nationality to LiteAPI. LiteAPI sandbox responses are explicitly test data and cannot establish live availability. The complete chat is not sent for price searches. Results show their search scope and attempt time. They are snapshots, not reservations. MakeMyTrip and Agoda links do not mean those providers have been independently checked.",
+        ],
+        [
+          "Estimates and missing information",
+          "AI planning allowances are rough estimates, shown separately from source-returned prices. Exact dates, airports, travelers and room arrangements are needed to check prices. Missing details, unavailable sources and failed searches stay visible. The connected search currently supports return flights to the same Japan airport and one-room hotel searches for up to four overnight bases per check. Other arrangements require a provider check.",
+        ],
+        [
+          "Food and access",
+          "Tell the planner what matters, or skip a question you prefer not to answer. Confirm ingredients, dashi, preparation, cross-contact and accessibility directly with the venue. AI suggestions and dietary labels cannot establish food safety or medical suitability.",
+        ],
+        [
+          "Saving, downloading and deleting",
+          "Save a separate itinerary from the trip view and reopen it from Saved plans on this device. Download a text copy to keep or share. The download includes your itinerary and any food/access notes it contains; review it before sharing. New trip clears the active conversation and draft; Clear chat removes the separate assistant conversation. Delete saved copies individually, or clear this website’s browser data to remove all local information. Clearing local data does not erase information already processed by an external provider. Browser storage is not an encrypted vault.",
+        ],
+        [
+          "Before booking",
+          "Review official destination and transport sources, current entry requirements, supplier terms, total prices, cancellation conditions and availability before paying. Complete bookings with your chosen provider. This site does not take payment, issue tickets, reserve rooms or act as an official Japan tourism bureau. Earlier saved sample plans remain available with their original illustrative estimates.",
+        ],
+      ]
+    : [
+        [
+          "Start with the trip you imagine",
+          "Tell us what draws you to Japan and who is coming with you. Your answers shape the next question. There is no fixed five-question form or required question count.",
+        ],
+        [
+          "Follow what matters",
+          "The planner builds a visible summary of your interests, dates, companions, budget, pace, lodging and everyday needs. It asks followups where they help, accepts uncertainty and lets you skip questions. Correct an earlier detail at any time.",
+        ],
+        [
+          "Create your itinerary",
+          "When you are ready, ask for a draft with daily experiences, journeys, meals, overnight bases, estimated group allowances and unresolved questions. Keep talking to refine it, then create a revised itinerary. Changing your preferences marks the old draft as needing revision.",
+        ],
+        [
+          "Check prices separately",
+          "A connected price source searches flights and hotels using exact dates and occupancy. Source-returned prices remain separate from AI estimates and show what was searched and when. Missing booking connections are labeled; the assistant cannot create live availability from memory.",
+        ],
+        [
+          "Keep a little guidance nearby",
+          "The Japan travel assistant is available at the bottom right of every page. It uses your active AI trip preferences and itinerary to answer Japan travel questions. It can suggest changes; use the planner to apply them to a revised trip.",
+        ],
+        [
+          "Save it your way",
+          "Save your itinerary in this browser, or download a readable copy. Confirm practical details and book directly with the relevant hotel or airline. Nothing is reserved by generating a plan.",
+        ],
+      ];
   return (
     <>
       <Header />
       <main id="main" className="page information-page">
         <div className="page-intro">
           <h1>
-            {help ? "A clearer starting point." : "From possibility to a plan."}
+            {help ? "A clearer starting point." : "A conversation. Your Japan."}
           </h1>
           <p>
             {help
-              ? "What the demo does, where your information goes, and what still needs a real-world check."
-              : "Dates, meals, journeys, and costs. One decision you can understand."}
+              ? "What the planner does, where your information goes, and what needs a real-world check."
+              : "Start with what you imagine. Refine the details together."}
           </p>
         </div>
-        {help ? (
-          <div className="information-content">
-            <section>
-              <h2>Exploring and planning</h2>
-              <p>
-                This concept is built for first-time Indian couples and families
-                considering Tokyo, Kyoto, and Osaka. The demo supports trips of
-                5–10 days, with 1–6 travelers and child allowances for ages
-                4–11.
-              </p>
-              <p>
-                You can browse, generate a route, edit days, review costs, and
-                save locally without an account or payment.
-              </p>
+        <div className="information-content">
+          {sections.map(([title, body]) => (
+            <section key={title}>
+              <h2>{title}</h2>
+              <p>{body}</p>
             </section>
-            <section>
-              <h2>Sample data, visible limits</h2>
-              <p>
-                All prices, operating windows, transport allowances, and
-                supplier arrangements are illustrative demo records. They have
-                not been checked against current availability. There are no live
-                partner integrations.
-              </p>
-              <p>
-                Estimates exclude international flights, visas, insurance,
-                shopping, and unlisted fees. Unpriced items are identified
-                rather than counted as zero.
-              </p>
-            </section>
-            <section>
-              <h2>Food and access</h2>
-              <p>
-                Specify your actual requirements. The planner excludes known
-                hard conflicts, and keeps missing evidence visible. A dietary
-                label does not confirm ingredients, preparation, or
-                cross-contact. This product cannot establish food safety or
-                medical suitability.
-              </p>
-            </section>
-            <section>
-              <h2>Your information</h2>
-              <p>
-                Requirements and saved plans stay in your browser’s local
-                storage. This demo does not send them to a partner, require
-                contact details, or record behavioral analytics. A plan in local
-                storage is not an encrypted vault; anyone using this browser
-                profile may be able to open it.
-              </p>
-              <p>
-                Delete individual plans from Saved plans or clear this website’s
-                browser data. Sharing includes a readable plan summary; food and
-                access details are excluded unless you choose to include them.
-                Photos and fonts are served from the website itself.
-              </p>
-            </section>
-            <section>
-              <h2>Saving and sharing</h2>
-              <p>
-                Saved plans work on the device where you created them. Copy or
-                share a summary for your companion. Sending a local plan URL to
-                another device will not transfer the plan.
-              </p>
-            </section>
-            <section>
-              <h2>Before booking</h2>
-              <p>
-                A demo request prepares a preview only. Nothing is sent. A real
-                provider must confirm availability, prices, food arrangements,
-                access, and terms before you book or pay.
-              </p>
-            </section>
-          </div>
-        ) : (
-          <div className="information-content">
-            <section>
-              <h2>Start with your needs</h2>
-              <p>
-                Choose dates, group size, interests, pace, food requirements,
-                access needs, and a group spending limit. Mark the details that
-                are must-haves.
-              </p>
-            </section>
-            <section>
-              <h2>Build a connected day</h2>
-              <p>
-                Rules filter incompatible experiences, rank the remaining
-                choices, and schedule activities with journeys, meals, and
-                breaks. The result is editable, with reasons alongside the
-                choices.
-              </p>
-            </section>
-            <section>
-              <h2>Understand every status</h2>
-              <div className="status-explanations">
-                <div>
-                  <Status state="Fits" />
-                  <p>
-                    Matches your stated requirement under the available
-                    evidence. It is not a reservation.
-                  </p>
-                </div>
-                <div>
-                  <Status state="Needs check" />
-                  <p>
-                    Information is missing, unpriced, conditional, or
-                    unconfirmed. The plan tells you what to ask.
-                  </p>
-                </div>
-                <div>
-                  <Status state="Conflict" />
-                  <p>
-                    A known mismatch needs a change. Review the alternative
-                    instead of hiding the problem.
-                  </p>
-                </div>
-              </div>
-            </section>
-            <section>
-              <h2>Make it yours</h2>
-              <p>
-                Move, replace, or remove an experience. The schedule and group
-                estimate update together. Save locally or share a snapshot when
-                the possibility starts to feel right.
-              </p>
-            </section>
-            <section>
-              <h2>Ask the right questions</h2>
-              <p>
-                The demo prepares an inquiry with the route, scope, and
-                outstanding questions. No provider is contacted and no booking
-                is made.
-              </p>
-            </section>
-          </div>
-        )}
-        <Link className="text-link" href="/plan/?sample=1">
-          Open a sample plan <ArrowUpRight size={16} />
-        </Link>
-        <br />
+          ))}
+        </div>
         <Link className="button" href="/plan/">
-          Plan my Japan <ArrowUpRight size={18} />
+          Start planning <ArrowUpRight size={18} />
         </Link>
       </main>
       <Footer />

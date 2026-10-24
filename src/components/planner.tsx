@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { PreferencesForm } from "./preferences";
+import { AIPlanner, AISavedPlans, useTravel } from "./travel-assistant";
 import {
   Header,
   Footer,
@@ -92,6 +93,8 @@ export function Planner() {
       window.scrollTo(0, 0);
     }, 350);
   }
+  if (loaded && !plan && !missing && !generating && !editingPrefs)
+    return <AIPlanner />;
   return (
     <>
       <Header compact />
@@ -1108,6 +1111,7 @@ function PlanEditor({
   );
 }
 export function SavedPlans() {
+  const travel = useTravel();
   const [plans, setPlans] = useState<Plan[]>([]);
   const [ready, setReady] = useState(false);
   const [pending, setPending] = useState<string | null>(null);
@@ -1140,6 +1144,12 @@ export function SavedPlans() {
             Your plans, on this browser and device. Pick up where you left off.
           </p>
         </div>
+        <AISavedPlans />
+        {travel.storageError && (
+          <p className="ai-error" role="status">
+            {travel.storageError}
+          </p>
+        )}
         <div className="saved-feedback" role="status">
           {message}{" "}
           {deleted && (
@@ -1162,7 +1172,7 @@ export function SavedPlans() {
         </div>
         {!ready ? (
           <p>Opening saved plans…</p>
-        ) : !plans.length ? (
+        ) : !plans.length && !travel.saved.length ? (
           <div className="empty-state">
             <Bookmark size={34} />
             <h2>Your Japan is still to come.</h2>
@@ -1227,9 +1237,10 @@ export function SavedPlans() {
           </div>
         )}
         <p className="notice">
-          Clearing browser storage can remove these plans. Share or copy a
-          summary to keep a separate snapshot. Detailed requirements are
-          excluded from sharing by default.
+          Clearing browser storage can remove these plans. Downloaded AI
+          itineraries may include food and access notes; review them before
+          sharing. Earlier sample-plan summaries exclude detailed requirements
+          unless you choose to include them.
         </p>
       </main>
       <Footer />

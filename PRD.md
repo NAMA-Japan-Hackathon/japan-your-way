@@ -388,3 +388,12 @@ An initial static website and browser-local planner have since been implemented 
 ## Owner scope revision — 24 October 2026
 
 Discovery must represent Japan as a whole, beyond three sample itineraries. The first nationwide increment covers all 47 prefectures through official regional guides, selected national rail corridors and ten detailed city systems. Restaurant inventory remains limited to sourced Tokyo, Kyoto and Osaka records. Nationwide restaurant research, more local rail operators and nationwide trip scheduling remain future work. Restaurant photos must show the named venue’s storefront, not a dish or another branch.
+
+
+## Adaptive AI planning revision — 24 October 2026
+
+This revision supersedes the fixed five-part entry flow and the homepage sample itinerary. New trip planning is a Groq-powered conversation: begin with a broad travel vision, ask one relevant question at a time from earlier answers, preserve corrections, and allow skipped or undecided details. A visible traveler profile supports the conversation; there is no fixed question count. Users choose when to generate or revise a full daily itinerary with travel, food, stays, estimates and unresolved checks. All Japan is in scope, with geographically sensible choices rather than a mandatory three-city route.
+
+A persistent bottom-right assistant uses the active AI trip and search snapshots across the website, answers Japan travel questions, and directs itinerary changes back to the planner. Save/reopen/delete/download operate locally. Earlier saved fixture plans remain available separately.
+
+Price searches are separate from LLM generation. SerpApi returns Google Flights/Hotels snapshots in INR for the Indian market. LiteAPI supplies hotel-rate results, with sandbox data explicitly labeled and excluded from live-price claims. These connections do not independently verify MakeMyTrip/Agoda inventory. Missing dates, occupancy, source access and unsupported booking arrangements stay visible. No reservations, ticketing or payment are performed. Current implementation limits and data use are in [the AI planner notes](docs/ai-planner.md). Runtime API hosting replaces the static-export architecture for this revision; the hosted static website has not been redeployed.

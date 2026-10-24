@@ -66,3 +66,24 @@ Remaining limits: the night photograph is a different composition from the suppl
 ## Reviews / rail atlas revision — 24 October 2026
 
 Retained “The product performs” and the Achromatic ledger app direction; existing palette/type, no redraw. Japan’s rail connections become the navigable structure. The live elements are source-aware catalogue filters, line tracing and station lookup. Replaced isolated folded strips with shared interchange nodes, added regional discovery beyond the three sample itineraries, and removed restaurant dish/interior imagery. [Coverage and limits](docs/explore-and-rail.md). Verification and final screenshot critique are recorded in QA.md.
+
+
+## Adaptive planner revision — 24 October 2026
+
+Removed homepage sample itineraries and the closing preference form. Retained the existing direction and warm-ivory-on-dark brand; no redraw. New `/plan/` entry is an adaptive Groq conversation, with profile context, itinerary views, local saved AI trips and a persistent assistant. Earlier sample plans remain available from existing links.
+
+Taste Skill app inspection at 1440, 768 and 390 pixels reports **0 FAIL / 1 WARN**. Final screenshots are in `.taste-skill/ai-planner-final/`; all fold and page sheets were visually reviewed. The sole retained warning is the existing ivory text palette. Removed unnecessary button shadows and page-level data-ui wrappers, and closed the initial transcript's empty band. The UI uses app-screen rules: photography and marketing-motion requirements do not apply inside the working conversation.
+
+ROUND 2
+Seen in one second: the traveler’s conversation and answer field.
+Idea (one sentence): the traveler’s vision of Japan becomes a conversation with its evolving trip brief beside it.
+Live thing: real Groq followups, itinerary generation, trip-aware chat and independently requested source checks.
+Layout words by section: conversation=working transcript / preferences=definition list / itinerary=day-by-day document / price checks=source evidence / chat=floating dialog.
+Scores: design 7 · usability 8 · creativity 6 · content 8 → overall 7.2.
+Caps applied: a familiar chat composition limits creativity; this is a functional app screen, not a photographic landing page.
+Top three problems and fixes:
+1. Desktop initial transcript had a large empty band (ai-planner/desktop-fold.jpg): size the initial message naturally. Fixed.
+2. Tab and launcher shadows were unnecessary (ai-planner/desktop-fold.jpg): use a border selection and flat launcher. Fixed.
+3. A 390px phone has limited room for privacy copy and a persistent launcher (ai-planner-final/mobile-fold.jpg): use a compact 52px launcher, an inset dialog and footer clearance. The explanatory text remains scrollable.
+
+AI suggestions still need real-world confirmation. Specific model-generated transit line instructions and exact journey durations are not treated as verified directions; source prices remain separate from AI estimates.

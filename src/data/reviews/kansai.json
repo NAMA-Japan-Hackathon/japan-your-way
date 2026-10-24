@@ -77,7 +77,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-ad-hoc-1280.webp","alt":"ad hoc restaurant exterior","credit":"personal:osaka-front-food-osaka-ad-hoc","responsive":true}
   },
   {
     "id": "food-osaka-agnel-d-or",
@@ -117,7 +117,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-agnel-d-or-1280.webp","alt":"Agnel d’or restaurant exterior","credit":"personal:osaka-front-food-osaka-agnel-d-or","responsive":true}
   },
   {
     "id": "food-osaka-ajikitcho-bumbuan",
@@ -157,7 +157,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-ajikitcho-bumbuan-1280.webp","alt":"Ajikitcho Bunbuan entrance","credit":"personal:osaka-front-food-osaka-ajikitcho-bumbuan","responsive":true}
   },
   {
     "id": "food-osaka-ajikitcho-horieten",
@@ -197,7 +197,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-ajikitcho-horieten-1280.webp","alt":"Ajikitcho Horieten exterior","credit":"personal:osaka-front-food-osaka-ajikitcho-horieten","responsive":true}
   },
   {
     "id": "food-osaka-alarde",
@@ -323,7 +323,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-atelier-hanada-1280.webp","alt":"atelier HANADA by Morimoto storefront","credit":"personal:osaka-front-food-osaka-atelier-hanada","responsive":true}
   },
   {
     "id": "food-kyoto-ayanokoji-karatsu",
@@ -483,7 +483,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-capi-1280.webp","alt":"capi restaurant entrance","credit":"personal:osaka-front-food-osaka-capi","responsive":true}
   },
   {
     "id": "food-kyoto-cenci",
@@ -564,7 +564,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-chi-fu-1280.webp","alt":"Chi-Fu restaurant entrance","credit":"personal:osaka-front-food-osaka-chi-fu","responsive":true}
   },
   {
     "id": "food-osaka-difference",
@@ -764,7 +764,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-empathie-1280.webp","alt":"Empathie restaurant entrance","credit":"personal:osaka-front-food-osaka-empathie","responsive":true}
   },
   {
     "id": "food-kyoto-enyuan-kobayashi",
@@ -844,7 +844,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-fujiya-1935-1280.webp","alt":"Fujiya 1935 entrance","credit":"personal:osaka-front-food-osaka-fujiya-1935","responsive":true}
   },
   {
     "id": "food-osaka-fushimimachi-kakoiyama",
@@ -884,7 +884,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-fushimimachi-kakoiyama-1280.webp","alt":"Fushimimachi Kakoiyama entrance","credit":"personal:osaka-front-food-osaka-fushimimachi-kakoiyama","responsive":true}
   },
   {
     "id": "food-kyoto-germoglio",
@@ -1044,7 +1044,8 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image": {"src":"/images/personal-use/kansai-front-food-kyoto-gion-maruyama-1280.webp","alt":"Gion Maruyama Kyoto exterior with purple noren and red lantern","credit":"personal:kansai-front-food-kyoto-gion-maruyama","responsive":true}
   },
   {
     "id": "food-kyoto-gion-matayoshi",
@@ -1290,7 +1291,8 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image":{"src":"/images/personal-use/kansai-front-food-kyoto-gion-sasaki-1280.webp","alt":"Gion Sasaki Kyoto exterior steps with signed purple noren","credit":"personal:kansai-front-food-kyoto-gion-sasaki","responsive":true}
   },
   {
     "id": "food-kyoto-gokomachi-tagawa",
@@ -1330,7 +1332,8 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image":{"src":"/images/personal-use/kansai-front-food-kyoto-gokomachi-tagawa-1280.webp","alt":"Gokomachi Tagawa Kyoto exterior with yellow noren and sign","credit":"personal:kansai-front-food-kyoto-gokomachi-tagawa","responsive":true}
   },
   {
     "id": "food-kyoto-gosho-iwasaki",
@@ -1370,7 +1373,8 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image":{"src":"/images/personal-use/kansai-front-food-kyoto-gosho-iwasaki-1280.webp","alt":"Gosho Iwasaki Kyoto exterior with red noren and lantern","credit":"personal:kansai-front-food-kyoto-gosho-iwasaki","responsive":true}
   },
   {
     "id": "food-osaka-hachi",
@@ -1455,7 +1459,7 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "officialUrl": "https://www.hajime-artistes.com/"
+    "officialUrl": "https://www.hajime-artistes.com/", "image":{"src":"/images/personal-use/osaka-front-food-osaka-hajime-1280.webp","alt":"HAJIME restaurant entrance","credit":"personal:osaka-front-food-osaka-hajime","responsive":true}
   },
   {
     "id": "food-kyoto-hana-kitcho",
@@ -1827,7 +1831,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-ideal-bistro-1280.webp","alt":"IDEAL Bistro entrance","credit":"personal:osaka-front-food-osaka-ideal-bistro","responsive":true}
   },
   {
     "id": "food-kyoto-ima",
@@ -1907,7 +1911,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-iroha-1280.webp","alt":"Iroha restaurant entrance","credit":"personal:osaka-front-food-osaka-iroha","responsive":true}
   },
   {
     "id": "food-kyoto-isshisoden-nakamura",
@@ -2387,7 +2391,7 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24", "image":{"src":"/images/personal-use/osaka-front-food-osaka-katamachi-kawaguchi-1280.webp","alt":"Katamachi Kawaguchi entrance","credit":"personal:osaka-front-food-osaka-katamachi-kawaguchi","responsive":true}
   },
   {
     "id": "food-kyoto-kenninji-gion-maruyama",
@@ -2593,7 +2597,8 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image":{"src":"/images/personal-use/kansai-front-food-kyoto-kikunoi-roan-1280.webp","alt":"Kikunoi Roan Kyoto exterior with signed lantern and noren","credit":"personal:kansai-front-food-kyoto-kikunoi-roan","responsive":true}
   },
   {
     "id": "food-kyoto-kikunoi-sushi-ao",
@@ -2633,7 +2638,8 @@
         "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
       }
     ],
-    "checkedOn": "2026-10-24"
+    "checkedOn": "2026-10-24",
+    "image":{"src":"/images/personal-use/kansai-front-food-kyoto-kikunoi-sushi-ao-1280.webp","alt":"Kikunoi Sushi Ao Kyoto exterior with signed lantern and lattice door","credit":"personal:kansai-front-food-kyoto-kikunoi-sushi-ao","responsive":true}
   },
   {
     "id": "food-kyoto-kinobu",

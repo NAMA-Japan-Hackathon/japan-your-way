@@ -85,7 +85,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-asahina-gastronome-1280.webp",
+      "alt": "Asahina Gastronome's signed street entrance in Nihonbashi",
+      "credit": "personal:tokyo-front-food-tokyo-asahina-gastronome",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-au-deco",
@@ -126,7 +132,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Shibuya"
+    "ward": "Shibuya",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-au-deco-1280.webp",
+      "alt": "au deco's signed exterior in Ebisu",
+      "credit": "personal:tokyo-front-food-tokyo-au-deco",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-beige",
@@ -167,7 +179,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chūō"
+    "ward": "Chūō",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-beige-1280.webp",
+      "alt": "BEIGE Alain Ducasse Tokyo's signed entrance at the Chanel Ginza Building",
+      "credit": "personal:tokyo-front-food-tokyo-beige",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-crony",
@@ -789,7 +807,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Taito"
+    "ward": "Taito",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-hommage-1280.webp",
+      "alt": "Hommage's concrete facade and wooden entrance in Asakusa",
+      "credit": "personal:tokyo-front-food-tokyo-hommage",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-jingumae-higuchi",
@@ -1000,7 +1024,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Shinjuku"
+    "ward": "Shinjuku",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-kagurazaka-ishikawa-1280.webp",
+      "alt": "Kagurazaka Ishikawa's stone path and exterior entrance",
+      "credit": "personal:tokyo-front-food-tokyo-kagurazaka-ishikawa",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-kanda",
@@ -1082,7 +1112,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Chiyoda"
+    "ward": "Chiyoda",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-kioicho-fukudaya-1280.webp",
+      "alt": "Kioicho Fukudaya's signed traditional gate and entrance",
+      "credit": "personal:tokyo-front-food-tokyo-kioicho-fukudaya",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-kohaku",
@@ -1123,7 +1159,13 @@
       }
     ],
     "checkedOn": "2026-10-24",
-    "ward": "Shinjuku"
+    "ward": "Shinjuku",
+    "image": {
+      "src": "/images/personal-use/tokyo-front-food-tokyo-kohaku-1280.webp",
+      "alt": "Kohaku's bamboo-lined entrance in Kagurazaka",
+      "credit": "personal:tokyo-front-food-tokyo-kohaku",
+      "responsive": true
+    }
   },
   {
     "id": "food-tokyo-kutan",

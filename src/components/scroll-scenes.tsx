@@ -228,8 +228,8 @@ export function PhotoHero() {
             <Link href="/plan/" className="button">
               Plan my Japan <ArrowUpRight size={18} />
             </Link>
-            <a href="#itinerary" className="cinema-secondary">
-              Explore a sample day <ArrowRight size={18} />
+            <a href="#explore-japan" className="cinema-secondary">
+              Explore all Japan <ArrowRight size={18} />
             </a>
           </div>
           <span className="hero-note">A little wonder. A clearer plan.</span>
@@ -238,10 +238,12 @@ export function PhotoHero() {
           <span>
             Hokkaido <i /> Honshu <i /> Okinawa
           </span>
-          <a href="#itinerary" aria-label="Discover a sample day">
+          <a href="#explore-japan" aria-label="Discover all Japan">
             <span>Discover your rhythm</span> <ArrowDown size={17} />
           </a>
-          <Link href="/metro/" aria-label="Explore Japan by rail">Rail atlas <ArrowRight size={17}/></Link>
+          <Link href="/metro/" aria-label="Explore Japan by rail">
+            Rail atlas <ArrowRight size={17} />
+          </Link>
         </div>
       </div>
     </section>

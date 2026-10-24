@@ -39,7 +39,7 @@ Total: 639 stations, 43 systems plus one branch record. The national view has 65
 
 Connected city schematics use shared interchange nodes and original octilinear paths. Layout is approximate, informed by individual factual coordinates, rounded and interpolated where absent. The coordinate reference has no explicit database license; its source data file is not redistributed. Natural Earth country outlines are public domain. Sources are linked on the credits page and attached to data records.
 
-Seven open-licensed image assets and 51 individually selected personal-use assets are credited. Twenty-three restaurant records have verified named storefronts: Tokyo 12/58, Kyoto 8/48 and Osaka 3/47. All 32 shopping records have a matching location image; 25 were individually sourced for this catalogue pass. The remaining 130 restaurants use typographic placeholders. A public clone uses placeholders for the ignored personal-use files. Smaller sources are not enlarged. The existing Fuji hero retains a native 3840-pixel variant. Full missing-photo list and individual credits: [image-fallbacks.md](image-fallbacks.md).
+Eight open-licensed image assets and 77 individually selected personal-use assets are credited. Fifty restaurant records have verified named storefronts: Tokyo 19/58, Kyoto 14/48 and Osaka 17/47. All 32 shopping records have a matching location image; 25 were individually sourced for this catalogue pass. The remaining 103 restaurants use typographic placeholders. A public clone uses placeholders for the ignored personal-use files. Smaller sources are not enlarged. The existing Fuji hero retains a native 3840-pixel variant. Full missing-photo list and individual credits: [image-fallbacks.md](image-fallbacks.md).
 
 ## Allergens
 
