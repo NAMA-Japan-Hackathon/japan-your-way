@@ -15,7 +15,7 @@ Open http://127.0.0.1:3000. `npm run build` produces a static Next.js export in 
 
 ## Implemented
 
-- A dark, illustrated pagoda and mountain opening with layered, native-scroll animation.
+- A dark, native 4K Fuji and pagoda photograph with layered, native-scroll animation.
 - A second scroll scene expanding a Kyoto garden photograph.
 - Reduced-motion and no-script reading layouts; locally served GSAP and font assets.
 - Three sample trip routes, month/interest/pace filters, and route details.
@@ -41,19 +41,25 @@ For strict budgets, known overruns are surfaced as conflicts; the demo does not 
 
 The original Taste Skill direction is “The product performs,” seed 1154879022; the app style is “Achromatic ledger,” seed 554352894. After the first preview, the owner requested dark silhouettes and strong scroll motion, then supplied https://floria-landing-page.vercel.app/ as a reference.
 
-The revision takes its dark field, large type, sculptural composition, and staggered photography as inspiration. The original Japanese silhouette, content, controls, and scroll choreography are specific to this product. The night palette supersedes the initial stone palette. The page keeps one Hanken Grotesk family. Pill-shaped public buttons follow the owner's visual reference; the working planner uses tighter controls.
+The revision takes its dark field, large type, sculptural composition, and staggered photography as inspiration. The original Japanese silhouette, content, controls, and scroll choreography are specific to this product. The night palette supersedes the initial stone palette. The page uses the device system UI font for controls and reading, with Cormorant Garamond for display typography. Pill-shaped public buttons follow the owner's visual reference; the working planner uses tighter controls.
 
-The custom scenes use the Taste Skill shared stage, bundled GSAP 3.15.0, native scrolling, and media-query cleanup. There is no wheel hijacking. Destination photo credits are at `/credits/`; the silhouette is original vector artwork. No ImageGen pictures, fake partner logos, or invented testimonials are used.
+The custom scenes use the Taste Skill shared stage, bundled GSAP 3.15.0, native scrolling, and media-query cleanup. There is no wheel hijacking. Destination photo credits are at `/credits/`; the hero is a credited native 3,840-pixel Wikimedia Commons photograph, and the edge-only Kintsugi seams are vector artwork. No ImageGen pictures, fake partner logos, or invented testimonials are used.
 
-A Commons footage search returned a service-busy response. The page uses a moving silhouette and scroll-linked photography rather than an unrelated stock clip.
+A Commons footage search returned a service-busy response. The page uses scroll-linked photography rather than an unrelated stock clip.
 
 ## Before a live partner pilot
 
 Replace the seed catalogue and verify prices, date windows, meals, access, transport, and source freshness. Connect an actual reviewed supplier workflow and a consented, reliable handoff. Add server-side validation, operational monitoring, privacy/retention policies, and analytics only after those choices are made. Cross-device sharing and collaborative editing remain later work.
 
-See the parent folder's `PRD.md` and `design.md` for product intent. See `QA.md` for checks and visual review of this implementation.
+See [PRD.md](PRD.md) and [design.md](design.md) for product intent. See `QA.md` for checks and visual review of this implementation.
 
 
 ## Latest UI revision
 
 The homepage now follows the supplied cinematic Stitch reference: Cormorant display type, native 3,840-pixel night photography, a working four-day sample, all-section motion, and subtle scroll-drawn Kintsugi seams. See [UI_REVIEW.md](UI_REVIEW.md) for verification, image sources, motion behavior, and remaining demo limits.
+
+## GitHub synchronization
+
+The public source repository is https://github.com/NAMA-Japan-Hackathon/japan-your-way.
+The `github` remote is separate from the private website publishing workflow.
+See [GITHUB_SYNC.md](GITHUB_SYNC.md) for automatic synchronization behavior.

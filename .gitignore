@@ -7,3 +7,14 @@ out/
 .openai/local/
 
 .taste-skill/
+
+# Local authentication, machine settings, and sync scratch files
+.ssh/
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+.DSYNC*
+.github-sync.lock/
