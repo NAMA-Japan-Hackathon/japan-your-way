@@ -22,6 +22,8 @@ import {
   tripPreferences,
 } from "@/lib/planner";
 
+import regions from "@/data/regions.json";
+
 const days = [
   {
     name: "River paths & little lanes",
@@ -248,6 +250,32 @@ export function Home() {
     <main id="main" className="marketing cinematic-home">
       <ScrollScenes />
       <PhotoHero />
+      <section className="cinema-section country-discovery" id="explore-japan">
+        <Kintsugi right variant={2} position="low" />
+        <div className="cinema-heading">
+          <h2 data-enter="line">A whole country awaits.</h2>
+          <p data-enter="line">
+            Northern wilderness. Inland seas. Southern islands. Make room for
+            Japan beyond the familiar route.
+          </p>
+        </div>
+        <div className="country-links" data-enter="row">
+          {regions.map((r) => (
+            <Link key={r.id} href={"/explore/#" + r.id}>
+              {r.name}
+              <ArrowUpRight size={18} />
+            </Link>
+          ))}
+        </div>
+        <div className="country-actions" data-enter="line">
+          <Link href="/explore/" className="button">
+            Explore all Japan <ArrowUpRight size={18} />
+          </Link>
+          <Link href="/metro/" className="text-link">
+            Follow the rail atlas <ArrowUpRight size={18} />
+          </Link>
+        </div>
+      </section>
       <section className="cinema-section itinerary-section" id="itinerary">
         <Kintsugi variant={0} position="high" />
         <div className="cinema-heading">
@@ -268,7 +296,8 @@ export function Home() {
           <div>
             <h2 data-enter="line">Your kind of Japan.</h2>
             <p data-enter="line">
-              Three starting points. Every route is yours to change.
+              Three sample itineraries to try. Explore all Japan for more
+              destinations.
             </p>
           </div>
           <Link href="/trips/" className="text-link" data-enter="line">

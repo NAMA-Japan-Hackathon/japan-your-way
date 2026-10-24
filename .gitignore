@@ -18,3 +18,6 @@ out/
 *.log
 .DSYNC*
 .github-sync.lock/
+
+# Owner-supplied permission does not make these openly licensed.
+public/images/personal-use/

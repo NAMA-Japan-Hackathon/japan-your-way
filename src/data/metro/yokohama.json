@@ -1,0 +1,1657 @@
+{
+  "lines": [
+    {
+      "id": "yokohama-B",
+      "city": "Yokohama",
+      "code": "B",
+      "nameEn": "Blue Line",
+      "operator": "Yokohama Municipal Subway",
+      "stationIds": [
+        "yokohama-shonandai",
+        "yokohama-shimoiida",
+        "yokohama-tateba",
+        "yokohama-nakada",
+        "yokohama-odoriba",
+        "yokohama-totsuka",
+        "yokohama-maioka",
+        "yokohama-shimonagaya",
+        "yokohama-kaminagaya",
+        "yokohama-konan-chuo",
+        "yokohama-kami-ooka",
+        "yokohama-gumyoji",
+        "yokohama-maita",
+        "yokohama-yoshinocho",
+        "yokohama-bandobashi",
+        "yokohama-isezakichojamachi",
+        "yokohama-kannai",
+        "yokohama-sakuragicho",
+        "yokohama-takashimacho",
+        "yokohama-yokohama",
+        "yokohama-mitsuzawa-shimocho",
+        "yokohama-mitsuzawa-kamicho",
+        "yokohama-katakuracho",
+        "yokohama-kishine-koen",
+        "yokohama-shin-yokohama",
+        "yokohama-kita-shin-yokohama",
+        "yokohama-nippa",
+        "yokohama-nakamachidai",
+        "yokohama-center-minami",
+        "yokohama-center-kita",
+        "yokohama-nakagawa",
+        "yokohama-azamino"
+      ],
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 240,
+            "y": 1360
+          },
+          {
+            "x": 320,
+            "y": 1280
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 1280
+          },
+          {
+            "x": 400,
+            "y": 1200
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 1200
+          },
+          {
+            "x": 480,
+            "y": 1280
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 1280
+          },
+          {
+            "x": 400,
+            "y": 1280
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 1280
+          },
+          {
+            "x": 440,
+            "y": 1280
+          },
+          {
+            "x": 480,
+            "y": 1240
+          },
+          {
+            "x": 520,
+            "y": 1240
+          },
+          {
+            "x": 560,
+            "y": 1280
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 1280
+          },
+          {
+            "x": 600,
+            "y": 1280
+          },
+          {
+            "x": 640,
+            "y": 1240
+          },
+          {
+            "x": 680,
+            "y": 1240
+          },
+          {
+            "x": 720,
+            "y": 1280
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 1280
+          },
+          {
+            "x": 640,
+            "y": 1280
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 1280
+          },
+          {
+            "x": 680,
+            "y": 1280
+          },
+          {
+            "x": 720,
+            "y": 1240
+          },
+          {
+            "x": 760,
+            "y": 1240
+          },
+          {
+            "x": 800,
+            "y": 1280
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 1280
+          },
+          {
+            "x": 880,
+            "y": 1280
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 1280
+          },
+          {
+            "x": 880,
+            "y": 1200
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 1200
+          },
+          {
+            "x": 960,
+            "y": 1200
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 1200
+          },
+          {
+            "x": 960,
+            "y": 1120
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 1120
+          },
+          {
+            "x": 1040,
+            "y": 1120
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 1120
+          },
+          {
+            "x": 1040,
+            "y": 1040
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 1040
+          },
+          {
+            "x": 1120,
+            "y": 1040
+          }
+        ],
+        [
+          {
+            "x": 1120,
+            "y": 1040
+          },
+          {
+            "x": 1120,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 1120,
+            "y": 960
+          },
+          {
+            "x": 1040,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 960
+          },
+          {
+            "x": 960,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 960
+          },
+          {
+            "x": 1040,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 880
+          },
+          {
+            "x": 1040,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 800
+          },
+          {
+            "x": 960,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 800
+          },
+          {
+            "x": 960,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 720
+          },
+          {
+            "x": 1040,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 720
+          },
+          {
+            "x": 1040,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 640
+          },
+          {
+            "x": 1040,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 560
+          },
+          {
+            "x": 960,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 480
+          },
+          {
+            "x": 880,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 480
+          },
+          {
+            "x": 800,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 400
+          },
+          {
+            "x": 800,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 320
+          },
+          {
+            "x": 800,
+            "y": 240
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 240
+          },
+          {
+            "x": 720,
+            "y": 240
+          }
+        ]
+      ]
+    },
+    {
+      "id": "yokohama-G",
+      "city": "Yokohama",
+      "code": "G",
+      "nameEn": "Green Line",
+      "operator": "Yokohama Municipal Subway",
+      "stationIds": [
+        "yokohama-nakayama",
+        "yokohama-kawawacho",
+        "yokohama-tsuzuki-fureainooka",
+        "yokohama-center-minami",
+        "yokohama-center-kita",
+        "yokohama-kita-yamata",
+        "yokohama-higashi-yamata",
+        "yokohama-takata",
+        "yokohama-hiyoshi-honcho",
+        "yokohama-hiyoshi"
+      ],
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 640,
+            "y": 560
+          },
+          {
+            "x": 640,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 480
+          },
+          {
+            "x": 720,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 480
+          },
+          {
+            "x": 800,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 400
+          },
+          {
+            "x": 800,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 320
+          },
+          {
+            "x": 880,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 320
+          },
+          {
+            "x": 960,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 320
+          },
+          {
+            "x": 1040,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 320
+          },
+          {
+            "x": 1120,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 1120,
+            "y": 320
+          },
+          {
+            "x": 1200,
+            "y": 320
+          }
+        ]
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "yokohama-shonandai",
+      "city": "Yokohama",
+      "nameEn": "Shonandai",
+      "nameJa": "湘南台",
+      "codes": [
+        "B01"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 1360,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-shimoiida",
+      "city": "Yokohama",
+      "nameEn": "Shimoiida",
+      "nameJa": "下飯田",
+      "codes": [
+        "B02"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 1280,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-tateba",
+      "city": "Yokohama",
+      "nameEn": "Tateba",
+      "nameJa": "立場",
+      "codes": [
+        "B03"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 1200,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-nakada",
+      "city": "Yokohama",
+      "nameEn": "Nakada",
+      "nameJa": "中田",
+      "codes": [
+        "B04"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 1280,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-odoriba",
+      "city": "Yokohama",
+      "nameEn": "Odoriba",
+      "nameJa": "踊場",
+      "codes": [
+        "B05"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 1280,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-totsuka",
+      "city": "Yokohama",
+      "nameEn": "Totsuka",
+      "nameJa": "戸塚",
+      "codes": [
+        "B06"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 1280,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-maioka",
+      "city": "Yokohama",
+      "nameEn": "Maioka",
+      "nameJa": "舞岡",
+      "codes": [
+        "B07"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 1280,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-shimonagaya",
+      "city": "Yokohama",
+      "nameEn": "Shimonagaya",
+      "nameJa": "下永谷",
+      "codes": [
+        "B08"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 1280,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-kaminagaya",
+      "city": "Yokohama",
+      "nameEn": "Kaminagaya",
+      "nameJa": "上永谷",
+      "codes": [
+        "B09"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 1280,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-konan-chuo",
+      "city": "Yokohama",
+      "nameEn": "Konan-Chuo",
+      "nameJa": "港南中央",
+      "codes": [
+        "B10"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 1280,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-kami-ooka",
+      "city": "Yokohama",
+      "nameEn": "Kami-Ooka",
+      "nameJa": "上大岡",
+      "codes": [
+        "B11"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 1200,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-gumyoji",
+      "city": "Yokohama",
+      "nameEn": "Gumyoji",
+      "nameJa": "弘明寺",
+      "codes": [
+        "B12"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 1200,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-maita",
+      "city": "Yokohama",
+      "nameEn": "Maita",
+      "nameJa": "蒔田",
+      "codes": [
+        "B13"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 1120,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-yoshinocho",
+      "city": "Yokohama",
+      "nameEn": "Yoshinocho",
+      "nameJa": "吉野町",
+      "codes": [
+        "B14"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 1120,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-bandobashi",
+      "city": "Yokohama",
+      "nameEn": "Bandobashi",
+      "nameJa": "阪東橋",
+      "codes": [
+        "B15"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-isezakichojamachi",
+      "city": "Yokohama",
+      "nameEn": "Isezakichojamachi",
+      "nameJa": "伊勢佐木長者町",
+      "codes": [
+        "B16"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 1120,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-kannai",
+      "city": "Yokohama",
+      "nameEn": "Kannai",
+      "nameJa": "関内",
+      "codes": [
+        "B17"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 1120,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-sakuragicho",
+      "city": "Yokohama",
+      "nameEn": "Sakuragicho",
+      "nameJa": "桜木町",
+      "codes": [
+        "B18"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-takashimacho",
+      "city": "Yokohama",
+      "nameEn": "Takashimacho",
+      "nameJa": "高島町",
+      "codes": [
+        "B19"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-yokohama",
+      "city": "Yokohama",
+      "nameEn": "Yokohama",
+      "nameJa": "横浜",
+      "codes": [
+        "B20"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-mitsuzawa-shimocho",
+      "city": "Yokohama",
+      "nameEn": "Mitsuzawa-shimocho",
+      "nameJa": "三ツ沢下町",
+      "codes": [
+        "B21"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-mitsuzawa-kamicho",
+      "city": "Yokohama",
+      "nameEn": "Mitsuzawa-kamicho",
+      "nameJa": "三ツ沢上町",
+      "codes": [
+        "B22"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-katakuracho",
+      "city": "Yokohama",
+      "nameEn": "Katakuracho",
+      "nameJa": "片倉町",
+      "codes": [
+        "B23"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-kishine-koen",
+      "city": "Yokohama",
+      "nameEn": "Kishine-koen",
+      "nameJa": "岸根公園",
+      "codes": [
+        "B24"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-shin-yokohama",
+      "city": "Yokohama",
+      "nameEn": "Shin-Yokohama",
+      "nameJa": "新横浜",
+      "codes": [
+        "B25"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-kita-shin-yokohama",
+      "city": "Yokohama",
+      "nameEn": "Kita Shin-Yokohama",
+      "nameJa": "北新横浜",
+      "codes": [
+        "B26"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-nippa",
+      "city": "Yokohama",
+      "nameEn": "Nippa",
+      "nameJa": "新羽",
+      "codes": [
+        "B27"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-nakamachidai",
+      "city": "Yokohama",
+      "nameEn": "Nakamachidai",
+      "nameJa": "仲町台",
+      "codes": [
+        "B28"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-center-minami",
+      "city": "Yokohama",
+      "nameEn": "Center Minami",
+      "nameJa": "センター南",
+      "codes": [
+        "B29",
+        "G04"
+      ],
+      "lineIds": [
+        "yokohama-B",
+        "yokohama-G"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-center-kita",
+      "city": "Yokohama",
+      "nameEn": "Center Kita",
+      "nameJa": "センター北",
+      "codes": [
+        "B30",
+        "G05"
+      ],
+      "lineIds": [
+        "yokohama-B",
+        "yokohama-G"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-nakagawa",
+      "city": "Yokohama",
+      "nameEn": "Nakagawa",
+      "nameJa": "中川",
+      "codes": [
+        "B31"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-azamino",
+      "city": "Yokohama",
+      "nameEn": "Azamino",
+      "nameJa": "あざみ野",
+      "codes": [
+        "B32"
+      ],
+      "lineIds": [
+        "yokohama-B"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-nakayama",
+      "city": "Yokohama",
+      "nameEn": "Nakayama",
+      "nameJa": "中山",
+      "codes": [
+        "G01"
+      ],
+      "lineIds": [
+        "yokohama-G"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-kawawacho",
+      "city": "Yokohama",
+      "nameEn": "Kawawacho",
+      "nameJa": "川和町",
+      "codes": [
+        "G02"
+      ],
+      "lineIds": [
+        "yokohama-G"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-tsuzuki-fureainooka",
+      "city": "Yokohama",
+      "nameEn": "Tsuzuki-fureainooka",
+      "nameJa": "都筑ふれあいの丘",
+      "codes": [
+        "G03"
+      ],
+      "lineIds": [
+        "yokohama-G"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-kita-yamata",
+      "city": "Yokohama",
+      "nameEn": "Kita-Yamata",
+      "nameJa": "北山田",
+      "codes": [
+        "G06"
+      ],
+      "lineIds": [
+        "yokohama-G"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-higashi-yamata",
+      "city": "Yokohama",
+      "nameEn": "Higashi-Yamata",
+      "nameJa": "東山田",
+      "codes": [
+        "G07"
+      ],
+      "lineIds": [
+        "yokohama-G"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-takata",
+      "city": "Yokohama",
+      "nameEn": "Takata",
+      "nameJa": "高田",
+      "codes": [
+        "G08"
+      ],
+      "lineIds": [
+        "yokohama-G"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-hiyoshi-honcho",
+      "city": "Yokohama",
+      "nameEn": "Hiyoshi-Honcho",
+      "nameJa": "日吉本町",
+      "codes": [
+        "G09"
+      ],
+      "lineIds": [
+        "yokohama-G"
+      ],
+      "layout": {
+        "x": 1120,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yokohama-hiyoshi",
+      "city": "Yokohama",
+      "nameEn": "Hiyoshi",
+      "nameJa": "日吉",
+      "codes": [
+        "G10"
+      ],
+      "lineIds": [
+        "yokohama-G"
+      ],
+      "layout": {
+        "x": 1200,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Yokohama Municipal Subway route reference",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/en/bus-subway/default20200310.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yokohama_Municipal_Subway_station"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    }
+  ],
+  "layoutSource": {
+    "title": "Station coordinate reference · schematic layout only (ekidata / ODPT compilation by piuccio)",
+    "url": "https://github.com/piuccio/open-data-jp-railway-stations"
+  },
+  "layoutNote": "Coordinates are a transformed original schematic, not navigable geography. Operator identities and codes are sourced separately."
+}

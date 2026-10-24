@@ -1,0 +1,1021 @@
+[
+  {
+    "id": "ginza",
+    "name": "Ginza",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "district",
+    "summary": "Department stores and small specialist shops, side by side.",
+    "location": "Ginza, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-ginza"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Explore the side streets between the larger stores.",
+    "famousFor": [
+      "Flagship stores",
+      "Stationery",
+      "Design"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Ginza",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ginza"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/ginza-1280.webp",
+      "alt": "Ginza",
+      "credit": "personal:ginza",
+      "responsive": true
+    }
+  },
+  {
+    "id": "shibuya",
+    "name": "Shibuya",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "district",
+    "summary": "Fashion and music around one of Tokyo’s busiest crossings.",
+    "location": "Shibuya, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-shibuya"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Pair the crossing with a single shopping building.",
+    "famousFor": [
+      "Fashion",
+      "Music",
+      "Department stores"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Shibuya",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shibuya"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "harajuku-omotesando",
+    "name": "Harajuku & Omotesando",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "district",
+    "summary": "Street fashion gives way to the wider avenues of Omotesando.",
+    "location": "Harajuku & Omotesando, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-meiji-jingumae"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Walk from Takeshita Street toward Omotesando.",
+    "famousFor": [
+      "Streetwear",
+      "Boutiques",
+      "Design"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Harajuku",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Harajuku"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "shinjuku",
+    "name": "Shinjuku",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "district",
+    "summary": "A station district with department stores in every direction.",
+    "location": "Shinjuku, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-shinjuku"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Choose one station exit before setting out.",
+    "famousFor": [
+      "Department stores",
+      "Fashion",
+      "Electronics"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Shinjuku",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shinjuku"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "akihabara",
+    "name": "Akihabara",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "specialty",
+    "summary": "Electronics, hobby shops and pop culture on several floors.",
+    "location": "Akihabara, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-akihabara"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Compare specialist stores beyond the main street.",
+    "famousFor": [
+      "Electronics",
+      "Anime",
+      "Collectibles"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Akihabara",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Akihabara"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/akihabara-1280.webp",
+      "alt": "Akihabara",
+      "credit": "personal:akihabara",
+      "responsive": true
+    }
+  },
+  {
+    "id": "nakamise-dori",
+    "name": "Nakamise-dori",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "district",
+    "summary": "A traditional shopping approach to Senso-ji.",
+    "location": "Nakamise-dori, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-asakusa"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Look at the smaller craft stalls along the approach.",
+    "famousFor": [
+      "Souvenirs",
+      "Traditional snacks",
+      "Crafts"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://www.gotokyo.org/en/spot/73/index.html",
+    "sources": [
+      {
+        "title": "Official destination information",
+        "url": "https://www.gotokyo.org/en/spot/73/index.html"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/tokyo.webp",
+      "alt": "Nakamise-dori shopping streets",
+      "credit": "commons:81981236"
+    }
+  },
+  {
+    "id": "ameyoko",
+    "name": "Ameyoko",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "market",
+    "summary": "An open-air market beside the Ueno railway tracks.",
+    "location": "Ameyoko, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-ueno-hirokoji"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Take a slow circuit through the narrow lanes.",
+    "famousFor": [
+      "Market shopping",
+      "Clothing",
+      "Food"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Ameya-Yokochō",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ameya-Yokochō"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "nakano-broadway",
+    "name": "Nakano Broadway",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "specialty",
+    "summary": "Multi-floor shopping for manga, toys and vintage collectibles.",
+    "location": "Nakano Broadway, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-nakano"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Explore upper floors for specialist collections.",
+    "famousFor": [
+      "Manga",
+      "Collectibles",
+      "Vintage toys"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Nakano_Broadway",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nakano_Broadway"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "kappabashi",
+    "name": "Kappabashi",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "specialty",
+    "summary": "Kitchen tools and food replicas for Japan’s everyday table.",
+    "location": "Kappabashi, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-tawaramachi"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Compare tools and ask about care before buying.",
+    "famousFor": [
+      "Kitchenware",
+      "Knives",
+      "Food replicas"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://www.kappabashi.or.jp/en/overview/",
+    "sources": [
+      {
+        "title": "Official destination information",
+        "url": "https://www.kappabashi.or.jp/en/overview/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "tsukiji-outer-market",
+    "name": "Tsukiji Outer Market",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "market",
+    "summary": "Food retailers and kitchen shops in the outer-market streets.",
+    "location": "Tsukiji Outer Market, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-tsukiji"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Treat it as several small streets rather than one shop.",
+    "famousFor": [
+      "Seafood",
+      "Kitchen tools",
+      "Food shops"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Tsukiji_fish_market",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tsukiji_fish_market"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "ginza-six",
+    "name": "GINZA SIX",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "mall",
+    "summary": "Contemporary luxury shopping with a rooftop garden.",
+    "location": "GINZA SIX, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-ginza"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · verify today’s retail, dining and attraction hours separately.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Leave time for the garden above the shopping floors.",
+    "famousFor": [
+      "Fashion",
+      "Books",
+      "Rooftop garden"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Ginza_Six",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ginza_Six"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/ginza-six-1280.webp",
+      "alt": "GINZA SIX",
+      "credit": "personal:ginza-six",
+      "responsive": true
+    }
+  },
+  {
+    "id": "shibuya-scramble-square",
+    "name": "Shibuya Scramble Square",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "mall",
+    "summary": "A vertical shopping stop directly above Shibuya Station.",
+    "location": "Shibuya Scramble Square, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-shibuya"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · verify today’s retail, dining and attraction hours separately.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Browse the retail floors before a separate observation visit.",
+    "famousFor": [
+      "Fashion",
+      "Food halls",
+      "Design"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Shibuya_Scramble_Square",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shibuya_Scramble_Square"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/personal-use/shibuya-scramble-square-1280.webp",
+      "alt": "Shibuya Scramble Square",
+      "credit": "personal:shibuya-scramble-square",
+      "responsive": true
+    }
+  },
+  {
+    "id": "tokyo-solamachi",
+    "name": "Tokyo Solamachi",
+    "city": "Tokyo",
+    "region": "Tokyo",
+    "type": "mall",
+    "summary": "A broad shopping complex at the foot of Tokyo Skytree.",
+    "location": "Tokyo Solamachi, Tokyo, Japan",
+    "nearestStations": [
+      "tokyo-oshiage"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Typical retail 10:00–21:00; dining floors 11:00–23:00. Some shops differ.",
+    "closed": "Irregular closures; verify the official calendar.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Look for Japan-focused craft and gift stores.",
+    "famousFor": [
+      "Souvenirs",
+      "Character goods",
+      "Food"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://pro.tokyo-solamachi.jp/information/",
+    "sources": [
+      {
+        "title": "Official facility information",
+        "url": "https://pro.tokyo-solamachi.jp/information/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "shinsaibashi-suji",
+    "name": "Shinsaibashi-suji",
+    "city": "Osaka",
+    "region": "Osaka",
+    "type": "district",
+    "summary": "A covered shopping street through central Minami.",
+    "location": "Shinsaibashi-suji, Osaka, Japan",
+    "nearestStations": [
+      "osaka-shinsaibashi"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Walk the arcade and branch into nearby small streets.",
+    "famousFor": [
+      "Fashion",
+      "Department stores",
+      "Covered arcade"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Shinsaibashi",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shinsaibashi"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "dotonbori",
+    "name": "Dotonbori",
+    "city": "Osaka",
+    "region": "Osaka",
+    "type": "district",
+    "summary": "Canal-side signs and food shops in Osaka’s Minami district.",
+    "location": "Dotonbori, Osaka, Japan",
+    "nearestStations": [
+      "osaka-namba"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Take in the canal frontage, then explore a quieter lane.",
+    "famousFor": [
+      "Food streets",
+      "Neon signs",
+      "Souvenirs"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Dōtonbori",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dōtonbori"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/osaka.webp",
+      "alt": "Dotonbori shopping streets",
+      "credit": "commons:53626288"
+    }
+  },
+  {
+    "id": "amerikamura",
+    "name": "Amerikamura",
+    "city": "Osaka",
+    "region": "Osaka",
+    "type": "district",
+    "summary": "Streetwear and independent shops around Triangle Park.",
+    "location": "Amerikamura, Osaka, Japan",
+    "nearestStations": [
+      "osaka-yotsubashi"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Look for independent stores around the central park.",
+    "famousFor": [
+      "Streetwear",
+      "Vintage",
+      "Music"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Amerikamura",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Amerikamura"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "den-den-town",
+    "name": "Den Den Town",
+    "city": "Osaka",
+    "region": "Osaka",
+    "type": "specialty",
+    "summary": "Electronics and hobby shops in the Nipponbashi area.",
+    "location": "Den Den Town, Osaka, Japan",
+    "nearestStations": [
+      "osaka-nippombashi"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Compare specialist shops along Sakaisuji and nearby lanes.",
+    "famousFor": [
+      "Electronics",
+      "Anime",
+      "Hobby shops"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Nipponbashi",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nipponbashi"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "kuromon-market",
+    "name": "Kuromon Market",
+    "city": "Osaka",
+    "region": "Osaka",
+    "type": "market",
+    "summary": "A covered market of individual food shops and stalls.",
+    "location": "Kuromon Market, Osaka, Japan",
+    "nearestStations": [
+      "osaka-nippombashi"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "No shared opening time. The official directory lists many food shops around 09:00–18:00, with substantial exceptions.",
+    "closed": "Varies by shop; some close Sundays and public holidays. Check the individual listing.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Browse the whole arcade before choosing a stop.",
+    "famousFor": [
+      "Food shopping",
+      "Produce",
+      "Seafood"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://kuromon.com/en/",
+    "sources": [
+      {
+        "title": "Official facility information",
+        "url": "https://kuromon.com/en/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "grand-front-osaka",
+    "name": "Grand Front Osaka",
+    "city": "Osaka",
+    "region": "Osaka",
+    "type": "mall",
+    "summary": "A large shopping complex on the north side of Osaka Station.",
+    "location": "Grand Front Osaka, Osaka, Japan",
+    "nearestStations": [
+      "osaka-umeda"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Typical shops 11:00–21:00; restaurants 11:00–23:00. Some shops differ.",
+    "closed": "Needs check · consult the official calendar.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Explore lifestyle shops across the linked buildings.",
+    "famousFor": [
+      "Lifestyle",
+      "Fashion",
+      "Dining"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://www.gfo-sc.jp/index.php",
+    "sources": [
+      {
+        "title": "Official facility information",
+        "url": "https://www.gfo-sc.jp/index.php"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "namba-parks",
+    "name": "Namba Parks",
+    "city": "Osaka",
+    "region": "Osaka",
+    "type": "mall",
+    "summary": "Retail floors rise into a terraced urban garden.",
+    "location": "Namba Parks, Osaka, Japan",
+    "nearestStations": [
+      "osaka-namba"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · verify today’s retail, dining and attraction hours separately.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Follow the garden terraces above the shops.",
+    "famousFor": [
+      "Fashion",
+      "Architecture",
+      "Garden"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Namba_Parks",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Namba_Parks"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "abeno-harukas",
+    "name": "Abeno Harukas",
+    "city": "Osaka",
+    "region": "Osaka",
+    "type": "mall",
+    "summary": "Department-store shopping in a high-rise at Tennoji.",
+    "location": "Abeno Harukas, Osaka, Japan",
+    "nearestStations": [
+      "osaka-tennoji"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · verify today’s retail, dining and attraction hours separately.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Browse the department store independently of paid attractions.",
+    "famousFor": [
+      "Department store",
+      "Food halls",
+      "Views"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Abeno_Harukas",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Abeno_Harukas"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "nishiki-market",
+    "name": "Nishiki Market",
+    "city": "Kyoto",
+    "region": "Kyoto",
+    "type": "market",
+    "summary": "A long market street for Kyoto produce and pantry shopping.",
+    "location": "Nishiki Market, Kyoto, Japan",
+    "nearestStations": [
+      "kyoto-shijo"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Browse the food retailers and follow local eating etiquette.",
+    "famousFor": [
+      "Kyoto ingredients",
+      "Pickles",
+      "Kitchenware"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Nishiki_Market",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nishiki_Market"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "teramachi-shinkyogoku",
+    "name": "Teramachi & Shinkyogoku",
+    "city": "Kyoto",
+    "region": "Kyoto",
+    "type": "district",
+    "summary": "Parallel downtown shopping arcades with very different shops.",
+    "location": "Teramachi & Shinkyogoku, Kyoto, Japan",
+    "nearestStations": [
+      "kyoto-kyoto-shiyakusho-mae-kyoto-city-hall"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Walk both arcades rather than retracing a single street.",
+    "famousFor": [
+      "Arcades",
+      "Souvenirs",
+      "Specialist stores"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Shinkyōgoku_Street",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shinkyōgoku_Street"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "kawaramachi",
+    "name": "Kawaramachi",
+    "city": "Kyoto",
+    "region": "Kyoto",
+    "type": "district",
+    "summary": "Department stores and independent shops in central Kyoto.",
+    "location": "Kawaramachi, Kyoto, Japan",
+    "nearestStations": [
+      "kyoto-shijo"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Step off the main street to browse smaller shops.",
+    "famousFor": [
+      "Fashion",
+      "Department stores",
+      "Side streets"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Kawaramachi_Street",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kawaramachi_Street"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "gion",
+    "name": "Gion",
+    "city": "Kyoto",
+    "region": "Kyoto",
+    "type": "district",
+    "summary": "Traditional streets with craft and specialty stores.",
+    "location": "Gion, Kyoto, Japan",
+    "nearestStations": [
+      "kyoto-sanjo-keihan"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Browse respectfully; some lanes and properties are private.",
+    "famousFor": [
+      "Traditional crafts",
+      "Tea",
+      "Sweets"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Gion",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gion"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "image": {
+      "src": "/images/gion.webp",
+      "alt": "Gion shopping streets",
+      "credit": "commons:92787336"
+    }
+  },
+  {
+    "id": "kyoto-station-complex",
+    "name": "Kyoto Station complex",
+    "city": "Kyoto",
+    "region": "Kyoto",
+    "type": "mall",
+    "summary": "Station shopping, food halls and Kyoto gifts in one stop.",
+    "location": "Kyoto Station complex, Kyoto, Japan",
+    "nearestStations": [
+      "kyoto-kyoto"
+    ],
+    "directions": "Use the linked station as an area arrival point; exit and final walking route need checking.",
+    "hours": "Needs check · verify today’s retail, dining and attraction hours separately.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Pick up gifts before your onward train.",
+    "famousFor": [
+      "Gifts",
+      "Food halls",
+      "Department store"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Kyoto_Station",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kyoto_Station"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "canal-city-hakata",
+    "name": "Canal City Hakata",
+    "city": "Fukuoka",
+    "region": "Other Japan",
+    "type": "mall",
+    "summary": "A canal threads through this large shopping complex.",
+    "location": "Canal City Hakata, Fukuoka, Japan",
+    "nearestStations": [],
+    "directions": "Metro coverage for this city is not included yet. Check local transport before visiting.",
+    "hours": "Needs check · verify today’s retail, dining and attraction hours separately.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Explore the open central canal before choosing a building.",
+    "famousFor": [
+      "Shopping",
+      "Entertainment",
+      "Architecture"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Canal_City_Hakata",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Canal_City_Hakata"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "osu-shopping-streets",
+    "name": "Osu shopping streets",
+    "city": "Nagoya",
+    "region": "Other Japan",
+    "type": "specialty",
+    "summary": "A network of shopping streets around Osu Kannon.",
+    "location": "Osu shopping streets, Nagoya, Japan",
+    "nearestStations": [],
+    "directions": "Metro coverage for this city is not included yet. Check local transport before visiting.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Explore across several covered shopping streets.",
+    "famousFor": [
+      "Vintage",
+      "Electronics",
+      "Independent shops"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Ōsu",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ōsu"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "omicho-market",
+    "name": "Omicho Market",
+    "city": "Kanazawa",
+    "region": "Other Japan",
+    "type": "market",
+    "summary": "A central city market of produce, food and small shops.",
+    "location": "Omicho Market, Kanazawa, Japan",
+    "nearestStations": [],
+    "directions": "Metro coverage for this city is not included yet. Check local transport before visiting.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Browse the retailers as well as the dining counters.",
+    "famousFor": [
+      "Produce",
+      "Seafood",
+      "Food shops"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://www.japan.travel/en/spot/1398/",
+    "sources": [
+      {
+        "title": "Official destination information",
+        "url": "https://www.japan.travel/en/spot/1398/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "kokusai-dori",
+    "name": "Kokusai-dori",
+    "city": "Naha",
+    "region": "Other Japan",
+    "type": "district",
+    "summary": "A central Naha shopping street for Okinawan gifts.",
+    "location": "Kokusai-dori, Naha, Japan",
+    "nearestStations": [],
+    "directions": "Metro coverage for this city is not included yet. Check local transport before visiting.",
+    "hours": "Needs check · this district has no single set of hours.",
+    "closed": "Varies by individual shop.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Look into connecting market streets for smaller shops.",
+    "famousFor": [
+      "Okinawan crafts",
+      "Souvenirs",
+      "Food"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://www.japan-guide.com/e/e7114.html",
+    "sources": [
+      {
+        "title": "Travel destination reference",
+        "url": "https://www.japan-guide.com/e/e7114.html"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "minato-mirai",
+    "name": "Minato Mirai",
+    "city": "Yokohama",
+    "region": "Other Japan",
+    "type": "district",
+    "summary": "Waterfront shopping spread across several complexes.",
+    "location": "Minato Mirai, Yokohama, Japan",
+    "nearestStations": [],
+    "directions": "Metro coverage for this city is not included yet. Check local transport before visiting.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · closures vary by shop and date.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Choose a shopping building, then take a waterfront break.",
+    "famousFor": [
+      "Waterfront",
+      "Shopping malls",
+      "Design"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://en.wikipedia.org/wiki/Minato_Mirai_21",
+    "sources": [
+      {
+        "title": "Place overview · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Minato_Mirai_21"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "tanukikoji",
+    "name": "Tanukikoji",
+    "city": "Sapporo",
+    "region": "Other Japan",
+    "type": "district",
+    "summary": "A long covered arcade in central Sapporo.",
+    "location": "Tanukikoji, Sapporo, Japan",
+    "nearestStations": [],
+    "directions": "Metro coverage for this city is not included yet. Check local transport before visiting.",
+    "hours": "Needs check · individual shops set their own hours.",
+    "closed": "Needs check · individual shops set their own closed days.",
+    "seasonal": "Holiday and seasonal changes need checking before visiting.",
+    "bestPart": "Walk several blocks to see the range of stores.",
+    "famousFor": [
+      "Covered arcade",
+      "Souvenirs",
+      "Independent shops"
+    ],
+    "bestTime": "Suggestion: browse earlier in your day and leave time for breaks. This is editorial advice, not a crowd forecast.",
+    "officialUrl": "https://tanukikoji.or.jp/access/",
+    "sources": [
+      {
+        "title": "Official destination information",
+        "url": "https://tanukikoji.or.jp/access/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  }
+]

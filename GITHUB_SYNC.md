@@ -1,40 +1,34 @@
-# GitHub synchronization
+# GitHub publication
 
 Public repository: https://github.com/NAMA-Japan-Hackathon/japan-your-way
 
-The NAMA team has repository access. The local `github` remote points to this
-repository. Website publishing remains a separate operation and keeps its existing
-access settings.
+Automatic synchronization is disabled. The five-minute scheduled task was
+deleted at the owner's request on 24 October 2026. Push only when the owner
+explicitly says to push; ordinary edits remain local until then.
 
-The owner requested automatic publication of project changes. A recurring task
-in this chat checks the project every five minutes. It runs:
+The `github` remote points to the public repository. Website deployment and
+access settings are managed separately.
 
-```sh
-node scripts/github-sync.mjs
-```
-
-The sync waits for 90 seconds without edits, scans source and outgoing commit
-blobs for common credential formats, checks whitespace, and runs the existing
-tests and production build when code or dependency files changed. It then makes
-a normal commit and pushes `main`. It does not force push or reconcile remote
-changes automatically. It leaves staged work to the current editing session.
-If checks modify a source file or editing continues during checks, it waits for
-the next run. This is periodic synchronization, not an instant upload on every
-keystroke.
-
-Commits use Naitik Singhal's configured GitHub identity. No assistant co-author,
-byline, or generated-by footer is added. Image and font attribution stays intact.
-
-To inspect pending changes without committing or pushing:
+Inspect pending changes without committing or pushing:
 
 ```sh
 node scripts/github-sync.mjs --dry-run
 ```
 
-The GitHub command-line tool is installed locally outside the repository. It
-uses the existing macOS keychain sign-in; no authentication token is saved in
-project source. Other machines should install and authenticate the official
-GitHub CLI and configure Git authentication before running the sync.
+Only after an explicit push request, the helper can publish:
 
-Local scheduled work requires the Mac to be awake and the desktop app running.
-See [scheduled task requirements](https://learn.chatgpt.com/docs/automations?surface=app).
+```sh
+node scripts/github-sync.mjs --push
+```
+
+Running the helper without options also defaults to inspection. It checks
+common credential formats and outgoing commit blobs. When pushing source or
+dependency changes, it runs the existing tests and production build. It does not
+force push or reconcile divergent remote history automatically, and it preserves
+staged work.
+
+Commits use Naitik Singhal's configured GitHub identity. No assistant co-author,
+byline, or generated-by footer is added. Image and font credits remain intact.
+
+The local GitHub CLI uses the existing macOS keychain sign-in; no authentication
+token is saved in project source.

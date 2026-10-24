@@ -1,0 +1,1208 @@
+{
+  "lines": [
+    {
+      "id": "kobe-S",
+      "city": "Kobe",
+      "code": "S",
+      "nameEn": "Seishin-Yamate / Hokushin Line",
+      "operator": "Kobe City Transportation Bureau",
+      "stationIds": [
+        "kobe-tanigami",
+        "kobe-shin-kobe",
+        "kobe-sannomiya",
+        "kobe-kencho-mae",
+        "kobe-okurayama",
+        "kobe-minatogawa-koen",
+        "kobe-kamisawa",
+        "kobe-nagata",
+        "kobe-shin-nagata",
+        "kobe-itayado",
+        "kobe-myohoji",
+        "kobe-myodani",
+        "kobe-sogoundo-koen",
+        "kobe-gakuentoshi",
+        "kobe-ikawadani",
+        "kobe-seishin-minami",
+        "kobe-seishin-chuo"
+      ],
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 1040,
+            "y": 240
+          },
+          {
+            "x": 1040,
+            "y": 480
+          },
+          {
+            "x": 1200,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 1200,
+            "y": 640
+          },
+          {
+            "x": 1120,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 1120,
+            "y": 640
+          },
+          {
+            "x": 1120,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 1120,
+            "y": 720
+          },
+          {
+            "x": 1040,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 720
+          },
+          {
+            "x": 1040,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 800
+          },
+          {
+            "x": 960,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 800
+          },
+          {
+            "x": 960,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 720
+          },
+          {
+            "x": 880,
+            "y": 800
+          },
+          {
+            "x": 880,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 880
+          },
+          {
+            "x": 800,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 880
+          },
+          {
+            "x": 720,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 800
+          },
+          {
+            "x": 640,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 800
+          },
+          {
+            "x": 560,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 720
+          },
+          {
+            "x": 480,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 720
+          },
+          {
+            "x": 400,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 720
+          },
+          {
+            "x": 320,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 640
+          },
+          {
+            "x": 320,
+            "y": 560
+          },
+          {
+            "x": 240,
+            "y": 480
+          }
+        ]
+      ]
+    },
+    {
+      "id": "kobe-K",
+      "city": "Kobe",
+      "code": "K",
+      "nameEn": "Kaigan Line",
+      "operator": "Kobe City Transportation Bureau",
+      "stationIds": [
+        "kobe-sannomiya-hanadokei-mae",
+        "kobe-kyukyoryuchi-daimaru-mae",
+        "kobe-minato-motomachi",
+        "kobe-harborland",
+        "kobe-chuo-ichiba-mae",
+        "kobe-wadamisaki",
+        "kobe-misaki-koen",
+        "kobe-karumo",
+        "kobe-komagabayashi",
+        "kobe-shin-nagata"
+      ],
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 1200,
+            "y": 720
+          },
+          {
+            "x": 1120,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 1120,
+            "y": 800
+          },
+          {
+            "x": 1080,
+            "y": 760
+          },
+          {
+            "x": 1080,
+            "y": 680
+          },
+          {
+            "x": 1040,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 640
+          },
+          {
+            "x": 1040,
+            "y": 680
+          },
+          {
+            "x": 1080,
+            "y": 720
+          },
+          {
+            "x": 1080,
+            "y": 840
+          },
+          {
+            "x": 1120,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 1120,
+            "y": 880
+          },
+          {
+            "x": 1040,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 880
+          },
+          {
+            "x": 960,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 880
+          },
+          {
+            "x": 1040,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 960
+          },
+          {
+            "x": 960,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 960
+          },
+          {
+            "x": 880,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 960
+          },
+          {
+            "x": 880,
+            "y": 880
+          }
+        ]
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "kobe-tanigami",
+      "city": "Kobe",
+      "nameEn": "Tanigami",
+      "nameJa": "谷上",
+      "codes": [
+        "S01"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-shin-kobe",
+      "city": "Kobe",
+      "nameEn": "Shin-Kobe",
+      "nameJa": "新神戸",
+      "codes": [
+        "S02"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 1200,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-sannomiya",
+      "city": "Kobe",
+      "nameEn": "Sannomiya",
+      "nameJa": "三宮",
+      "codes": [
+        "S03"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 1120,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "interchangeIds": [
+        "kobe-sannomiya-hanadokei-mae"
+      ]
+    },
+    {
+      "id": "kobe-kencho-mae",
+      "city": "Kobe",
+      "nameEn": "Kencho-mae",
+      "nameJa": "県庁前",
+      "codes": [
+        "S04"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 1120,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-okurayama",
+      "city": "Kobe",
+      "nameEn": "Okurayama",
+      "nameJa": "大倉山（湊川神社前）",
+      "codes": [
+        "S05"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-minatogawa-koen",
+      "city": "Kobe",
+      "nameEn": "Minatogawa-koen",
+      "nameJa": "湊川公園（川崎病院前）",
+      "codes": [
+        "S06"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-kamisawa",
+      "city": "Kobe",
+      "nameEn": "Kamisawa",
+      "nameJa": "上沢",
+      "codes": [
+        "S07"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-nagata",
+      "city": "Kobe",
+      "nameEn": "Nagata",
+      "nameJa": "長田（長田神社前）",
+      "codes": [
+        "S08"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-shin-nagata",
+      "city": "Kobe",
+      "nameEn": "Shin-Nagata",
+      "nameJa": "新長田(鉄人28号前)",
+      "codes": [
+        "S09",
+        "K10"
+      ],
+      "lineIds": [
+        "kobe-S",
+        "kobe-K"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-itayado",
+      "city": "Kobe",
+      "nameEn": "Itayado",
+      "nameJa": "板宿（滝川中学・高等学校前）",
+      "codes": [
+        "S10"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-myohoji",
+      "city": "Kobe",
+      "nameEn": "Myohoji",
+      "nameJa": "妙法寺",
+      "codes": [
+        "S11"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-myodani",
+      "city": "Kobe",
+      "nameEn": "Myodani",
+      "nameJa": "名谷",
+      "codes": [
+        "S12"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-sogoundo-koen",
+      "city": "Kobe",
+      "nameEn": "Sogoundo-koen",
+      "nameJa": "総合運動公園",
+      "codes": [
+        "S13"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-gakuentoshi",
+      "city": "Kobe",
+      "nameEn": "Gakuentoshi",
+      "nameJa": "学園都市",
+      "codes": [
+        "S14"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-ikawadani",
+      "city": "Kobe",
+      "nameEn": "Ikawadani",
+      "nameJa": "伊川谷",
+      "codes": [
+        "S15"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-seishin-minami",
+      "city": "Kobe",
+      "nameEn": "Seishin-minami",
+      "nameJa": "西神南",
+      "codes": [
+        "S16"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-seishin-chuo",
+      "city": "Kobe",
+      "nameEn": "Seishin-chuo",
+      "nameJa": "西神中央",
+      "codes": [
+        "S17"
+      ],
+      "lineIds": [
+        "kobe-S"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-sannomiya-hanadokei-mae",
+      "city": "Kobe",
+      "nameEn": "Sannomiya-Hanadokei-mae",
+      "nameJa": "三宮・花時計前",
+      "codes": [
+        "K01"
+      ],
+      "lineIds": [
+        "kobe-K"
+      ],
+      "layout": {
+        "x": 1200,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "interchangeIds": [
+        "kobe-sannomiya"
+      ]
+    },
+    {
+      "id": "kobe-kyukyoryuchi-daimaru-mae",
+      "city": "Kobe",
+      "nameEn": "Kyukyoryuchi-Daimaru-mae",
+      "nameJa": "旧居留地・大丸前",
+      "codes": [
+        "K02"
+      ],
+      "lineIds": [
+        "kobe-K"
+      ],
+      "layout": {
+        "x": 1120,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-minato-motomachi",
+      "city": "Kobe",
+      "nameEn": "Minato-Motomachi",
+      "nameJa": "みなと元町(ワコーレ和田興産前)",
+      "codes": [
+        "K03"
+      ],
+      "lineIds": [
+        "kobe-K"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-harborland",
+      "city": "Kobe",
+      "nameEn": "Harborland",
+      "nameJa": "ハーバーランド(デュオこうべ前)",
+      "codes": [
+        "K04"
+      ],
+      "lineIds": [
+        "kobe-K"
+      ],
+      "layout": {
+        "x": 1120,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-chuo-ichiba-mae",
+      "city": "Kobe",
+      "nameEn": "Chuo-ichiba-mae",
+      "nameJa": "中央市場前",
+      "codes": [
+        "K05"
+      ],
+      "lineIds": [
+        "kobe-K"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-wadamisaki",
+      "city": "Kobe",
+      "nameEn": "Wadamisaki",
+      "nameJa": "和田岬(三菱神戸病院前)",
+      "codes": [
+        "K06"
+      ],
+      "lineIds": [
+        "kobe-K"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-misaki-koen",
+      "city": "Kobe",
+      "nameEn": "Misaki-koen",
+      "nameJa": "御崎公園",
+      "codes": [
+        "K07"
+      ],
+      "lineIds": [
+        "kobe-K"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-karumo",
+      "city": "Kobe",
+      "nameEn": "Karumo",
+      "nameJa": "苅藻(三ツ星ベルト前)",
+      "codes": [
+        "K08"
+      ],
+      "lineIds": [
+        "kobe-K"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kobe-komagabayashi",
+      "city": "Kobe",
+      "nameEn": "Komagabayashi",
+      "nameJa": "駒ヶ林(三国志のまち・アグロガーデン前)",
+      "codes": [
+        "K09"
+      ],
+      "lineIds": [
+        "kobe-K"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kobe City Transportation Bureau route reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://kotsu.city.kobe.lg.jp/english/en-subway-map/"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kobe_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    }
+  ],
+  "layoutSource": {
+    "title": "Station coordinate reference · schematic layout only (ekidata / ODPT compilation by piuccio)",
+    "url": "https://github.com/piuccio/open-data-jp-railway-stations"
+  },
+  "layoutNote": "Coordinates are a transformed original schematic, not navigable geography. Operator identities and codes are sourced separately."
+}

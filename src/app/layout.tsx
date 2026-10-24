@@ -3,6 +3,7 @@ import "./globals.css";
 import "./stage.css";
 import "./editorial.css";
 import "./apple.css";
+import "./explore.css";
 export const metadata: Metadata = {
   title: "Japan, Your Way — A trip that fits you",
   description:

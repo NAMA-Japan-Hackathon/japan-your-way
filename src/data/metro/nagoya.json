@@ -1,0 +1,3866 @@
+{
+  "lines": [
+    {
+      "id": "nagoya-H",
+      "city": "Nagoya",
+      "code": "H",
+      "nameEn": "Higashiyama Line",
+      "operator": "Nagoya City Transportation Bureau",
+      "stationIds": [
+        "nagoya-takabata",
+        "nagoya-hatta",
+        "nagoya-iwatsuka",
+        "nagoya-nakamura-koen",
+        "nagoya-nakamura-nisseki",
+        "nagoya-honjin",
+        "nagoya-kamejima",
+        "nagoya-nagoya",
+        "nagoya-fushimi",
+        "nagoya-sakae",
+        "nagoya-shinsakae-machi",
+        "nagoya-chikusa",
+        "nagoya-imaike",
+        "nagoya-ikeshita",
+        "nagoya-kakuozan",
+        "nagoya-motoyama",
+        "nagoya-higashiyama-koen",
+        "nagoya-hoshigaoka",
+        "nagoya-issha",
+        "nagoya-kamiyashiro",
+        "nagoya-hongo",
+        "nagoya-fujigaoka"
+      ],
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 240,
+            "y": 800
+          },
+          {
+            "x": 240,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 240,
+            "y": 720
+          },
+          {
+            "x": 240,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 240,
+            "y": 640
+          },
+          {
+            "x": 240,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 240,
+            "y": 560
+          },
+          {
+            "x": 320,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 560
+          },
+          {
+            "x": 320,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 480
+          },
+          {
+            "x": 400,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 480
+          },
+          {
+            "x": 400,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 560
+          },
+          {
+            "x": 480,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 560
+          },
+          {
+            "x": 560,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 560
+          },
+          {
+            "x": 640,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 560
+          },
+          {
+            "x": 640,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 480
+          },
+          {
+            "x": 720,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 560
+          },
+          {
+            "x": 720,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 480
+          },
+          {
+            "x": 720,
+            "y": 520
+          },
+          {
+            "x": 680,
+            "y": 560
+          },
+          {
+            "x": 680,
+            "y": 600
+          },
+          {
+            "x": 720,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 640
+          },
+          {
+            "x": 800,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 640
+          },
+          {
+            "x": 880,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 640
+          },
+          {
+            "x": 960,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 640
+          },
+          {
+            "x": 960,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 560
+          },
+          {
+            "x": 1040,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 560
+          },
+          {
+            "x": 1120,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 1120,
+            "y": 560
+          },
+          {
+            "x": 1120,
+            "y": 480
+          }
+        ]
+      ]
+    },
+    {
+      "id": "nagoya-M",
+      "city": "Nagoya",
+      "code": "M",
+      "nameEn": "Meijo Line",
+      "operator": "Nagoya City Transportation Bureau",
+      "stationIds": [
+        "nagoya-kanayama",
+        "nagoya-higashi-betsuin",
+        "nagoya-kamimaezu",
+        "nagoya-yabacho",
+        "nagoya-sakae",
+        "nagoya-hisaya-odori",
+        "nagoya-nagoyajo",
+        "nagoya-meijo-koen",
+        "nagoya-kurokawa",
+        "nagoya-shiga-hondori",
+        "nagoya-heian-dori",
+        "nagoya-ozone",
+        "nagoya-nagoya-dome-mae-yada",
+        "nagoya-sunadabashi",
+        "nagoya-chayagasaka",
+        "nagoya-jiyugaoka",
+        "nagoya-motoyama",
+        "nagoya-nagoya-daigaku",
+        "nagoya-yagoto-nisseki",
+        "nagoya-yagoto",
+        "nagoya-sogo-rihabiri-center",
+        "nagoya-mizuho-undojo-higashi",
+        "nagoya-aratama-bashi",
+        "nagoya-myoon-dori",
+        "nagoya-horita",
+        "nagoya-atsuta-jingu-tenma-cho",
+        "nagoya-atsuta-jingu-nishi",
+        "nagoya-nishi-takakura"
+      ],
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "loop": true,
+      "extraEdges": [
+        [
+          "nagoya-nishi-takakura",
+          "nagoya-kanayama"
+        ]
+      ],
+      "segments": [
+        [
+          {
+            "x": 480,
+            "y": 720
+          },
+          {
+            "x": 400,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 720
+          },
+          {
+            "x": 440,
+            "y": 680
+          },
+          {
+            "x": 520,
+            "y": 680
+          },
+          {
+            "x": 560,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 640
+          },
+          {
+            "x": 480,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 640
+          },
+          {
+            "x": 560,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 560
+          },
+          {
+            "x": 560,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 480
+          },
+          {
+            "x": 560,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 400
+          },
+          {
+            "x": 480,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 400
+          },
+          {
+            "x": 560,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 320
+          },
+          {
+            "x": 480,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 320
+          },
+          {
+            "x": 520,
+            "y": 360
+          },
+          {
+            "x": 600,
+            "y": 360
+          },
+          {
+            "x": 640,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 400
+          },
+          {
+            "x": 720,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 400
+          },
+          {
+            "x": 800,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 480
+          },
+          {
+            "x": 800,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 400
+          },
+          {
+            "x": 800,
+            "y": 440
+          },
+          {
+            "x": 760,
+            "y": 480
+          },
+          {
+            "x": 760,
+            "y": 520
+          },
+          {
+            "x": 800,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 560
+          },
+          {
+            "x": 880,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 560
+          },
+          {
+            "x": 800,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 640
+          },
+          {
+            "x": 800,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 720
+          },
+          {
+            "x": 720,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 720
+          },
+          {
+            "x": 800,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 800
+          },
+          {
+            "x": 720,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 800
+          },
+          {
+            "x": 720,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 880
+          },
+          {
+            "x": 640,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 880
+          },
+          {
+            "x": 640,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 960
+          },
+          {
+            "x": 560,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 880
+          },
+          {
+            "x": 480,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 880
+          },
+          {
+            "x": 560,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 800
+          },
+          {
+            "x": 480,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 800
+          },
+          {
+            "x": 480,
+            "y": 720
+          }
+        ]
+      ]
+    },
+    {
+      "id": "nagoya-E",
+      "city": "Nagoya",
+      "code": "E",
+      "nameEn": "Meiko Line",
+      "operator": "Nagoya City Transportation Bureau",
+      "stationIds": [
+        "nagoya-kanayama",
+        "nagoya-hibino",
+        "nagoya-rokuban-cho-station",
+        "nagoya-tokai-dori",
+        "nagoya-minato-kuyakusho",
+        "nagoya-tsukijiguchi",
+        "nagoya-nagoyako"
+      ],
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 480,
+            "y": 720
+          },
+          {
+            "x": 400,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 800
+          },
+          {
+            "x": 400,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 880
+          },
+          {
+            "x": 400,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 960
+          },
+          {
+            "x": 320,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 960
+          },
+          {
+            "x": 400,
+            "y": 1040
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 1040
+          },
+          {
+            "x": 320,
+            "y": 1040
+          }
+        ]
+      ]
+    },
+    {
+      "id": "nagoya-T",
+      "city": "Nagoya",
+      "code": "T",
+      "nameEn": "Tsurumai Line",
+      "operator": "Nagoya City Transportation Bureau",
+      "stationIds": [
+        "nagoya-kami-otai",
+        "nagoya-shonai-ryokuchi-koen",
+        "nagoya-shonai-dori",
+        "nagoya-joshin",
+        "nagoya-sengen-cho",
+        "nagoya-marunouchi",
+        "nagoya-fushimi",
+        "nagoya-osu-kannon",
+        "nagoya-kamimaezu",
+        "nagoya-tsurumai",
+        "nagoya-arahata",
+        "nagoya-gokiso",
+        "nagoya-kawana",
+        "nagoya-irinaka",
+        "nagoya-yagoto",
+        "nagoya-shiogama-guchi",
+        "nagoya-ueda",
+        "nagoya-hara",
+        "nagoya-hirabari",
+        "nagoya-akaike"
+      ],
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 400,
+            "y": 240
+          },
+          {
+            "x": 400,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 320
+          },
+          {
+            "x": 400,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 400
+          },
+          {
+            "x": 320,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 400
+          },
+          {
+            "x": 240,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 240,
+            "y": 480
+          },
+          {
+            "x": 280,
+            "y": 480
+          },
+          {
+            "x": 320,
+            "y": 440
+          },
+          {
+            "x": 440,
+            "y": 440
+          },
+          {
+            "x": 480,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 480
+          },
+          {
+            "x": 480,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 560
+          },
+          {
+            "x": 400,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 640
+          },
+          {
+            "x": 440,
+            "y": 640
+          },
+          {
+            "x": 480,
+            "y": 600
+          },
+          {
+            "x": 520,
+            "y": 600
+          },
+          {
+            "x": 560,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 640
+          },
+          {
+            "x": 560,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 720
+          },
+          {
+            "x": 640,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 640
+          },
+          {
+            "x": 640,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 720
+          },
+          {
+            "x": 640,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 800
+          },
+          {
+            "x": 680,
+            "y": 800
+          },
+          {
+            "x": 720,
+            "y": 760
+          },
+          {
+            "x": 840,
+            "y": 760
+          },
+          {
+            "x": 880,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 720
+          },
+          {
+            "x": 800,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 800
+          },
+          {
+            "x": 880,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 800
+          },
+          {
+            "x": 960,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 880
+          },
+          {
+            "x": 880,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 880
+          },
+          {
+            "x": 920,
+            "y": 880
+          },
+          {
+            "x": 960,
+            "y": 840
+          },
+          {
+            "x": 1000,
+            "y": 840
+          },
+          {
+            "x": 1040,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 880
+          },
+          {
+            "x": 1120,
+            "y": 880
+          }
+        ]
+      ]
+    },
+    {
+      "id": "nagoya-S",
+      "city": "Nagoya",
+      "code": "S",
+      "nameEn": "Sakura-dori Line",
+      "operator": "Nagoya City Transportation Bureau",
+      "stationIds": [
+        "nagoya-taiko-dori",
+        "nagoya-nagoya",
+        "nagoya-kokusai-center",
+        "nagoya-marunouchi",
+        "nagoya-hisaya-odori",
+        "nagoya-takaoka",
+        "nagoya-kurumamichi",
+        "nagoya-imaike",
+        "nagoya-fukiage",
+        "nagoya-gokiso",
+        "nagoya-sakurayama",
+        "nagoya-mizuho-kuyakusho",
+        "nagoya-mizuho-undojo-nishi",
+        "nagoya-aratama-bashi",
+        "nagoya-sakura-hommachi",
+        "nagoya-tsurusato",
+        "nagoya-nonami",
+        "nagoya-naruko-kita",
+        "nagoya-aioiyama",
+        "nagoya-kamisawa",
+        "nagoya-tokushige"
+      ],
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 320,
+            "y": 640
+          },
+          {
+            "x": 400,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 560
+          },
+          {
+            "x": 360,
+            "y": 600
+          },
+          {
+            "x": 360,
+            "y": 680
+          },
+          {
+            "x": 320,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 720
+          },
+          {
+            "x": 360,
+            "y": 680
+          },
+          {
+            "x": 360,
+            "y": 640
+          },
+          {
+            "x": 480,
+            "y": 520
+          },
+          {
+            "x": 480,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 480
+          },
+          {
+            "x": 560,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 480
+          },
+          {
+            "x": 600,
+            "y": 440
+          },
+          {
+            "x": 600,
+            "y": 360
+          },
+          {
+            "x": 640,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 320
+          },
+          {
+            "x": 720,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 320
+          },
+          {
+            "x": 720,
+            "y": 360
+          },
+          {
+            "x": 680,
+            "y": 400
+          },
+          {
+            "x": 680,
+            "y": 520
+          },
+          {
+            "x": 720,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 560
+          },
+          {
+            "x": 720,
+            "y": 600
+          },
+          {
+            "x": 760,
+            "y": 640
+          },
+          {
+            "x": 760,
+            "y": 840
+          },
+          {
+            "x": 800,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 880
+          },
+          {
+            "x": 760,
+            "y": 840
+          },
+          {
+            "x": 720,
+            "y": 840
+          },
+          {
+            "x": 640,
+            "y": 760
+          },
+          {
+            "x": 640,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 720
+          },
+          {
+            "x": 640,
+            "y": 760
+          },
+          {
+            "x": 600,
+            "y": 800
+          },
+          {
+            "x": 600,
+            "y": 920
+          },
+          {
+            "x": 560,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 960
+          },
+          {
+            "x": 600,
+            "y": 960
+          },
+          {
+            "x": 640,
+            "y": 920
+          },
+          {
+            "x": 680,
+            "y": 920
+          },
+          {
+            "x": 720,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 960
+          },
+          {
+            "x": 640,
+            "y": 1040
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 1040
+          },
+          {
+            "x": 640,
+            "y": 1000
+          },
+          {
+            "x": 600,
+            "y": 960
+          },
+          {
+            "x": 600,
+            "y": 920
+          },
+          {
+            "x": 640,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 880
+          },
+          {
+            "x": 600,
+            "y": 920
+          },
+          {
+            "x": 600,
+            "y": 1000
+          },
+          {
+            "x": 560,
+            "y": 1040
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 1040
+          },
+          {
+            "x": 600,
+            "y": 1040
+          },
+          {
+            "x": 640,
+            "y": 1000
+          },
+          {
+            "x": 680,
+            "y": 1000
+          },
+          {
+            "x": 720,
+            "y": 1040
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 1040
+          },
+          {
+            "x": 800,
+            "y": 1040
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 1040
+          },
+          {
+            "x": 800,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 960
+          },
+          {
+            "x": 880,
+            "y": 1040
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 1040
+          },
+          {
+            "x": 960,
+            "y": 1040
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 1040
+          },
+          {
+            "x": 1040,
+            "y": 1040
+          }
+        ]
+      ]
+    },
+    {
+      "id": "nagoya-K",
+      "city": "Nagoya",
+      "code": "K",
+      "nameEn": "Kamiiida Line",
+      "operator": "Nagoya City Transportation Bureau",
+      "stationIds": [
+        "nagoya-kamiiida",
+        "nagoya-heian-dori"
+      ],
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 640,
+            "y": 240
+          },
+          {
+            "x": 640,
+            "y": 280
+          },
+          {
+            "x": 600,
+            "y": 320
+          },
+          {
+            "x": 600,
+            "y": 360
+          },
+          {
+            "x": 640,
+            "y": 400
+          }
+        ]
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "nagoya-takabata",
+      "city": "Nagoya",
+      "nameEn": "Takabata",
+      "nameJa": "高畑",
+      "codes": [
+        "H01"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-hatta",
+      "city": "Nagoya",
+      "nameEn": "Hatta",
+      "nameJa": "八田",
+      "codes": [
+        "H02"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-iwatsuka",
+      "city": "Nagoya",
+      "nameEn": "Iwatsuka",
+      "nameJa": "岩塚",
+      "codes": [
+        "H03"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-nakamura-koen",
+      "city": "Nagoya",
+      "nameEn": "Nakamura Koen",
+      "nameJa": "中村公園",
+      "codes": [
+        "H04"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-nakamura-nisseki",
+      "city": "Nagoya",
+      "nameEn": "Nakamura Nisseki",
+      "nameJa": "中村日赤",
+      "codes": [
+        "H05"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-honjin",
+      "city": "Nagoya",
+      "nameEn": "Honjin",
+      "nameJa": "本陣",
+      "codes": [
+        "H06"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-kamejima",
+      "city": "Nagoya",
+      "nameEn": "Kamejima",
+      "nameJa": "亀島",
+      "codes": [
+        "H07"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-nagoya",
+      "city": "Nagoya",
+      "nameEn": "Nagoya",
+      "nameJa": "名古屋",
+      "codes": [
+        "H08",
+        "S02"
+      ],
+      "lineIds": [
+        "nagoya-H",
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-fushimi",
+      "city": "Nagoya",
+      "nameEn": "Fushimi",
+      "nameJa": "伏見",
+      "codes": [
+        "H09",
+        "T07"
+      ],
+      "lineIds": [
+        "nagoya-H",
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-sakae",
+      "city": "Nagoya",
+      "nameEn": "Sakae",
+      "nameJa": "栄",
+      "codes": [
+        "H10",
+        "M05"
+      ],
+      "lineIds": [
+        "nagoya-H",
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-shinsakae-machi",
+      "city": "Nagoya",
+      "nameEn": "Shinsakae-machi",
+      "nameJa": "新栄町",
+      "codes": [
+        "H11"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-chikusa",
+      "city": "Nagoya",
+      "nameEn": "Chikusa",
+      "nameJa": "千種",
+      "codes": [
+        "H12"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-imaike",
+      "city": "Nagoya",
+      "nameEn": "Imaike",
+      "nameJa": "今池",
+      "codes": [
+        "H13",
+        "S08"
+      ],
+      "lineIds": [
+        "nagoya-H",
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-ikeshita",
+      "city": "Nagoya",
+      "nameEn": "Ikeshita",
+      "nameJa": "池下",
+      "codes": [
+        "H14"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-kakuozan",
+      "city": "Nagoya",
+      "nameEn": "Kakuozan",
+      "nameJa": "覚王山",
+      "codes": [
+        "H15"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-motoyama",
+      "city": "Nagoya",
+      "nameEn": "Motoyama",
+      "nameJa": "本山",
+      "codes": [
+        "H16",
+        "M17"
+      ],
+      "lineIds": [
+        "nagoya-H",
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-higashiyama-koen",
+      "city": "Nagoya",
+      "nameEn": "Higashiyama Koen",
+      "nameJa": "東山公園",
+      "codes": [
+        "H17"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-hoshigaoka",
+      "city": "Nagoya",
+      "nameEn": "Hoshigaoka",
+      "nameJa": "星ヶ丘",
+      "codes": [
+        "H18"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-issha",
+      "city": "Nagoya",
+      "nameEn": "Issha",
+      "nameJa": "一社",
+      "codes": [
+        "H19"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-kamiyashiro",
+      "city": "Nagoya",
+      "nameEn": "Kamiyashiro",
+      "nameJa": "上社",
+      "codes": [
+        "H20"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-hongo",
+      "city": "Nagoya",
+      "nameEn": "Hongo",
+      "nameJa": "本郷",
+      "codes": [
+        "H21"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 1120,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-fujigaoka",
+      "city": "Nagoya",
+      "nameEn": "Fujigaoka",
+      "nameJa": "藤が丘",
+      "codes": [
+        "H22"
+      ],
+      "lineIds": [
+        "nagoya-H"
+      ],
+      "layout": {
+        "x": 1120,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-kanayama",
+      "city": "Nagoya",
+      "nameEn": "Kanayama",
+      "nameJa": "金山",
+      "codes": [
+        "M01",
+        "E01"
+      ],
+      "lineIds": [
+        "nagoya-M",
+        "nagoya-E"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-higashi-betsuin",
+      "city": "Nagoya",
+      "nameEn": "Higashi Betsuin",
+      "nameJa": "東別院",
+      "codes": [
+        "M02"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-kamimaezu",
+      "city": "Nagoya",
+      "nameEn": "Kamimaezu",
+      "nameJa": "上前津",
+      "codes": [
+        "M03",
+        "T09"
+      ],
+      "lineIds": [
+        "nagoya-M",
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-yabacho",
+      "city": "Nagoya",
+      "nameEn": "Yabacho",
+      "nameJa": "矢場町",
+      "codes": [
+        "M04"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-hisaya-odori",
+      "city": "Nagoya",
+      "nameEn": "Hisaya-odori",
+      "nameJa": "久屋大通",
+      "codes": [
+        "M06",
+        "S05"
+      ],
+      "lineIds": [
+        "nagoya-M",
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-nagoyajo",
+      "city": "Nagoya",
+      "nameEn": "Nagoyajo",
+      "nameJa": "名古屋城",
+      "codes": [
+        "M07"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-meijo-koen",
+      "city": "Nagoya",
+      "nameEn": "Meijo Koen",
+      "nameJa": "名城公園",
+      "codes": [
+        "M08"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-kurokawa",
+      "city": "Nagoya",
+      "nameEn": "Kurokawa",
+      "nameJa": "黒川",
+      "codes": [
+        "M09"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-shiga-hondori",
+      "city": "Nagoya",
+      "nameEn": "Shiga-hondori",
+      "nameJa": "志賀本通",
+      "codes": [
+        "M10"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-heian-dori",
+      "city": "Nagoya",
+      "nameEn": "Heian-dori",
+      "nameJa": "平安通",
+      "codes": [
+        "M11",
+        "K02"
+      ],
+      "lineIds": [
+        "nagoya-M",
+        "nagoya-K"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-ozone",
+      "city": "Nagoya",
+      "nameEn": "Ozone",
+      "nameJa": "大曽根",
+      "codes": [
+        "M12"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-nagoya-dome-mae-yada",
+      "city": "Nagoya",
+      "nameEn": "Nagoya Dome-mae Yada",
+      "nameJa": "ナゴヤドーム前矢田",
+      "codes": [
+        "M13"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-sunadabashi",
+      "city": "Nagoya",
+      "nameEn": "Sunadabashi",
+      "nameJa": "砂田橋",
+      "codes": [
+        "M14"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-chayagasaka",
+      "city": "Nagoya",
+      "nameEn": "Chayagasaka",
+      "nameJa": "茶屋ヶ坂",
+      "codes": [
+        "M15"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-jiyugaoka",
+      "city": "Nagoya",
+      "nameEn": "Jiyugaoka",
+      "nameJa": "自由ヶ丘",
+      "codes": [
+        "M16"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-nagoya-daigaku",
+      "city": "Nagoya",
+      "nameEn": "Nagoya Daigaku",
+      "nameJa": "名古屋大学",
+      "codes": [
+        "M18"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-yagoto-nisseki",
+      "city": "Nagoya",
+      "nameEn": "Yagoto Nisseki",
+      "nameJa": "八事日赤",
+      "codes": [
+        "M19"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-yagoto",
+      "city": "Nagoya",
+      "nameEn": "Yagoto",
+      "nameJa": "八事",
+      "codes": [
+        "M20",
+        "T15"
+      ],
+      "lineIds": [
+        "nagoya-M",
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-sogo-rihabiri-center",
+      "city": "Nagoya",
+      "nameEn": "Sogo Rihabiri Center",
+      "nameJa": "総合リハビリセンター",
+      "codes": [
+        "M21"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-mizuho-undojo-higashi",
+      "city": "Nagoya",
+      "nameEn": "Mizuho Undojo Higashi",
+      "nameJa": "瑞穂運動場東",
+      "codes": [
+        "M22"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-aratama-bashi",
+      "city": "Nagoya",
+      "nameEn": "Aratama-bashi",
+      "nameJa": "新瑞橋",
+      "codes": [
+        "M23",
+        "S14"
+      ],
+      "lineIds": [
+        "nagoya-M",
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-myoon-dori",
+      "city": "Nagoya",
+      "nameEn": "Myoon-dori",
+      "nameJa": "妙音通",
+      "codes": [
+        "M24"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-horita",
+      "city": "Nagoya",
+      "nameEn": "Horita",
+      "nameJa": "堀田",
+      "codes": [
+        "M25"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-atsuta-jingu-tenma-cho",
+      "city": "Nagoya",
+      "nameEn": "Atsuta Jingu Tenma-cho",
+      "nameJa": "熱田神宮伝馬町",
+      "codes": [
+        "M26"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-atsuta-jingu-nishi",
+      "city": "Nagoya",
+      "nameEn": "Atsuta Jingu Nishi",
+      "nameJa": "熱田神宮西",
+      "codes": [
+        "M27"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-nishi-takakura",
+      "city": "Nagoya",
+      "nameEn": "Nishi Takakura",
+      "nameJa": "西高蔵",
+      "codes": [
+        "M28"
+      ],
+      "lineIds": [
+        "nagoya-M"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-hibino",
+      "city": "Nagoya",
+      "nameEn": "Hibino",
+      "nameJa": "日比野",
+      "codes": [
+        "E02"
+      ],
+      "lineIds": [
+        "nagoya-E"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-rokuban-cho-station",
+      "city": "Nagoya",
+      "nameEn": "Rokuban-cho",
+      "nameJa": "六番町",
+      "codes": [
+        "E03"
+      ],
+      "lineIds": [
+        "nagoya-E"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-tokai-dori",
+      "city": "Nagoya",
+      "nameEn": "Tokai-dori",
+      "nameJa": "東海通",
+      "codes": [
+        "E04"
+      ],
+      "lineIds": [
+        "nagoya-E"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-minato-kuyakusho",
+      "city": "Nagoya",
+      "nameEn": "Minato Kuyakusho",
+      "nameJa": "港区役所",
+      "codes": [
+        "E05"
+      ],
+      "lineIds": [
+        "nagoya-E"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-tsukijiguchi",
+      "city": "Nagoya",
+      "nameEn": "Tsukijiguchi",
+      "nameJa": "築地口",
+      "codes": [
+        "E06"
+      ],
+      "lineIds": [
+        "nagoya-E"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-nagoyako",
+      "city": "Nagoya",
+      "nameEn": "Nagoyako",
+      "nameJa": "名古屋港",
+      "codes": [
+        "E07"
+      ],
+      "lineIds": [
+        "nagoya-E"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-kami-otai",
+      "city": "Nagoya",
+      "nameEn": "Kami Otai",
+      "nameJa": "上小田井",
+      "codes": [
+        "T01"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-shonai-ryokuchi-koen",
+      "city": "Nagoya",
+      "nameEn": "Shonai Ryokuchi Koen",
+      "nameJa": "庄内緑地公園",
+      "codes": [
+        "T02"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-shonai-dori",
+      "city": "Nagoya",
+      "nameEn": "Shonai-dori",
+      "nameJa": "庄内通",
+      "codes": [
+        "T03"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-joshin",
+      "city": "Nagoya",
+      "nameEn": "Joshin",
+      "nameJa": "浄心",
+      "codes": [
+        "T04"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-sengen-cho",
+      "city": "Nagoya",
+      "nameEn": "Sengen-cho",
+      "nameJa": "浅間町",
+      "codes": [
+        "T05"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-marunouchi",
+      "city": "Nagoya",
+      "nameEn": "Marunouchi",
+      "nameJa": "丸の内",
+      "codes": [
+        "T06",
+        "S04"
+      ],
+      "lineIds": [
+        "nagoya-T",
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-osu-kannon",
+      "city": "Nagoya",
+      "nameEn": "Osu Kannon",
+      "nameJa": "大須観音",
+      "codes": [
+        "T08"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-tsurumai",
+      "city": "Nagoya",
+      "nameEn": "Tsurumai",
+      "nameJa": "鶴舞",
+      "codes": [
+        "T10"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-arahata",
+      "city": "Nagoya",
+      "nameEn": "Arahata",
+      "nameJa": "荒畑",
+      "codes": [
+        "T11"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-gokiso",
+      "city": "Nagoya",
+      "nameEn": "Gokiso",
+      "nameJa": "御器所",
+      "codes": [
+        "T12",
+        "S10"
+      ],
+      "lineIds": [
+        "nagoya-T",
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-kawana",
+      "city": "Nagoya",
+      "nameEn": "Kawana",
+      "nameJa": "川名",
+      "codes": [
+        "T13"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-irinaka",
+      "city": "Nagoya",
+      "nameEn": "Irinaka",
+      "nameJa": "いりなか",
+      "codes": [
+        "T14"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-shiogama-guchi",
+      "city": "Nagoya",
+      "nameEn": "Shiogama-guchi",
+      "nameJa": "塩釜口",
+      "codes": [
+        "T16"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-ueda",
+      "city": "Nagoya",
+      "nameEn": "Ueda",
+      "nameJa": "植田",
+      "codes": [
+        "T17"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-hara",
+      "city": "Nagoya",
+      "nameEn": "Hara",
+      "nameJa": "原",
+      "codes": [
+        "T18"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-hirabari",
+      "city": "Nagoya",
+      "nameEn": "Hirabari",
+      "nameJa": "平針",
+      "codes": [
+        "T19"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-akaike",
+      "city": "Nagoya",
+      "nameEn": "Akaike",
+      "nameJa": "赤池",
+      "codes": [
+        "T20"
+      ],
+      "lineIds": [
+        "nagoya-T"
+      ],
+      "layout": {
+        "x": 1120,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-taiko-dori",
+      "city": "Nagoya",
+      "nameEn": "Taiko-dori",
+      "nameJa": "太閤通",
+      "codes": [
+        "S01"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-kokusai-center",
+      "city": "Nagoya",
+      "nameEn": "Kokusai Center",
+      "nameJa": "国際センター",
+      "codes": [
+        "S03"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-takaoka",
+      "city": "Nagoya",
+      "nameEn": "Takaoka",
+      "nameJa": "高岳",
+      "codes": [
+        "S06"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-kurumamichi",
+      "city": "Nagoya",
+      "nameEn": "Kurumamichi",
+      "nameJa": "車道",
+      "codes": [
+        "S07"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-fukiage",
+      "city": "Nagoya",
+      "nameEn": "Fukiage",
+      "nameJa": "吹上",
+      "codes": [
+        "S09"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-sakurayama",
+      "city": "Nagoya",
+      "nameEn": "Sakurayama",
+      "nameJa": "桜山",
+      "codes": [
+        "S11"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-mizuho-kuyakusho",
+      "city": "Nagoya",
+      "nameEn": "Mizuho Kuyakusho",
+      "nameJa": "瑞穂区役所",
+      "codes": [
+        "S12"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-mizuho-undojo-nishi",
+      "city": "Nagoya",
+      "nameEn": "Mizuho Undojo Nishi",
+      "nameJa": "瑞穂運動所西",
+      "codes": [
+        "S13"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-sakura-hommachi",
+      "city": "Nagoya",
+      "nameEn": "Sakura-hommachi",
+      "nameJa": "桜本町",
+      "codes": [
+        "S15"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-tsurusato",
+      "city": "Nagoya",
+      "nameEn": "Tsurusato",
+      "nameJa": "鶴里",
+      "codes": [
+        "S16"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-nonami",
+      "city": "Nagoya",
+      "nameEn": "Nonami",
+      "nameJa": "野並",
+      "codes": [
+        "S17"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-kamiiida",
+      "city": "Nagoya",
+      "nameEn": "Kamiiida",
+      "nameJa": "上飯田",
+      "codes": [
+        "K01"
+      ],
+      "lineIds": [
+        "nagoya-K"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.nagoya.jp/rp/Jassets/pdf/lang/city_bus_subway_guide_2026.pdf"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nagoya_Municipal_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-naruko-kita",
+      "city": "Nagoya",
+      "nameEn": "Naruko Kita",
+      "nameJa": "鳴子北",
+      "codes": [
+        "S18"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya operator subway map",
+          "url": "https://bus-sekkin.kotsu.city.nagoya.jp/pdf/subway/rosenzu/subwaymap.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-aioiyama",
+      "city": "Nagoya",
+      "nameEn": "Aioiyama",
+      "nameJa": "相生山",
+      "codes": [
+        "S19"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya operator subway map",
+          "url": "https://bus-sekkin.kotsu.city.nagoya.jp/pdf/subway/rosenzu/subwaymap.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-kamisawa",
+      "city": "Nagoya",
+      "nameEn": "Kamisawa",
+      "nameJa": "神沢",
+      "codes": [
+        "S20"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya operator subway map",
+          "url": "https://bus-sekkin.kotsu.city.nagoya.jp/pdf/subway/rosenzu/subwaymap.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya-tokushige",
+      "city": "Nagoya",
+      "nameEn": "Tokushige",
+      "nameJa": "徳重",
+      "codes": [
+        "S21"
+      ],
+      "lineIds": [
+        "nagoya-S"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Nagoya operator subway map",
+          "url": "https://bus-sekkin.kotsu.city.nagoya.jp/pdf/subway/rosenzu/subwaymap.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    }
+  ],
+  "layoutSource": {
+    "title": "Station coordinate reference · schematic layout only (ekidata / ODPT compilation by piuccio)",
+    "url": "https://github.com/piuccio/open-data-jp-railway-stations"
+  },
+  "layoutNote": "Coordinates are a transformed original schematic, not navigable geography. Operator identities and codes are sourced separately."
+}

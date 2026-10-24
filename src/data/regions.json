@@ -1,0 +1,165 @@
+[
+  {
+    "id": "hokkaido",
+    "name": "Hokkaido",
+    "prefectures": ["Hokkaido"],
+    "description": "Volcanic lakes, northern wilderness and the streets of Sapporo.",
+    "cities": ["Sapporo"],
+    "sources": [
+      {
+        "title": "JNTO · Hokkaido",
+        "url": "https://www.japan.travel/en/destinations/hokkaido/hokkaido/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "tohoku",
+    "name": "Tohoku",
+    "prefectures": [
+      "Aomori",
+      "Akita",
+      "Iwate",
+      "Yamagata",
+      "Miyagi",
+      "Fukushima"
+    ],
+    "description": "Hot-spring towns, mountain landscapes and the Pacific coast.",
+    "cities": ["Sendai"],
+    "sources": [
+      {
+        "title": "JNTO · Tohoku",
+        "url": "https://www.japan.travel/en/destinations/tohoku/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "hokuriku-shinetsu",
+    "name": "Hokuriku Shinetsu",
+    "prefectures": ["Niigata", "Toyama", "Ishikawa", "Fukui", "Nagano"],
+    "description": "Alpine country, Kanazawa’s craft traditions and the Sea of Japan coast.",
+    "cities": [],
+    "sources": [
+      {
+        "title": "JNTO · Hokuriku Shinetsu",
+        "url": "https://www.japan.travel/en/destinations/hokuriku-shinetsu/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "kanto",
+    "name": "Kanto",
+    "prefectures": [
+      "Tokyo",
+      "Kanagawa",
+      "Chiba",
+      "Saitama",
+      "Ibaraki",
+      "Tochigi",
+      "Gunma"
+    ],
+    "description": "Tokyo and Yokohama, with mountain escapes and coastal towns beyond.",
+    "cities": ["Tokyo", "Yokohama"],
+    "sources": [
+      {
+        "title": "JNTO · Kanto",
+        "url": "https://www.japan.travel/en/destinations/kanto/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "tokai",
+    "name": "Tokai",
+    "prefectures": ["Yamanashi", "Shizuoka", "Gifu", "Aichi", "Mie"],
+    "description": "Fuji country, Takayama’s old streets and the Ise Peninsula.",
+    "cities": ["Nagoya"],
+    "sources": [
+      {
+        "title": "JNTO · Tokai",
+        "url": "https://www.japan.travel/en/destinations/tokai/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "kansai",
+    "name": "Kansai",
+    "prefectures": ["Kyoto", "Osaka", "Shiga", "Hyogo", "Nara", "Wakayama"],
+    "description": "Temple paths, Osaka’s neighborhoods and the pilgrimage landscapes of Wakayama.",
+    "cities": ["Kyoto", "Osaka", "Kobe"],
+    "sources": [
+      {
+        "title": "JNTO · Kansai",
+        "url": "https://www.japan.travel/en/destinations/kansai/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "chugoku",
+    "name": "Chugoku",
+    "prefectures": ["Tottori", "Shimane", "Okayama", "Hiroshima", "Yamaguchi"],
+    "description": "Hiroshima, the Seto Inland Sea and a quieter northern coastline.",
+    "cities": [],
+    "sources": [
+      {
+        "title": "JNTO · Chugoku",
+        "url": "https://www.japan.travel/en/destinations/chugoku/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "shikoku",
+    "name": "Shikoku",
+    "prefectures": ["Kagawa", "Tokushima", "Ehime", "Kochi"],
+    "description": "Island art, the Iya Valley and towns along the pilgrimage trail.",
+    "cities": [],
+    "sources": [
+      {
+        "title": "JNTO · Shikoku",
+        "url": "https://www.japan.travel/en/destinations/shikoku/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "kyushu",
+    "name": "Kyushu",
+    "prefectures": [
+      "Fukuoka",
+      "Saga",
+      "Nagasaki",
+      "Kumamoto",
+      "Oita",
+      "Miyazaki",
+      "Kagoshima"
+    ],
+    "description": "Volcanic landscapes, onsen towns and cities from Fukuoka to Kagoshima.",
+    "cities": ["Fukuoka"],
+    "sources": [
+      {
+        "title": "JNTO · Kyushu",
+        "url": "https://www.japan.travel/en/destinations/kyushu/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "okinawa",
+    "name": "Okinawa",
+    "prefectures": ["Okinawa"],
+    "description": "Naha and the southern islands, with Ryukyu heritage and ocean landscapes.",
+    "cities": ["Naha"],
+    "sources": [
+      {
+        "title": "JNTO · Okinawa",
+        "url": "https://www.japan.travel/en/destinations/okinawa/okinawa/"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  }
+]

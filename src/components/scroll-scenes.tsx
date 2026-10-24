@@ -236,12 +236,12 @@ export function PhotoHero() {
         </div>
         <div className="hero-route">
           <span>
-            Tokyo <i /> Kyoto <i /> Osaka
+            Hokkaido <i /> Honshu <i /> Okinawa
           </span>
           <a href="#itinerary" aria-label="Discover a sample day">
             <span>Discover your rhythm</span> <ArrowDown size={17} />
           </a>
-          <span>For the way you travel</span>
+          <Link href="/metro/" aria-label="Explore Japan by rail">Rail atlas <ArrowRight size={17}/></Link>
         </div>
       </div>
     </section>

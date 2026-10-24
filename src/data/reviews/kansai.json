@@ -1,0 +1,3849 @@
+[
+  {
+    "id": "food-osaka-a-canto",
+    "name": "A Canto",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Italian"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-ad-hoc",
+    "name": "Ad Hoc",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-agnel-d-or",
+    "name": "Agnel D'or",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-ajikitcho-bumbuan",
+    "name": "Ajikitcho Bumbuan",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-ajikitcho-horieten",
+    "name": "Ajikitcho Horieten",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-alarde",
+    "name": "Alarde",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Spanish"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-anpeiji",
+    "name": "Anpeiji",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-atelier-hanada",
+    "name": "Atelier Hanada",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Chinese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-ayanokoji-karatsu",
+    "name": "Ayanokoji Karatsu",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-bini",
+    "name": "Bini",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Italian"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-byeoleeya",
+    "name": "Byeoleeya",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Korean"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-capi",
+    "name": "Capi",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Innovative"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-cenci",
+    "name": "Cenci",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Italian"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-chi-fu",
+    "name": "Chi-Fu",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Chinese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-difference",
+    "name": "Différence",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-dodici",
+    "name": "Dodici",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Italian"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-doppo",
+    "name": "Doppo",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Italian"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-droit",
+    "name": "Droit",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-empathie",
+    "name": "Empathie",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-enyuan-kobayashi",
+    "name": "Enyuan Kobayashi",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-fujiya-1935",
+    "name": "Fujiya 1935",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Innovative"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-fushimimachi-kakoiyama",
+    "name": "Fushimimachi Kakoiyama",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-germoglio",
+    "name": "Germoglio",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Italian"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-gion-fukushi",
+    "name": "Gion Fukushi",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-gion-kida",
+    "name": "Gion Kida",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-gion-maruyama",
+    "name": "Gion Maruyama",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-gion-matayoshi",
+    "name": "Gion Matayoshi",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-gion-nishikawa",
+    "name": "Gion Nishikawa",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-gion-okada",
+    "name": "Gion Okada",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-gion-owatari",
+    "name": "Gion Owatari",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-gion-sasaki",
+    "name": "Gion Sasaki",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "3",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      },
+      {
+        "title": "Official venue photography and visitor information",
+        "url": "https://gionsasaki.com/"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "officialUrl": "https://gionsasaki.com/"
+  },
+  {
+    "id": "food-kyoto-godan-miyazawa",
+    "name": "Godan Miyazawa",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-gokomachi-tagawa",
+    "name": "Gokomachi Tagawa",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-gosho-iwasaki",
+    "name": "Gosho Iwasaki",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-hachi",
+    "name": "Hachi",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-hajime",
+    "name": "Hajime",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Innovative"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "3",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      },
+      {
+        "title": "Official venue photography and visitor information",
+        "url": "https://www.hajime-artistes.com/"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "officialUrl": "https://www.hajime-artistes.com/"
+  },
+  {
+    "id": "food-kyoto-hana-kitcho",
+    "name": "HANA-Kitcho",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-higashichaya-nakamura",
+    "name": "Higashichaya Nakamura",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-higashiyama-ogata",
+    "name": "Higashiyama Ogata",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-higashiyama-tsukasa",
+    "name": "Higashiyama Tsukasa",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-higashiyama-yoshihisa",
+    "name": "Higashiyama Yoshihisa",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-hiraishi",
+    "name": "Hiraishi",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-hiramatsu-kodaiji",
+    "name": "Hiramatsu Kodaiji",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-hyotei",
+    "name": "Hyotei",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "3",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      },
+      {
+        "title": "Official venue photography and visitor information",
+        "url": "https://hyotei.co.jp/en/"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "officialUrl": "https://hyotei.co.jp/en/"
+  },
+  {
+    "id": "food-osaka-ideal-bistro",
+    "name": "IDÉAL Bistro",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-ima",
+    "name": "Ima",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-iroha",
+    "name": "Iroha",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-isshisoden-nakamura",
+    "name": "Isshisoden Nakamura",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "3",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-iwaki",
+    "name": "Iwaki",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-jean-georges-at-the-shinmonzen",
+    "name": "Jean-Georges at The Shinmonzen",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-kahala",
+    "name": "Kahala",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Innovative"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-kaishoku-shimizu",
+    "name": "Kaishoku Shimizu",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kako-okamoto",
+    "name": "Kako Okamoto",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-kamigatachuka-shintani",
+    "name": "Kamigatachuka Shintani",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Chinese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kanamean-nishitomiya",
+    "name": "Kanamean Nishitomiya",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kappo-hassun",
+    "name": "Kappo Hassun",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-kashiwaya-osaka-kitashinchi",
+    "name": "Kashiwaya Osaka Kitashinchi",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-kashiwaya-osaka-senriyama",
+    "name": "Kashiwaya Osaka Senriyama",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "3",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-katamachi-kawaguchi",
+    "name": "Katamachi Kawaguchi",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kenninji-gion-maruyama",
+    "name": "Kenninji Gion Maruyama",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kentan-horibe",
+    "name": "Kentan Horibe",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kenya",
+    "name": "Kenya",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kikunoi-honten",
+    "name": "Kikunoi Honten",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "3",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kikunoi-roan",
+    "name": "Kikunoi Roan",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kikunoi-sushi-ao",
+    "name": "Kikunoi Sushi Ao",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kinobu",
+    "name": "Kinobu",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kiyama",
+    "name": "Kiyama",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kodaiji-jugyuan",
+    "name": "Kodaiji Jugyuan",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-kodaiji-wakuden",
+    "name": "Kodaiji Wakuden",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-koga",
+    "name": "Koga",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-koke",
+    "name": "KOKE",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Innovative"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-konoha",
+    "name": "Konoha",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-koryu",
+    "name": "Koryu",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-kushingarando-d",
+    "name": "KushinGarando[d]",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Chinese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-la-baie",
+    "name": "La Baie",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-la-becasse",
+    "name": "La Bécasse",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-la-cime",
+    "name": "La Cime",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-le-pont-de-ciel",
+    "name": "Le Pont de Ciel",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "French"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-masuda",
+    "name": "Masuda",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-matsuzushi-tanigawa",
+    "name": "Matsuzushi Tanigawa",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-milpa",
+    "name": "Milpa",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Mexican"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-miyamoto",
+    "name": "Miyamoto",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-n",
+    "name": "Ñ",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Spanish"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-naniwaryori-yu",
+    "name": "Naniwaryori Yu",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-nishino",
+    "name": "Nishino",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-nishishinsaibashi-yuno",
+    "name": "Nishishinsaibashi Yuno",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-nishitemma-ichigaya",
+    "name": "Nishitemma Ichigaya",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-numata",
+    "name": "Numata",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-numata-sou",
+    "name": "Numata Sou",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "1",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-osaka-oimatsu-hisano",
+    "name": "Oimatsu Hisano",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Japanese"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "unknown",
+      "vegan": "unknown",
+      "notes": "Ingredients, dashi and separate preparation have not been verified. Ask before ordering."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin star",
+        "level": "2",
+        "year": 2026,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A signature dish has not been verified for this entry.",
+      "allergens": {},
+      "markers": {},
+      "basis": "No dish-level ingredient evidence is stored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+    },
+    "worthVisiting": "Michelin recognition in the cited 2026 list. This is a dated listing, not a booking or operational guarantee.",
+    "sources": [
+      {
+        "title": "2026 recognition factual list · Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Michelin-starred_restaurants_in_Kyoto_and_Osaka"
+      }
+    ],
+    "checkedOn": "2026-10-24"
+  },
+  {
+    "id": "food-kyoto-ain-soph-journey-kyoto",
+    "name": "AIN SOPH. Journey Kyoto",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Plant-based"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "verified",
+      "vegan": "verified",
+      "notes": "The operator describes a vegan menu. This verifies the menu policy, not cross-contact or an allergy-free kitchen. Confirm your own requirements."
+    },
+    "ratings": [],
+    "recognition": [],
+    "signatureDish": {
+      "name": "Mushroom and walnut vegetable hamburg steak",
+      "why": "An autumn menu item announced by the operator on 14 October 2026; seasonal availability needs confirmation.",
+      "allergens": {
+        "walnut": "contains",
+        "soy": "contains",
+        "apple": "contains"
+      },
+      "markers": {
+        "pork": "free-verified",
+        "beef": "free-verified",
+        "chicken": "free-verified",
+        "gelatin": "free-verified",
+        "fish-stock": "free-verified"
+      },
+      "basis": "Operator autumn announcement explicitly lists walnut, soy and apple. Other ingredients and cross-contact need checking.",
+      "sourceUrl": "https://www.ain-soph.jp/"
+    },
+    "worthVisiting": "The operator documents a vegan restaurant group established in 2009.",
+    "sources": [
+      {
+        "title": "Official restaurant menu and dietary policy",
+        "url": "https://en.ain-soph.jp/english"
+      },
+      {
+        "title": "Official autumn menu · 14 October 2026",
+        "url": "https://www.ain-soph.jp/"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "officialUrl": "https://en.ain-soph.jp/english",
+    "image": {
+      "src": "/images/personal-use/ain-kyoto-front-1280.webp",
+      "alt": "AIN SOPH. Journey Kyoto storefront and entrance",
+      "credit": "personal:ain-kyoto-front",
+      "responsive": true
+    }
+  },
+  {
+    "id": "food-kyoto-shigetsu-tenryu-ji",
+    "name": "Shigetsu · Tenryu-ji",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Plant-based"
+    ],
+    "priceBand": "¥¥",
+    "diet": {
+      "vegetarian": "verified",
+      "vegan": "unknown",
+      "notes": "The temple explicitly verifies Zen vegetarian cuisine. A fully vegan recipe and cross-contact need direct confirmation."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Bib Gourmand",
+        "year": 2025,
+        "url": "https://www.tenryuji.com/en/shigetsu/"
+      }
+    ],
+    "signatureDish": {
+      "name": "Yuki shojin ryori set",
+      "why": "The temple’s published Yuki menu combines rice, soup and five seasonal side dishes.",
+      "allergens": {},
+      "markers": {},
+      "basis": "Official vegan ingredient policy; other allergens and kitchen cross-contact remain unknown.",
+      "sourceUrl": "https://www.tenryuji.com/en/shigetsu/"
+    },
+    "worthVisiting": "The temple reports a 2025 Bib Gourmand designation. No 2026 renewal is claimed.",
+    "sources": [
+      {
+        "title": "Official restaurant menu and dietary policy",
+        "url": "https://www.tenryuji.com/en/shigetsu/"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "officialUrl": "https://www.tenryuji.com/en/shigetsu/"
+  },
+  {
+    "id": "food-kyoto-vegan-ramen-uzu-kyoto",
+    "name": "Vegan Ramen UZU Kyoto",
+    "region": "Kansai",
+    "city": "Kyoto",
+    "cuisine": [
+      "Plant-based"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "verified",
+      "vegan": "verified",
+      "notes": "The operator describes a vegan menu. This verifies the menu policy, not cross-contact or an allergy-free kitchen. Confirm your own requirements."
+    },
+    "ratings": [],
+    "recognition": [
+      {
+        "name": "Michelin Selected",
+        "year": 2026,
+        "url": "https://guide.michelin.com/kr/en/kyoto-region/kyoto/restaurant/vegan-ramen-uzu"
+      }
+    ],
+    "signatureDish": {
+      "name": "Soy-sauce vegan ramen",
+      "why": "The operator presents vegan ramen alongside a teamLab artwork.",
+      "allergens": {},
+      "markers": {
+        "pork": "free-verified",
+        "beef": "free-verified",
+        "chicken": "free-verified",
+        "gelatin": "free-verified",
+        "fish-stock": "free-verified"
+      },
+      "basis": "Official vegan ingredient policy; other allergens and kitchen cross-contact remain unknown.",
+      "sourceUrl": "https://vegan-uzu.com/pages/new-kyoto-page"
+    },
+    "worthVisiting": "Documented specialist plant-based cooking; operator history or the linked tourism / Michelin listing is the visiting signal.",
+    "sources": [
+      {
+        "title": "Official restaurant menu and dietary policy",
+        "url": "https://vegan-uzu.com/pages/new-kyoto-page"
+      },
+      {
+        "title": "Michelin Guide listing",
+        "url": "https://guide.michelin.com/kr/en/kyoto-region/kyoto/restaurant/vegan-ramen-uzu"
+      },
+      {
+        "title": "Official venue photography and visitor information",
+        "url": "https://vegan-uzu.com/pages/new-kyoto-page"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "officialUrl": "https://vegan-uzu.com/pages/new-kyoto-page",
+    "nearestStationId": "kyoto-kyoto-shiyakusho-mae-kyoto-city-hall"
+  },
+  {
+    "id": "food-osaka-green-earth",
+    "name": "Green Earth",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Plant-based"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "verified",
+      "vegan": "verified",
+      "notes": "The operator describes a vegan menu. This verifies the menu policy, not cross-contact or an allergy-free kitchen. Confirm your own requirements."
+    },
+    "ratings": [],
+    "recognition": [],
+    "signatureDish": {
+      "name": "Daily vegan lunch",
+      "why": "The operator publishes a changing daily lunch, without meat, fish, eggs or dairy.",
+      "allergens": {},
+      "markers": {
+        "pork": "free-verified",
+        "beef": "free-verified",
+        "chicken": "free-verified",
+        "gelatin": "free-verified",
+        "fish-stock": "free-verified"
+      },
+      "basis": "Official vegan ingredient policy; other allergens and kitchen cross-contact remain unknown.",
+      "sourceUrl": "https://www.osaka-vegetarian-ge.com/"
+    },
+    "worthVisiting": "Documented in JNTO’s historical vegetarian guide; the current first-party site separately verifies the vegan policy.",
+    "sources": [
+      {
+        "title": "Official restaurant menu and dietary policy",
+        "url": "https://www.osaka-vegetarian-ge.com/"
+      },
+      {
+        "title": "JNTO vegetarian and Indian dining guide · historical visiting signal, March 2017",
+        "url": "https://asset.japan.travel/image/upload/v1545202667/vegetarian_indian_pdf.pdf"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "officialUrl": "https://www.osaka-vegetarian-ge.com/",
+    "nearestStationId": "osaka-hommachi"
+  },
+  {
+    "id": "food-osaka-paprika-shokudo-vegan",
+    "name": "Paprika Shokudo Vegan",
+    "region": "Kansai",
+    "city": "Osaka",
+    "cuisine": [
+      "Plant-based"
+    ],
+    "priceBand": "Needs check",
+    "diet": {
+      "vegetarian": "verified",
+      "vegan": "verified",
+      "notes": "The operator describes a vegan menu. This verifies the menu policy, not cross-contact or an allergy-free kitchen. Confirm your own requirements."
+    },
+    "ratings": [],
+    "recognition": [],
+    "signatureDish": {
+      "name": "Needs check",
+      "why": "A current signature recipe has not been independently verified.",
+      "allergens": {},
+      "markers": {},
+      "basis": "Vegan venue certification only; dish-level evidence remains unknown.",
+      "sourceUrl": "https://www.vegemap.org/en/list/osaka/all-vegan-certified/papurika_shokud_en/"
+    },
+    "worthVisiting": "Documented specialist plant-based cooking; operator history or the linked tourism / Michelin listing is the visiting signal.",
+    "sources": [
+      {
+        "title": "Japan VegeMap · all-vegan certified listing",
+        "url": "https://www.vegemap.org/en/list/osaka/all-vegan-certified/papurika_shokud_en/"
+      },
+      {
+        "title": "JNTO vegetarian and Indian dining guide · March 2017",
+        "url": "https://asset.japan.travel/image/upload/v1545202667/vegetarian_indian_pdf.pdf"
+      }
+    ],
+    "checkedOn": "2026-10-24",
+    "nearestStationId": "osaka-yotsubashi"
+  }
+]

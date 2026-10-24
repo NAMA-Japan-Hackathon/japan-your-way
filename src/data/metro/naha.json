@@ -1,0 +1,736 @@
+{
+  "lines": [
+    {
+      "id": "naha-Y",
+      "city": "Naha",
+      "nameEn": "Yui Rail · Okinawa Urban Monorail",
+      "operator": "Okinawa Urban Monorail",
+      "code": "Y",
+      "stationIds": [
+        "naha-naha-airport",
+        "naha-akamine",
+        "naha-oroku",
+        "naha-onoyama-park",
+        "naha-tsubogawa",
+        "naha-asahibashi",
+        "naha-prefectural-office",
+        "naha-miebashi",
+        "naha-makishi",
+        "naha-asato",
+        "naha-omoromachi",
+        "naha-furujima",
+        "naha-naha-city-hospital",
+        "naha-gibo",
+        "naha-shuri",
+        "naha-ishimine",
+        "naha-kyozuka",
+        "naha-urasoe-maeda",
+        "naha-tedako-uranishi"
+      ],
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 240,
+            "y": 400
+          },
+          {
+            "x": 320,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 480
+          },
+          {
+            "x": 240,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 240,
+            "y": 480
+          },
+          {
+            "x": 280,
+            "y": 440
+          },
+          {
+            "x": 360,
+            "y": 440
+          },
+          {
+            "x": 400,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 400
+          },
+          {
+            "x": 320,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 400
+          },
+          {
+            "x": 400,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 320
+          },
+          {
+            "x": 320,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 320
+          },
+          {
+            "x": 400,
+            "y": 240
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 240
+          },
+          {
+            "x": 480,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 320
+          },
+          {
+            "x": 480,
+            "y": 240
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 240
+          },
+          {
+            "x": 480,
+            "y": 280
+          },
+          {
+            "x": 440,
+            "y": 320
+          },
+          {
+            "x": 440,
+            "y": 360
+          },
+          {
+            "x": 480,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 400
+          },
+          {
+            "x": 480,
+            "y": 360
+          },
+          {
+            "x": 440,
+            "y": 320
+          },
+          {
+            "x": 440,
+            "y": 200
+          },
+          {
+            "x": 480,
+            "y": 160
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 160
+          },
+          {
+            "x": 560,
+            "y": 240
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 240
+          },
+          {
+            "x": 560,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 320
+          },
+          {
+            "x": 640,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 320
+          },
+          {
+            "x": 640,
+            "y": 240
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 240
+          },
+          {
+            "x": 640,
+            "y": 280
+          },
+          {
+            "x": 600,
+            "y": 320
+          },
+          {
+            "x": 600,
+            "y": 360
+          },
+          {
+            "x": 640,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 400
+          },
+          {
+            "x": 720,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 320
+          },
+          {
+            "x": 680,
+            "y": 360
+          },
+          {
+            "x": 600,
+            "y": 360
+          },
+          {
+            "x": 560,
+            "y": 400
+          }
+        ]
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "naha-naha-airport",
+      "city": "Naha",
+      "nameEn": "Naha Airport",
+      "nameJa": "那覇空港",
+      "codes": [
+        "01"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-akamine",
+      "city": "Naha",
+      "nameEn": "Akamine",
+      "nameJa": "赤嶺",
+      "codes": [
+        "02"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-oroku",
+      "city": "Naha",
+      "nameEn": "Oroku",
+      "nameJa": "小禄",
+      "codes": [
+        "03"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-onoyama-park",
+      "city": "Naha",
+      "nameEn": "Onoyama Park",
+      "nameJa": "奥武山公園",
+      "codes": [
+        "04"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-tsubogawa",
+      "city": "Naha",
+      "nameEn": "Tsubogawa",
+      "nameJa": "壷川",
+      "codes": [
+        "05"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-asahibashi",
+      "city": "Naha",
+      "nameEn": "Asahibashi",
+      "nameJa": "旭橋",
+      "codes": [
+        "06"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-prefectural-office",
+      "city": "Naha",
+      "nameEn": "Prefectural Office",
+      "nameJa": "県庁前",
+      "codes": [
+        "07"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-miebashi",
+      "city": "Naha",
+      "nameEn": "Miebashi",
+      "nameJa": "美栄橋",
+      "codes": [
+        "08"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-makishi",
+      "city": "Naha",
+      "nameEn": "Makishi",
+      "nameJa": "牧志",
+      "codes": [
+        "09"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-asato",
+      "city": "Naha",
+      "nameEn": "Asato",
+      "nameJa": "安里",
+      "codes": [
+        "10"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-omoromachi",
+      "city": "Naha",
+      "nameEn": "Omoromachi",
+      "nameJa": "おもろまち",
+      "codes": [
+        "11"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-furujima",
+      "city": "Naha",
+      "nameEn": "Furujima",
+      "nameJa": "古島",
+      "codes": [
+        "12"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 160,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-naha-city-hospital",
+      "city": "Naha",
+      "nameEn": "Naha City Hospital",
+      "nameJa": "市立病院前",
+      "codes": [
+        "13"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-gibo",
+      "city": "Naha",
+      "nameEn": "Gibo",
+      "nameJa": "儀保",
+      "codes": [
+        "14"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-shuri",
+      "city": "Naha",
+      "nameEn": "Shuri",
+      "nameJa": "首里",
+      "codes": [
+        "15"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-ishimine",
+      "city": "Naha",
+      "nameEn": "Ishimine",
+      "nameJa": "石嶺",
+      "codes": [
+        "16"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-kyozuka",
+      "city": "Naha",
+      "nameEn": "Kyozuka",
+      "nameJa": "経塚",
+      "codes": [
+        "17"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-urasoe-maeda",
+      "city": "Naha",
+      "nameEn": "Urasoe-Maeda",
+      "nameJa": "浦添前田",
+      "codes": [
+        "18"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha-tedako-uranishi",
+      "city": "Naha",
+      "nameEn": "Tedako-Uranishi",
+      "nameJa": "てだこ浦西",
+      "codes": [
+        "19"
+      ],
+      "lineIds": [
+        "naha-Y"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Okinawa Urban Monorail official English station directory",
+          "url": "https://www.yui-rail.co.jp/en/routemap/nahakuko/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    }
+  ],
+  "layoutSource": {
+    "title": "Station coordinate reference · schematic layout only (ekidata / ODPT compilation by piuccio)",
+    "url": "https://github.com/piuccio/open-data-jp-railway-stations"
+  },
+  "layoutNote": "Coordinates are a transformed original schematic, not navigable geography. Operator identities and codes are sourced separately."
+}

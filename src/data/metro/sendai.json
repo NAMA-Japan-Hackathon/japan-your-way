@@ -1,0 +1,1227 @@
+{
+  "lines": [
+    {
+      "id": "sendai-N",
+      "city": "Sendai",
+      "code": "N",
+      "nameEn": "Namboku Line",
+      "operator": "Sendai City Transportation Bureau",
+      "stationIds": [
+        "sendai-izumi-chuo",
+        "sendai-yaotome",
+        "sendai-kuromatsu",
+        "sendai-asahigaoka",
+        "sendai-dainohara",
+        "sendai-kita-sendai",
+        "sendai-kita-yobancho",
+        "sendai-kotodai-koen",
+        "sendai-hirose-dori",
+        "sendai-sendai",
+        "sendai-itsutsubashi",
+        "sendai-atagobashi",
+        "sendai-kawaramachi",
+        "sendai-nagamachi-itchome",
+        "sendai-nagamachi",
+        "sendai-nagamachi-minami",
+        "sendai-tomizawa"
+      ],
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 480,
+            "y": 240
+          },
+          {
+            "x": 480,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 320
+          },
+          {
+            "x": 480,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 400
+          },
+          {
+            "x": 400,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 400
+          },
+          {
+            "x": 480,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 480
+          },
+          {
+            "x": 400,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 480
+          },
+          {
+            "x": 400,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 560
+          },
+          {
+            "x": 400,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 640
+          },
+          {
+            "x": 480,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 560
+          },
+          {
+            "x": 480,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 640
+          },
+          {
+            "x": 480,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 720
+          },
+          {
+            "x": 400,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 720
+          },
+          {
+            "x": 480,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 800
+          },
+          {
+            "x": 400,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 800
+          },
+          {
+            "x": 480,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 880
+          },
+          {
+            "x": 400,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 880
+          },
+          {
+            "x": 400,
+            "y": 960
+          }
+        ]
+      ]
+    },
+    {
+      "id": "sendai-T",
+      "city": "Sendai",
+      "code": "T",
+      "nameEn": "Tozai Line",
+      "operator": "Sendai City Transportation Bureau",
+      "stationIds": [
+        "sendai-yagiyama-zoological-park",
+        "sendai-aobayama",
+        "sendai-kawauchi",
+        "sendai-international-center",
+        "sendai-omachi-nishi-koen",
+        "sendai-aoba-dori-ichibancho",
+        "sendai-sendai",
+        "sendai-miyagino-dori",
+        "sendai-rembo",
+        "sendai-yakushido",
+        "sendai-oroshimachi",
+        "sendai-rokuchonome",
+        "sendai-arai"
+      ],
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 320,
+            "y": 720
+          },
+          {
+            "x": 240,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 240,
+            "y": 640
+          },
+          {
+            "x": 320,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 640
+          },
+          {
+            "x": 320,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 560
+          },
+          {
+            "x": 360,
+            "y": 560
+          },
+          {
+            "x": 400,
+            "y": 600
+          },
+          {
+            "x": 520,
+            "y": 600
+          },
+          {
+            "x": 560,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 640
+          },
+          {
+            "x": 520,
+            "y": 640
+          },
+          {
+            "x": 480,
+            "y": 600
+          },
+          {
+            "x": 280,
+            "y": 600
+          },
+          {
+            "x": 240,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 240,
+            "y": 560
+          },
+          {
+            "x": 280,
+            "y": 560
+          },
+          {
+            "x": 320,
+            "y": 600
+          },
+          {
+            "x": 440,
+            "y": 600
+          },
+          {
+            "x": 480,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 640
+          },
+          {
+            "x": 560,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 560
+          },
+          {
+            "x": 560,
+            "y": 600
+          },
+          {
+            "x": 520,
+            "y": 640
+          },
+          {
+            "x": 520,
+            "y": 680
+          },
+          {
+            "x": 560,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 720
+          },
+          {
+            "x": 640,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 720
+          },
+          {
+            "x": 720,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 720
+          },
+          {
+            "x": 800,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 720
+          },
+          {
+            "x": 800,
+            "y": 640
+          }
+        ]
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "sendai-izumi-chuo",
+      "city": "Sendai",
+      "nameEn": "Izumi-Chuo",
+      "nameJa": "泉中央",
+      "codes": [
+        "N01"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-yaotome",
+      "city": "Sendai",
+      "nameEn": "Yaotome",
+      "nameJa": "八乙女",
+      "codes": [
+        "N02"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-kuromatsu",
+      "city": "Sendai",
+      "nameEn": "Kuromatsu",
+      "nameJa": "黒松",
+      "codes": [
+        "N03"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-asahigaoka",
+      "city": "Sendai",
+      "nameEn": "Asahigaoka",
+      "nameJa": "旭ヶ丘",
+      "codes": [
+        "N04"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-dainohara",
+      "city": "Sendai",
+      "nameEn": "Dainohara",
+      "nameJa": "台原",
+      "codes": [
+        "N05"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-kita-sendai",
+      "city": "Sendai",
+      "nameEn": "Kita-Sendai",
+      "nameJa": "北仙台",
+      "codes": [
+        "N06"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-kita-yobancho",
+      "city": "Sendai",
+      "nameEn": "Kita-Yobancho",
+      "nameJa": "北四番丁",
+      "codes": [
+        "N07"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-kotodai-koen",
+      "city": "Sendai",
+      "nameEn": "Kotodai-Koen",
+      "nameJa": "勾当台公園",
+      "codes": [
+        "N08"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-hirose-dori",
+      "city": "Sendai",
+      "nameEn": "Hirose-dori",
+      "nameJa": "広瀬通",
+      "codes": [
+        "N09"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-sendai",
+      "city": "Sendai",
+      "nameEn": "Sendai",
+      "nameJa": "仙台",
+      "codes": [
+        "N10",
+        "T07"
+      ],
+      "lineIds": [
+        "sendai-N",
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-itsutsubashi",
+      "city": "Sendai",
+      "nameEn": "Itsutsubashi",
+      "nameJa": "五橋",
+      "codes": [
+        "N11"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-atagobashi",
+      "city": "Sendai",
+      "nameEn": "Atagobashi",
+      "nameJa": "愛宕橋",
+      "codes": [
+        "N12"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-kawaramachi",
+      "city": "Sendai",
+      "nameEn": "Kawaramachi",
+      "nameJa": "河原町",
+      "codes": [
+        "N13"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-nagamachi-itchome",
+      "city": "Sendai",
+      "nameEn": "Nagamachi-Itchome",
+      "nameJa": "長町一丁目",
+      "codes": [
+        "N14"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-nagamachi",
+      "city": "Sendai",
+      "nameEn": "Nagamachi",
+      "nameJa": "長町",
+      "codes": [
+        "N15"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-nagamachi-minami",
+      "city": "Sendai",
+      "nameEn": "Nagamachi-Minami",
+      "nameJa": "長町南",
+      "codes": [
+        "N16"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-tomizawa",
+      "city": "Sendai",
+      "nameEn": "Tomizawa",
+      "nameJa": "富沢",
+      "codes": [
+        "N17"
+      ],
+      "lineIds": [
+        "sendai-N"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-yagiyama-zoological-park",
+      "city": "Sendai",
+      "nameEn": "Yagiyama Zoological Park",
+      "nameJa": "八木山動物公園",
+      "codes": [
+        "T01"
+      ],
+      "lineIds": [
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-aobayama",
+      "city": "Sendai",
+      "nameEn": "Aobayama",
+      "nameJa": "青葉山",
+      "codes": [
+        "T02"
+      ],
+      "lineIds": [
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-kawauchi",
+      "city": "Sendai",
+      "nameEn": "Kawauchi",
+      "nameJa": "川内",
+      "codes": [
+        "T03"
+      ],
+      "lineIds": [
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-international-center",
+      "city": "Sendai",
+      "nameEn": "International Center",
+      "nameJa": "国際センター",
+      "codes": [
+        "T04"
+      ],
+      "lineIds": [
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-omachi-nishi-koen",
+      "city": "Sendai",
+      "nameEn": "Omachi Nishi-koen",
+      "nameJa": "大町西公園",
+      "codes": [
+        "T05"
+      ],
+      "lineIds": [
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-aoba-dori-ichibancho",
+      "city": "Sendai",
+      "nameEn": "Aoba-dori Ichibancho",
+      "nameJa": "青葉通一番町",
+      "codes": [
+        "T06"
+      ],
+      "lineIds": [
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-miyagino-dori",
+      "city": "Sendai",
+      "nameEn": "Miyagino-dori",
+      "nameJa": "宮城野通",
+      "codes": [
+        "T08"
+      ],
+      "lineIds": [
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-rembo",
+      "city": "Sendai",
+      "nameEn": "Rembo",
+      "nameJa": "連坊",
+      "codes": [
+        "T09"
+      ],
+      "lineIds": [
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-yakushido",
+      "city": "Sendai",
+      "nameEn": "Yakushido",
+      "nameJa": "薬師堂",
+      "codes": [
+        "T10"
+      ],
+      "lineIds": [
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-oroshimachi",
+      "city": "Sendai",
+      "nameEn": "Oroshimachi",
+      "nameJa": "卸町",
+      "codes": [
+        "T11"
+      ],
+      "lineIds": [
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-rokuchonome",
+      "city": "Sendai",
+      "nameEn": "Rokuchonome",
+      "nameJa": "六丁の目",
+      "codes": [
+        "T12"
+      ],
+      "lineIds": [
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai-arai",
+      "city": "Sendai",
+      "nameEn": "Arai",
+      "nameJa": "荒井",
+      "codes": [
+        "T13"
+      ],
+      "lineIds": [
+        "sendai-T"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sendai City Transportation Bureau route reference",
+          "url": "https://www.kotsu.city.sendai.jp/rosenzu/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Sendai_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    }
+  ],
+  "layoutSource": {
+    "title": "Station coordinate reference · schematic layout only (ekidata / ODPT compilation by piuccio)",
+    "url": "https://github.com/piuccio/open-data-jp-railway-stations"
+  },
+  "layoutNote": "Coordinates are a transformed original schematic, not navigable geography. Operator identities and codes are sourced separately."
+}

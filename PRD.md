@@ -384,3 +384,7 @@ Defaults above allow the MVP to begin. Resolve these before the partner pilot:
 - Should monetization test subscriptions, disclosed referrals, or both?
 
 An initial static website and browser-local planner have since been implemented in `japan-your-way/`. See its README and QA report for delivered scope and verification; no user research or live partner validation is claimed.
+
+## Owner scope revision — 24 October 2026
+
+Discovery must represent Japan as a whole, beyond three sample itineraries. The first nationwide increment covers all 47 prefectures through official regional guides, selected national rail corridors and ten detailed city systems. Restaurant inventory remains limited to sourced Tokyo, Kyoto and Osaka records. Nationwide restaurant research, more local rail operators and nationwide trip scheduling remain future work. Restaurant photos must show the named venue’s storefront, not a dish or another branch.

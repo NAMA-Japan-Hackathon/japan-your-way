@@ -1,0 +1,2083 @@
+{
+  "hubs": [
+    {
+      "id": "wakkanai",
+      "name": "Wakkanai",
+      "lat": 45.416,
+      "lon": 141.677,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "asahikawa",
+      "name": "Asahikawa",
+      "lat": 43.763,
+      "lon": 142.358,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "abashiri",
+      "name": "Abashiri",
+      "lat": 44.02,
+      "lon": 144.255,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kushiro",
+      "name": "Kushiro",
+      "lat": 42.99,
+      "lon": 144.381,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo",
+      "name": "Sapporo",
+      "lat": 43.068,
+      "lon": 141.351,
+      "city": "Sapporo",
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "otaru",
+      "name": "Otaru",
+      "lat": 43.198,
+      "lon": 140.994,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "hakodate",
+      "name": "Hakodate",
+      "lat": 41.774,
+      "lon": 140.726,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "shin-hakodate-hokuto",
+      "name": "Shin-Hakodate-Hokuto",
+      "lat": 41.905,
+      "lon": 140.646,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "shin-aomori",
+      "name": "Shin-Aomori",
+      "lat": 40.827,
+      "lon": 140.693,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "aomori",
+      "name": "Aomori",
+      "lat": 40.829,
+      "lon": 140.735,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "hachinohe",
+      "name": "Hachinohe",
+      "lat": 40.509,
+      "lon": 141.431,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "morioka",
+      "name": "Morioka",
+      "lat": 39.702,
+      "lon": 141.137,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "akita",
+      "name": "Akita",
+      "lat": 39.717,
+      "lon": 140.129,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yamagata",
+      "name": "Yamagata",
+      "lat": 38.248,
+      "lon": 140.327,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sendai",
+      "name": "Sendai",
+      "lat": 38.26,
+      "lon": 140.882,
+      "city": "Sendai",
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukushima",
+      "name": "Fukushima",
+      "lat": 37.755,
+      "lon": 140.46,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "koriyama",
+      "name": "Koriyama",
+      "lat": 37.398,
+      "lon": 140.388,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "utsunomiya",
+      "name": "Utsunomiya",
+      "lat": 36.559,
+      "lon": 139.899,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "omiya",
+      "name": "Omiya",
+      "lat": 35.907,
+      "lon": 139.624,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "lat": 35.681,
+      "lon": 139.767,
+      "city": "Tokyo",
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "niigata",
+      "name": "Niigata",
+      "lat": 37.913,
+      "lon": 139.061,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "takasaki",
+      "name": "Takasaki",
+      "lat": 36.322,
+      "lon": 139.012,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagano",
+      "name": "Nagano",
+      "lat": 36.644,
+      "lon": 138.188,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "toyama",
+      "name": "Toyama",
+      "lat": 36.701,
+      "lon": 137.213,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kanazawa",
+      "name": "Kanazawa",
+      "lat": 36.578,
+      "lon": 136.648,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukui",
+      "name": "Fukui",
+      "lat": 36.062,
+      "lon": 136.223,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "tsuruga",
+      "name": "Tsuruga",
+      "lat": 35.645,
+      "lon": 136.077,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "shin-yokohama",
+      "name": "Shin-Yokohama",
+      "lat": 35.508,
+      "lon": 139.617,
+      "city": "Yokohama",
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "odawara",
+      "name": "Odawara",
+      "lat": 35.256,
+      "lon": 139.155,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "shizuoka",
+      "name": "Shizuoka",
+      "lat": 34.972,
+      "lon": 138.388,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "hamamatsu",
+      "name": "Hamamatsu",
+      "lat": 34.704,
+      "lon": 137.734,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagoya",
+      "name": "Nagoya",
+      "lat": 35.171,
+      "lon": 136.882,
+      "city": "Nagoya",
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "matsumoto",
+      "name": "Matsumoto",
+      "lat": 36.23,
+      "lon": 137.964,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "takayama",
+      "name": "Takayama",
+      "lat": 36.141,
+      "lon": 137.251,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "maibara",
+      "name": "Maibara",
+      "lat": 35.314,
+      "lon": 136.29,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kyoto",
+      "name": "Kyoto",
+      "lat": 34.986,
+      "lon": 135.758,
+      "city": "Kyoto",
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "shin-osaka",
+      "name": "Shin-Osaka",
+      "lat": 34.733,
+      "lon": 135.5,
+      "city": "Osaka",
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "shin-kobe",
+      "name": "Shin-Kobe",
+      "lat": 34.707,
+      "lon": 135.196,
+      "city": "Kobe",
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "himeji",
+      "name": "Himeji",
+      "lat": 34.827,
+      "lon": 134.691,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "okayama",
+      "name": "Okayama",
+      "lat": 34.667,
+      "lon": 133.918,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "hiroshima",
+      "name": "Hiroshima",
+      "lat": 34.398,
+      "lon": 132.475,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "shin-yamaguchi",
+      "name": "Shin-Yamaguchi",
+      "lat": 34.093,
+      "lon": 131.397,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kokura",
+      "name": "Kokura",
+      "lat": 33.886,
+      "lon": 130.882,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "hakata",
+      "name": "Hakata / Fukuoka",
+      "lat": 33.59,
+      "lon": 130.42,
+      "city": "Fukuoka",
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kumamoto",
+      "name": "Kumamoto",
+      "lat": 32.79,
+      "lon": 130.688,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kagoshima-chuo",
+      "name": "Kagoshima-Chuo",
+      "lat": 31.584,
+      "lon": 130.541,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "takeo-onsen",
+      "name": "Takeo-Onsen",
+      "lat": 33.196,
+      "lon": 130.023,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagasaki",
+      "name": "Nagasaki",
+      "lat": 32.753,
+      "lon": 129.87,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sasebo",
+      "name": "Sasebo",
+      "lat": 33.163,
+      "lon": 129.726,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "oita",
+      "name": "Oita",
+      "lat": 33.233,
+      "lon": 131.607,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "miyazaki",
+      "name": "Miyazaki",
+      "lat": 31.916,
+      "lon": 131.432,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "tottori",
+      "name": "Tottori",
+      "lat": 35.494,
+      "lon": 134.226,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yonago",
+      "name": "Yonago",
+      "lat": 35.424,
+      "lon": 133.336,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "matsue",
+      "name": "Matsue",
+      "lat": 35.464,
+      "lon": 133.063,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "izumoshi",
+      "name": "Izumoshi",
+      "lat": 35.36,
+      "lon": 132.757,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "takamatsu",
+      "name": "Takamatsu",
+      "lat": 34.35,
+      "lon": 134.046,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sakaide",
+      "name": "Sakaide",
+      "lat": 34.313,
+      "lon": 133.856,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "tadotsu",
+      "name": "Tadotsu",
+      "lat": 34.271,
+      "lon": 133.755,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "matsuyama",
+      "name": "Matsuyama",
+      "lat": 33.84,
+      "lon": 132.752,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kochi",
+      "name": "Kochi",
+      "lat": 33.565,
+      "lon": 133.543,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "tokushima",
+      "name": "Tokushima",
+      "lat": 34.074,
+      "lon": 134.551,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nara",
+      "name": "Nara",
+      "lat": 34.681,
+      "lon": 135.818,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "wakayama",
+      "name": "Wakayama",
+      "lat": 34.233,
+      "lon": 135.192,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kii-katsuura",
+      "name": "Kii-Katsuura",
+      "lat": 33.628,
+      "lon": 135.941,
+      "city": null,
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "naha",
+      "name": "Naha / Okinawa",
+      "lat": 26.212,
+      "lon": 127.681,
+      "city": "Naha / Okinawa",
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    }
+  ],
+  "routes": [
+    {
+      "id": "tohoku",
+      "name": "Tohoku Shinkansen",
+      "kind": "shinkansen",
+      "hubIds": [
+        "tokyo",
+        "omiya",
+        "utsunomiya",
+        "koriyama",
+        "fukushima",
+        "sendai",
+        "morioka",
+        "hachinohe",
+        "shin-aomori"
+      ],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "hokkaido",
+      "name": "Hokkaido Shinkansen",
+      "kind": "shinkansen",
+      "hubIds": ["shin-aomori", "shin-hakodate-hokuto"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "akita",
+      "name": "Akita Shinkansen",
+      "kind": "shinkansen",
+      "hubIds": ["morioka", "akita"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yamagata",
+      "name": "Yamagata Shinkansen",
+      "kind": "shinkansen",
+      "hubIds": ["fukushima", "yamagata"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "joetsu",
+      "name": "Joetsu Shinkansen",
+      "kind": "shinkansen",
+      "hubIds": ["omiya", "takasaki", "niigata"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "hokuriku",
+      "name": "Hokuriku Shinkansen",
+      "kind": "shinkansen",
+      "hubIds": [
+        "takasaki",
+        "nagano",
+        "toyama",
+        "kanazawa",
+        "fukui",
+        "tsuruga"
+      ],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "tokaido",
+      "name": "Tokaido Shinkansen",
+      "kind": "shinkansen",
+      "hubIds": [
+        "tokyo",
+        "shin-yokohama",
+        "odawara",
+        "shizuoka",
+        "hamamatsu",
+        "nagoya",
+        "maibara",
+        "kyoto",
+        "shin-osaka"
+      ],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sanyo",
+      "name": "Sanyo Shinkansen",
+      "kind": "shinkansen",
+      "hubIds": [
+        "shin-osaka",
+        "shin-kobe",
+        "himeji",
+        "okayama",
+        "hiroshima",
+        "shin-yamaguchi",
+        "kokura",
+        "hakata"
+      ],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kyushu",
+      "name": "Kyushu Shinkansen",
+      "kind": "shinkansen",
+      "hubIds": ["hakata", "kumamoto", "kagoshima-chuo"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nishi-kyushu",
+      "name": "Nishi Kyushu Shinkansen",
+      "kind": "shinkansen",
+      "hubIds": ["takeo-onsen", "nagasaki"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "hokkaido-north",
+      "name": "Hokkaido · Soya / Hakodate corridors",
+      "kind": "regional",
+      "hubIds": [
+        "wakkanai",
+        "asahikawa",
+        "sapporo",
+        "shin-hakodate-hokuto",
+        "hakodate"
+      ],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "hokkaido-east",
+      "name": "Hokkaido · Sekihoku corridor",
+      "kind": "regional",
+      "hubIds": ["asahikawa", "abashiri"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "hokkaido-kushiro",
+      "name": "Hokkaido · southern / eastern corridor",
+      "kind": "regional",
+      "hubIds": ["sapporo", "kushiro"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "otaru",
+      "name": "Hakodate Line · Otaru area",
+      "kind": "regional",
+      "hubIds": ["sapporo", "otaru"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "ou",
+      "name": "Ou corridor",
+      "kind": "regional",
+      "hubIds": ["aomori", "akita"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "chuo",
+      "name": "Chuo / Shinonoi corridor",
+      "kind": "regional",
+      "hubIds": ["tokyo", "matsumoto", "nagano"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "hida",
+      "name": "Takayama corridor",
+      "kind": "regional",
+      "hubIds": ["nagoya", "takayama", "toyama"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kansai-hokuriku",
+      "name": "Hokuriku / Kosei corridor",
+      "kind": "regional",
+      "hubIds": ["tsuruga", "kyoto"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nara",
+      "name": "Kansai · Nara corridor",
+      "kind": "regional",
+      "hubIds": ["kyoto", "nara", "shin-osaka"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sanin",
+      "name": "San-in corridor",
+      "kind": "regional",
+      "hubIds": ["kyoto", "tottori", "yonago", "matsue", "izumoshi"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "seto",
+      "name": "Seto-Ohashi corridor",
+      "kind": "regional",
+      "hubIds": ["okayama", "sakaide", "takamatsu"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "yosan",
+      "name": "Yosan corridor",
+      "kind": "regional",
+      "hubIds": ["takamatsu", "sakaide", "tadotsu", "matsuyama"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "dosan",
+      "name": "Dosan corridor",
+      "kind": "regional",
+      "hubIds": ["tadotsu", "kochi"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kotoku",
+      "name": "Kotoku corridor",
+      "kind": "regional",
+      "hubIds": ["takamatsu", "tokushima"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nippo",
+      "name": "Nippo corridor",
+      "kind": "regional",
+      "hubIds": ["kokura", "oita", "miyazaki", "kagoshima-chuo"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "nagasaki-link",
+      "name": "Hakata–Takeo connecting corridor",
+      "kind": "regional",
+      "hubIds": ["hakata", "takeo-onsen"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sasebo",
+      "name": "Sasebo corridor",
+      "kind": "regional",
+      "hubIds": ["takeo-onsen", "sasebo"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "kii",
+      "name": "Kisei / Hanwa corridor",
+      "kind": "regional",
+      "hubIds": ["shin-osaka", "wakayama", "kii-katsuura"],
+      "sources": [
+        {
+          "title": "JR West · Japan railway network reference",
+          "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+        },
+        {
+          "title": "JR Hokkaido · current route map",
+          "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+        },
+        {
+          "title": "JR Shikoku · railway and visitor information",
+          "url": "https://www.jr-shikoku.co.jp/global/en/"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    }
+  ],
+  "sources": [
+    {
+      "title": "JR West · Japan railway network reference",
+      "url": "https://www.westjr.co.jp/global/en/timetable/pdf/index_all_en.pdf"
+    },
+    {
+      "title": "JR Hokkaido · current route map",
+      "url": "https://www.jrhokkaido.co.jp/global/pdf/route_map.pdf"
+    },
+    {
+      "title": "JR Shikoku · railway and visitor information",
+      "url": "https://www.jr-shikoku.co.jp/global/en/"
+    }
+  ],
+  "checkedOn": "2026-10-24",
+  "note": "Major rail corridors and selected hubs across Japan, not an exhaustive list of local stations. A corridor can require transfers. Shinkansen currently ends at Shin-Hakodate-Hokuto in Hokkaido. Okinawa is a separate monorail network; no rail link to the main islands is drawn.",
+  "layoutNote": "Approximate geographic positions for a schematic overview. Selected hubs and corridors only; intermediate stops and many local operators are omitted."
+}

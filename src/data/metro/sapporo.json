@@ -1,0 +1,2132 @@
+{
+  "lines": [
+    {
+      "id": "sapporo-N",
+      "city": "Sapporo",
+      "code": "N",
+      "nameEn": "Namboku Line",
+      "operator": "Sapporo City Transportation Bureau",
+      "stationIds": [
+        "sapporo-asabu",
+        "sapporo-kita-sanjuyo-jo",
+        "sapporo-kita-nijuyo-jo",
+        "sapporo-kita-juhachi-jo",
+        "sapporo-kita-juni-jo",
+        "sapporo-sapporo",
+        "sapporo-odori",
+        "sapporo-susukino",
+        "sapporo-nakajima-koen",
+        "sapporo-horohira-bashi",
+        "sapporo-nakanoshima",
+        "sapporo-hiragishi",
+        "sapporo-minami-hiragishi",
+        "sapporo-sumikawa",
+        "sapporo-jieitai-mae",
+        "sapporo-makomanai"
+      ],
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 560,
+            "y": 240
+          },
+          {
+            "x": 560,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 320
+          },
+          {
+            "x": 560,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 400
+          },
+          {
+            "x": 640,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 480
+          },
+          {
+            "x": 560,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 480
+          },
+          {
+            "x": 560,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 560
+          },
+          {
+            "x": 640,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 560
+          },
+          {
+            "x": 640,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 640
+          },
+          {
+            "x": 560,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 640
+          },
+          {
+            "x": 640,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 720
+          },
+          {
+            "x": 560,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 720
+          },
+          {
+            "x": 600,
+            "y": 720
+          },
+          {
+            "x": 640,
+            "y": 680
+          },
+          {
+            "x": 680,
+            "y": 680
+          },
+          {
+            "x": 720,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 720
+          },
+          {
+            "x": 720,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 800
+          },
+          {
+            "x": 720,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 880
+          },
+          {
+            "x": 720,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 960
+          },
+          {
+            "x": 640,
+            "y": 1040
+          }
+        ]
+      ]
+    },
+    {
+      "id": "sapporo-T",
+      "city": "Sapporo",
+      "code": "T",
+      "nameEn": "Tozai Line",
+      "operator": "Sapporo City Transportation Bureau",
+      "stationIds": [
+        "sapporo-miyanosawa",
+        "sapporo-hassamu-minami",
+        "sapporo-kotoni",
+        "sapporo-nijuyonken",
+        "sapporo-nishi-nijuhatchome",
+        "sapporo-maruyama-koen",
+        "sapporo-nishi-juhatchome",
+        "sapporo-nishi-juitchome",
+        "sapporo-odori",
+        "sapporo-bus-center-mae",
+        "sapporo-kikusui",
+        "sapporo-higashi-sapporo",
+        "sapporo-shiroishi",
+        "sapporo-nango-nana-chome",
+        "sapporo-nango-jusan-chome",
+        "sapporo-nango-juhatchome",
+        "sapporo-oyachi",
+        "sapporo-hibarigaoka",
+        "sapporo-shin-sapporo"
+      ],
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 240,
+            "y": 400
+          },
+          {
+            "x": 320,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 480
+          },
+          {
+            "x": 400,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 480
+          },
+          {
+            "x": 400,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 400
+          },
+          {
+            "x": 400,
+            "y": 440
+          },
+          {
+            "x": 360,
+            "y": 480
+          },
+          {
+            "x": 360,
+            "y": 520
+          },
+          {
+            "x": 400,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 560
+          },
+          {
+            "x": 480,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 640
+          },
+          {
+            "x": 480,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 560
+          },
+          {
+            "x": 480,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 480
+          },
+          {
+            "x": 520,
+            "y": 520
+          },
+          {
+            "x": 600,
+            "y": 520
+          },
+          {
+            "x": 640,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 560
+          },
+          {
+            "x": 720,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 560
+          },
+          {
+            "x": 720,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 480
+          },
+          {
+            "x": 760,
+            "y": 520
+          },
+          {
+            "x": 760,
+            "y": 600
+          },
+          {
+            "x": 800,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 640
+          },
+          {
+            "x": 880,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 640
+          },
+          {
+            "x": 960,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 960,
+            "y": 720
+          },
+          {
+            "x": 1040,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 720
+          },
+          {
+            "x": 1040,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 1040,
+            "y": 800
+          },
+          {
+            "x": 1200,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 1200,
+            "y": 800
+          },
+          {
+            "x": 1200,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 1200,
+            "y": 720
+          },
+          {
+            "x": 1280,
+            "y": 720
+          }
+        ]
+      ]
+    },
+    {
+      "id": "sapporo-H",
+      "city": "Sapporo",
+      "code": "H",
+      "nameEn": "Toho Line",
+      "operator": "Sapporo City Transportation Bureau",
+      "stationIds": [
+        "sapporo-sakaemachi",
+        "sapporo-shindo-higashi",
+        "sapporo-motomachi",
+        "sapporo-kanjo-dori-higashi",
+        "sapporo-higashi-kuyakusho-mae",
+        "sapporo-kita-jusanjo-higashi",
+        "sapporo-sapporo",
+        "sapporo-odori",
+        "sapporo-hosui-susukino",
+        "sapporo-gakuen-mae",
+        "sapporo-toyohira-koen",
+        "sapporo-misono",
+        "sapporo-tsukisamu-chuo",
+        "sapporo-fukuzumi"
+      ],
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 720,
+            "y": 240
+          },
+          {
+            "x": 720,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 320
+          },
+          {
+            "x": 640,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 320
+          },
+          {
+            "x": 720,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 400
+          },
+          {
+            "x": 800,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 480
+          },
+          {
+            "x": 760,
+            "y": 440
+          },
+          {
+            "x": 680,
+            "y": 440
+          },
+          {
+            "x": 640,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 400
+          },
+          {
+            "x": 600,
+            "y": 440
+          },
+          {
+            "x": 600,
+            "y": 520
+          },
+          {
+            "x": 560,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 560
+          },
+          {
+            "x": 640,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 560
+          },
+          {
+            "x": 720,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 640
+          },
+          {
+            "x": 800,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 560
+          },
+          {
+            "x": 800,
+            "y": 600
+          },
+          {
+            "x": 760,
+            "y": 640
+          },
+          {
+            "x": 760,
+            "y": 680
+          },
+          {
+            "x": 800,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 720
+          },
+          {
+            "x": 800,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 800
+          },
+          {
+            "x": 880,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 880,
+            "y": 800
+          },
+          {
+            "x": 880,
+            "y": 720
+          }
+        ]
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "sapporo-asabu",
+      "city": "Sapporo",
+      "nameEn": "Asabu",
+      "nameJa": "麻生",
+      "codes": [
+        "N01"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-kita-sanjuyo-jo",
+      "city": "Sapporo",
+      "nameEn": "Kita sanjuyo jo",
+      "nameJa": "北34条",
+      "codes": [
+        "N02"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-kita-nijuyo-jo",
+      "city": "Sapporo",
+      "nameEn": "Kita nijuyo jo",
+      "nameJa": "北24条",
+      "codes": [
+        "N03"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-kita-juhachi-jo",
+      "city": "Sapporo",
+      "nameEn": "Kita juhachi jo",
+      "nameJa": "北18条",
+      "codes": [
+        "N04"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-kita-juni-jo",
+      "city": "Sapporo",
+      "nameEn": "Kita juni jo",
+      "nameJa": "北12条",
+      "codes": [
+        "N05"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-sapporo",
+      "city": "Sapporo",
+      "nameEn": "Sapporo",
+      "nameJa": "",
+      "codes": [
+        "N06",
+        "H07"
+      ],
+      "lineIds": [
+        "sapporo-N",
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-odori",
+      "city": "Sapporo",
+      "nameEn": "Odori",
+      "nameJa": "大通",
+      "codes": [
+        "N07",
+        "T09",
+        "H08"
+      ],
+      "lineIds": [
+        "sapporo-N",
+        "sapporo-T",
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-susukino",
+      "city": "Sapporo",
+      "nameEn": "Susukino",
+      "nameJa": "",
+      "codes": [
+        "N08"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-nakajima-koen",
+      "city": "Sapporo",
+      "nameEn": "Nakajima koen",
+      "nameJa": "中島公園",
+      "codes": [
+        "N09"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-horohira-bashi",
+      "city": "Sapporo",
+      "nameEn": "Horohira bashi",
+      "nameJa": "幌平橋",
+      "codes": [
+        "N10"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-nakanoshima",
+      "city": "Sapporo",
+      "nameEn": "Nakanoshima",
+      "nameJa": "中の島",
+      "codes": [
+        "N11"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-hiragishi",
+      "city": "Sapporo",
+      "nameEn": "Hiragishi",
+      "nameJa": "平岸",
+      "codes": [
+        "N12"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-minami-hiragishi",
+      "city": "Sapporo",
+      "nameEn": "Minami Hiragishi",
+      "nameJa": "南平岸",
+      "codes": [
+        "N13"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-sumikawa",
+      "city": "Sapporo",
+      "nameEn": "Sumikawa",
+      "nameJa": "澄川",
+      "codes": [
+        "N14"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-jieitai-mae",
+      "city": "Sapporo",
+      "nameEn": "Jieitai mae",
+      "nameJa": "自衛隊前",
+      "codes": [
+        "N15"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-makomanai",
+      "city": "Sapporo",
+      "nameEn": "Makomanai",
+      "nameJa": "真駒内",
+      "codes": [
+        "N16"
+      ],
+      "lineIds": [
+        "sapporo-N"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Namboku_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-miyanosawa",
+      "city": "Sapporo",
+      "nameEn": "Miyanosawa",
+      "nameJa": "宮の沢",
+      "codes": [
+        "T01"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-hassamu-minami",
+      "city": "Sapporo",
+      "nameEn": "Hassamu minami",
+      "nameJa": "発寒南",
+      "codes": [
+        "T02"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-kotoni",
+      "city": "Sapporo",
+      "nameEn": "Kotoni",
+      "nameJa": "琴似",
+      "codes": [
+        "T03"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-nijuyonken",
+      "city": "Sapporo",
+      "nameEn": "Nijuyonken",
+      "nameJa": "二十四軒",
+      "codes": [
+        "T04"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-nishi-nijuhatchome",
+      "city": "Sapporo",
+      "nameEn": "Nishi nijuhatchome",
+      "nameJa": "西28丁目",
+      "codes": [
+        "T05"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-maruyama-koen",
+      "city": "Sapporo",
+      "nameEn": "Maruyama koen",
+      "nameJa": "円山公園",
+      "codes": [
+        "T06"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-nishi-juhatchome",
+      "city": "Sapporo",
+      "nameEn": "Nishi juhatchome",
+      "nameJa": "西18丁目",
+      "codes": [
+        "T07"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-nishi-juitchome",
+      "city": "Sapporo",
+      "nameEn": "Nishi juitchome",
+      "nameJa": "西11丁目",
+      "codes": [
+        "T08"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-bus-center-mae",
+      "city": "Sapporo",
+      "nameEn": "Bus Center mae",
+      "nameJa": "バスセンター前",
+      "codes": [
+        "T10"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-kikusui",
+      "city": "Sapporo",
+      "nameEn": "Kikusui",
+      "nameJa": "菊水",
+      "codes": [
+        "T11"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-higashi-sapporo",
+      "city": "Sapporo",
+      "nameEn": "Higashi Sapporo",
+      "nameJa": "東札幌",
+      "codes": [
+        "T12"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-shiroishi",
+      "city": "Sapporo",
+      "nameEn": "Shiroishi",
+      "nameJa": "白石",
+      "codes": [
+        "T13"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-nango-nana-chome",
+      "city": "Sapporo",
+      "nameEn": "Nango nana chome",
+      "nameJa": "南郷7丁目",
+      "codes": [
+        "T14"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 960,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-nango-jusan-chome",
+      "city": "Sapporo",
+      "nameEn": "Nango jusan chome",
+      "nameJa": "南郷13丁目",
+      "codes": [
+        "T15"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-nango-juhatchome",
+      "city": "Sapporo",
+      "nameEn": "Nango juhatchome",
+      "nameJa": "南郷18丁目",
+      "codes": [
+        "T16"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 1040,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-oyachi",
+      "city": "Sapporo",
+      "nameEn": "Oyachi",
+      "nameJa": "大谷地",
+      "codes": [
+        "T17"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 1200,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-hibarigaoka",
+      "city": "Sapporo",
+      "nameEn": "Hibarigaoka",
+      "nameJa": "ひばりが丘",
+      "codes": [
+        "T18"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 1200,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-shin-sapporo",
+      "city": "Sapporo",
+      "nameEn": "Shin Sapporo",
+      "nameJa": "新さっぽろ",
+      "codes": [
+        "T19"
+      ],
+      "lineIds": [
+        "sapporo-T"
+      ],
+      "layout": {
+        "x": 1280,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Tozai_Line_(Sapporo)"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-sakaemachi",
+      "city": "Sapporo",
+      "nameEn": "Sakaemachi",
+      "nameJa": "栄町",
+      "codes": [
+        "H01"
+      ],
+      "lineIds": [
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-shindo-higashi",
+      "city": "Sapporo",
+      "nameEn": "Shindo higashi",
+      "nameJa": "新道東",
+      "codes": [
+        "H02"
+      ],
+      "lineIds": [
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-motomachi",
+      "city": "Sapporo",
+      "nameEn": "Motomachi",
+      "nameJa": "元町",
+      "codes": [
+        "H03"
+      ],
+      "lineIds": [
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-kanjo-dori-higashi",
+      "city": "Sapporo",
+      "nameEn": "Kanjo dori higashi",
+      "nameJa": "環状通東",
+      "codes": [
+        "H04"
+      ],
+      "lineIds": [
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-higashi-kuyakusho-mae",
+      "city": "Sapporo",
+      "nameEn": "Higashi kuyakusho mae",
+      "nameJa": "東区役所前",
+      "codes": [
+        "H05"
+      ],
+      "lineIds": [
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-kita-jusanjo-higashi",
+      "city": "Sapporo",
+      "nameEn": "Kita jusanjo higashi",
+      "nameJa": "北13条東",
+      "codes": [
+        "H06"
+      ],
+      "lineIds": [
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-hosui-susukino",
+      "city": "Sapporo",
+      "nameEn": "Hosui Susukino",
+      "nameJa": "豊水すすきの",
+      "codes": [
+        "H09"
+      ],
+      "lineIds": [
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-gakuen-mae",
+      "city": "Sapporo",
+      "nameEn": "Gakuen mae",
+      "nameJa": "学園前",
+      "codes": [
+        "H10"
+      ],
+      "lineIds": [
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-toyohira-koen",
+      "city": "Sapporo",
+      "nameEn": "Toyohira koen",
+      "nameJa": "豊平公園",
+      "codes": [
+        "H11"
+      ],
+      "lineIds": [
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-misono",
+      "city": "Sapporo",
+      "nameEn": "Misono",
+      "nameJa": "美園",
+      "codes": [
+        "H12"
+      ],
+      "lineIds": [
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-tsukisamu-chuo",
+      "city": "Sapporo",
+      "nameEn": "Tsukisamu chuo",
+      "nameJa": "月寒中央",
+      "codes": [
+        "H13"
+      ],
+      "lineIds": [
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "sapporo-fukuzumi",
+      "city": "Sapporo",
+      "nameEn": "Fukuzumi",
+      "nameJa": "福住",
+      "codes": [
+        "H14"
+      ],
+      "lineIds": [
+        "sapporo-H"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Sapporo City Transportation Bureau route reference",
+          "url": "https://www.city.sapporo.jp/st/english/routemap.html"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://www.city.sapporo.jp/st/english/documents/rosenzu_e.pdf"
+        },
+        {
+          "title": "Japanese station identity · factual reference",
+          "url": "https://en.wikipedia.org/wiki/Toho_Line"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    }
+  ],
+  "layoutSource": {
+    "title": "Station coordinate reference · schematic layout only (ekidata / ODPT compilation by piuccio)",
+    "url": "https://github.com/piuccio/open-data-jp-railway-stations"
+  },
+  "layoutNote": "Coordinates are a transformed original schematic, not navigable geography. Operator identities and codes are sourced separately."
+}

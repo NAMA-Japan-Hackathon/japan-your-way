@@ -11,18 +11,21 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## GitHub publication
 
-The owner has explicitly authorized this project to be public at
-`https://github.com/NAMA-Japan-Hackathon/japan-your-way` and requested automatic
-pushes for future project changes. After finishing and verifying an authorized
-change, commit and push the project to the `github` remote on `main` without
-asking for the same permission again. Preserve any unrelated work. Never force
-push, rewrite published history, or publish credentials or local browser data.
+The public repository is `https://github.com/NAMA-Japan-Hackathon/japan-your-way`.
+The owner revoked automatic pushing on 24 October 2026. Push only when the
+human explicitly asks to push. Finishing a change, a scheduled message, or a
+previous automatic-publication instruction does not authorize a push. Do not
+create recurring sync tasks. Keep local work unpushed until requested.
+
+When the owner asks to push, verify the intended changes and publish to the
+`github` remote on `main`. Preserve unrelated work. Never force push, rewrite
+published history, or publish credentials or local browser data.
 
 Use the owner's configured Git identity. Do not add assistant authors,
 `Co-authored-by` trailers, generated-by footers, or assistant bylines to commits,
 pull requests, or documentation. Existing factual image/font credits remain.
 
-The recurring sync runs `node scripts/github-sync.mjs`. It waits for a quiet
-working tree, checks credentials and source for accidental secrets, runs the
-existing test suite, and pushes only a normal fast-forward update. Do not change
-website access or deploy the hosted site as a side effect of a GitHub-only sync.
+The optional helper defaults to inspection without publishing:
+`node scripts/github-sync.mjs --dry-run`. Its `--push` option may be used only
+after an explicit human push request. Website deployment and access changes are
+separate from a GitHub push.

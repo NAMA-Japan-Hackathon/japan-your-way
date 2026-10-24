@@ -62,3 +62,7 @@ Scores: design 8.0 · usability 8.1 · creativity 7.7 · content 8.0 → overall
 Three corrections: replaced the soft 512-pixel backdrop with native 3840-pixel photography; moved the itinerary and page labels to readable sizes; corrected inherited hero-route width and the closing photo/scrim to span their intended area.
 
 Remaining limits: the night photograph is a different composition from the supplied mood image; its shadows intentionally stay dark. The underlying catalogue, allowances, and provider handoff remain demo content and require reviewed operational data before commercial launch.
+
+## Reviews / rail atlas revision — 24 October 2026
+
+Retained “The product performs” and the Achromatic ledger app direction; existing palette/type, no redraw. Japan’s rail connections become the navigable structure. The live elements are source-aware catalogue filters, line tracing and station lookup. Replaced isolated folded strips with shared interchange nodes, added regional discovery beyond the three sample itineraries, and removed restaurant dish/interior imagery. [Coverage and limits](docs/explore-and-rail.md). Verification and final screenshot critique are recorded in QA.md.

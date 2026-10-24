@@ -76,3 +76,61 @@ Source pages and license links appear individually at `/credits/`. No generic bu
 ## Replace before a commercial launch
 
 Replace every invented price, opening window, transit estimate, dietary/access fact, and sample arrangement with reviewed records. Set up real evidence freshness, inventory, provider consent/submission, and operating support. The prototype does not claim that any supplier is affiliated, any arrangement is available, or any customer outcome has been measured.
+
+## Reviews, regional discovery and rail atlas — 24 October 2026
+
+- 25 tests pass, including the existing 10 planner tests. Added URL round trips, strict diet verification, source-specific ratings, note parsing, source/date/image validation, all ten graph systems, symmetric interchanges, connected octilinear geometry, exact segment endpoints, national hub references, 47-prefecture coverage and anchored pinch/zoom math.
+- Type check and data validation pass with zero data errors. Production static export succeeds for all routes, including Reviews, Metro and Explore Japan.
+- Tests, type check, validation and production build also pass with the entire personal-use image folder physically moved out of the project. The folder was restored afterward. The absence produces optional-image warnings, not errors. Local logs: `.taste-skill/public-clone-check.log` and `.taste-skill/final-checks.log`.
+- Real-browser layout checks at 1440×900, 768×1024 and 390×844: Reviews, Shopping, strict vegan/storefront results, Metro and Explore all report zero failures. No horizontal page overflow; headings stay within two lines. Every screenshot listed by these final inspection reports was reviewed.
+- Inspector checkmark exception: the storefront report allows `emoji` because the brief requires semantic text-plus-symbol status checks. U+2713 is a functional verification mark, never decorative emoji. The default all-food view needs no exception.
+- Keyboard: Food/Shopping arrow navigation updates selection and query; station code G09 opens Ginza with G09/M16/H09 and Japanese name, walking interchange and nearby shopping links; Esc restores focus to station search. The existing mobile filter dialog check confirmed draft/apply and Esc focus restoration. Native dialogs keep focus inside.
+- All ten lazy city loads were exercised: expected node/line counts, no overflow. A normal wheel over the map advanced the page 720 px without changing the SVG view. Browser Back restored the preceding city and query. Line tracing and keyboard zoom were exercised. Pinch anchor invariants are unit tested; no real touch-device hardware check is claimed.
+- Your note was saved with score 4, recovered after a reload, then removed. The verification text was removed from browser storage. Corrupt-note parsing is covered by tests; storage exception messages are implemented but browser storage denial was not forced.
+- At 390×844, JavaScript-disabled and reduced-motion captures passed for Reviews, Metro and Explore. No hidden entry content or horizontal overflow. No-JS catalogue contains all 185 food/shopping entries; complete transit lists contain 44 line/branch records; discovery contains ten regions. Interactive filtering and pan/zoom require JavaScript; the full text alternatives remain usable.
+- Homepage hero and new regional entry section were checked at all three sizes: ten regional links, visible Reviews control and no overflow. The final hero label was shortened to “Rail atlas” for phone fit. Existing pinned homepage scenes were retained; this increment does not claim a fresh frame-by-frame audit of every unchanged scene.
+- Common credential scan and remote-history inspection passed before publication. No personal-use image is tracked. Hosted-site deployment and access were not changed; automatic synchronization stays disabled.
+
+### Final inspection notes
+
+Retained directions: The product performs, seed 1154879022; Achromatic ledger, seed 554352894. No direction redraw, font or brand-palette replacement.
+
+ROUND 1
+Seen in one second: a country rail overview, with dense city schematics behind it.
+Idea (one sentence): Japan’s national corridors become the route into connected local station networks.
+Live thing: station search and line tracing, linked to sourced place records.
+Layout words by section: hero=photographic title / atlas=national geography and shared interchange nodes / confidence=operator references / stations=complete native disclosure lists.
+Scores: design 6 · usability 5 · creativity 7 · content 5 → overall 5.8
+Caps applied: clipped phone label limited usability; missing venue photographs limited content.
+Top three problems (most visible first), each with the screenshot it shows in and the fix:
+1. Metro mobile fold cut off Shin-Hakodate-Hokuto: anchor its label to the west.
+2. Metro tablet fold squeezed the map beside a long sidebar: give the map full width and move controls beneath it at tablet width.
+3. Dense city network obscured individual routes: add line tracing, stable-size strokes/patterns, collision-aware labels and subdued context.
+
+ROUND 2
+Seen in one second: Japan-wide navigation with a clear national outline and compact photographic introduction.
+Idea (one sentence): the wider country stays the starting point while local maps support a chosen visit.
+Live thing: the regional directory, strict catalogue filters and connected city maps.
+Layout words by section: hero=photographic title / discovery=regional ledger / atlas=geography / catalogue=bounded source-aware results.
+Scores: design 6.5 · usability 7 · creativity 7 · content 5 → overall 6.6
+Caps applied: unavailable storefront photography still limits content; the map is a functional diagram rather than a photograph gallery.
+Top three problems (most visible first), each with the screenshot it shows in and the fix:
+1. Metro tablet inset heading met the overlaid map caption: move the inset down.
+2. Shopping phone controls occupied several rows: use two native selects, retaining full filters in the drawer.
+3. Homepage phone footer link wrapped into four lines: shorten it to “Rail atlas.”
+
+ROUND 3
+Seen in one second: a coherent dark Japan discovery experience, with source-aware food and shopping records.
+Idea (one sentence): national rail connections and regional guides open the site beyond the three sample itineraries.
+Live thing: station lookup, line tracing, local notes and shareable catalogue filters.
+Layout words by section: hero=photography / regions=linked directory / atlas=connected schematic / places=recognition plus evidence / station lists=readable fallback.
+Scores: design 6.5 · usability 7.5 · creativity 7 · content 5 → overall 6.8
+Caps applied: placeholders limit content; dense full-network views need zoom or tracing to read individual stops.
+Top three problems (most visible first), each with the screenshot it shows in and the fix:
+1. Food results still contain many typographic media placeholders: the next improvement is individually verified restaurant storefront photography, not invented substitutes. Complete missing-photo inventory is in docs/image-fallbacks.md.
+2. Full Tokyo network fit is intentionally dense: tracing, zoom, global search and complete line lists provide readable routes; a manually composed operator-grade map remains a future craft improvement.
+3. Shopping cards without photos reserve a large media slot: retained to preserve consistent crop geometry with real photographs, with an explicit missing-photo state.
+
+Retained inspector warnings: ivory is the established owner palette; large photographic page titles follow the cinematic brief; below-fold results retain that introduction while reducing its height; placeholder media keeps a consistent crop. Metro’s unused-canvas warning reflects intentionally short collapsed station-list summaries, whose full-width text expands on demand. Region borders are the existing ledger style. These are documented choices, not zero-warning claims.
+
+Known limits: restaurant coverage is three researched cities; most ingredients, prices and hours remain Needs check; no numeric customer ratings were fabricated; national corridors omit intermediate stops and many local operators; no live service/timetable/fare data; the three original planner routes remain illustrative. Personal-use photos are local only. No booking, deployment or scheduled push was added.

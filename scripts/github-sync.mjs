@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const expectedRemote = 'https://github.com/NAMA-Japan-Hackathon/japan-your-way.git';
-const dryRun = process.argv.includes('--dry-run');
+const dryRun = !process.argv.includes('--push') || process.argv.includes('--dry-run');
 const lock = path.join(root, '.github-sync.lock');
 const split = (s) => s.split('\0').filter(Boolean);
 function run(command, args, { allowFailure = false, binary = false } = {}) {

@@ -1,0 +1,1209 @@
+{
+  "lines": [
+    {
+      "id": "kyoto-K",
+      "city": "Kyoto",
+      "code": "K",
+      "nameEn": "Karasuma Line",
+      "operator": "Kyoto Municipal Subway",
+      "stationIds": [
+        "kyoto-kokusaikaikan",
+        "kyoto-matsugasaki",
+        "kyoto-kitayama",
+        "kyoto-kitaoji",
+        "kyoto-kuramaguchi",
+        "kyoto-imadegawa",
+        "kyoto-marutamachi",
+        "kyoto-karasuma-oike",
+        "kyoto-shijo",
+        "kyoto-gojo",
+        "kyoto-kyoto",
+        "kyoto-kujo",
+        "kyoto-jujo",
+        "kyoto-kuinabashi",
+        "kyoto-takeda"
+      ],
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 640,
+            "y": 240
+          },
+          {
+            "x": 560,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 320
+          },
+          {
+            "x": 480,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 320
+          },
+          {
+            "x": 400,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 320
+          },
+          {
+            "x": 480,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 400
+          },
+          {
+            "x": 480,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 480
+          },
+          {
+            "x": 400,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 560
+          },
+          {
+            "x": 480,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 560
+          },
+          {
+            "x": 480,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 640
+          },
+          {
+            "x": 400,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 640
+          },
+          {
+            "x": 480,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 720
+          },
+          {
+            "x": 480,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 800
+          },
+          {
+            "x": 400,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 800
+          },
+          {
+            "x": 480,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 880
+          },
+          {
+            "x": 400,
+            "y": 880
+          }
+        ]
+      ]
+    },
+    {
+      "id": "kyoto-T",
+      "city": "Kyoto",
+      "code": "T",
+      "nameEn": "Tozai Line",
+      "operator": "Kyoto Municipal Subway",
+      "stationIds": [
+        "kyoto-rokujizo",
+        "kyoto-ishida",
+        "kyoto-daigo",
+        "kyoto-ono",
+        "kyoto-nagitsuji",
+        "kyoto-higashino",
+        "kyoto-yamashina",
+        "kyoto-misasagi",
+        "kyoto-keage",
+        "kyoto-higashiyama",
+        "kyoto-sanjo-keihan",
+        "kyoto-kyoto-shiyakusho-mae-kyoto-city-hall",
+        "kyoto-karasuma-oike",
+        "kyoto-nijojo-mae-nijo-jo-castle",
+        "kyoto-nijo",
+        "kyoto-nishioji-oike",
+        "kyoto-uzumasa-tenjingawa"
+      ],
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 640,
+            "y": 1040
+          },
+          {
+            "x": 720,
+            "y": 1040
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 1040
+          },
+          {
+            "x": 720,
+            "y": 960
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 960
+          },
+          {
+            "x": 720,
+            "y": 880
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 880
+          },
+          {
+            "x": 720,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 800
+          },
+          {
+            "x": 800,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 720
+          },
+          {
+            "x": 720,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 720
+          },
+          {
+            "x": 720,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 640
+          },
+          {
+            "x": 640,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 560
+          },
+          {
+            "x": 560,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 560
+          },
+          {
+            "x": 560,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 480
+          },
+          {
+            "x": 520,
+            "y": 480
+          },
+          {
+            "x": 480,
+            "y": 440
+          },
+          {
+            "x": 440,
+            "y": 440
+          },
+          {
+            "x": 400,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 480
+          },
+          {
+            "x": 480,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 560
+          },
+          {
+            "x": 440,
+            "y": 560
+          },
+          {
+            "x": 400,
+            "y": 520
+          },
+          {
+            "x": 360,
+            "y": 520
+          },
+          {
+            "x": 320,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 560
+          },
+          {
+            "x": 320,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 480
+          },
+          {
+            "x": 240,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 240,
+            "y": 560
+          },
+          {
+            "x": 160,
+            "y": 560
+          }
+        ]
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "kyoto-kokusaikaikan",
+      "city": "Kyoto",
+      "nameEn": "Kokusaikaikan",
+      "codes": [
+        "K01"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "国際会館"
+    },
+    {
+      "id": "kyoto-matsugasaki",
+      "city": "Kyoto",
+      "nameEn": "Matsugasaki",
+      "codes": [
+        "K02"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "松ヶ崎"
+    },
+    {
+      "id": "kyoto-kitayama",
+      "city": "Kyoto",
+      "nameEn": "Kitayama",
+      "codes": [
+        "K03"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "北山"
+    },
+    {
+      "id": "kyoto-kitaoji",
+      "city": "Kyoto",
+      "nameEn": "Kitaoji",
+      "codes": [
+        "K04"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "北大路"
+    },
+    {
+      "id": "kyoto-kuramaguchi",
+      "city": "Kyoto",
+      "nameEn": "Kuramaguchi",
+      "codes": [
+        "K05"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "鞍馬口"
+    },
+    {
+      "id": "kyoto-imadegawa",
+      "city": "Kyoto",
+      "nameEn": "Imadegawa",
+      "codes": [
+        "K06"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "今出川"
+    },
+    {
+      "id": "kyoto-marutamachi",
+      "city": "Kyoto",
+      "nameEn": "Marutamachi",
+      "codes": [
+        "K07"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "丸太町"
+    },
+    {
+      "id": "kyoto-karasuma-oike",
+      "city": "Kyoto",
+      "nameEn": "Karasuma Oike",
+      "codes": [
+        "K08",
+        "T13"
+      ],
+      "lineIds": [
+        "kyoto-K",
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "烏丸御池"
+    },
+    {
+      "id": "kyoto-shijo",
+      "city": "Kyoto",
+      "nameEn": "Shijo",
+      "codes": [
+        "K09"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "四条"
+    },
+    {
+      "id": "kyoto-gojo",
+      "city": "Kyoto",
+      "nameEn": "Gojo",
+      "codes": [
+        "K10"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "五条"
+    },
+    {
+      "id": "kyoto-kyoto",
+      "city": "Kyoto",
+      "nameEn": "Kyoto",
+      "codes": [
+        "K11"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "京都"
+    },
+    {
+      "id": "kyoto-kujo",
+      "city": "Kyoto",
+      "nameEn": "Kujo",
+      "codes": [
+        "K12"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "九条"
+    },
+    {
+      "id": "kyoto-jujo",
+      "city": "Kyoto",
+      "nameEn": "Jujo",
+      "codes": [
+        "K13"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "十条"
+    },
+    {
+      "id": "kyoto-kuinabashi",
+      "city": "Kyoto",
+      "nameEn": "Kuinabashi",
+      "codes": [
+        "K14"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "くいな橋"
+    },
+    {
+      "id": "kyoto-takeda",
+      "city": "Kyoto",
+      "nameEn": "Takeda",
+      "codes": [
+        "K15"
+      ],
+      "lineIds": [
+        "kyoto-K"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        },
+        {
+          "title": "Kyoto Municipal Subway Japanese station list",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "竹田"
+    },
+    {
+      "id": "kyoto-rokujizo",
+      "city": "Kyoto",
+      "nameEn": "Rokujizo",
+      "codes": [
+        "T01"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "六地蔵"
+    },
+    {
+      "id": "kyoto-ishida",
+      "city": "Kyoto",
+      "nameEn": "Ishida",
+      "codes": [
+        "T02"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 1040,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "石田"
+    },
+    {
+      "id": "kyoto-daigo",
+      "city": "Kyoto",
+      "nameEn": "Daigo",
+      "codes": [
+        "T03"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 960,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "醍醐"
+    },
+    {
+      "id": "kyoto-ono",
+      "city": "Kyoto",
+      "nameEn": "Ono",
+      "codes": [
+        "T04"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 880,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "小野"
+    },
+    {
+      "id": "kyoto-nagitsuji",
+      "city": "Kyoto",
+      "nameEn": "Nagitsuji",
+      "codes": [
+        "T05"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "椥辻"
+    },
+    {
+      "id": "kyoto-higashino",
+      "city": "Kyoto",
+      "nameEn": "Higashino",
+      "codes": [
+        "T06"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "東野"
+    },
+    {
+      "id": "kyoto-yamashina",
+      "city": "Kyoto",
+      "nameEn": "Yamashina",
+      "codes": [
+        "T07"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "山科"
+    },
+    {
+      "id": "kyoto-misasagi",
+      "city": "Kyoto",
+      "nameEn": "Misasagi",
+      "codes": [
+        "T08"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "御陵"
+    },
+    {
+      "id": "kyoto-keage",
+      "city": "Kyoto",
+      "nameEn": "Keage",
+      "codes": [
+        "T09"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "蹴上"
+    },
+    {
+      "id": "kyoto-higashiyama",
+      "city": "Kyoto",
+      "nameEn": "Higashiyama",
+      "codes": [
+        "T10"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "東山"
+    },
+    {
+      "id": "kyoto-sanjo-keihan",
+      "city": "Kyoto",
+      "nameEn": "Sanjo Keihan",
+      "codes": [
+        "T11"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "三条京阪"
+    },
+    {
+      "id": "kyoto-kyoto-shiyakusho-mae-kyoto-city-hall",
+      "city": "Kyoto",
+      "nameEn": "Kyoto Shiyakusho-Mae (Kyoto City Hall)",
+      "codes": [
+        "T12"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "京都市役所前"
+    },
+    {
+      "id": "kyoto-nijojo-mae-nijo-jo-castle",
+      "city": "Kyoto",
+      "nameEn": "Nijojo-Mae (Nijo-jo Castle)",
+      "codes": [
+        "T14"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "二条城前"
+    },
+    {
+      "id": "kyoto-nijo",
+      "city": "Kyoto",
+      "nameEn": "Nijo",
+      "codes": [
+        "T15"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "二条"
+    },
+    {
+      "id": "kyoto-nishioji-oike",
+      "city": "Kyoto",
+      "nameEn": "Nishioji Oike",
+      "codes": [
+        "T16"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "西大路御池"
+    },
+    {
+      "id": "kyoto-uzumasa-tenjingawa",
+      "city": "Kyoto",
+      "nameEn": "Uzumasa Tenjingawa",
+      "codes": [
+        "T17"
+      ],
+      "lineIds": [
+        "kyoto-T"
+      ],
+      "layout": {
+        "x": 160,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Kyoto Municipal Subway station information",
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "nameJa": "太秦天神川"
+    }
+  ],
+  "layoutSource": {
+    "title": "Station coordinate reference · schematic layout only (ekidata / ODPT compilation by piuccio)",
+    "url": "https://github.com/piuccio/open-data-jp-railway-stations"
+  },
+  "layoutNote": "Coordinates are a transformed original schematic, not navigable geography. Operator identities and codes are sourced separately."
+}

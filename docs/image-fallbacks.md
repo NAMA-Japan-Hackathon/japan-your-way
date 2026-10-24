@@ -1,0 +1,206 @@
+# Photograph coverage
+
+Checked 24 October 2026. Restaurant photographs show verified storefronts only. Non-open images stay in the ignored local personal-use folder; they become placeholders on a public clone.
+
+## Restaurant storefronts
+
+- AIN SOPH. Ginza · personal:ain-ginza-front
+- AIN SOPH. Journey Shinjuku · personal:ain-shinjuku-front
+- AIN SOPH. Journey Kyoto · personal:ain-kyoto-front
+
+## Restaurants awaiting storefront photographs
+
+- Akasaka Kikunoi · Tokyo
+- Asahina Gastronome · Tokyo
+- Au Deco · Tokyo
+- Beige · Tokyo
+- Crony · Tokyo
+- Daigo · Tokyo
+- Den · Tokyo
+- Dominique Bouchet · Tokyo
+- Édition Koji Shimomura · Tokyo
+- Ensui · Tokyo
+- Esquisse · Tokyo
+- Florilège · Tokyo
+- Ginza Fukuju · Tokyo
+- Ginza Koju · Tokyo
+- Ginza Shinohara · Tokyo
+- Hakuun · Tokyo
+- Harutaka · Tokyo
+- Hommage · Tokyo
+- Jingumae Higuchi · Tokyo
+- Joël Robuchon Tokyo · Tokyo
+- Jushu · Tokyo
+- Kadowaki · Tokyo
+- Kagurazaka Ishikawa · Tokyo
+- Kanda · Tokyo
+- Kioicho Fukudaya · Tokyo
+- Kohaku · Tokyo
+- Kutan · Tokyo
+- L'Atelier de Joël Robuchon · Tokyo
+- L'Effervescence · Tokyo
+- L'Osier · Tokyo
+- La Table de Joël Robuchon · Tokyo
+- Makiyaki Ginza Onodera · Tokyo
+- MAZ · Tokyo
+- Myojaku · Tokyo
+- Nabeno-Ism · Tokyo
+- Narisawa · Tokyo
+- Nishiazabu Sushi Shin · Tokyo
+- Nishiazabu Taku · Tokyo
+- Prisma · Tokyo
+- Quintessence · Tokyo
+- Ryugin · Tokyo
+- Ryuzu · Tokyo
+- Sazenka · Tokyo
+- Seisoka · Tokyo
+- Seizan · Tokyo
+- Sézanne · Tokyo
+- Shinbashi Sasada · Tokyo
+- Sukiyabashi Jiro Roppongiten · Tokyo
+- Sushi Kanesaka · Tokyo
+- Tempura Ginya · Tokyo
+- Tempura Kondo · Tokyo
+- Tempura Motoyoshi · Tokyo
+- Waketokuyama · Tokyo
+- Zurriola · Tokyo
+- AIN SOPH. Soar Ikebukuro · Tokyo
+- T’s Tantan · Tokyo Station · Tokyo
+- A Canto · Osaka
+- Ad Hoc · Osaka
+- Agnel D'or · Osaka
+- Ajikitcho Bumbuan · Osaka
+- Ajikitcho Horieten · Osaka
+- Alarde · Osaka
+- Anpeiji · Kyoto
+- Atelier Hanada · Osaka
+- Ayanokoji Karatsu · Kyoto
+- Bini · Kyoto
+- Byeoleeya · Kyoto
+- Capi · Osaka
+- Cenci · Kyoto
+- Chi-Fu · Osaka
+- Différence · Osaka
+- Dodici · Kyoto
+- Doppo · Kyoto
+- Droit · Kyoto
+- Empathie · Osaka
+- Enyuan Kobayashi · Kyoto
+- Fujiya 1935 · Osaka
+- Fushimimachi Kakoiyama · Osaka
+- Germoglio · Kyoto
+- Gion Fukushi · Kyoto
+- Gion Kida · Kyoto
+- Gion Maruyama · Kyoto
+- Gion Matayoshi · Kyoto
+- Gion Nishikawa · Kyoto
+- Gion Okada · Kyoto
+- Gion Owatari · Kyoto
+- Gion Sasaki · Kyoto
+- Godan Miyazawa · Kyoto
+- Gokomachi Tagawa · Kyoto
+- Gosho Iwasaki · Kyoto
+- Hachi · Osaka
+- Hajime · Osaka
+- HANA-Kitcho · Kyoto
+- Higashichaya Nakamura · Osaka
+- Higashiyama Ogata · Kyoto
+- Higashiyama Tsukasa · Kyoto
+- Higashiyama Yoshihisa · Kyoto
+- Hiraishi · Osaka
+- Hiramatsu Kodaiji · Kyoto
+- Hyotei · Kyoto
+- IDÉAL Bistro · Osaka
+- Ima · Kyoto
+- Iroha · Osaka
+- Isshisoden Nakamura · Kyoto
+- Iwaki · Osaka
+- Jean-Georges at The Shinmonzen · Kyoto
+- Kahala · Osaka
+- Kaishoku Shimizu · Osaka
+- Kako Okamoto · Kyoto
+- Kamigatachuka Shintani · Osaka
+- Kanamean Nishitomiya · Kyoto
+- Kappo Hassun · Kyoto
+- Kashiwaya Osaka Kitashinchi · Osaka
+- Kashiwaya Osaka Senriyama · Osaka
+- Katamachi Kawaguchi · Osaka
+- Kenninji Gion Maruyama · Kyoto
+- Kentan Horibe · Kyoto
+- Kenya · Kyoto
+- Kikunoi Honten · Kyoto
+- Kikunoi Roan · Kyoto
+- Kikunoi Sushi Ao · Kyoto
+- Kinobu · Kyoto
+- Kiyama · Kyoto
+- Kodaiji Jugyuan · Kyoto
+- Kodaiji Wakuden · Kyoto
+- Koga · Kyoto
+- KOKE · Kyoto
+- Konoha · Osaka
+- Koryu · Osaka
+- KushinGarando[d] · Osaka
+- La Baie · Osaka
+- La Bécasse · Osaka
+- La Cime · Osaka
+- Le Pont de Ciel · Osaka
+- Masuda · Osaka
+- Matsuzushi Tanigawa · Osaka
+- Milpa · Osaka
+- Miyamoto · Osaka
+- Ñ · Osaka
+- Naniwaryori Yu · Osaka
+- Nishino · Osaka
+- Nishishinsaibashi Yuno · Osaka
+- Nishitemma Ichigaya · Osaka
+- Numata · Osaka
+- Numata Sou · Osaka
+- Oimatsu Hisano · Osaka
+- Shigetsu · Tenryu-ji · Kyoto
+- Vegan Ramen UZU Kyoto · Kyoto
+- Green Earth · Osaka
+- Paprika Shokudo Vegan · Osaka
+
+## Shopping places awaiting photographs
+
+- Shibuya · Tokyo
+- Harajuku & Omotesando · Tokyo
+- Shinjuku · Tokyo
+- Ameyoko · Tokyo
+- Nakano Broadway · Tokyo
+- Kappabashi · Tokyo
+- Tsukiji Outer Market · Tokyo
+- Tokyo Solamachi · Tokyo
+- Shinsaibashi-suji · Osaka
+- Amerikamura · Osaka
+- Den Den Town · Osaka
+- Kuromon Market · Osaka
+- Grand Front Osaka · Osaka
+- Namba Parks · Osaka
+- Abeno Harukas · Osaka
+- Nishiki Market · Kyoto
+- Teramachi & Shinkyogoku · Kyoto
+- Kawaramachi · Kyoto
+- Kyoto Station complex · Kyoto
+- Canal City Hakata · Fukuoka
+- Osu shopping streets · Nagoya
+- Omicho Market · Kanazawa
+- Kokusai-dori · Naha
+- Minato Mirai · Yokohama
+- Tanukikoji · Sapporo
+
+## Image credits
+
+- Yasaka-dori early morning with street lanterns and the Tower of Yasaka (Hokan-ji Temple), Kyoto, Japan · Basile Morin · CC BY-SA 4.0 · [Source](https://commons.wikimedia.org/wiki/File:Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_(Hokan-ji_Temple),_Kyoto,_Japan.jpg)
+- Wooden and bamboo facades of dwellings with sudare in a cobbled street of Gion, perspective effect with vanishing point, Kyoto, Japan · Basile Morin · CC BY-SA 4.0 · [Source](https://commons.wikimedia.org/wiki/File:Wooden_and_bamboo_facades_of_dwellings_with_sudare_in_a_cobbled_street_of_Gion,_perspective_effect_with_vanishing_point,_Kyoto,_Japan.jpg)
+- Dry-sand Zen garden made of beige stripes a sunny day at Higashiyama Jisho-ji Buddhist temple Ginkaku-ji Kyoto Japan · Basile Morin · CC BY-SA 4.0 · [Source](https://commons.wikimedia.org/wiki/File:Dry-sand_Zen_garden_made_of_beige_stripes_a_sunny_day_at_Higashiyama_Jisho-ji_Buddhist_temple_Ginkaku-ji_Kyoto_Japan.jpg)
+- Nakamise, Asakusa, Tokyo as seen from the Asakusa Culture Tourist Information Center 20190420 2 · DXR · CC BY-SA 4.0 · [Source](https://commons.wikimedia.org/wiki/File:Nakamise,_Asakusa,_Tokyo_as_seen_from_the_Asakusa_Culture_Tourist_Information_Center_20190420_2.jpg)
+- Dotonbori, Osaka, at night, November 2016 · Martin Falbisoner · CC BY-SA 4.0 · [Source](https://commons.wikimedia.org/wiki/File:Dotonbori,_Osaka,_at_night,_November_2016.jpg)
+- Ginza · Photographer not identified · unverified - personal use · [Source](https://en.wikipedia.org/wiki/Ginza)
+- Akihabara · Photographer not identified · unverified - personal use · [Source](https://en.wikipedia.org/wiki/Akihabara)
+- GINZA SIX · Photographer not identified · unverified - personal use · [Source](https://en.wikipedia.org/wiki/Ginza_Six)
+- Shibuya Scramble Square · Photographer not identified · unverified - personal use · [Source](https://en.wikipedia.org/wiki/Shibuya_Scramble_Square)
+- Arakurayama Sengen park morning & evening (cropped) · tzuyaya · CC BY 2.0 · [Source](https://commons.wikimedia.org/wiki/File:Arakurayama_Sengen_park_morning_%26_evening_from_Flickr_8656223105_(cropped).jpg)
+- AIN SOPH. Ginza storefront and entrance · AIN SOPH. (photographer not identified) · unverified - personal use · [Source](https://en.ain-soph.jp/ginza)
+- AIN SOPH. Journey Shinjuku storefront and entrance · AIN SOPH. (photographer not identified) · unverified - personal use · [Source](https://en.ain-soph.jp/journey-shinjuku)
+- AIN SOPH. Journey Kyoto storefront and entrance · AIN SOPH. (photographer not identified) · unverified - personal use · [Source](https://en.ain-soph.jp/journey-kyoto)

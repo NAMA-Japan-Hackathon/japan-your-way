@@ -62,4 +62,10 @@ The homepage now follows the supplied cinematic Stitch reference: Cormorant disp
 
 The public source repository is https://github.com/NAMA-Japan-Hackathon/japan-your-way.
 The `github` remote is separate from the private website publishing workflow.
-See [GITHUB_SYNC.md](GITHUB_SYNC.md) for automatic synchronization behavior.
+Automatic synchronization is disabled. Push only when explicitly requested; see [GITHUB_SYNC.md](GITHUB_SYNC.md).
+
+## Reviews and Japan-wide discovery — 24 October 2026
+
+New routes: `/reviews/`, `/metro/` and `/explore/`. Discovery covers all 47 prefectures; rail coverage includes 65 national hubs, 28 selected corridors and 639 stations across ten city systems. Restaurant research currently covers Tokyo, Kyoto and Osaka. The original itineraries remain samples.
+
+See [feature architecture, coverage and limits](docs/explore-and-rail.md), [photo inventory and credits](docs/image-fallbacks.md), and [QA](QA.md). Run `npm run validate:data` to check records and optional image availability. Personal-use photographs stay ignored; the public clone builds with placeholders.

@@ -7,6 +7,7 @@ import {
   Check,
   ChevronRight,
   Menu,
+  Utensils,
   X,
   Bookmark,
   Plus,
@@ -50,7 +51,7 @@ export function Header({ compact = false }: { compact?: boolean }) {
     const outside = (event: PointerEvent) => {
       if (!headerRef.current?.contains(event.target as Node)) setOpen(false);
     };
-    const desktop = window.matchMedia("(min-width: 701px)");
+    const desktop = window.matchMedia("(min-width: 1101px)");
     const resize = () => {
       if (desktop.matches) setOpen(false);
     };
@@ -73,14 +74,23 @@ export function Header({ compact = false }: { compact?: boolean }) {
         data-ui
         className={`site-header ${compact ? "compact" : ""}`}
       >
-        <Link href="/" className="wordmark" aria-label="Japan, Your Way home">
-          <span className="brand-mark" aria-hidden="true">
-            道
-          </span>
-          <span>
-            Japan, Your Way<span className="brand-dot">.</span>
-          </span>
-        </Link>
+        <div className="header-first-cluster">
+          <Link href="/" className="wordmark" aria-label="Japan, Your Way home">
+            <span className="brand-mark" aria-hidden="true">
+              道
+            </span>
+            <span>
+              Japan, Your Way<span className="brand-dot">.</span>
+            </span>
+          </Link>
+          <Link
+            href="/reviews/"
+            className="button reviews-nav"
+            aria-current={current("/reviews/")}
+          >
+            <Utensils size={16} /> Reviews
+          </Link>
+        </div>
         <nav
           ref={navRef}
           id={navigationId}
@@ -89,11 +99,18 @@ export function Header({ compact = false }: { compact?: boolean }) {
           className={open ? "open" : ""}
         >
           <Link
-            href="/trips/"
-            aria-current={current("/trips/")}
+            href="/explore/"
+            aria-current={current("/explore/")}
             onClick={() => setOpen(false)}
           >
-            Trips
+            Explore Japan
+          </Link>
+          <Link
+            href="/metro/"
+            aria-current={current("/metro/")}
+            onClick={() => setOpen(false)}
+          >
+            Metro map
           </Link>
           <Link
             href="/how-it-works/"
@@ -151,7 +168,10 @@ export function Footer() {
       <p>A little wonder. A clearer plan.</p>
       <div>
         <Link href="/help/">Help & privacy</Link>
-        <Link href="/credits/">Image credits</Link>
+        <Link href="/reviews/">Reviews</Link>
+        <Link href="/explore/">Explore Japan</Link>
+        <Link href="/metro/">Rail atlas</Link>
+        <Link href="/credits/">Image & data credits</Link>
         <span>Concept demo · 2026</span>
       </div>
     </footer>

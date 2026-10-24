@@ -1,0 +1,1557 @@
+{
+  "lines": [
+    {
+      "id": "fukuoka-K",
+      "city": "Fukuoka",
+      "code": "K",
+      "nameEn": "Airport Line",
+      "operator": "Fukuoka City Subway",
+      "stationIds": [
+        "fukuoka-meinohama",
+        "fukuoka-muromi",
+        "fukuoka-fujisaki",
+        "fukuoka-nishijin",
+        "fukuoka-tojinmachi",
+        "fukuoka-ohorikoen",
+        "fukuoka-akasaka",
+        "fukuoka-tenjin",
+        "fukuoka-nakasu-kawabata",
+        "fukuoka-gion",
+        "fukuoka-hakata",
+        "fukuoka-higashi-hie",
+        "fukuoka-fukuoka-airport"
+      ],
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 240,
+            "y": 560
+          },
+          {
+            "x": 320,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 560
+          },
+          {
+            "x": 400,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 560
+          },
+          {
+            "x": 480,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 560
+          },
+          {
+            "x": 480,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 480
+          },
+          {
+            "x": 560,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 480
+          },
+          {
+            "x": 640,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 560
+          },
+          {
+            "x": 640,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 480
+          },
+          {
+            "x": 720,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 480
+          },
+          {
+            "x": 720,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 400
+          },
+          {
+            "x": 800,
+            "y": 480
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 480
+          },
+          {
+            "x": 800,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 400
+          },
+          {
+            "x": 880,
+            "y": 480
+          }
+        ]
+      ]
+    },
+    {
+      "id": "fukuoka-H",
+      "city": "Fukuoka",
+      "code": "H",
+      "nameEn": "Hakozaki Line",
+      "operator": "Fukuoka City Subway",
+      "stationIds": [
+        "fukuoka-nakasu-kawabata",
+        "fukuoka-gofukumachi",
+        "fukuoka-chiyo-kenchoguchi",
+        "fukuoka-maidashi-kyudai-byoin-mae",
+        "fukuoka-hakozaki-miyamae",
+        "fukuoka-hakozaki-kyudai-mae",
+        "fukuoka-kaizuka"
+      ],
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 720,
+            "y": 480
+          },
+          {
+            "x": 720,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 560
+          },
+          {
+            "x": 680,
+            "y": 520
+          },
+          {
+            "x": 680,
+            "y": 440
+          },
+          {
+            "x": 640,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 400
+          },
+          {
+            "x": 720,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 320
+          },
+          {
+            "x": 640,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 320
+          },
+          {
+            "x": 680,
+            "y": 320
+          },
+          {
+            "x": 720,
+            "y": 280
+          },
+          {
+            "x": 760,
+            "y": 280
+          },
+          {
+            "x": 800,
+            "y": 320
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 320
+          },
+          {
+            "x": 800,
+            "y": 240
+          }
+        ]
+      ]
+    },
+    {
+      "id": "fukuoka-N",
+      "city": "Fukuoka",
+      "code": "N",
+      "nameEn": "Nanakuma Line",
+      "operator": "Fukuoka City Subway",
+      "stationIds": [
+        "fukuoka-hashimoto",
+        "fukuoka-jiromaru",
+        "fukuoka-kamo",
+        "fukuoka-noke",
+        "fukuoka-umebayashi",
+        "fukuoka-fukudaimae",
+        "fukuoka-nanakuma",
+        "fukuoka-kanayama",
+        "fukuoka-chayama",
+        "fukuoka-befu",
+        "fukuoka-ropponmatsu",
+        "fukuoka-sakurazaka",
+        "fukuoka-yakuin-odori",
+        "fukuoka-yakuin",
+        "fukuoka-watanabe-dori",
+        "fukuoka-tenjin-minami",
+        "fukuoka-kushida-shrine",
+        "fukuoka-hakata"
+      ],
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24",
+      "segments": [
+        [
+          {
+            "x": 240,
+            "y": 720
+          },
+          {
+            "x": 320,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 720
+          },
+          {
+            "x": 320,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 320,
+            "y": 800
+          },
+          {
+            "x": 400,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 800
+          },
+          {
+            "x": 400,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 720
+          },
+          {
+            "x": 480,
+            "y": 800
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 800
+          },
+          {
+            "x": 480,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 720
+          },
+          {
+            "x": 480,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 480,
+            "y": 640
+          },
+          {
+            "x": 400,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 400,
+            "y": 640
+          },
+          {
+            "x": 440,
+            "y": 640
+          },
+          {
+            "x": 480,
+            "y": 600
+          },
+          {
+            "x": 520,
+            "y": 600
+          },
+          {
+            "x": 560,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 640
+          },
+          {
+            "x": 560,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 560
+          },
+          {
+            "x": 640,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 640
+          },
+          {
+            "x": 720,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 720,
+            "y": 640
+          },
+          {
+            "x": 640,
+            "y": 720
+          }
+        ],
+        [
+          {
+            "x": 640,
+            "y": 720
+          },
+          {
+            "x": 680,
+            "y": 680
+          },
+          {
+            "x": 680,
+            "y": 640
+          },
+          {
+            "x": 760,
+            "y": 560
+          },
+          {
+            "x": 800,
+            "y": 560
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 560
+          },
+          {
+            "x": 760,
+            "y": 520
+          },
+          {
+            "x": 720,
+            "y": 520
+          },
+          {
+            "x": 600,
+            "y": 400
+          },
+          {
+            "x": 560,
+            "y": 400
+          }
+        ],
+        [
+          {
+            "x": 560,
+            "y": 400
+          },
+          {
+            "x": 600,
+            "y": 440
+          },
+          {
+            "x": 600,
+            "y": 480
+          },
+          {
+            "x": 760,
+            "y": 640
+          },
+          {
+            "x": 800,
+            "y": 640
+          }
+        ],
+        [
+          {
+            "x": 800,
+            "y": 640
+          },
+          {
+            "x": 800,
+            "y": 600
+          },
+          {
+            "x": 760,
+            "y": 560
+          },
+          {
+            "x": 760,
+            "y": 520
+          },
+          {
+            "x": 800,
+            "y": 480
+          }
+        ]
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "fukuoka-meinohama",
+      "city": "Fukuoka",
+      "nameEn": "Meinohama",
+      "nameJa": "姪浜",
+      "codes": [
+        "K01"
+      ],
+      "lineIds": [
+        "fukuoka-K"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-muromi",
+      "city": "Fukuoka",
+      "nameEn": "Muromi",
+      "nameJa": "室見",
+      "codes": [
+        "K02"
+      ],
+      "lineIds": [
+        "fukuoka-K"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-fujisaki",
+      "city": "Fukuoka",
+      "nameEn": "Fujisaki",
+      "nameJa": "藤崎",
+      "codes": [
+        "K03"
+      ],
+      "lineIds": [
+        "fukuoka-K"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-nishijin",
+      "city": "Fukuoka",
+      "nameEn": "Nishijin",
+      "nameJa": "西新",
+      "codes": [
+        "K04"
+      ],
+      "lineIds": [
+        "fukuoka-K"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-tojinmachi",
+      "city": "Fukuoka",
+      "nameEn": "Tojinmachi",
+      "nameJa": "唐人町",
+      "codes": [
+        "K05"
+      ],
+      "lineIds": [
+        "fukuoka-K"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-ohorikoen",
+      "city": "Fukuoka",
+      "nameEn": "Ohorikoen",
+      "nameJa": "大濠公園",
+      "codes": [
+        "K06"
+      ],
+      "lineIds": [
+        "fukuoka-K"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-akasaka",
+      "city": "Fukuoka",
+      "nameEn": "Akasaka",
+      "nameJa": "赤坂",
+      "codes": [
+        "K07"
+      ],
+      "lineIds": [
+        "fukuoka-K"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-tenjin",
+      "city": "Fukuoka",
+      "nameEn": "Tenjin",
+      "nameJa": "天神",
+      "codes": [
+        "K08"
+      ],
+      "lineIds": [
+        "fukuoka-K"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-nakasu-kawabata",
+      "city": "Fukuoka",
+      "nameEn": "Nakasu-Kawabata",
+      "nameJa": "中洲川端",
+      "codes": [
+        "K09",
+        "H01"
+      ],
+      "lineIds": [
+        "fukuoka-K",
+        "fukuoka-H"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-gion",
+      "city": "Fukuoka",
+      "nameEn": "Gion",
+      "nameJa": "祇園",
+      "codes": [
+        "K10"
+      ],
+      "lineIds": [
+        "fukuoka-K"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-hakata",
+      "city": "Fukuoka",
+      "nameEn": "Hakata",
+      "nameJa": "博多",
+      "codes": [
+        "K11",
+        "N18"
+      ],
+      "lineIds": [
+        "fukuoka-K",
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-higashi-hie",
+      "city": "Fukuoka",
+      "nameEn": "Higashi-Hie",
+      "nameJa": "東比恵",
+      "codes": [
+        "K12"
+      ],
+      "lineIds": [
+        "fukuoka-K"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-fukuoka-airport",
+      "city": "Fukuoka",
+      "nameEn": "Fukuoka Airport",
+      "nameJa": "福岡空港",
+      "codes": [
+        "K13"
+      ],
+      "lineIds": [
+        "fukuoka-K"
+      ],
+      "layout": {
+        "x": 880,
+        "y": 480,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-gofukumachi",
+      "city": "Fukuoka",
+      "nameEn": "Gofukumachi",
+      "nameJa": "呉服町",
+      "codes": [
+        "H02"
+      ],
+      "lineIds": [
+        "fukuoka-H"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-chiyo-kenchoguchi",
+      "city": "Fukuoka",
+      "nameEn": "Chiyo-Kenchoguchi",
+      "nameJa": "千代県庁口",
+      "codes": [
+        "H03"
+      ],
+      "lineIds": [
+        "fukuoka-H"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-maidashi-kyudai-byoin-mae",
+      "city": "Fukuoka",
+      "nameEn": "Maidashi-Kyudai-byoin-mae",
+      "nameJa": "馬出九大病院前",
+      "codes": [
+        "H04"
+      ],
+      "lineIds": [
+        "fukuoka-H"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-hakozaki-miyamae",
+      "city": "Fukuoka",
+      "nameEn": "Hakozaki-Miyamae",
+      "nameJa": "箱崎宮前",
+      "codes": [
+        "H05"
+      ],
+      "lineIds": [
+        "fukuoka-H"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-hakozaki-kyudai-mae",
+      "city": "Fukuoka",
+      "nameEn": "Hakozaki-Kyudai-mae",
+      "nameJa": "箱崎九大前",
+      "codes": [
+        "H06"
+      ],
+      "lineIds": [
+        "fukuoka-H"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 320,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-kaizuka",
+      "city": "Fukuoka",
+      "nameEn": "Kaizuka",
+      "nameJa": "貝塚",
+      "codes": [
+        "H07"
+      ],
+      "lineIds": [
+        "fukuoka-H"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 240,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-hashimoto",
+      "city": "Fukuoka",
+      "nameEn": "Hashimoto",
+      "nameJa": "橋本",
+      "codes": [
+        "N01"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 240,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-jiromaru",
+      "city": "Fukuoka",
+      "nameEn": "Jiromaru",
+      "nameJa": "次郎丸",
+      "codes": [
+        "N02"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-kamo",
+      "city": "Fukuoka",
+      "nameEn": "Kamo",
+      "nameJa": "賀茂",
+      "codes": [
+        "N03"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 320,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-noke",
+      "city": "Fukuoka",
+      "nameEn": "Noke",
+      "nameJa": "野芥",
+      "codes": [
+        "N04"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-umebayashi",
+      "city": "Fukuoka",
+      "nameEn": "Umebayashi",
+      "nameJa": "梅林",
+      "codes": [
+        "N05"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-fukudaimae",
+      "city": "Fukuoka",
+      "nameEn": "Fukudaimae",
+      "nameJa": "福大前",
+      "codes": [
+        "N06"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 800,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-nanakuma",
+      "city": "Fukuoka",
+      "nameEn": "Nanakuma",
+      "nameJa": "七隈",
+      "codes": [
+        "N07"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-kanayama",
+      "city": "Fukuoka",
+      "nameEn": "Kanayama",
+      "nameJa": "金山",
+      "codes": [
+        "N08"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 480,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-chayama",
+      "city": "Fukuoka",
+      "nameEn": "Chayama",
+      "nameJa": "茶山",
+      "codes": [
+        "N09"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 400,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-befu",
+      "city": "Fukuoka",
+      "nameEn": "Befu",
+      "nameJa": "別府",
+      "codes": [
+        "N10"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-ropponmatsu",
+      "city": "Fukuoka",
+      "nameEn": "Ropponmatsu",
+      "nameJa": "六本松",
+      "codes": [
+        "N11"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-sakurazaka",
+      "city": "Fukuoka",
+      "nameEn": "Sakurazaka",
+      "nameJa": "桜坂",
+      "codes": [
+        "N12"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-yakuin-odori",
+      "city": "Fukuoka",
+      "nameEn": "Yakuin-odori",
+      "nameJa": "薬院大通",
+      "codes": [
+        "N13"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 720,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-yakuin",
+      "city": "Fukuoka",
+      "nameEn": "Yakuin",
+      "nameJa": "薬院",
+      "codes": [
+        "N14"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 640,
+        "y": 720,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-watanabe-dori",
+      "city": "Fukuoka",
+      "nameEn": "Watanabe-dori",
+      "nameJa": "渡辺通",
+      "codes": [
+        "N15"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 560,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-tenjin-minami",
+      "city": "Fukuoka",
+      "nameEn": "Tenjin-Minami",
+      "nameJa": "天神南",
+      "codes": [
+        "N16"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 560,
+        "y": 400,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    },
+    {
+      "id": "fukuoka-kushida-shrine",
+      "city": "Fukuoka",
+      "nameEn": "Kushida Shrine",
+      "nameJa": "櫛田神社前",
+      "codes": [
+        "N17"
+      ],
+      "lineIds": [
+        "fukuoka-N"
+      ],
+      "layout": {
+        "x": 800,
+        "y": 640,
+        "labelSide": "e"
+      },
+      "sources": [
+        {
+          "title": "Fukuoka City Subway route reference",
+          "url": "https://subway.city.fukuoka.lg.jp/eng/route/"
+        },
+        {
+          "title": "Station names and codes · factual reference",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fukuoka_City_Subway_stations"
+        }
+      ],
+      "checkedOn": "2026-10-24"
+    }
+  ],
+  "layoutSource": {
+    "title": "Station coordinate reference · schematic layout only (ekidata / ODPT compilation by piuccio)",
+    "url": "https://github.com/piuccio/open-data-jp-railway-stations"
+  },
+  "layoutNote": "Coordinates are a transformed original schematic, not navigable geography. Operator identities and codes are sourced separately."
+}

@@ -456,3 +456,7 @@ Working source is in `japan-your-way/`. The MVP uses the PRD's seed-data adapter
 ## Owner-directed cinematic and Kintsugi revision — 21 October 2026
 
 The supplied Stitch UI replaces the geometric hero with a native 3,840-pixel photograph, Cormorant Garamond display type, warm ivory controls, and blue-black panels. A working four-day Kyoto sample leads into three photographic routes, the planning process, an opening garden scene, FAQs, and a preference form that opens the existing planner. Six small asymmetric gold-filled seams stay in the margins and draw with scroll progress; reduced motion shows completed seams and readable static content. Detailed implementation and credit notes are in `japan-your-way/UI_REVIEW.md`.
+
+## Owner revision: nationwide discovery and storefront photography
+
+24 October 2026. Explore Japan now covers all 47 prefectures through official regional guides. The rail atlas opens on Japan, with ten detailed city systems and shared interchange nodes. Trace a line reduces visual competition in dense networks. Existing dark tokens and map patterns are preserved. Food photography shows the named restaurant’s front exterior; unavailable photos use typography. Reviews remains beside the wordmark at every width. [Coverage and implementation](docs/explore-and-rail.md).
