@@ -1,6 +1,6 @@
 import { spawnSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { existsSync, lstatSync, mkdirSync, readFileSync, rmSync } from 'node:fs';
+import { existsSync, lstatSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -59,11 +59,19 @@ function scan() {
   }
 }
 
+if (existsSync(lock) && existsSync(path.join(lock, 'pid'))) {
+  const pid = Number(readFileSync(path.join(lock, 'pid'), 'utf8'));
+  if (Number.isSafeInteger(pid) && pid > 0) {
+    try { process.kill(pid, 0); }
+    catch (error) { if (error.code === 'ESRCH') rmSync(lock, { recursive: true }); }
+  }
+}
 if (existsSync(lock)) {
   console.log('Sync already running; no changes made.');
   process.exit(0);
 }
 mkdirSync(lock);
+writeFileSync(path.join(lock, 'pid'), String(process.pid));
 try {
   if (git('branch', '--show-current').trim() !== 'main') throw new Error('Automatic sync only publishes main; the current branch was left unchanged.');
   if (git('remote', 'get-url', 'github').trim() !== expectedRemote) throw new Error('The GitHub destination changed; review it before publishing.');
