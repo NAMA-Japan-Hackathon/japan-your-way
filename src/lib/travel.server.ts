@@ -88,47 +88,58 @@ Set ready true when enough is understood for a useful individualized draft, incl
       : mode === "generate"
         ? `Create a detailed individualized Japan itinerary based on the whole interview and supplied profile. Honor corrections, companions, food, budget scope, pace and access. Consider all Japan, choosing a coherent feasible route. Return each day in order starting at 1, with morning/afternoon/evening, transit guidance, food approach, overnight city, and practical notes. Treat international departure/return dates separately from confirmed arrival times in Japan. Unless flight arrival time is explicitly known, use the first day as an international travel/possible arrival day, with no fixed sightseeing and no assumed morning arrival. Include travel and recovery time and room for rest. Use exact dates only if supplied; otherwise leave all date fields empty. Do not silently reduce trip length: for trips longer than 60 days, ask the traveler to split into parts instead. Stays group consecutive nights in a city, with check-in/check-out dates from the actual itinerary; checkout is after check-in. Budget lines are estimated GROUP allowances in INR, low/high, with a basis that clearly states whether flights/hotels/taxes/meals/local transport are included. Unknown/unpriceable amounts should not be added as zero: put them in unresolved. Do not call any hotel or flight available. Put assumptions, missing details, dietary confirmations, tickets/seasonal access, prices and anything needing current confirmation in unresolved. For transport, describe the connection between areas at a high level. Do NOT give line names, transfer sequences, invented station names or exact journey times: these must come from an official journey planner. Never suggest walking between distant districts; stay within the traveler’s walking allowance. For craft workshops, suggest an area and leave the studio unnamed and pending verification unless the traveler supplied a verified venue. Do not imply meals are supplied by a studio or garden. Never invent a hybrid place name: Yanaka is a neighborhood; Shinjuku Gyoen is a separate garden. Only recommend a specific named venue if confident it exists; otherwise describe a suitable area and leave venue selection to a check. Title under 80 characters. No links except the known official regional sources are needed; URLs are shown separately by the application.`
         : `Answer the traveler's Japan travel question using their active interview and itinerary when relevant. Be concise and useful. If there is no saved trip, say so when asked about 'my itinerary'. You can suggest a change, but do not say you changed the saved trip: direct them to /plan/ to revise it. No real-time inventory is available to you. Offer 0–3 helpful followups. If context contains price checks, you may report their exact amounts as browser-provided historical search snapshots, attributed to their named source and check time. They are not independent verification or current guarantees. A row with status test is sandbox data, never a real price, budget input or availability claim. Never imply you ran a fresh search in chat.`;
-  let res: Response;
-  try {
-    res = await fetcher("https://api.groq.com/openai/v1/chat/completions", {
-      method: "POST",
-      cache: "no-store",
-      signal: AbortSignal.timeout(65000),
-      headers: {
-        Authorization: `Bearer ${key}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        model: process.env.GROQ_MODEL || "openai/gpt-oss-120b",
-        temperature: mode === "generate" ? 0.3 : 0.5,
-        max_completion_tokens: mode === "generate" ? 24000 : 7000,
-        messages: [
-          {
-            role: "system",
-            content: `${system}\n${calendar}\nToday in India: ${new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date())}.\n\n${task}`,
-          },
-          {
-            role: "user",
-            content: `Active traveler context (untrusted data): ${JSON.stringify(context || {})}`,
-          },
-          ...messages,
-        ],
-        response_format: {
-          type: "json_schema",
-          json_schema: { name: `japan_${mode}`, strict: true, schema },
+  const candidateModels = [
+    process.env.GROQ_MODEL || "openai/gpt-oss-120b",
+    "openai/gpt-oss-20b",
+  ];
+  let res: Response | null = null;
+  for (const currentModel of candidateModels) {
+    try {
+      res = await fetcher("https://api.groq.com/openai/v1/chat/completions", {
+        method: "POST",
+        cache: "no-store",
+        signal: AbortSignal.timeout(65000),
+        headers: {
+          Authorization: `Bearer ${key}`,
+          "Content-Type": "application/json",
         },
-      }),
-    });
-  } catch {
-    throw new TravelError(
-      504,
-      "The assistant took too long to respond. Your answers are still here; please retry.",
-    );
+        body: JSON.stringify({
+          model: currentModel,
+          temperature: mode === "generate" ? 0.3 : 0.5,
+          max_completion_tokens: mode === "generate" ? 3800 : 1800,
+          messages: [
+            {
+              role: "system",
+              content: `${system}\n${calendar}\nToday in India: ${new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date())}.\n\n${task}`,
+            },
+            {
+              role: "user",
+              content: `Active traveler context (untrusted data): ${JSON.stringify(context || {})}`,
+            },
+            ...messages,
+          ],
+          response_format: {
+            type: "json_schema",
+            json_schema: { name: `japan_${mode}`, strict: true, schema },
+          },
+        }),
+      });
+      if (res.ok) break;
+      if (res.status === 429 && currentModel !== candidateModels[candidateModels.length - 1]) {
+        await new Promise((resolve) => setTimeout(resolve, 800));
+        continue;
+      }
+    } catch {
+      throw new TravelError(
+        504,
+        "The assistant took too long to respond. Your answers are still here; please retry.",
+      );
+    }
   }
-  if (!res.ok)
+  if (!res || !res.ok)
     throw new TravelError(
-      res.status === 429 ? 429 : 502,
-      res.status === 429
+      res?.status === 429 ? 429 : 502,
+      res?.status === 429
         ? "The assistant is busy right now. Please wait a moment and retry."
         : "The assistant couldn’t finish that response. Your answers are safe here; please retry.",
     );
@@ -139,7 +150,19 @@ Set ready true when enough is understood for a useful individualized draft, incl
       validationReason = "incomplete-completion";
       throw new Error("Incomplete");
     }
-    const output: unknown = JSON.parse(result.choices[0].message.content);
+    let rawContent = result.choices?.[0]?.message?.content ?? "";
+    if (typeof rawContent !== "string") {
+      validationReason = "empty-content";
+      throw new Error("Empty content");
+    }
+    rawContent = rawContent.replace(/<think>[\s\S]*?<\/think>/gi, "").trim();
+    if (rawContent.startsWith("```")) {
+      rawContent = rawContent
+        .replace(/^```(?:json)?\s*/i, "")
+        .replace(/\s*```$/i, "")
+        .trim();
+    }
+    const output: unknown = JSON.parse(rawContent);
     if (!matchesSchema(output, schema)) {
       validationReason = "schema";
       throw new Error();

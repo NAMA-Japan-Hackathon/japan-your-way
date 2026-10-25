@@ -309,10 +309,10 @@ export function PhotoHero() {
           <span>
             Hokkaido <i /> Honshu <i /> Okinawa
           </span>
-          <a href="#explore-japan" aria-label="Discover all Japan">
+          <a href="#explore-japan" aria-label="Discover your rhythm — Explore all Japan">
             <span>Discover your rhythm</span> <ArrowDown size={17} />
           </a>
-          <Link href="/metro/" aria-label="Explore Japan by rail">
+          <Link href="/metro/" aria-label="Rail atlas — Explore Japan by rail">
             Rail atlas <ArrowRight size={17} />
           </Link>
         </div>

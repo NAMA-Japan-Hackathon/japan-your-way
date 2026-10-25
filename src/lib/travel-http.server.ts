@@ -10,34 +10,94 @@ const secret =
 const buckets = new Map<string, { count: number; until: number }>();
 const sign = (id: string) =>
   createHmac("sha256", secret).update(id).digest("hex");
+const isLoopback = (host: string) =>
+  host === "localhost" ||
+  host === "127.0.0.1" ||
+  host === "[::1]" ||
+  host === "::1";
+
+function originsMatch(originStr: string, expectedOriginStr: string): boolean {
+  if (originStr === expectedOriginStr) return true;
+  try {
+    const o = new URL(originStr);
+    const e = new URL(expectedOriginStr);
+    if (
+      o.protocol === e.protocol &&
+      o.port === e.port &&
+      isLoopback(o.hostname) &&
+      isLoopback(e.hostname)
+    ) {
+      return true;
+    }
+  } catch {
+    return false;
+  }
+  return false;
+}
+
 export function sessionToken(request: Request) {
-  const token =
-    request.headers.get("cookie")?.match(/(?:^|;\s*)jyw_travel=([^;]+)/)?.[1] ||
-    "";
-  const [id, signature] = token.split(".");
-  if (
-    id &&
-    /^[\w-]{36}$/.test(id) &&
-    /^[a-f0-9]{64}$/.test(signature || "") &&
-    timingSafeEqual(Buffer.from(sign(id)), Buffer.from(signature))
-  )
-    return token;
+  const cookieHeader = request.headers.get("cookie") || "";
+  const matches = cookieHeader.matchAll(/(?:^|;\s*)jyw_travel=([^;]+)/g);
+  for (const match of matches) {
+    const raw = decodeURIComponent(match[1].trim());
+    const [id, signature] = raw.split(".");
+    if (
+      id &&
+      /^[\w-]{36}$/.test(id) &&
+      /^[a-f0-9]{64}$/.test(signature || "")
+    ) {
+      const expectedSign = sign(id);
+      if (
+        Buffer.byteLength(expectedSign) === Buffer.byteLength(signature) &&
+        timingSafeEqual(Buffer.from(expectedSign), Buffer.from(signature))
+      ) {
+        return raw;
+      }
+    }
+  }
   const next = randomUUID();
   return `${next}.${sign(next)}`;
 }
 export function sessionCookie(request: Request, token: string) {
-  return `jyw_travel=${token}; Path=/; HttpOnly; SameSite=Strict; Max-Age=86400${new URL(request.url).protocol === "https:" ? "; Secure" : ""}`;
+  const proto =
+    request.headers.get("x-forwarded-proto") ||
+    new URL(request.url).protocol.replace(/:$/, "");
+  return `jyw_travel=${token}; Path=/; HttpOnly; SameSite=Lax; Max-Age=86400${proto === "https" ? "; Secure" : ""}`;
 }
 export function guard(request: Request) {
-  const origin = request.headers.get("origin");
+  let origin = request.headers.get("origin");
+  if (!origin || origin === "null") {
+    const referer = request.headers.get("referer");
+    if (referer) {
+      try {
+        origin = new URL(referer).origin;
+      } catch {}
+    }
+  }
   const url = new URL(request.url);
+  const proto =
+    request.headers.get("x-forwarded-proto") ||
+    url.protocol.replace(/:$/, "");
+  const host =
+    request.headers.get("x-forwarded-host") ||
+    request.headers.get("host") ||
+    url.host;
   const expectedOrigin =
-    process.env.APP_ORIGIN ||
-    `${url.protocol}//${request.headers.get("host") || url.host}`;
+    process.env.APP_ORIGIN || `${proto}://${host}`;
+
+  let isOriginValid = false;
+  let isLoopbackOrigin = false;
+  if (origin) {
+    isOriginValid = originsMatch(origin, expectedOrigin);
+    try {
+      isLoopbackOrigin = isLoopback(new URL(origin).hostname);
+    } catch {}
+  }
+
   if (
     !origin ||
-    origin !== expectedOrigin ||
-    request.headers.get("sec-fetch-site") === "cross-site"
+    !isOriginValid ||
+    (request.headers.get("sec-fetch-site") === "cross-site" && !isLoopbackOrigin)
   )
     throw new TravelError(
       403,
@@ -67,26 +127,36 @@ export function guard(request: Request) {
 export async function readBody(
   request: Request,
 ): Promise<Record<string, unknown>> {
-  const reader = request.body?.getReader();
-  if (!reader) throw new TravelError(400, "Your message was empty.");
-  const decoder = new TextDecoder();
-  let text = "",
-    size = 0;
   try {
-    while (true) {
-      const chunk = await reader.read();
-      if (chunk.done) break;
-      size += chunk.value.byteLength;
-      if (size > 120000) {
-        await reader.cancel();
+    let text = "";
+    if (request.body && typeof request.body.getReader === "function") {
+      const reader = request.body.getReader();
+      const decoder = new TextDecoder();
+      let size = 0;
+      while (true) {
+        const chunk = await reader.read();
+        if (chunk.done) break;
+        size += chunk.value.byteLength;
+        if (size > 120000) {
+          await reader.cancel();
+          throw new TravelError(
+            413,
+            "This conversation is too large. Save your trip and start a fresh conversation.",
+          );
+        }
+        text += decoder.decode(chunk.value, { stream: true });
+      }
+      text += decoder.decode();
+    } else {
+      text = await request.text();
+      if (Buffer.byteLength(text) > 120000) {
         throw new TravelError(
           413,
           "This conversation is too large. Save your trip and start a fresh conversation.",
         );
       }
-      text += decoder.decode(chunk.value, { stream: true });
     }
-    text += decoder.decode();
+    if (!text.trim()) throw new TravelError(400, "Your message was empty.");
     const parsed = JSON.parse(text);
     if (!parsed || typeof parsed !== "object" || Array.isArray(parsed))
       throw new Error();

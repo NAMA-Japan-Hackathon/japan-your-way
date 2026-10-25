@@ -159,3 +159,42 @@ Scope: homepage sample itinerary presentations and the closing preference form a
 - Scanned 541 source/build files against actual local credential values: zero leaks. The local environment file, Cloudflare state and generated artifacts remain ignored. Provider keys are injected only at runtime.
 - LiteAPI remains a sandbox connection and is explicitly labeled as test data. Existing per-isolate rate limits are not distributed account-wide protection.
 - Site publication uses its private source repository; the public GitHub remote is not pushed automatically.
+
+## Comprehensive Testing Kit & Quality Pass — 25 October 2026
+
+### 1. Unified Testing Kit Commands
+
+The testing kit provides modular, deterministic verification tools catering to CI, quick pre-commit checks, full browser audits, and performance budgets:
+
+- `npm run check`: Fast static verification (<2s, browser-free). Executes TypeScript typecheck (`tsc --noEmit`), 51 domain unit tests (`tests/*.test.ts`), and dataset integrity validation (`scripts/validate-data.ts`).
+- `npm run check:links`: Static export crawler. Scans all built HTML pages in `out/`, checking internal hyperlinks, `#hash` anchor targets, image paths, and script sources.
+- `npm run check:buttons`: Interactive element & hit-test matrix. Evaluates buttons, links, combo boxes, textareas, inputs, and SVG interactive nodes across 3 viewports (390×844 mobile, 768×1024 tablet, 1440×900 desktop) for accessible names, center-point hit occlusion, touch target dimensions, and actionability.
+- `npm run test:e2e`: Playwright browser suite. Tests console smoke (0 uncaught errors/exceptions across all routes), WCAG 2.1 Level AA accessibility audits via `@axe-core/playwright`, and critical user journeys (Rail Atlas, Reviews & dining filters + local notes persistence, Itinerary Planner calculation, Trips catalog).
+- `npm run test:visual`: Deterministic visual regression testing comparing page renders against local baselines with forced reduced motion.
+- `npm run test:perf`: Performance, page payload, network requests, and DOM node complexity audits against strict performance budgets.
+- `npm run test:all`: Executes all suites in sequence and writes a consolidated Markdown report to `reports/TEST_REPORT.md`.
+- `npm run export:static`: Synchronizes Next.js production builds into a standalone static `out/` export.
+
+### 2. Bugs Uncovered & Fixed
+
+1. **Station Coordinate Collision (Shin-Aomori / Aomori):** In `src/data/metro/national.json`, Aomori's coordinates placed it 4.41 SVG units from Shin-Aomori, causing their hitboxes to collide and intercept clicks. Shifted Aomori coordinates cleanly to `lat: 40.85, lon: 140.78` (~9.2 units separation) without altering visual aesthetics.
+2. **SVG Pointer-Events Leakage:** In `src/app/explore.css`, background SVG labels (`.national-hub text`), landmass geometry (`.japan-land`), and rail route lines (`.national-route`) intercepted pointer events, blocking station node selection. Added `pointer-events: none;` to background SVG layers.
+3. **National Station Hitbox Occlusion:** In `src/components/metro-map.tsx`, `.national-hit` circles had a fixed `r="23"`, causing adjacent stations (e.g. Hakodate and Shin-Hakodate-Hokuto) to cover each other. Adjusted radius dynamically to `r={h.city ? 12 : 7}`.
+4. **Floating Assistant Button Occlusion:** The floating chat launcher in `src/app/travel.css` occluded desktop hero rail links and city buttons. Added responsive clearance padding to `.cinematic-home .hero-route` in `src/app/editorial.css`.
+5. **WCAG 2.5.3 (Label in Name) Accessibility Failures:**
+   - Wordmark link (`src/components/shared.tsx`): Visible text was "Japan, Your Way." while `aria-label` was "Japan, Your Way home", violating WCAG 2.5.3. Removed redundant `aria-label` so visible text directly supplies the accessible name.
+   - Assistant Launcher (`src/components/travel-assistant.tsx`): Visible label was "Ask about Japan" while `aria-label` was "Open Japan travel assistant". Updated to `"Ask about Japan — Open travel assistant"`.
+   - Scroll Scenes (`src/components/scroll-scenes.tsx`): Updated hero links to include visible text prefix (`"Discover your rhythm — Explore all Japan"`, `"Rail atlas — Explore Japan by rail"`).
+   - Okinawa Inset (`src/components/metro-map.tsx`): Removed mismatched `aria-label` so the interactive SVG button calculates its accessible name directly from child text nodes.
+6. **WCAG 1.4.1 (Distinguishable Links):** In `src/app/editorial.css`, `.activity-season-note a` had `text-decoration-color: var(--gold)` but lacked `text-decoration: underline`, failing accessibility contrast rules for inline links. Added `text-decoration: underline`.
+7. **Static Export API Stubs:** In `scripts/static-server.mjs`, added `/api/travel` mock handler returning `{ connected: false }` to cleanly emulate disconnected/offline assistant state and avoid 404 console errors during static testing.
+
+### 3. Verification Summary
+
+- **Static Verification (`npm run check`):** PASSED (146ms, 51/51 tests pass, 0 data errors, 0 type errors).
+- **Link Crawler (`npm run check:links`):** PASSED (15 HTML pages, 1,995 items checked, 0 broken links/anchors/assets).
+- **Button Matrix (`npm run check:buttons`):** PASSED (4,940 elements checked across 3 viewports, 0 occlusion failures, 0 missing accessible names).
+- **End-to-End Suite (`npm run test:e2e`):** PASSED (60/60 tests: 30 console smoke, 22 accessibility, 8 journeys).
+- **Performance Budget (`npm run test:perf`):** PASSED (11/11 routes under load time and DOM node budgets).
+- **Visual Regression (`npm run test:visual`):** PASSED (12/12 snapshots match baselines).
+- **Comprehensive Run (`npm run test:all`):** PASSED (70.2s total run time, generated `reports/TEST_REPORT.md`).

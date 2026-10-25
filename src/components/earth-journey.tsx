@@ -1,31 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-
-type Place = {
-  name: string;
-  kind: string;
-  highlight: string;
-  lat: number;
-  lon: number;
-  image: string;
-  imageAlt: string;
-  featured?: boolean;
-};
-
-const places: Place[] = [
-  { name: "Sapporo", kind: "City · Hokkaido", highlight: "Wide parks, winter festivals and Hokkaido food.", lat: 43.0618, lon: 141.3545, image: "/images/regions/hokkaido.jpg", imageAlt: "Odori Park in Sapporo" },
-  { name: "Matsushima Bay", kind: "Coast · Tohoku", highlight: "Pine-clad islands and calm views from Miyagi’s coast.", lat: 38.371, lon: 141.069, image: "/images/regions/tohoku.jpg", imageAlt: "Matsushima Bay in Miyagi" },
-  { name: "Tokyo", kind: "Capital · Kanto", highlight: "Asakusa lanes, modern neighborhoods and late-night light.", lat: 35.6762, lon: 139.6503, image: "/images/tokyo.webp", imageAlt: "Nakamise shopping street in Tokyo", featured: true },
-  { name: "Mount Fuji", kind: "Mountain · Tokai", highlight: "Japan’s iconic peak above lakes and mountain towns.", lat: 35.3606, lon: 138.7274, image: "/images/fuji-night-1920.webp", imageAlt: "Mount Fuji and Chureito Pagoda", featured: true },
-  { name: "Kanazawa", kind: "City · Hokuriku", highlight: "Kenrokuen garden, craft traditions and old streets.", lat: 36.5613, lon: 136.6562, image: "/images/regions/hokuriku-shinetsu.jpg", imageAlt: "Kenrokuen garden in Kanazawa" },
-  { name: "Kyoto", kind: "City · Kansai", highlight: "Temple paths, Higashiyama lanes and centuries of craft.", lat: 35.0116, lon: 135.7681, image: "/images/kyoto.webp", imageAlt: "Higashiyama street in Kyoto", featured: true },
-  { name: "Osaka", kind: "City · Kansai", highlight: "Canal-side neon, street food and lively evenings.", lat: 34.6937, lon: 135.5023, image: "/images/osaka.webp", imageAlt: "Dotonbori district in Osaka" },
-  { name: "Miyajima", kind: "Island · Chugoku", highlight: "Itsukushima Shrine’s sea-facing torii and forest trails.", lat: 34.296, lon: 132.3193, image: "/images/regions/chugoku.jpg", imageAlt: "Itsukushima torii on Miyajima", featured: true },
-  { name: "Ritsurin Garden", kind: "Garden · Shikoku", highlight: "A historic landscape garden of ponds and borrowed scenery.", lat: 34.3297, lon: 134.0433, image: "/images/regions/shikoku.jpg", imageAlt: "Ritsurin Garden in Takamatsu" },
-  { name: "Mount Aso", kind: "Volcano · Kyushu", highlight: "Volcanic grasslands and a vast central caldera.", lat: 32.8844, lon: 131.1044, image: "/images/regions/kyushu.jpg", imageAlt: "Landscape around Mount Aso" },
-  { name: "Ishigaki", kind: "Island · Okinawa", highlight: "Clear water and the sheltered colors of Kabira Bay.", lat: 24.3448, lon: 124.1572, image: "/images/regions/okinawa.jpg", imageAlt: "Kabira Bay on Ishigaki", featured: true },
-];
+import Link from "next/link";
+import { X, ArrowUpRight } from "lucide-react";
+import { places, type Place } from "@/data/earth-places";
 
 const clamp = (value: number, min: number, max: number) => Math.max(min, Math.min(max, value));
 const ease = (value: number) => value * value * (3 - 2 * value);
@@ -36,6 +14,7 @@ export function EarthJourney() {
   const canvasRef = useRef<HTMLDivElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
   const [activePlace, setActivePlace] = useState<Place | null>(null);
+  const [modalPlace, setModalPlace] = useState<Place | null>(null);
   const [canAnimate, setCanAnimate] = useState(false);
 
   useEffect(() => {
@@ -226,6 +205,20 @@ export function EarthJourney() {
     };
   }, [canAnimate]);
 
+  useEffect(() => {
+    if (!modalPlace) return;
+    const oldOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setModalPlace(null);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.body.style.overflow = oldOverflow;
+      window.removeEventListener("keydown", onKeyDown);
+    };
+  }, [modalPlace]);
+
   const positionTooltip = (clientX: number, clientY: number) => {
     const stage = stageRef.current;
     const tooltip = tooltipRef.current;
@@ -252,7 +245,7 @@ export function EarthJourney() {
         <div className="earth-arrival">
           <span className="earth-eyebrow">You have arrived</span>
           <h2>Japan<span className="earth-period">.</span></h2>
-          <p>Hover or tap a point to find your first stop.</p>
+          <p>Hover or tap a point to read its full description.</p>
           <a href="#explore-japan">Explore all of Japan <span aria-hidden="true">↗</span></a>
         </div>
         <div className="earth-markers" aria-label="Places in Japan">
@@ -263,35 +256,66 @@ export function EarthJourney() {
               key={place.name}
               data-earth-marker={index}
               tabIndex={-1}
-              aria-label={`${place.name}: ${place.highlight}`}
+              aria-label={`${place.name}: ${place.highlight}. Click for full description.`}
               onPointerEnter={(event) => { if (event.pointerType !== "touch") { setActivePlace(place); positionTooltip(event.clientX, event.clientY); } }}
               onPointerMove={(event) => { if (event.pointerType !== "touch") positionTooltip(event.clientX, event.clientY); }}
               onPointerLeave={(event) => { if (event.pointerType !== "touch") setActivePlace(null); }}
               onFocus={(event) => { setActivePlace(place); const box = event.currentTarget.getBoundingClientRect(); positionTooltip(box.left + box.width / 2, box.top); }}
               onBlur={() => setActivePlace(null)}
-              onClick={(event) => { setActivePlace(place); const box = event.currentTarget.getBoundingClientRect(); positionTooltip(box.left + box.width / 2, box.top); }}
+              onClick={(event) => {
+                setActivePlace(place);
+                setModalPlace(place);
+                const box = event.currentTarget.getBoundingClientRect();
+                positionTooltip(box.left + box.width / 2, box.top);
+              }}
             ><span className="earth-marker-dot" /><span className="earth-marker-label">{place.name}</span></button>
           ))}
         </div>
-        <div className={`earth-tooltip${activePlace ? " is-visible" : ""}`} ref={tooltipRef} aria-hidden="true">
-          {activePlace && <><img src={activePlace.image} alt="" /><div className="earth-tooltip-body"><span>{activePlace.kind}</span><strong>{activePlace.name}</strong><p>{activePlace.highlight}</p></div></>}
+        <div className={`earth-tooltip${activePlace ? " is-visible" : ""}`} ref={tooltipRef} aria-hidden={!activePlace}>
+          {activePlace && (
+            <>
+              <img src={activePlace.image} alt="" />
+              <div className="earth-tooltip-body">
+                <span>{activePlace.kind}</span>
+                <strong>{activePlace.name}</strong>
+                <p>{activePlace.highlight}</p>
+                <button
+                  type="button"
+                  className="earth-tooltip-action"
+                  onClick={() => setModalPlace(activePlace)}
+                  aria-label={`Open full description for ${activePlace.name}`}
+                >
+                  Read full description →
+                </button>
+              </div>
+            </>
+          )}
         </div>
         <div className="earth-place-rail" aria-label="Explore places on the globe">
           <span className="earth-place-rail-label">Places on the map</span>
           <div className="earth-place-rail-scroll">
-            {places.map((place) => <button
-              type="button"
-              key={place.name}
-              tabIndex={-1}
-              aria-label={`${place.name}: ${place.highlight}`}
-              aria-pressed={activePlace?.name === place.name}
-              onPointerEnter={(event) => { if (event.pointerType !== "touch") { setActivePlace(place); positionTooltip(event.clientX, event.clientY); } }}
-              onPointerMove={(event) => { if (event.pointerType !== "touch") positionTooltip(event.clientX, event.clientY); }}
-              onPointerLeave={(event) => { if (event.pointerType !== "touch") setActivePlace(null); }}
-              onFocus={(event) => { setActivePlace(place); const box = event.currentTarget.getBoundingClientRect(); positionTooltip(box.left + box.width / 2, box.top); }}
-              onBlur={() => setActivePlace(null)}
-              onClick={(event) => { setActivePlace(place); const box = event.currentTarget.getBoundingClientRect(); positionTooltip(box.left + box.width / 2, box.top); }}
-            >{place.name}</button>)}
+            {places.map((place) => (
+              <button
+                type="button"
+                key={place.name}
+                tabIndex={-1}
+                aria-label={`${place.name}: ${place.highlight}. Click for full description.`}
+                aria-pressed={activePlace?.name === place.name}
+                onPointerEnter={(event) => { if (event.pointerType !== "touch") { setActivePlace(place); positionTooltip(event.clientX, event.clientY); } }}
+                onPointerMove={(event) => { if (event.pointerType !== "touch") positionTooltip(event.clientX, event.clientY); }}
+                onPointerLeave={(event) => { if (event.pointerType !== "touch") setActivePlace(null); }}
+                onFocus={(event) => { setActivePlace(place); const box = event.currentTarget.getBoundingClientRect(); positionTooltip(box.left + box.width / 2, box.top); }}
+                onBlur={() => setActivePlace(null)}
+                onClick={(event) => {
+                  setActivePlace(place);
+                  setModalPlace(place);
+                  const box = event.currentTarget.getBoundingClientRect();
+                  positionTooltip(box.left + box.width / 2, box.top);
+                }}
+              >
+                {place.name}
+              </button>
+            ))}
           </div>
         </div>
         <div className="earth-bottomline"><span>SCROLL TO EXPLORE</span><span className="earth-progress"><i className="earth-progress-fill" /></span><span>01 / 02</span></div>
@@ -299,8 +323,133 @@ export function EarthJourney() {
       </div>
       <div className="earth-static" aria-label="Featured places in Japan">
         <div><span className="earth-eyebrow">Explore the islands</span><h2>Japan, from above.</h2><p>Choose a place to begin, then explore all 47 prefectures below.</p></div>
-        <div className="earth-static-grid">{places.map((place) => <article key={place.name}><img src={place.image} alt={place.imageAlt} loading="lazy" /><span>{place.kind}</span><h3>{place.name}</h3><p>{place.highlight}</p></article>)}</div>
+        <div className="earth-static-grid">
+          {places.map((place) => (
+            <article key={place.name}>
+              <img src={place.image} alt={place.imageAlt} loading="lazy" />
+              <span>{place.kind}</span>
+              <h3>{place.name}</h3>
+              <p>{place.highlight}</p>
+              <button
+                type="button"
+                className="earth-static-btn"
+                onClick={() => setModalPlace(place)}
+                aria-label={`View full description for ${place.name}`}
+              >
+                View full description →
+              </button>
+            </article>
+          ))}
+        </div>
       </div>
+
+      {modalPlace && (
+        <div
+          className="earth-place-modal-backdrop"
+          onClick={(e) => {
+            if (e.target === e.currentTarget) setModalPlace(null);
+          }}
+        >
+          <div
+            className="earth-place-modal-card"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="place-modal-title"
+          >
+            <div className="earth-place-modal-hero">
+              <img
+                src={modalPlace.image}
+                alt={modalPlace.imageAlt}
+                className="earth-place-modal-img"
+              />
+              <button
+                type="button"
+                className="earth-place-modal-close"
+                onClick={() => setModalPlace(null)}
+                aria-label={`Close ${modalPlace.name} description`}
+              >
+                <X size={20} aria-hidden="true" />
+              </button>
+              <div className="earth-place-modal-hero-overlay">
+                <span className="earth-place-badge">{modalPlace.kind}</span>
+                <h3 id="place-modal-title" className="earth-place-modal-title">
+                  {modalPlace.name}
+                </h3>
+              </div>
+            </div>
+
+            <div className="earth-place-modal-content">
+              <p className="earth-place-modal-highlight">
+                {modalPlace.highlight}
+              </p>
+
+              <div className="earth-place-modal-section">
+                <h4>About {modalPlace.name}</h4>
+                <p>{modalPlace.fullDescription}</p>
+              </div>
+
+              <div className="earth-place-modal-section">
+                <h4>Highlights & Experiences</h4>
+                <ul className="earth-place-modal-list">
+                  {modalPlace.experiences.map((exp, idx) => (
+                    <li key={idx}>
+                      <span className="earth-bullet" aria-hidden="true" />
+                      <span>{exp}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="earth-place-modal-grid">
+                <div className="earth-place-modal-col">
+                  <strong>Getting There</strong>
+                  <p>{modalPlace.gettingThere}</p>
+                </div>
+                <div className="earth-place-modal-col">
+                  <strong>Best Season</strong>
+                  <p>{modalPlace.bestSeason}</p>
+                </div>
+              </div>
+
+              <div className="earth-place-modal-actions">
+                <a
+                  href={`#home-${modalPlace.regionId}`}
+                  className="earth-modal-btn earth-modal-btn-primary"
+                  onClick={(e) => {
+                    setModalPlace(null);
+                    const el = document.getElementById(
+                      `home-${modalPlace.regionId}`,
+                    );
+                    if (el) {
+                      e.preventDefault();
+                      el.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                >
+                  Explore in regional guide ↓
+                </a>
+                <a
+                  href={modalPlace.officialUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="earth-modal-btn earth-modal-btn-secondary"
+                >
+                  Official Visitor Guide <ArrowUpRight size={15} aria-hidden="true" />
+                </a>
+                {modalPlace.metroCity && (
+                  <Link
+                    href={`/metro/?city=${modalPlace.metroCity}`}
+                    className="earth-modal-btn earth-modal-btn-secondary"
+                    onClick={() => setModalPlace(null)}
+                  >
+                    Open Rail Atlas <ArrowUpRight size={15} aria-hidden="true" />
+                  </Link>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

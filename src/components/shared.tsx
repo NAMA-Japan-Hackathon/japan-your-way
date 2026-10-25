@@ -74,7 +74,7 @@ export function Header({ compact = false }: { compact?: boolean }) {
         className={`site-header ${compact ? "compact" : ""}`}
       >
         <div className="header-first-cluster">
-          <Link href="/" className="wordmark" aria-label="Japan, Your Way home">
+          <Link href="/" className="wordmark">
             <span className="brand-mark" aria-hidden="true">
               道
             </span>

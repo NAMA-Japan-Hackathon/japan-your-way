@@ -29,3 +29,12 @@ dist/
 .wrangler/
 .sites-runtime/
 .dev.vars*
+
+# Test output, reports, and visual baseline artifacts
+test-results/
+playwright-report/
+reports/*
+!reports/TEST_REPORT_TEMPLATE.md
+tests/e2e/*-snapshots/
+tests/e2e/**/__snapshots__/
+tests/e2e/**/snapshots/

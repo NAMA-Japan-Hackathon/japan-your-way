@@ -13,6 +13,18 @@ npm run dev
 
 Open http://127.0.0.1:3000. `npm run build` produces a Cloudflare Worker using Vinext. Run `npm run preview:cloudflare` to preview that build. For a conventional Next.js server, use `npm run build:next` and `npm start`. The AI endpoints execute on the server; a static `out/` deployment cannot run them. `npm test` runs the domain tests; `npm run typecheck` checks TypeScript.
 
+## Testing and Quality Verification
+
+The repository provides a modular, multi-tier testing kit for static exports, accessibility, interactive UI elements, and runtime integrity:
+
+- `npm run check`: Fast static verification (<2s, browser-free). Runs TypeScript typecheck, 51 unit tests, and dataset integrity checks.
+- `npm run check:links`: Static export crawler. Scans `out/` for broken links, `#hash` anchor targets, images, and scripts.
+- `npm run check:buttons`: Interactive element & hit-test matrix across mobile (390×844), tablet (768×1024), and desktop (1440×900) viewports. Checks accessible names, actionability, and center-point occlusion.
+- `npm run test:e2e`: Playwright suite testing console errors (0 uncaught errors across all routes), WCAG 2.1 Level AA accessibility audits via `@axe-core/playwright`, and critical user journeys (Rail Atlas, Reviews filtering & local storage notes, Planner calculations).
+- `npm run test:visual`: Deterministic visual regression testing against local baselines with forced reduced motion.
+- `npm run test:perf`: Page payload, asset count, and DOM node complexity audits against performance budgets.
+- `npm run test:all`: Executes all suites in sequence and compiles a Markdown report to `reports/TEST_REPORT.md`.
+
 ## Implemented
 
 - A dark, native 4K Fuji and pagoda photograph with layered, native-scroll animation.

@@ -524,6 +524,21 @@ test("foreign-origin and unsigned requests cannot spend provider quota", () => {
     ),
     token,
   );
+  // Loopback origins match across localhost and 127.0.0.1
+  assert.equal(
+    guard(
+      new Request("http://127.0.0.1:3000/api/travel/", {
+        method: "POST",
+        headers: {
+          host: "127.0.0.1:3000",
+          origin: "http://localhost:3000",
+          "content-type": "application/json",
+          cookie: `jyw_travel=${token}`,
+        },
+      }),
+    ),
+    token,
+  );
 });
 test("body size is enforced even without Content-Length", async () => {
   await assert.rejects(

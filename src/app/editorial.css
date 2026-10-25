@@ -1782,6 +1782,7 @@
 }
 .activity-season-note a {
   color: var(--ink);
+  text-decoration: underline;
   text-decoration-color: var(--gold);
   text-underline-offset: 4px;
 }
@@ -1870,6 +1871,7 @@
   max-width: none;
   width: auto;
   margin-top: 0;
+  padding-right: 180px;
 }
 .cinematic-home .hero-note {
   max-width: none;
@@ -1951,6 +1953,9 @@
   }
   .cinematic-home .process-picture figcaption {
     font-size: 23px;
+  }
+  .cinematic-home .hero-route {
+    padding-right: 64px;
   }
   .cinematic-home .hero-route a {
     font-size: 13px;

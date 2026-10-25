@@ -123,7 +123,7 @@ export function TravelProvider({ children }: { children: ReactNode }) {
       );
     }
     setLoaded(true);
-    fetch("/api/travel/", { cache: "no-store" })
+    fetch("/api/travel/", { cache: "no-store", credentials: "same-origin" })
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((data) => setConnected(data.connected === true))
       .catch(() => setConnected(false));
@@ -156,6 +156,7 @@ export function TravelProvider({ children }: { children: ReactNode }) {
   async function post(path: string, body: unknown) {
     const response = await fetch(path, {
       method: "POST",
+      credentials: "same-origin",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),
       signal: AbortSignal.timeout(
@@ -178,7 +179,9 @@ export function TravelProvider({ children }: { children: ReactNode }) {
       itinerary: current.itinerary,
     });
     setSession((s) =>
-      s.itinerary === current.itinerary ? { ...s, searches: data.searches } : s,
+      s.itinerary === current.itinerary
+        ? { ...s, searches: Array.isArray(data?.searches) ? data.searches : [] }
+        : s,
     );
   };
   const send: TravelContext["send"] = async (
@@ -214,8 +217,20 @@ export function TravelProvider({ children }: { children: ReactNode }) {
     if (mode !== "generate") setSession((s) => ({ ...s, [field]: messages }));
     try {
       // Refresh the same-origin session cookie before a call, including after a long idle period.
-      const status = await fetch("/api/travel/", { cache: "no-store" });
-      if (status.ok) setConnected((await status.json()).connected === true);
+      const status = await fetch("/api/travel/", {
+        cache: "no-store",
+        credentials: "same-origin",
+      });
+      if (status.ok) {
+        const info = await status.json().catch(() => null);
+        const isConn = info?.connected === true;
+        setConnected(isConn);
+        if (!isConn) {
+          throw new Error(
+            "The Japan assistant isn’t connected yet. You can keep exploring and return to this conversation later.",
+          );
+        }
+      }
       const data = await post("/api/travel/", {
         mode,
         messages,
@@ -278,7 +293,22 @@ export function TravelProvider({ children }: { children: ReactNode }) {
     setError("");
     setErrorAction("prices");
     try {
-      await fetch("/api/travel/", { cache: "no-store" });
+      const status = await fetch("/api/travel/", {
+        cache: "no-store",
+        credentials: "same-origin",
+      });
+      const statusData = status.ok
+        ? await status.json().catch(() => null)
+        : null;
+      if (
+        statusData &&
+        !statusData.searchConnected &&
+        !statusData.hotelConnected
+      ) {
+        throw new Error(
+          "Live price checking is not configured yet. You can still plan and save your trip.",
+        );
+      }
       await performCheck(session);
     } catch (e) {
       setError(
@@ -1331,7 +1361,7 @@ function TravelChat() {
         ref={launcher}
         className="chat-launcher"
         onClick={() => setOpen(true)}
-        aria-label="Open Japan travel assistant"
+        aria-label="Ask about Japan — Open travel assistant"
         aria-haspopup="dialog"
         aria-expanded={open}
       >

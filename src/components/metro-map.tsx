@@ -942,7 +942,7 @@ function NationalMap({
               }}
             >
               <title>{h.name}</title>
-              <circle className="national-hit" cx={p.x} cy={p.y} r="23" />
+              <circle className="national-hit" cx={p.x} cy={p.y} r={h.city ? 12 : 7} />
               <circle
                 cx={p.x}
                 cy={p.y}
@@ -969,7 +969,6 @@ function NationalMap({
         transform="translate(0 90)"
         role="button"
         tabIndex={0}
-        aria-label="Okinawa · open Naha city network"
         onClick={() => onHub(national.hubs.find((h) => h.id === "naha")!)}
         onKeyDown={(e) => {
           if (e.key === "Enter" || e.key === " ") {
@@ -989,10 +988,10 @@ function NationalMap({
         <text x="265" y="125">
           Okinawa · Naha ↗
         </text>
-        <text className="national-note" x="265" y="180">
+        <text className="national-note" aria-hidden="true" x="265" y="180">
           Yui Rail · island network
         </text>
-        <text className="national-note" x="265" y="225">
+        <text className="national-note" aria-hidden="true" x="265" y="225">
           No mainland rail link
         </text>
       </g>
