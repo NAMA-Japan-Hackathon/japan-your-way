@@ -89,16 +89,20 @@ The visual language combines night photography, Cormorant display typography, wa
 git clone https://github.com/NAMA-Japan-Hackathon/japan-your-way.git
 cd japan-your-way
 npm ci
-cp .env.example .env.local
 npm run dev
 ```
 
-Open **http://127.0.0.1:3000**. Add your own provider credentials to `.env.local` and restart the server to enable AI or price searches. Discovery and the bundled rail catalogue do not require provider keys.
+Open **http://127.0.0.1:3000**. AI planning, chat, and price checks use the project's shared Cloudflare API automatically when no local provider keys are configured. You do not need an `.env.local` file for the shared service. Provider keys stay private on Cloudflare; only the public API address is included in the repository. Shared usage allowances apply.
+
+Check **http://127.0.0.1:3000/api/travel/** if the assistant cannot connect. A working shared connection reports `"connected": true` and `"backend": "cloudflare"`. Run the Next.js server using `npm run dev` or `npm start`; opening exported HTML or hosting it on GitHub Pages cannot run server API routes.
 
 ### Connect the optional services
 
+To use your own providers instead of shared capacity, copy `.env.example` to `.env.local`, set `TRAVEL_API_MODE=local`, add your credentials, and restart the server. Set `TRAVEL_API_MODE=shared` to force the shared service even when local keys exist. Existing installations with provider keys retain their direct server connections unless you explicitly choose shared mode.
+
 | Setting | Purpose | Needed for |
 | :--- | :--- | :--- |
+| `TRAVEL_API_MODE` | `shared` for the hosted API; `local` for your own providers; auto-detected if omitted | Optional override |
 | `GROQ_API_KEY` | Server-side Groq connection | AI interview, itinerary generation, and chat |
 | `GROQ_MODEL` | Structured-output model; defaults to `openai/gpt-oss-120b` | AI model selection |
 | `SERPAPI_API_KEY` | Google Flights and Hotels search snapshots | Optional price comparisons |
@@ -161,7 +165,7 @@ worker/              Cloudflare Worker entry point
 ### Build and verify
 
 ```sh
-npm run check              # Types, 51 domain tests, and catalogue validation
+npm run check              # Types, domain/API tests, and catalogue validation
 npm run build              # Cloudflare Worker build via Vinext
 npm run preview:cloudflare # Preview the hosted build
 ```

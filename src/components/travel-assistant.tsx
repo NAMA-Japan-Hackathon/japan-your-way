@@ -227,7 +227,9 @@ export function TravelProvider({ children }: { children: ReactNode }) {
         setConnected(isConn);
         if (!isConn) {
           throw new Error(
-            "The Japan assistant isn’t connected yet. You can keep exploring and return to this conversation later.",
+            typeof info?.connectionError === "string"
+              ? info.connectionError
+              : "The Japan assistant isn’t connected yet. You can keep exploring and return to this conversation later.",
           );
         }
       }

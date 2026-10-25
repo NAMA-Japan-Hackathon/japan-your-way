@@ -1,5 +1,9 @@
 import { completeTravel, TravelError } from "@/lib/travel.server";
 import {
+  sharedTravelApi,
+  usesSharedTravelApi,
+} from "@/lib/travel-backend.server";
+import {
   failure,
   guard,
   readBody,
@@ -12,28 +16,35 @@ import {
   validItinerary,
   validMessages,
   validSearches,
+  validInterview,
+  chatSchema,
+  fitsConfirmedDates,
+  type Itinerary,
+  type Profile,
 } from "@/lib/travel";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const maxDuration = 90;
 export async function GET(request: Request) {
-  return Response.json(
-    {
-      connected: Boolean(process.env.GROQ_API_KEY),
-      searchConnected: Boolean(process.env.SERPAPI_API_KEY),
-      hotelConnected: Boolean(process.env.LITEAPI_KEY),
+  const token = sessionToken(request);
+  const status = usesSharedTravelApi()
+    ? await sharedTravelApi.status(token)
+    : {
+        connected: Boolean(process.env.GROQ_API_KEY),
+        searchConnected: Boolean(process.env.SERPAPI_API_KEY),
+        hotelConnected: Boolean(process.env.LITEAPI_KEY),
+        backend: "local",
+      };
+  return Response.json(status, {
+    headers: {
+      "Cache-Control": "no-store",
+      "Set-Cookie": sessionCookie(request, token),
     },
-    {
-      headers: {
-        "Cache-Control": "no-store",
-        "Set-Cookie": sessionCookie(request, sessionToken(request)),
-      },
-    },
-  );
+  });
 }
 export async function POST(request: Request) {
   try {
-    guard(request);
+    const token = guard(request);
     const body = await readBody(request);
     if (
       !["interview", "generate", "chat"].includes(String(body.mode)) ||
@@ -55,6 +66,30 @@ export async function POST(request: Request) {
         400,
         "The trip context couldn’t be read. Please reopen the planner.",
       );
+    if (usesSharedTravelApi()) {
+      const result = await sharedTravelApi.post(token, "travel", {
+        mode: body.mode,
+        messages: body.messages,
+        profile,
+        itinerary,
+        searches,
+      });
+      const valid =
+        body.mode === "generate"
+          ? validItinerary(result) &&
+            fitsConfirmedDates(result as Itinerary, profile as Profile | null)
+          : body.mode === "interview"
+            ? validInterview(result)
+            : matchesSchema(result, chatSchema);
+      if (!valid)
+        throw new TravelError(
+          502,
+          "The shared assistant returned an incomplete response. Your answers are still here; please retry.",
+        );
+      return Response.json(result, {
+        headers: { "Cache-Control": "no-store" },
+      });
+    }
     const result = await completeTravel(
       body.mode as "interview" | "generate" | "chat",
       body.messages,

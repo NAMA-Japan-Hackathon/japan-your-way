@@ -6,7 +6,7 @@ const secret =
   process.env.GROQ_API_KEY ||
   process.env.SERPAPI_API_KEY ||
   process.env.LITEAPI_KEY ||
-  "unconnected-local-planner";
+  randomUUID();
 const buckets = new Map<string, { count: number; until: number }>();
 const sign = (id: string) =>
   createHmac("sha256", secret).update(id).digest("hex");

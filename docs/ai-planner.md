@@ -6,10 +6,15 @@ The itinerary includes daily activities, transit guidance, meals, overnight base
 
 ## Credentials and local operation
 
-Use Node 22+. Copy `.env.example` to `.env.local` and fill in:
+Use Node 22+. A clean checkout needs only `npm ci` and `npm run dev`: when no provider keys are present, the local server uses the shared Cloudflare API automatically. No local secret or ChatGPT sign-in is needed for that API. The original hosted website keeps its existing audience.
+
+The browser still calls same-origin `/api/travel/` endpoints. The local server relays validated requests to the public API-only Cloudflare gateway, which is restricted to the travel and availability routes. Provider keys remain in Cloudflare. Shared usage allowances and provider availability apply to all clones. If the shared API is unavailable, the connection status and request errors explain that; the app does not pretend to be connected.
+
+For independent provider capacity, copy `.env.example` to `.env.local`, set `TRAVEL_API_MODE=local`, and fill in your own credentials. `TRAVEL_API_MODE=shared` explicitly selects shared capacity even if local keys exist. With the mode omitted, existing installations that have provider keys continue using them directly.
 
 | Variable | Purpose |
 | --- | --- |
+| `TRAVEL_API_MODE` | Optional `shared` or `local`; otherwise auto-select shared only when all provider keys are absent |
 | `GROQ_API_KEY` | Required for interview, generation and chat |
 | `GROQ_MODEL` | Defaults to `openai/gpt-oss-120b`; must support strict JSON schema outputs |
 | `SERPAPI_API_KEY` | Optional Google Flights and Hotels searches |
@@ -22,7 +27,7 @@ Restart the server after credentials change. Never prefix provider credentials w
 
 Run `npm run dev` at `http://127.0.0.1:3000/`. The hosted build uses `npm run build` to package the existing app with Vinext for Cloudflare Workers. The tracked `.openai/hosting.json` preserves the existing Site identity and intentionally omits `static`; an old `out/` directory cannot serve the AI routes. `npm run build:next` followed by `npm start` remains available for a conventional Next.js server.
 
-Production provider credentials are configured through the Sites private runtime environment, injected into the Cloudflare Worker with Node compatibility. The browser calls only same-origin `/api/travel/` endpoints. The Worker reads `GROQ_API_KEY`, `SERPAPI_API_KEY` and `LITEAPI_KEY` at runtime and calls their official services. No endpoint returns key values. A separate random `TRAVEL_SESSION_SECRET` signs browser session cookies, and `APP_ORIGIN` restricts calls to the canonical HTTPS website. Runtime secrets are not stored in GitHub, deployment manifests or build artifacts. Changing a hosted value requires deploying a saved version for it to take effect.
+Production provider credentials are configured through the Sites private runtime environment, injected into the Cloudflare Worker with Node compatibility. The original Worker reads `GROQ_API_KEY`, `SERPAPI_API_KEY` and `LITEAPI_KEY` at runtime and calls their official services. The separate public API-only gateway holds a private service credential that is sent only to that original website; the gateway never exposes that credential or arbitrary upstream paths. See [shared API source and operation](../services/travel-api/README.md). No endpoint returns key values. A separate random `TRAVEL_SESSION_SECRET` signs production browser session cookies, and `APP_ORIGIN` restricts calls to the canonical HTTPS website. Keyless local checkouts use a random process-local signing secret. Runtime secrets are not stored in GitHub, deployment manifests or build artifacts. Changing a hosted value requires deploying a saved version for it to take effect.
 
 Use `npm run dev:cloudflare` for the Cloudflare development runtime or `npm run preview:cloudflare` after a Worker build. The original `npm run dev` stays available for Next.js development. Local `.env.local` credentials remain private and are not uploaded as source. GitHub pushes remain manual; hosting publication uses the separate Site source repository and preserves its existing audience.
 
