@@ -1,6 +1,6 @@
 # Photograph coverage
 
-Checked 24 October 2026. Restaurant photographs show the verified named storefront or exterior. Local photos marked `unverified - personal use` remain in the ignored personal-use folder and become typographic placeholders in a public clone.
+Checked 24 October 2026. Restaurant photographs show the verified named storefront or exterior. As of 25 October 2026, local photos marked `unverified - personal use` are included in Git at the owner’s explicit request. Their existing rights labels and source records remain unchanged; inclusion does not grant an open license. Missing images still use the application’s contextual fallbacks.
 
 ## Coverage
 

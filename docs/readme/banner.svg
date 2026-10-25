@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="580" viewBox="0 0 1600 580" role="img" aria-labelledby="title desc">
+  <title id="title">Japan, Your Way</title>
+  <desc id="desc">A midnight landscape, a vermilion sun, and a gold route across Mount Fuji. Discover more. Travel at your pace.</desc>
+  <defs>
+    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#101b21"/><stop offset="1" stop-color="#080e12"/></linearGradient>
+    <linearGradient id="sun" x2="0" y2="1"><stop stop-color="#e59978"/><stop offset="1" stop-color="#b55340"/></linearGradient>
+    <linearGradient id="land" x2="0" y2="1"><stop stop-color="#334346"/><stop offset="1" stop-color="#122025"/></linearGradient>
+  </defs>
+  <rect width="1600" height="580" rx="24" fill="url(#sky)"/>
+  <rect x="32" y="32" width="1536" height="516" rx="12" fill="none" stroke="#c6b68c" stroke-opacity=".2"/>
+  <circle cx="1240" cy="202" r="113" fill="url(#sun)"/>
+  <path d="M820 490 1160 198 1460 490Z" fill="url(#land)"/>
+  <path d="m1081 266 79-68 71 69-39-8-26 17-33-19-23 15Z" fill="#d5d4c8" opacity=".8"/>
+  <path d="M714 520 981 351 1097 438 1291 337 1568 470V548H714Z" fill="#15262c"/>
+  <path d="M32 514 382 480 650 506 905 451 1053 478 1255 430 1568 461" fill="none" stroke="#c9ab72" stroke-width="2"/>
+  <g fill="#e7d0a1"><circle cx="650" cy="506" r="5"/><circle cx="905" cy="451" r="5"/><circle cx="1255" cy="430" r="5"/></g>
+  <text x="92" y="116" font-family="Arial, sans-serif" font-size="15" letter-spacing="5" fill="#c9ab72">NAMA JAPAN HACKATHON</text>
+  <text x="86" y="246" font-family="Georgia, serif" font-size="104" fill="#f5f0e4">Japan,</text>
+  <text x="86" y="350" font-family="Georgia, serif" font-size="104" font-style="italic" fill="#f5f0e4">Your Way.</text>
+  <text x="92" y="411" font-family="Arial, sans-serif" font-size="23" fill="#bec7c6">Discover more. Travel at your pace.</text>
+  <text x="92" y="452" font-family="Arial, sans-serif" font-size="15" letter-spacing="2" fill="#c9ab72">47 PREFECTURES / ONE PERSONAL JOURNEY</text>
+</svg>

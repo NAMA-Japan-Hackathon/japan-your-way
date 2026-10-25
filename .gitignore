@@ -20,8 +20,7 @@ out/
 .DSYNC*
 .github-sync.lock/
 
-# Owner-supplied permission does not make these openly licensed.
-public/images/personal-use/
+# Media is tracked for a complete checkout. Per-image rights remain in credits.json.
 
 # Cloudflare build output and local runtime state
 dist/
